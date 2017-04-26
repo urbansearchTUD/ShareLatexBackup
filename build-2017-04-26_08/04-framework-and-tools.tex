@@ -1,0 +1,41 @@
+\section{Frameworks and Tools}
+
+\subsection{Extraction}
+\subsubsection{Information Sources}
+
+\paragraph{Common Crawl}
+Common Crawl \cite{commoncrawl} is a freely accessible corpus of the pages across the web. Their data is updated and released on a monthly basis. Many researchers have used the data for varying purposes~\cite{smith2013dirt}~\cite{muhleisen2012web}~\cite{singh2012wikilinks}. Since the UrbanSearch project requires us to crawl the web (see section {\color{Red} FIXME}), the corpus is a very suitable candidate for us to work with.
+
+The data of Common Crawl comes in three formats: 
+\begin{itemize}
+\item[WARC]
+\item[WAT]
+\item[WET]
+\end{itemize}
+
+For extracting data from Common Crawl, many open-source libraries are available. Common Crawls' official website refers to \texttt{cdx-index-client}\footnote{https://github.com/ikreymer/cdx-index-client} as a command line interface to their data. It allows for, among others, specifying which index to use, supports multiple output formats (plain text, \texttt{gzip} or \texttt{JSON}) and can run in parallel.
+
+\paragraph{Eurostat}
+{\color{Red} FIXME @Gijs: niet iets zeggen over wat het is?}
+We identified Eurostat as a source that is not useful for the problem we're going to solve. Although Eurostat contains a lot of statistics on European cities, there is not enough useful information which contributes to giving more insight into the network connectivity of cities. Therefore, we did not include Eurostat as an information source.
+\subsubsection{methods}
+
+\subsection{Filtering and Categorizing}
+
+\subsubsection{Clustering}
+\subsubsection{Filtering}
+\subsubsection{Machine Learning}
+\subsubsection{TF-IDF}
+basic idea: 1. using training data to assign values on words - filter meaningless words - assign words with highest value as categories? 2. Do the same on training data for each category (choose a few documents manually per category) and then check for websites for which categories has the highest value.
+
+\subsection{Search Queries}
+
+\subsubsection{Enter Queries}
+\subsubsection{Get Results}
+\subsubsection{Specifications}
+
+\subsection{Visualisation}
+\subsubsection{neo4j?}
+
+\subsubsection{Connection between cities}
+\subsubsection{The Strength of these connections}
