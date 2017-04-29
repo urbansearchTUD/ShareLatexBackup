@@ -1,0 +1,23 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Requirements}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Must haves}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Should haves}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Could haves}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Would haves}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Frameworks and Tools}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Extraction}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Information Sources}{subsection.3.1}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.2}{methods}{subsection.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Filtering and Categorizing}{section.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Clustering}{subsection.3.2}% 12
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Filtering}{subsection.3.2}% 13
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Machine Learning}{subsection.3.2}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.4}{TF-IDF}{subsection.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.3}{Search Queries}{section.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Enter Queries}{subsection.3.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Get Results}{subsection.3.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Specifications}{subsection.3.3}% 19
+\BOOKMARK [2][-]{subsection.3.4}{Visualisation}{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.4.1}{neo4j?}{subsection.3.4}% 21
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Connection between cities}{subsection.3.4}% 22
+\BOOKMARK [3][-]{subsubsection.3.4.3}{The Strength of these connections}{subsection.3.4}% 23
