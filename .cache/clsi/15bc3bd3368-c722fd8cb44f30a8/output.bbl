@@ -28,11 +28,10 @@ Alex~Rudnick et~al.
 \newblock Nlkt.
 \newblock \url{http://www.nltk.org/api/nltk.stem.html}, 2017.
 
-\bibitem{googleTrends}
-Google.
-\newblock Google trends.
-\newblock \url{ https://trends.google.com/trends/home/all/NL}, 2017.
-\newblock Accessed: 2017-05-01.
+\bibitem{Eurostat}
+Eurostat: About.
+\newblock \url{http://ec.europa.eu/eurostat/about/overview}.
+\newblock Accessed: 2017-04-26.
 
 \bibitem{Hadoop}
 Apache Hadoop.

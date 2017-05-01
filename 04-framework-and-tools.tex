@@ -26,8 +26,10 @@ Delpher\cite{delpher} is a library consisting of millions of Dutch digitalised n
 
 Should historical analysis be desired, Delpher is the data source to use. Since their data are texts from reliable sources, there is no noise to be filtered out. Additionally, some valuable information can be extracted, such as area of distribution, cross-location referencing and target audience. These aid in the process of measuring the strengths of relationships.
 
-\subsubsection{Eurostat}
-Eurostat is the statistical office of the European Union situated in Luxembourg. Its mission is to provide high quality statistics for Europe \cite{Eurostat}. We identified Eurostat as a source that is not useful for this particular problem. Although Eurostat contains a lot of statistics on European cities, there is not enough useful information which contributes to giving more insight into the network connectivity of cities. Therefore, we did not include Eurostat as an information source.
+\subsubsection{Other Data Sources}
+Besides Common Crawl and Delpher, there are a plethora of other sources that might contain valuable information. The most notable are the Statistics Netherlands\footnote{\url{https://www.cbs.nl/en-gb}}, the NOW Corpus\footnote{\url{http://corpus.byu.edu/now/}} and However, due to time and resource constraints, we have chosen to exclude these from the project. Of course, in future versions, other data sources could be included.
+
+%Eurostat is the statistical office of the European Union situated in Luxembourg. Its mission is to provide high quality statistics for Europe \cite{Eurostat}. We identified Eurostat as a source that is not useful for this particular problem. Although Eurostat contains a lot of statistics on European cities, there is not enough useful information which contributes to giving more insight into the network connectivity of cities. Therefore, we did not include Eurostat as an information source.
 
 \subsection{Data Storage and Ingestion}
 % #TODO Short introduction of subsection
@@ -73,52 +75,13 @@ The Neo4j model can be depicted as shown in figure \ref{fig:neo4j}. It consists 
 Besides the aforementioned useful properties of Neo4j, we can put the graph to good use for visualising the global urban network. By adding a location property to a city, we can directly map nodes and relations to a geographical map. Most importantly, we can store indices of text files that mention the city as properties of nodes. That way, we are able to generate a subset of files that we can analyse for calculating the strength of the relationship between the nodes.
 
 \subsection{Selecting relevant data}
+\input{04-subsections/selecting_relevant_data}
+\input{04-subsections/classifying}
 
 
-\subsection{Filtering and Classifying}
 
-\subsubsection{Clustering}
-\subsubsection{Filtering}
+\subsection{Domain specific search engine}
 
-\subsubsection{Machine Learning for classification}
-Text based machine learning can be done in two different ways depending on whether the text is structured or unstructured. Text is structured when sentences are used, meaning grammar is used. In the case of structured texts a word may say something about the next word in the sentence, therefor other techniques can be used (for example n-grams) then in case of unstructured texts.
-Machine learning for website classification works by using the raw text from a website. Because the text from websites can be structured as well as unstructured, the unstructured 'bag of words' model is used. This model counts how often each word is used. There are 3 libraries available which contain most steps needed. There is scikit-learn \cite{scikit-learn} and TensorFlow \cite{tensorFlow} for Python and Weka \cite{weka} for Java. Since we write our program in python, and TensorFlow is only about neural networks, we choose to use scikit-learn.
-The machine learning works in 4 steps:
-\begin{enumerate}
-    \item \textbf{Creating a feature extractor} \\
-    Given text from a website, the "features" from this text are returned. Features are the words that occur in the text and the number of occurrences. Before this data is extracted stop words (the, is, at etc) are removed and the rest of the words are stemmed meaning all words will be changed to their root-forms (features - feature, controlled - control). The program Snowball \cite{snowball_dutch} and NLKT \cite{nlkt_stemming} (which uses the snowball version) have a dutch implementation for this, although it might need to be improved a bit.
-    
-    Afterwards, to prepare the features for the machine learning algorithm. We need to give each feature a numeric id. Count each of these tokens. And we need to normalise the tokens. For this scikit-learn provides algorithms.
-    \item \textbf{Manually labelling} \\
-    For each of the classes (e.g. business, tourism, art etc) we select a few websites we know fit to that class. From these websites all the words will be extracted and their occurrence will be counted. Possibly some normalisation functions are applied to get better values. We call these values the weight for each word for each class. From this we create a two dimensional array with in the rows each of the websites and in the columns all different words and one extra for the class. We fill the fields with the weights or a zero if the words don't occur.
-    
-    \includegraphics{classTable}
-    
-    \item \textbf{Generating a classifier} \\
-    The array is fed to a learning algorithms. This will generate a classifier. There are a multitude of classifiers importable from Scikit-learn and TensorFlow. For choosing the classifier we make use of the Microsoft Azure Machine Learning Test Sheet \cite{MLCheatSheet}. Several factors should be taken into account when choosing an algorithm. These are:
-    \begin{enumerate}
-        \item Accuracy - How well the algorithm separates the websites.
-        \item Training Time - How long it takes to train the algorithm.
-        \item Linearity - Linear regression assumes data trends follow a straight line. This is trade-off between accuracy and speed.
-        \item Number of Parameters - Adjustable parameters increase the flexibility of the algorithms. This is a trade-off between training time and accuracy.
-        \item Number of Features - A large number of features can make some algorithms unfeasibly long. Especially text data (what we are using!) has a large number features. Support Vector Machines are especially well suited in this case.
-        \item Special Cases - Some learning algorithms make particular assumptions about the data or the results.
-    \end{enumerate}
-    
-    For textual data especially support vector machines are recommended, so it is most likely we will choose that machine learning algorithm. Depending on if we have time we might do some tests before making our decision however.
-    
-    \item \textbf{Entering new examples} \\
-    When a new (unlabelled) example (website) comes - extract the features and feed it to your classifier - it will tell you what it thinks it is (and usually - what is the probability the classifier is correct). Afterwards the classifier can be updated to include new features extracted from the example.
-\end{enumerate}
-
-%\subsubsection{TF-IDF}
-%basic idea: 1. using training data to assign values on words - filter meaningless words - assign words with highest value as categories? 2. Do the same on training data for each category (choose a few documents manually per category) and then check for websites for which categories has the highest value.
-
-\subsection{Search Queries}
-
-\subsubsection{Enter Queries}
-\subsubsection{Get Results}
-\subsubsection{Specifications}
 
 \subsection{Visualisation}
 \todo{Refer to Neo4j graph model \& properties}
