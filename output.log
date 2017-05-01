@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.24)  1 MAY 2017 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  1 MAY 2017 13:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/main.tex
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/main.tex
 LaTeX2e <2017/01/01> patch level 1
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo
@@ -24,13 +24,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/a4wide.sty
-Package: a4wide 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/ntgclass/a4.sty
-Package: a4 2004/04/15 v1.2g A4 based page layout
-)) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
@@ -378,8 +372,8 @@ Package: wrapfig 2003/01/31  v 3.6
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/commands.tex (/usr/local/texlive/2016/texmf-dist/tex/latex/xifthen/xifthe
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/commands.tex (/usr/local/texlive/2016/texmf-dist/tex/latex/xifthen/xifthe
 n.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
@@ -444,22 +438,22 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen114
 \titlewidthfirst=\dimen115
 ))
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/output.aux)
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/output.aux)
 \openout1 = `output.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count93
@@ -513,8 +507,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/00-frontpage.tex
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/00-frontpage.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -523,27 +517,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png used on input line 43.
-(pdftex.def)             Requested size: 106.14656pt x 45.07048pt.
+(pdftex.def)             Requested size: 86.25pt x 36.6224pt.
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </var/li
-b/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007337bf/lo
+b/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b3670089ed39/lo
 go.png>])
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/00-abstract.tex
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/00-abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 ) [1]
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/output.toc)
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/output.toc)
 \tf@toc=\write3
 \openout3 = `output.toc'.
 
 [2]
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/01-introduction.tex
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/01-introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -558,70 +552,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
  []
 
 )
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/02-related-work.tex)
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/03-requirement-analysis.tex [3])
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/04-framework-and-tools.tex [4]
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/02-related-work.tex)
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/03-requirement-analysis.tex [3] [4])
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/04-framework-and-tools.tex [5]
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[][]$\OT1/cmtt/m/n/8 http : / / index . commoncrawl . org / CC-[]MAIN-[]2017-[]
+13-[]index ? url = * . nl & output = json &
+ []
+
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
-[5]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-[6]
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[][]$\OT1/cmtt/m/n/8 https : / / www . elastic . co / guide / en / elasticsearc
+h / guide / current /
+ []
+
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
-<neo4j.png, id=41, 732.7375pt x 476.78125pt>
+[8] <neo4j.png, id=48, 732.7375pt x 476.78125pt>
 File: neo4j.png Graphic file (type png)
 <use neo4j.png>
 Package pdftex.def Info: neo4j.png used on input line 70.
-(pdftex.def)             Requested size: 318.43968pt x 207.20174pt.
-[7]
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/04-subsections/selecting_relevant_data.tex)
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/04-subsections/classifying.tex [8 </var/lib/sharelatex/data/compiles/58fd
-f0d2a25ee167007337c3-58fdef44a25ee167007337bf/neo4j.png>] <images/classTable.pn
-g, id=50, 307.74976pt x 40.35075pt>
+(pdftex.def)             Requested size: 258.75pt x 168.36732pt.
+
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/04-subsections/selecting_relevant_data.tex)
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/04-subsections/classifying.tex [9 </var/lib/sharelatex/data/compiles/5907
+34121061b3670089ed45-590733271061b3670089ed39/neo4j.png>] [10] <images/classTab
+le.png, id=56, 307.74976pt x 40.35075pt>
 File: images/classTable.png Graphic file (type png)
 <use images/classTable.png>
-Package pdftex.def Info: images/classTable.png used on input line 18.
+Package pdftex.def Info: images/classTable.png used on input line 21.
 (pdftex.def)             Requested size: 307.749pt x 40.35065pt.
-[9 </var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167
-007337bf/images/classTable.png>]))
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/05-conclusion.tex)
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/output.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 69--75
-[]\OT1/cmr/m/n/10 Microsoft.  Mi-crosoft azure ma-chine learn-ing al-go-rithm c
-heat
+[11 </var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b36
+70089ed39/images/classTable.png>]))
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/05-conclusion.tex)
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/output.bbl
+Underfull \hbox (badness 2401) in paragraph at lines 21--25
+[]\OT1/cmr/m/n/10 Elasticsearch.  Elas-tic-search.  $\OT1/cmtt/m/n/10 https : /
+ / www . elastic . co / products /
  []
 
-
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 69--75
-\OT1/cmr/m/n/10 sheet.  $\OT1/cmtt/m/n/10 https : / / docs . microsoft . com / 
-en-[]us / azure / machine-[]learning /
+\OT1/cmtt/m/n/10 https : / / docs . microsoft . com / en-[]us / azure / machine
+-[]learning /
  []
 
-[10]) [11]
-(/var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58fdef44a25ee167007
-337bf/output.aux) ) 
+) [13]
+(/var/lib/sharelatex/data/compiles/590734121061b3670089ed45-590733271061b367008
+9ed39/output.aux) ) 
 Here is how much of TeX's memory you used:
- 3371 strings out of 493013
- 48005 string characters out of 6133328
- 122518 words of memory out of 5000000
- 6800 multiletter control sequences out of 15000+600000
+ 3352 strings out of 494945
+ 47476 string characters out of 6180678
+ 117410 words of memory out of 5000000
+ 6539 multiletter control sequences out of 15000+600000
  10427 words of font info for 37 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 43i,8n,35p,976b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 14 hyphenation exceptions out of 8191
+ 43i,8n,35p,1122b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
@@ -636,11 +640,11 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on /var/lib/sharelatex/data/compiles/58fdf0d2a25ee167007337c3-58
-fdef44a25ee167007337bf/output.pdf (12 pages, 418443 bytes).
+Output written on /var/lib/sharelatex/data/compiles/590734121061b3670089ed45-59
+0733271061b3670089ed39/output.pdf (14 pages, 421459 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
