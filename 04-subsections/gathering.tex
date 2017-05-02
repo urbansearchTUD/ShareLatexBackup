@@ -1,0 +1,23 @@
+\subsection{Gathering the Data}
+
+\subsubsection{Common Crawl} \label{sec:commoncrawl}
+Common Crawl \cite{commoncrawl} is a freely accessible corpus of the pages across the web. Their data are updated and released on a monthly basis. Many researchers have used the data for varying purposes~\cite{smith2013dirt}~\cite{muhleisen2012web}~\cite{singh2012wikilinks}. Since the project requires us to crawl the web (see section {\color{red} FIXME}), the corpus is a very suitable candidate for us to work with.
+
+The data of Common Crawl come in three formats\footnote{\url{https://gist.github.com/Smerity/e750f0ef0ab9aa366558}}: 
+\begin{description}
+\item[\textbf{WARC}] This is the default and most verbose format. It stores the HTTP-response, information about the request and meta-data on the crawl process itself. The content is stored as HTML-content.
+\item[\textbf{WAT}] Files of this type contain important meta-data, such as link addresses, about the WARC-records. This meta-data is computed for each of the three types of records (meta-data, request, and response). The textual content of the page is not present in this format.
+\item[\textbf{WET}] This format only contains extracted plain text. No HTML tags are present in this text. For our purposes, this is the most useful format.
+\end{description}
+
+For extracting data from Common Crawl, many open-source libraries are available. Common Crawl's official website refers to \texttt{cdx-index-client}\footnote{\url{https://github.com/ikreymer/cdx-index-client}} as a command line interface to their data. It allows for, among others, specifying which data set to use, supports multiple output formats (plain text, gzip or JSON) and can run in parallel.
+
+A simple query on the latest index using the online interface\footnote{\url{http://index.commoncrawl.org/CC-MAIN-2017-13-index?url=*.nl&output=json&showNumPages=true}} yields 1676 pages of 15000 entries each, which are roughly 25 million entries in total. However, there are over 5.5 million registered domain names with top level domain \texttt{.nl}\footnote{\url{https://www.sidn.nl/a/knowledge-and-development/statistics?language_id=2}}. One would expect many more pages to exist with that number of domains. There are several explanations for this, including:
+
+\begin{itemize}
+\item Common large websites, such as \url{www.google.nl} and \url{www.wikipedia.nl} have not been fully indexed by Common Crawl, because their "parents", \url{www.google.com} and \url{www.wikipedia.org} have already been indexed almost entirely.
+\item Not every website allows their pages to be crawled. According to Common Crawl's official website, their bots can be blocked via the common \texttt{robots.txt}. Additionally, they honour so-called \texttt{no-follow} attributes that prevents the crawler to follow embedded links. Sites that use these features are therefore partially or not at all included in the indices of Common Crawl.
+\end{itemize}
+
+\subsubsection{Other Data Sources}
+Besides Common Crawl and Delpher, there are a plethora of other sources that might contain valuable information. The most notable is the Dutch royal library, Delpher\footnote{\url{http://delpher.nl}}. It contains millions of Dutch digitalised newspapers, books and magazines from the fifteenth century up until about 1995. Because of this, it is a useful resource for historical research. Additionally, the Statistics Netherlands\footnote{\url{https://www.cbs.nl/en-gb}} hasand the NOW Corpus\footnote{\url{http://corpus.byu.edu/now/}}. However, due to time and resource constraints, we have chosen to exclude these from the project. Of course, in future versions, other data sources could be included.
