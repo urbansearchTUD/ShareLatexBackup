@@ -1,5 +1,15 @@
 \begin{thebibliography}{10}
 
+\bibitem{Aho-Corasick}
+Alfred~V. Aho and Margaret~J. Corasick.
+\newblock Efficient string matching: An aid to bibliographic search.
+\newblock {\em Commun. ACM}, 18(6):333--340, June 1975.
+
+\bibitem{cairncross2013factors}
+Alexander~Kirkland Cairncross.
+\newblock {\em Factors in economic development}.
+\newblock Routledge, 2013.
+
 \bibitem{clegg1994case}
 Dai Clegg and Richard Barker.
 \newblock {\em Case method fast-track: a RAD approach}.
@@ -11,16 +21,24 @@ Common Crawl.
 \newblock \url{https://commoncrawl.org/}, 2017.
 \newblock Accessed: 2017-04-25.
 
-\bibitem{Elasticsearch}
-Elasticsearch.
-\newblock Elasticsearch.
-\newblock \url{https://www.elastic.co/products/elasticsearch}.
-\newblock Accessed: 2017-04-26.
+\bibitem{dornbusch1989financial}
+Rudiger Dornbusch and Alejandro Reynoso.
+\newblock Financial factors in economic development, 1989.
 
 \bibitem{nlkt_stemming}
 Alex~Rudnick et~al.
 \newblock Nlkt.
 \newblock \url{http://www.nltk.org/api/nltk.stem.html}, 2017.
+
+\bibitem{fischer1993role}
+Stanley Fischer.
+\newblock The role of macroeconomic factors in growth.
+\newblock {\em Journal of monetary economics}, 32(3):485--512, 1993.
+
+\bibitem{glaeser1992growth}
+Edward~L Glaeser, Hedi~D Kallal, Jose~A Scheinkman, and Andrei Shleifer.
+\newblock Growth in cities.
+\newblock {\em Journal of political economy}, 100(6):1126--1152, 1992.
 
 \bibitem{googleTrends}
 Google.
@@ -28,30 +46,12 @@ Google.
 \newblock \url{ https://trends.google.com/trends/home/all/NL}, 2017.
 \newblock Accessed: 2017-05-01.
 
-\bibitem{Hadoop}
-Apache Hadoop.
-\newblock Hadoop, open-source software for reliable, scalable, distributed
-  computing.
-\newblock \url{http://hadoop.apache.org/}.
-\newblock Accessed: 2017-04-28.
-
-\bibitem{haerder1983principles}
-Theo Haerder and Andreas Reuter.
-\newblock Principles of transaction-oriented database recovery.
-\newblock {\em ACM Computing Surveys (CSUR)}, 15(4):287--317, 1983.
-
 \bibitem{holzschuher2013performance}
 Florian Holzschuher and Ren{\'e} Peinl.
 \newblock Performance of graph query languages: comparison of cypher, gremlin
   and native access in neo4j.
 \newblock In {\em Proceedings of the Joint EDBT/ICDT 2013 Workshops}, pages
   195--204. ACM, 2013.
-
-\bibitem{Kononenko2014}
-Oleksii Kononenko, Olga Baysal, Reid Holmes, and Michael~W. Godfrey.
-\newblock Mining modern repositories with elasticsearch.
-\newblock In {\em Proceedings of the 11th Working Conference on Mining Software
-  Repositories}, MSR 2014, pages 328--331, New York, NY, USA, 2014. ACM.
 
 \bibitem{scikit-learn}
 Scikit learn developers.
@@ -102,6 +102,11 @@ Tobias Preis, Helen~Susannah Moat, and H~Eugene Stanley.
 \newblock Quantifying trading behavior in financial markets using google
   trends.
 \newblock {\em Nature: scientific reports}, 2013.
+
+\bibitem{rasool2012string}
+Akhtar Rasool, Amrita Tiwari, Gunjan Singla, and Nilay Khare.
+\newblock String matching methodologies: A comparative analysis.
+\newblock {\em REM (Text)}, 234567(11):3, 2012.
 
 \bibitem{singh2012wikilinks}
 Sameer Singh, Amarnag Subramanya, Fernando Pereira, and Andrew McCallum.

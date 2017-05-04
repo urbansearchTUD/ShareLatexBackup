@@ -1,0 +1,73 @@
+\subsection{Storing and Ingesting the Data}
+In this section we will discuss which data storage solution we are going to use and why. We will compare a few options and select one that we think is the best choice. We will then briefly explain how it works and how we plan to use it.
+
+\subsubsection{Graph database, search engine or traditional database}
+To store the relevant data we can can choose from 3 categories that could best suit our needs, these categories are Graph Databases, Search Engines or traditional databases. Because we want to visualise the network of cities as a graph and are interested in relations between cities we want to use a Graph Database. A Search Engine is less useful for this project because as a user you don't want to search through the documents but you want to be able to explore the relations that can be extracted from the data. A Graph Database is a better choice compared to traditional relational databases because relations are the most important in the graph data model where this is not true for traditional relational databases. Therefore, we will be using a Graph Database.
+
+\subsubsection{Comparing Graph Databases}
+Now that we've established that we will be using a Graph Database, we need to choose which Graph Database we're going to use. To do this we made a table in which we compare aspects that are important to us of the available Graph Databases.\\
+
+
+\noindent\begin{tabular}{@{} *6l @{}}    \toprule
+\emph{name} & \emph{Open-source} & \emph{Scalable} & \emph{Python support} & \emph{Free} & \emph{Visualisation}\\  \\\midrule
+AllegroGraph    & \XSolidBrush  & \Checkmark  & \Checkmark  & \XSolidBrush\footnote{Only free up to 5 million triples} & A \\ 
+ArangoDB  & \Checkmark & \Checkmark & \Checkmark & \Checkmark\\ 
+Neo4j  & \Checkmark & \Checkmark & \Checkmark & \Checkmark\footnote{Non-commercial use} & \Checkmark\\ 
+OrientDB  & \Checkmark & \Checkmark & \Checkmark & \Checkmark\\ 
+Teradata Aster & \XSolidBrush & \Checkmark & \Checkmark & \XSolidBrush & X\\ 
+Titan  & \Checkmark & \Checkmark & \XSolidBrush & \Checkmark\\\bottomrule
+ \hline
+\end{tabular}
+
+\subsubsection{Neo4j}
+Neo4j is a highly scalable native graph database that leverages data relationships as first-class entities \cite{neo4j}, enabling enterprises of any size to connect their data and use the relationships to improve their businesses. It is the single highly scalable, fast and ACID compliant (see section \ref{sec:elastic-downsides} for a short explanation) graph database available. Additionally, it is free to use for non-commercial use. To illustrate how scalable Neo4j is, consider that very large companies such as ebay, Cisco, Walmart, HP and LinkedIn\footnote{\url{https://neo4j.com/customers/}} use it in their mission-critical systems. Holzschuher and Peinl compared the performance of Neo4j to the more classic and commonly used NoSQL databases and found out that the more natural representation of relationships resulted in significant performance increase gains~\cite{holzschuher2013performance}.
+
+There are some specific aspects of Neo4j that make it a very suitable candidate for the \todo{project}. These are:
+
+\begin{description}
+\item[properties] Any entity in the Neo4j graph can be given properties (key-value pairs) containing information about the entity. Properties are primarily meant to provide additional information and are less suitable to be queried on. As an example, a city can have a number of inhabitants and districts attached to it as a property.
+\item[labels] Nodes can be tagged with a label, describing their roles in the network. These annotations are especially useful to filter the data set on one or more categories. For example, a city can be labelled as "capital" to be able to distinguish between regular and capital cities.
+\item[relations] Nodes can be connected using relationships. These are always directed, typed and named and can have properties. Using these properties, one can control how the graph is traversed. For example, if a path (relationship) is to be avoided unless absolutely necessary, the relation can be given a high cost. To give importance to some relationship, one could also assign a strength score to it. Since relationships are handled efficiently by Neo4j, nodes can have any number of relationships linked to it without decreasing performance. For our purposes, a relation could comprise the strength of the relationship between two cities (nodes).
+\end{description}
+
+The Neo4j model can be depicted as shown in figure \ref{fig:neo4j}. It consists of nodes, relationships (edges), properties (within the nodes) and labels (rectangular blocks above the nodes).
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth]{neo4j}
+\caption{The Neo4j model}
+\label{fig:neo4j}
+\end{figure}
+
+Besides the aforementioned useful properties of Neo4j, we can put the graph to good use for visualising the global urban network. By adding a location property to a city, we can directly map nodes and relations to a geographical map. Most importantly, we can store indices of text files that mention the city as properties of nodes. That way, we are able to generate a subset of files that we can analyse for calculating the strength of the relationship between the nodes.
+
+
+
+
+
+
+
+
+
+% --------------------------------------------Maybe useful in future----------------------------------------------------
+\begin{comment}
+\subsubsection{Elasticsearch}
+Elasticsearch is an open-source search engine which centrally stores your data \cite{Elasticsearch}. It is a fast and scalable solution that was designed with big data search in mind. According to Kononenko et al. \cite{Kononenko2014} Elasticsearch has some significant advantages in comparison with traditional relational databases. Two of these advantages are scalability and performance. 
+
+\paragraph{Scalability} According to Elasticsearch \cite{Elasticsearch} their product has no problem with scaling horizontally. It automatically manages indices and queries distributed across a cluster. This is an important feature as it is likely that the amount of data that our solution will use and process will increase and we do not want to keep upgrading the server that contains database, which would be vertical scalability. {\color{red} FIXME: Referentie naar dat we alleen NL doen nu? En daarom scalability nogal belangrijk is}
+
+\paragraph{Performance}
+Because Elasticsearch was designed to handle documents and perform full-text search it not surprising it performs well doing this. As we're going to be using the same kind of input data we expect Elasticsearch as the most choice. Kononenko et al. found that while scalability and schema-free documents are common for NoSQL systems, the combination of all three (scalability, agility, and performance) in one system is what makes Elasticsearch stand out from other systems. Following this, we conclude Elasticsearch would be a good choice as a data storage and search platform for our {\color{red} FIXME: solution|product|project.. (We moeten even kiezen welke we aanhouden zodat we dat overal hetzelfde doen}.\\
+
+\paragraph{Downsides} \label{sec:elastic-downsides}
+A downside of Elasticsearch is that it does not have any form of security out of the box. This means that everyone with the server address could access the data. This is not a problem for CommonCrawl data, as this was already available online anyway. However, when using for example Delpher or other sources you need a license this becomes a problem. Next to that, it would also be possible for anyone to meddle with the data in Elasticsearch making the data unreliable. Elasticsearch provides a Security package for which you unfortunately need a paid license. However, to secure Elasticsearch while making it available for users we could use a plugin such as Search Guard\footnote{\url{http://floragunn.com/searchguard/}} or use a special proxy as proposed by Kononenko et al. \cite{Kononenko2014}.
+
+Another downside of Elasticsearch is that transactions involving multiple documents\footnote{\url{https://www.elastic.co/guide/en/elasticsearch/guide/current/concurrency-solutions.html}} are not ACIDic. Where ACID stands for the four properties atomicity, consistency, isolation and durability regarding transactions in database systems \cite{haerder1983principles}. This means that we need to keep concurrency problems in mind and will probably need to enable some locking to prevent these concurrency problems when performing transactions on multiple documents. 
+
+
+
+\subsubsection{Hadoop}
+Because we are designing a \maybe{application} that will use and parse a lot of data, it will be useful to use distributed computing. Although we only use the .nl data \maybe{Totale grootte van data noemen?} from CommonCrawl for this \todo{project} (see section \ref{sec:commoncrawl}) we could still benefit from distributed computing, especially with the future of the \maybe{application} in mind. 
+Therefore we want to use Apache Hadoop, which is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models \cite{Hadoop}. With this open source software we could distribute the computations from a single server across many more devices, thereby speeding up the process. 
+
+\end{comment}

@@ -1,5 +1,5 @@
 \section {Requirement Analysis}
-In this section, we first define the design goals. Then, we list the requirements which the {\color{red} FIXME thingy} meet. We use the MoSCoW method\cite{clegg1994case} as a prioritisation technique. Four levels of priority are defined: must have, should have, could have and won't have (also known as would like).
+In this section, we first define the design goals. Then, we list the requirements which the {\color{red} FIXME thingy} meet. We use the MoSCoW method\cite{clegg1994case} as a prioritisation technique.
 
 \subsection{Design Goals}
 The high-level design goals for this project have been provided by the client. These serve as a guideline to determine the priority label of the specific requirements, as defined in section \ref{sec:reqs} and are listed here, ordered by priority.
@@ -10,35 +10,80 @@ The high-level design goals for this project have been provided by the client. T
 \paragraph{plugable} The client conveyed it might be interesting to let the {\color{red} FIXME system?} perform analysis on different data sets without the need of a developer. 
 
 \subsection{Product Requirements}\label{sec:reqs}
-\subsubsection {Must Have}
-Requirements labelled as "must have" are key to the minimal performance of the {\color{red} FIXME product/whatever}. If they are not met, the {\color{red} FIXME: thingy} can be considered a failure.
+The MoSCoW method is a prioritization technique used in management, business analysis, project management, and software development to reach a common understanding with stakeholders on the importance they place on the delivery of each requirement - also known as MoSCoW prioritization or MoSCoW analysis. Four levels of priority are defined: must have, should have, could have and won't have (also known as would like).
 
+\subsubsection {Must Have}
+Requirements labelled as "must have" are key to the minimal performance of the application If they are not met, the application can be considered a failure.
+
+\begin{enumerate}
+    \item A user must be able to input place names.
+    \item The system should display a map with the before mentioned places and the important connection they have to other places.
+    \item A user must be able to click on a connection between two places and get information about what kind of relations they have.
+    \item The strength of all relations must be displayed.
+    \item The user must be able to export the found connections and their strengths between places.
+\end{enumerate}
+ 
+\subsubsection {Should Have}
+"Should have" requirements are those that greatly improve system performance and/or usability but might not fit in the available development time.
+
+\begin{enumerate}
+    \item The application should be able to use multiple datasets.
+    \item The application should be able to group the relations (e.g. 'fish-trade' and 'finance' to economy, 'medicine' to health-care etc).
+    \item The user should be able to 'zoom' on places in order to see more/less connections to other places.
+\end{enumerate}
+
+\subsubsection {Could Have}
+Requirements labelled as "could have" are useful and should be included in the system if time and resources permit.
+
+\begin{enumerate}
+    \item The application could be able to use international names.
+    \item There could be a front end for the app.
+\end{enumerate}
+
+\subsubsection {Would Like}
+"Would like" requirements have been agreed upon as not important to deliver within the current time schedule. However, they can be included in future releases.
+
+\begin{enumerate}
+    \item The application would be able to show all connections of all places on the map at the same time.
+\end{enumerate}
+
+ 
+\begin{comment}
 \begin{enumerate}
     \item{General} 
     \begin{enumerate}
-        \item Adding city names
-        \item Grouping relations and “zooming” on these relations
+        \item 
+    
+        \item A user must be able to input city names.
+        \item Relationships that are found in the system must be grouped.
+        \item A user must be able to zoom on found relations in order to get more details about the relations.
     \end{enumerate}
     
     \item{Search Engine} 
     \begin{enumerate}
-        \item Filter results
-        \item Data mining
+        \item All data from a search engine should be gathered.
+        \item From this data only the data containing 2 or more city names should be kept and stored.
     \end{enumerate}
     
     \item{Filtering} 
     \begin{enumerate}
+        \item This data should t
+        
         \item Logic Filters 
         \item Relations Filters
     \end{enumerate}
     
     \item{Machine Learning} 
     \begin{enumerate}
+        \item
+    
         \item Types of relations
     \end{enumerate}
     
     \item{Visualisation}
     \begin{enumerate}
+        \item
+    
         \item Statistics of relations? Query relations
         \item Strength of relations
         \item Types: ML CBS defined
@@ -79,3 +124,4 @@ Requirements labelled as "could have" are useful and should be included in the s
 
 \subsubsection {Would Like}
 "Would like" requirements have been agreed upon as not important to deliver within the current time schedule. However, they can be included in future releases.
+\end{comment}

@@ -3,46 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: output.aux
 The style file: plain.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "delpher"
-You've used 21 entries,
+You've used 23 entries,
             2118 wiz_defined-function locations,
-            612 strings with 7116 characters,
-and the built_in function-call counts, 6190 in all, are:
-= -- 627
-> -- 246
-< -- 4
-+ -- 100
-- -- 78
-* -- 312
-:= -- 1013
-add.period$ -- 75
-call.type$ -- 21
-change.case$ -- 101
+            630 strings with 7398 characters,
+and the built_in function-call counts, 6724 in all, are:
+= -- 668
+> -- 282
+< -- 3
++ -- 115
+- -- 90
+* -- 373
+:= -- 1117
+add.period$ -- 77
+call.type$ -- 23
+change.case$ -- 112
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 235
-empty$ -- 540
-format.name$ -- 78
-if$ -- 1349
+cite$ -- 23
+duplicate$ -- 250
+empty$ -- 578
+format.name$ -- 90
+if$ -- 1437
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 11
-newline$ -- 117
-num.names$ -- 42
-pop$ -- 159
+int.to.str$ -- 23
+missing$ -- 15
+newline$ -- 124
+num.names$ -- 46
+pop$ -- 162
 preamble$ -- 1
-purify$ -- 81
+purify$ -- 91
 quote$ -- 0
-skip$ -- 185
+skip$ -- 192
 stack$ -- 0
-substring$ -- 306
-swap$ -- 59
-text.length$ -- 4
+substring$ -- 344
+swap$ -- 52
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 82
+type$ -- 88
 warning$ -- 0
-while$ -- 60
-width$ -- 23
-write$ -- 239
-(There was 1 warning)
+while$ -- 66
+width$ -- 25
+write$ -- 254
