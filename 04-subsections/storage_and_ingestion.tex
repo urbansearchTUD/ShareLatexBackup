@@ -8,16 +8,25 @@ To store the relevant data we can can choose from 3 categories that could best s
 Now that we've established that we will be using a Graph Database, we need to choose which Graph Database we're going to use. To do this we made a table in which we compare aspects that are important to us of the available Graph Databases.\\
 
 
-\noindent\begin{tabular}{@{} *6l @{}}    \toprule
-\emph{name} & \emph{Open-source} & \emph{Scalable} & \emph{Python support} & \emph{Free} & \emph{Visualisation}\\  \\\midrule
-AllegroGraph    & \XSolidBrush  & \Checkmark  & \Checkmark  & \XSolidBrush\footnote{Only free up to 5 million triples} & A \\ 
-ArangoDB  & \Checkmark & \Checkmark & \Checkmark & \Checkmark\\ 
-Neo4j  & \Checkmark & \Checkmark & \Checkmark & \Checkmark\footnote{Non-commercial use} & \Checkmark\\ 
-OrientDB  & \Checkmark & \Checkmark & \Checkmark & \Checkmark\\ 
-Teradata Aster & \XSolidBrush & \Checkmark & \Checkmark & \XSolidBrush & X\\ 
-Titan  & \Checkmark & \Checkmark & \XSolidBrush & \Checkmark\\\bottomrule
+\noindent\begin{threeparttable}
+\begin{tabular}{@{} *6l @{}}    \toprule
+\emph{name} & \emph{Open-source} & \emph{Scalable} & \emph{Python support} & \emph{Free} & \emph{Built-in Visualisation}\\  \\\midrule
+AllegroGraph    & \XSolidBrush  & \Checkmark  & \Checkmark  & \XSolidBrush\tnote{a} & \XSolidBrush\tnote{b} \\ 
+ArangoDB  & \Checkmark & \Checkmark & \Checkmark & \Checkmark & \Checkmark\\ 
+Neo4j  & \Checkmark & \Checkmark & \Checkmark & \Checkmark\tnote{c} & \Checkmark\\ 
+OrientDB  & \Checkmark & \Checkmark & \Checkmark & \Checkmark & \Checkmark\\ 
+Teradata Aster & \XSolidBrush & \Checkmark & \Checkmark & \XSolidBrush & \XSolidBrush\tnote{d}\\ 
+Titan  & \Checkmark & \Checkmark & \XSolidBrush & \Checkmark & \XSolidBrush\\\bottomrule
  \hline
 \end{tabular}
+\begin{tablenotes}
+\item[a] Only free up to 5 million triples
+\item[b] With separate tool called Gruff: \url{https://allegrograph.com/gruff2/}
+\item[c] Non-commercial use
+\item[d] Using a separate tool Aster AppCenter: \url{http://www.teradata.com/products-and-services/appcenter/}
+\item[e] Using a separate tool 
+\end{tablenotes}
+\end{threeparttable}
 
 \subsubsection{Neo4j}
 Neo4j is a highly scalable native graph database that leverages data relationships as first-class entities \cite{neo4j}, enabling enterprises of any size to connect their data and use the relationships to improve their businesses. It is the single highly scalable, fast and ACID compliant (see section \ref{sec:elastic-downsides} for a short explanation) graph database available. Additionally, it is free to use for non-commercial use. To illustrate how scalable Neo4j is, consider that very large companies such as ebay, Cisco, Walmart, HP and LinkedIn\footnote{\url{https://neo4j.com/customers/}} use it in their mission-critical systems. Holzschuher and Peinl compared the performance of Neo4j to the more classic and commonly used NoSQL databases and found out that the more natural representation of relationships resulted in significant performance increase gains~\cite{holzschuher2013performance}.

@@ -20,7 +20,7 @@
 \contentsline {subsubsection}{\numberline {4.3.1}Graph database, search engine or traditional database}{8}
 \contentsline {subsubsection}{\numberline {4.3.2}Comparing Graph Databases}{8}
 \contentsline {subsubsection}{\numberline {4.3.3}Neo4j}{8}
-\contentsline {subsection}{\numberline {4.4}Grouping the Data}{10}
+\contentsline {subsection}{\numberline {4.4}Grouping the Data}{9}
 \contentsline {subsubsection}{\numberline {4.4.1}Pre-processing}{10}
 \contentsline {subsubsection}{\numberline {4.4.2}Clustering}{10}
 \contentsline {subsubsection}{\numberline {4.4.3}Classifying}{11}
@@ -28,8 +28,8 @@
 \contentsline {subsection}{\numberline {4.5}Interacting with the Data}{13}
 \contentsline {subsubsection}{\numberline {4.5.1}Query language}{13}
 \contentsline {subsubsection}{\numberline {4.5.2}Query composer interface}{14}
-\contentsline {subsubsection}{\numberline {4.5.3}Interactive search}{15}
-\contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{15}
+\contentsline {subsubsection}{\numberline {4.5.3}Interactive search}{14}
+\contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{14}
 \contentsline {subsection}{\numberline {4.6}Visualising the Data}{16}
 \contentsline {subsubsection}{\numberline {4.6.1}Representing the data visually}{16}
 \contentsline {subsubsection}{\numberline {4.6.2}Maps}{16}

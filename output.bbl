@@ -25,6 +25,12 @@ Common Crawl.
 Rudiger Dornbusch and Alejandro Reynoso.
 \newblock Financial factors in economic development, 1989.
 
+\bibitem{elasticsearch}
+Elasticsearch.
+\newblock Elasticsearch.
+\newblock \url{https://www.elastic.co/products/elasticsearch}.
+\newblock Accessed: 2017-04-26.
+
 \bibitem{nlkt_stemming}
 Alex~Rudnick et~al.
 \newblock Nlkt.
