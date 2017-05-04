@@ -13,28 +13,28 @@
 \contentsline {subsubsection}{\numberline {3.3.2}Should Have}{5}
 \contentsline {subsubsection}{\numberline {3.3.3}Could Have}{5}
 \contentsline {subsubsection}{\numberline {3.3.4}Would Like}{5}
-\contentsline {subsection}{\numberline {3.4}Design Decisions}{5}
-\contentsline {section}{\numberline {4}Framework and Tools}{5}
+\contentsline {subsection}{\numberline {3.4}Design Decisions}{6}
+\contentsline {section}{\numberline {4}Framework and Tools}{6}
 \contentsline {subsection}{\numberline {4.1}Gathering the Data}{6}
 \contentsline {subsubsection}{\numberline {4.1.1}Common Crawl}{6}
-\contentsline {subsubsection}{\numberline {4.1.2}Other Data Sources}{6}
+\contentsline {subsubsection}{\numberline {4.1.2}Other Data Sources}{7}
 \contentsline {subsection}{\numberline {4.2}Selecting Relevant Data}{7}
 \contentsline {subsection}{\numberline {4.3}Grouping the Data}{7}
 \contentsline {subsubsection}{\numberline {4.3.1}Pre-processing}{7}
-\contentsline {subsubsection}{\numberline {4.3.2}Clustering}{7}
+\contentsline {subsubsection}{\numberline {4.3.2}Clustering}{8}
 \contentsline {subsubsection}{\numberline {4.3.3}Classifying}{8}
 \contentsline {subsubsection}{\numberline {4.3.4}Conclusion}{9}
-\contentsline {subsection}{\numberline {4.4}Storing and Ingesting the Data}{9}
+\contentsline {subsection}{\numberline {4.4}Storing and Ingesting the Data}{10}
 \contentsline {subsubsection}{\numberline {4.4.1}Graph Database, Search Engine or Traditional Database}{10}
 \contentsline {subsubsection}{\numberline {4.4.2}Comparing Graph Databases}{10}
-\contentsline {subsubsection}{\numberline {4.4.3}Neo4j}{10}
+\contentsline {subsubsection}{\numberline {4.4.3}Neo4j}{11}
 \contentsline {subsection}{\numberline {4.5}Interacting with the Data}{11}
-\contentsline {subsubsection}{\numberline {4.5.1}Query language}{11}
-\contentsline {subsubsection}{\numberline {4.5.2}Query composer interface}{12}
-\contentsline {subsubsection}{\numberline {4.5.3}Interactive search}{13}
+\contentsline {subsubsection}{\numberline {4.5.1}Query Language}{11}
+\contentsline {subsubsection}{\numberline {4.5.2}Query Composer Interface}{12}
+\contentsline {subsubsection}{\numberline {4.5.3}Interactive Search}{12}
 \contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{13}
 \contentsline {subsection}{\numberline {4.6}Visualising the Data}{13}
-\contentsline {subsubsection}{\numberline {4.6.1}Representing the data visually}{13}
-\contentsline {subsubsection}{\numberline {4.6.2}Maps}{14}
-\contentsline {subsubsection}{\numberline {4.6.3}Map clutter}{14}
+\contentsline {subsubsection}{\numberline {4.6.1}Representing the Data Graphically}{13}
+\contentsline {subsubsection}{\numberline {4.6.2}Using Geographical Maps}{13}
+\contentsline {subsubsection}{\numberline {4.6.3}Handling Map Clutter}{14}
 \contentsline {section}{\numberline {5}Conclusion}{14}

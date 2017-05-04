@@ -1,22 +1,20 @@
 \subsection{Visualising the Data}
 
-This section focuses on the visual representation of the processed data. Our goals are to present the data and the things we learned during the processing of the data in a way that is easy to comprehend for users and can help ease the interpretation of the data.
-To reach these goals we focused on the clients needs and desires. We discussed the preferences off the client and drew up a global plan, which we present below.
+This section focuses on the visual representation of the processed data. This should be done in way that is easy to comprehend for users and helps them to interpret the data. To reach these goals, we identified the clients needs and desires. We have discussed the preferences of the client and have drawn up a global plan, which we present below.
 
-\subsubsection{Representing the data visually}
+\subsubsection{Representing the Data Graphically}
 
-Since we are dealing with strongly related data, which is comprised off cities and the relations between cities, it was a natural choice to represent the data as a graph.
-The choice was made, together with the client, to show the nodes and relations on a map. This was done because people are used to cities being visualised on a map and we think this will increase the ability of users to interpret the information in a productive manner.
+Since we are dealing with strongly related data, it is a natural choice to represent the data as a graph. The choice was made, in association with the client, to show the nodes and relations on a geographical map. Visualising cities on a map is intuitive to the user and we think this will increase the ability of users to interpret the information in a productive manner.
 
-\subsubsection{Maps}
+\subsubsection{Using Geographical Maps}
 
-We investigated two technologies we could use for the map on which we will display our data. The first one is Google Maps (GM). GM can be used freely and offers a lot of customisation options. The API is well defined and some of the group members worked with GM before. The second option we investigated was Leaflet. Leaflet is an open-source javascript library which provides responsive maps. It also has an well defined API and a lot of plugins.
-Both libraries are well suited for our needs. 
-We decided to go with GM, because of the experience of the group members with using GM. Also we feel that there are more resources available on GM, which would help us if we get stuck with an issue.
+We investigated two map libraries we can use to display our data on a map. The first one is Google Maps, which can be used freely and offers a lot of customisation options. The API is well defined and some of the group members have previously worked with it. The second option we investigated is Leaflet. Leaflet is an open-source JavaScript library that provides responsive maps. It also has fine grained API and lots of plugins available.
+Both libraries are well suited for our needs. However, we decided to go with Google Maps, because of the existing experience of the group members. Also, we feel Google Maps is better supported through documentation and communities, that can help us should we get stuck.
 
-\subsubsection{Map clutter}
+\subsubsection{Handling Map Clutter}
 
-One of the challenges of visualising networks, as stated in \cite{468391}, is the risk of so called map clutter. This means the network is displayed as an incomprehensible set of lines and nodes.
-Several methods to prevent this are given in \cite{468391}. We will adopt some of these methods in our application. The methods and use of these methods in our application are presented next.
-Users should be able to select what information they want to display. This will be adopted in our application by allowing the user to (de)select cities and relations, which then will be shown/hidden. The use of different sizes for nodes and edges or other attributes that are displayed can convey extra information to the user. We will use this to represent sizes of cities (population) and strengths of relations.
-The use of colour is another method which is presented in \cite{468391}. We will use colours to represent different types of relations and we will use intensity/opacity to represent the strengths of these different types of relations.
+One of the challenges of visualising networks, as stated in \cite{468391}, is the occurrence of so-called map clutter. Map clutter means the network is displayed as an incomprehensible set of nodes and edges.
+Several methods to prevent this are given in \cite{468391}. We will adopt some of these methods in our application, as explained next.
+
+Users should be able to select what information they want to display. This will be included in the system by allowing the user to select cities and relations, enabling them to filter nodes and edges. The use of different sizes for nodes and edges or other attributes that are displayed can convey extra information to the user. We will use this to represent, for example, city population and exact strengths of relations.
+The use of colour is another method mentioned in \cite{468391}. We will use colours to represent different types of relations and utilise colour intensity and opacity to represent the strengths of these different types of relations.

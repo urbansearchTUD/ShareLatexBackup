@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  4 MAY 2017 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  4 MAY 2017 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/main.tex
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/main.tex
 LaTeX2e <2017/01/01> patch level 1
 Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
@@ -399,8 +399,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen114
 \Gm@dimlist=\toks20
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/commands.tex (/usr/local/texlive/2016/texmf-dist/tex/latex/xifthen/xifthe
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/commands.tex (/usr/local/texlive/2016/texmf-dist/tex/latex/xifthen/xifthe
 n.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
@@ -501,8 +501,8 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box31
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/output.aux)
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/output.aux)
 \openout1 = `output.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -603,8 +603,8 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/00-frontpage.tex
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/00-frontpage.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -617,23 +617,23 @@ Package pdftex.def Info: images/logo.png used on input line 43.
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </var/li
-b/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900de9092/im
+b/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900de9097/im
 ages/logo.png>])
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/00-abstract.tex
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/00-abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 ) [1]
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/output.toc)
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/output.toc)
 \tf@toc=\write3
 \openout3 = `output.toc'.
 
 [2]
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/01-introduction.tex
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/01-introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -648,8 +648,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--11
  []
 
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/02-related-work.tex
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/02-related-work.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -665,95 +665,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
  []
 
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/03-requirement-analysis.tex [3] [4])
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-framework-and-tools.tex
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-subsections/01-gathering.tex
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/03-requirement-analysis.tex [3] [4]) [5]
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-framework-and-tools.tex
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-subsections/01-gathering.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[5])
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-subsections/02-selecting_relevant_data.tex [6])
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-subsections/03-classifying.tex
+[6])
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-subsections/02-selecting_relevant_data.tex)
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-subsections/03-classifying.tex [7]
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
-<images/classTable.png, id=42, 307.74976pt x 40.35075pt>
+[8] <images/classTable.png, id=45, 307.74976pt x 40.35075pt>
 File: images/classTable.png Graphic file (type png)
 <use images/classTable.png>
 Package pdftex.def Info: images/classTable.png used on input line 34.
 (pdftex.def)             Requested size: 307.749pt x 40.35065pt.
-[8 </var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef769
-00de9092/images/classTable.png>] <images/classificatie.png, id=46, 412.54124pt 
-x 198.7425pt>
+<images/classificatie.png, id=46, 412.54124pt x 198.7425pt>
 File: images/classificatie.png Graphic file (type png)
 <use images/classificatie.png>
 Package pdftex.def Info: images/classificatie.png used on input line 59.
 (pdftex.def)             Requested size: 412.54024pt x 198.742pt.
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-subsections/04-storage_and_ingestion.tex [9 </var/lib/sharelatex/data/
-compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900de9092/images/classificatie
-.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-subsections/04-storage_and_ingestion.tex [9 </var/lib/sharelatex/data/
+compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900de9097/images/classTable.pn
+g>]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-LaTeX Font Info:    Try loading font information for U+ding on input line 21.
+LaTeX Font Info:    Try loading font information for U+ding on input line 17.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 18--37
+Underfull \hbox (badness 10000) in paragraph at lines 14--33
 
  []
 
+[10 </var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76
+900de9097/images/classificatie.png>]
 
-LaTeX Warning: Reference `sec:elastic-downsides' on page 10 undefined on input 
-line 41.
+LaTeX Warning: Reference `sec:elastic-downsides' on page 11 undefined on input 
+line 37.
 
-[10] <images/neo4j.png, id=54, 732.7375pt x 476.78125pt>
+<images/neo4j.png, id=54, 732.7375pt x 476.78125pt>
 File: images/neo4j.png Graphic file (type png)
 <use images/neo4j.png>
-Package pdftex.def Info: images/neo4j.png used on input line 55.
+Package pdftex.def Info: images/neo4j.png used on input line 51.
 (pdftex.def)             Requested size: 339.72592pt x 221.0535pt.
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-subsections/05-search_engine.tex [11 </var/lib/sharelatex/data/compile
-s/59083c8dab7ef76900de907c-59084be3ab7ef76900de9092/images/neo4j.png>] <images/
-ql-example.png, id=59, 554.07pt x 364.36125pt>
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-subsections/05-search_engine.tex [11] <images/ql-example.png, id=60, 5
+54.07pt x 364.36125pt>
 File: images/ql-example.png Graphic file (type png)
 <use images/ql-example.png>
-Package pdftex.def Info: images/ql-example.png used on input line 26.
+Package pdftex.def Info: images/ql-example.png used on input line 24.
 (pdftex.def)             Requested size: 339.72592pt x 223.40533pt.
-<images/qi-example.png, id=60, 569.12625pt x 376.40625pt>
+<images/qi-example.png, id=61, 569.12625pt x 376.40625pt>
 File: images/qi-example.png Graphic file (type png)
 <use images/qi-example.png>
-Package pdftex.def Info: images/qi-example.png used on input line 37.
+Package pdftex.def Info: images/qi-example.png used on input line 35.
 (pdftex.def)             Requested size: 339.72592pt x 224.69678pt.
-<images/ii-example.png, id=61, 551.05875pt x 359.3425pt>
+<images/ii-example.png, id=62, 551.05875pt x 359.3425pt>
 File: images/ii-example.png Graphic file (type png)
 <use images/ii-example.png>
-Package pdftex.def Info: images/ii-example.png used on input line 49.
+Package pdftex.def Info: images/ii-example.png used on input line 46.
 (pdftex.def)             Requested size: 339.72592pt x 221.53989pt.
-[12 </var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76
-900de9092/images/ql-example.png> </var/lib/sharelatex/data/compiles/59083c8dab7
-ef76900de907c-59084be3ab7ef76900de9092/images/qi-example.png>])
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-subsections/06-visualising.tex [13 </var/lib/sharelatex/data/compiles/
-59083c8dab7ef76900de907c-59084be3ab7ef76900de9092/images/ii-example.png>]))
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/05-conclusion.tex
+[12 </var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76
+900de9097/images/neo4j.png> </var/lib/sharelatex/data/compiles/59083c8dab7ef769
+00de907c-59084c2eab7ef76900de9097/images/ql-example.png>])
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-subsections/06-visualising.tex [13 </var/lib/sharelatex/data/compiles/
+59083c8dab7ef76900de907c-59084c2eab7ef76900de9097/images/qi-example.png>]))
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/05-conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -764,10 +763,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
  []
 
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/output.bbl [14]) [15]
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/output.aux)
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/output.bbl [14 </var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907
+c-59084c2eab7ef76900de9097/images/ii-example.png>] [15]) [16]
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/output.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -775,7 +775,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  4206 strings out of 494945
  60925 string characters out of 6180678
- 138510 words of memory out of 5000000
+ 140510 words of memory out of 5000000
  7347 multiletter control sequences out of 15000+600000
  9985 words of font info for 37 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -795,10 +795,10 @@ ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59
-084be3ab7ef76900de9092/output.pdf (16 pages, 758452 bytes).
+084c2eab7ef76900de9097/output.pdf (17 pages, 759713 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
