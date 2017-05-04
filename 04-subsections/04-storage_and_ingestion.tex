@@ -1,15 +1,22 @@
 \subsection{Storing and Ingesting the Data}
 In this section we will discuss which data storage solution we are going to use and why. We will compare a few options and select one that we think is the best choice. We will then briefly explain how it works and how we plan to use it.
 
-\subsubsection{Graph database, search engine or traditional database}
-To store the relevant data we can can choose from 3 categories that could best suit our needs, these categories are Graph Databases, Search Engines or traditional databases. Because we want to visualise the network of cities as a graph and are interested in relations between cities we want to use a Graph Database. A Search Engine is less useful for this project because as a user you don't want to search through the documents but you want to be able to explore the relations that can be extracted from the data. A Graph Database is a better choice compared to traditional relational databases because relations are the most important in the graph data model where this is not true for traditional relational databases. Therefore, we will be using a Graph Database.
+\subsubsection{Graph Database, Search Engine or Traditional Database}
+Now that we have extracted the relationships from the documents and web pages we need to store these results. Note that there is no need to store all the documents because we are interested in the relationships which have been extracted and therefore no need for the original document. To store these relationships we have two options.  These are:
+
+\begin{description}
+\item[Graph databases]
+\item[Traditional relational databases]
+\end{description}
+
+Because we want to visualise the network of cities as a graph and are interested in relations between cities, we want to use a graph database.  you want to be able to explore the relations that can be extracted from the data. A graph database is a better choice compared to traditional relational databases because relations are the most important in the graph data model, where this is not true for traditional relational databases. Therefore, we will be using a graph database.
 
 \subsubsection{Comparing Graph Databases}
-Now that we've established that we will be using a Graph Database, we need to choose which Graph Database we're going to use. To do this we made a table in which we compare aspects that are important to us of the available Graph Databases.\\
+Now that we've established that we will be using a Graph Database, we need to choose which Graph Database we're going to use. To do this we made a table in which we compare aspects that are important to us of a few of the most popular Graph Databases.\\
 
 
 \noindent\begin{threeparttable}
-\begin{tabular}{@{} *6l @{}}    \toprule
+\begin{tabular}{@{} l *5c @{}}    \toprule
 \emph{name} & \emph{Open-source} & \emph{Scalable} & \emph{Python support} & \emph{Free} & \emph{Built-in Visualisation}\\  \\\midrule
 AllegroGraph    & \XSolidBrush  & \Checkmark  & \Checkmark  & \XSolidBrush\tnote{a} & \XSolidBrush\tnote{b} \\ 
 ArangoDB  & \Checkmark & \Checkmark & \Checkmark & \Checkmark & \Checkmark\\ 
@@ -28,7 +35,7 @@ Titan  & \Checkmark & \Checkmark & \XSolidBrush & \Checkmark & \XSolidBrush\tnot
 \end{tablenotes}
 \end{threeparttable}\\
 
-From this table we can see that 3 of these graph databases are viable candidates, these 3 candidates are ArangoDB, Neo4j and OrientDB. We chose to use Neo4j out of these three because of two reasons. Firstly because we have experience with Neo4j, which means we have to spend less time getting to know the graph database and it's functions and language. Secondly because is by far the most popular graph database \footnote{\url{https://db-engines.com/en/ranking/graph+dbms}}. Because Neo4j is the most popular graph database the support community is bigger compared to other graph databases and there are plenty of examples and answers available online. Therefore, we will be using the Neo4j graph database.
+From this table we deduce that 3 of these graph databases are viable candidates, these 3 candidates are ArangoDB, Neo4j and OrientDB. We chose to use Neo4j out of these three because of two reasons. Firstly because we have experience with Neo4j, which means we have to spend less time getting to know the graph database and it's functions and language. Secondly because is by far the most popular graph database \footnote{\url{https://db-engines.com/en/ranking/graph+dbms}}. Because Neo4j is the most popular graph database the support community is bigger compared to other graph databases and there are plenty of examples and answers available online. Therefore, we will be using the Neo4j graph database.
 
 \subsubsection{Neo4j}
 Neo4j is a highly scalable native graph database that leverages data relationships as first-class entities \cite{neo4j}, enabling enterprises of any size to connect their data and use the relationships to improve their businesses. It is the single highly scalable, fast and ACID compliant \todo (see section \ref{sec:elastic-downsides} for a short explanation) graph database available. Additionally, it is free to use for non-commercial use. To illustrate how scalable Neo4j is, consider that very large companies such as ebay, Cisco, Walmart, HP and LinkedIn\footnote{\url{https://neo4j.com/customers/}} use it in their mission-critical systems. Holzschuher and Peinl compared the performance of Neo4j to the more classic and commonly used NoSQL databases and found out that the more natural representation of relationships resulted in significant performance increase gains~\cite{holzschuher2013performance}.

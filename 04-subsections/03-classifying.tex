@@ -1,5 +1,5 @@
 \subsection{Grouping the Data}
-After the indexes of websites are stored in Neo4J we want to group each website according to subject: for example economy, politics and migration. There are two methods that can be taken for this: clustering and classifying. Clustering means grouping without first defining what groups (or classes) should be used while classifying does need classes do be defined first. \\
+After we've stored the indexes of relevant websites we want to group each website according to subject: examples include, but are not limited to economy, politics and migration. There are two possible approaches for this: clustering and classifying. Clustering means grouping without first defining what groups (or classes) should be used. For classifying you need to first define groups and then the websites are sorted in those groups. \\
 A standard approach for grouping is to use only the text from the websites and removing all other data. The big advantage is that it costs much less storage. Information from images may be lost however. Since we have to go over millions of pages, storage is a big issue for us therefor we choose this approach. \\
 Text based classification/Cauterization itself can be split on structured and unstructured text. Text is structured when sentences are used, meaning grammar is used. In the case of structured texts a word may say something about the next word in the sentence, therefor other techniques can be used (for example n-grams) then in case of unstructured texts.Because the text from websites can be structured as well as unstructured, we will most likely use unstructured approaches. One way to do this is by using machine learning.
 
@@ -10,7 +10,7 @@ Before we can use the unstructured text we need to pre-process it. There are thr
 \item Removing stop words. \\ Removing all common words (the, a, an etc) and symbols ('.', ',', '!', etc). 
 \item Stemming. \\ Reducing derived words to their stem (e.g. fishing -> fish).
 \end{enumerate}
-The programs Snowball \cite{snowball_dutch} and NLKT \cite{nlkt_stemming} (which uses the snowball version) have a dutch implementation for this, although it might need to be improved a bit.
+The programs Snowball \cite{snowball_dutch} and NLTK \cite{nlkt_stemming} (which uses the snowball version) have a dutch implementation for this, although it might need to be improved a bit.
 
 \subsubsection{Clustering}
 One method of grouping websites is clustering. For clustering text documents the standard approach is using k-means clustering, which uses the bag of words model. Scikit-Learn \cite{scikit-learn} has a library for this. In this library you can specify what feature extractors are used (TfidfVectorizer for tf-idf, a method for determining weights of words, and HashingVectorizer which hashes the words). Furthermore this library automaticly places the documents in batches if it would become too big to do it in one time. Initially we will test this method, however as we don't know whether we will get valid results we will keep the other method (classifying) in mind.
