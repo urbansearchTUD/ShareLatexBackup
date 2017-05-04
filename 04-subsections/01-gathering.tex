@@ -1,9 +1,7 @@
 \subsection{Gathering the Data}
 
 \subsubsection{Common Crawl} \label{sec:commoncrawl}
-Common Crawl \cite{commoncrawl} is a freely accessible corpus of \replace{the}{} pages across the web. Their data \replace{are}{is} updated and released on a monthly basis. Many researchers have used the data for \replace{varying}{various} purposes~\cite{smith2013dirt}~\cite{muhleisen2012web}~\cite{singh2012wikilinks}. Since the project requires us to crawl the web (see section {\color{red} FIXME}), the corpus is a very suitable candidate for us to work with.
-
-The data of Common Crawl \replace{come}{comes} in three formats\footnote{\url{https://gist.github.com/Smerity/e750f0ef0ab9aa366558}}: 
+Common Crawl \cite{commoncrawl} is a freely accessible corpus of pages across the web. Their data is updated and released on a monthly basis. Many researchers have used the data for various purposes~\cite{smith2013dirt, muhleisen2012web, singh2012wikilinks}. Since the project requires us to crawl the web (see section {\color{red} FIXME}), the corpus is a very suitable candidate for us to work with. The data from Common Crawl comes in three    formats\footnote{\url{https://gist.github.com/Smerity/e750f0ef0ab9aa366558}}: 
 \begin{description}
 \item[\textbf{WARC}] This is the default and most verbose format. It stores the HTTP-response, information about the request and meta-data on the crawl process itself. The content is stored as HTML-content.
 \item[\textbf{WAT}] Files of this type contain important meta-data, such as link addresses, about the WARC-records. This meta-data is computed for each of the three types of records (meta-data, request, and response). The textual content of the page is not present in this format.

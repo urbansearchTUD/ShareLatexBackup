@@ -16,27 +16,29 @@ ArangoDB  & \Checkmark & \Checkmark & \Checkmark & \Checkmark & \Checkmark\\
 Neo4j  & \Checkmark & \Checkmark & \Checkmark & \Checkmark\tnote{c} & \Checkmark\\ 
 OrientDB  & \Checkmark & \Checkmark & \Checkmark & \Checkmark & \Checkmark\\ 
 Teradata Aster & \XSolidBrush & \Checkmark & \Checkmark & \XSolidBrush & \XSolidBrush\tnote{d}\\ 
-Titan  & \Checkmark & \Checkmark & \XSolidBrush & \Checkmark & \XSolidBrush\\\bottomrule
+Titan  & \Checkmark & \Checkmark & \XSolidBrush & \Checkmark & \XSolidBrush\tnote{e}\\\bottomrule
  \hline
 \end{tabular}
 \begin{tablenotes}
 \item[a] Only free up to 5 million triples
 \item[b] With separate tool called Gruff: \url{https://allegrograph.com/gruff2/}
 \item[c] Non-commercial use
-\item[d] Using a separate tool Aster AppCenter: \url{http://www.teradata.com/products-and-services/appcenter/}
+\item[d] Using a separate tool Aster AppCenter
 \item[e] Using a separate tool 
 \end{tablenotes}
-\end{threeparttable}
+\end{threeparttable}\\
+
+From this table we can see that 3 of these graph databases are viable candidates, these 3 candidates are ArangoDB, Neo4j and OrientDB. We chose to use Neo4j out of these three because of two reasons. Firstly because we have experience with Neo4j, which means we have to spend less time getting to know the graph database and it's functions and language. Secondly because is by far the most popular graph database \footnote{\url{https://db-engines.com/en/ranking/graph+dbms}}. Because Neo4j is the most popular graph database the support community is bigger compared to other graph databases and there are plenty of examples and answers available online. Therefore, we will be using the Neo4j graph database.
 
 \subsubsection{Neo4j}
-Neo4j is a highly scalable native graph database that leverages data relationships as first-class entities \cite{neo4j}, enabling enterprises of any size to connect their data and use the relationships to improve their businesses. It is the single highly scalable, fast and ACID compliant (see section \ref{sec:elastic-downsides} for a short explanation) graph database available. Additionally, it is free to use for non-commercial use. To illustrate how scalable Neo4j is, consider that very large companies such as ebay, Cisco, Walmart, HP and LinkedIn\footnote{\url{https://neo4j.com/customers/}} use it in their mission-critical systems. Holzschuher and Peinl compared the performance of Neo4j to the more classic and commonly used NoSQL databases and found out that the more natural representation of relationships resulted in significant performance increase gains~\cite{holzschuher2013performance}.
+Neo4j is a highly scalable native graph database that leverages data relationships as first-class entities \cite{neo4j}, enabling enterprises of any size to connect their data and use the relationships to improve their businesses. It is the single highly scalable, fast and ACID compliant \todo (see section \ref{sec:elastic-downsides} for a short explanation) graph database available. Additionally, it is free to use for non-commercial use. To illustrate how scalable Neo4j is, consider that very large companies such as ebay, Cisco, Walmart, HP and LinkedIn\footnote{\url{https://neo4j.com/customers/}} use it in their mission-critical systems. Holzschuher and Peinl compared the performance of Neo4j to the more classic and commonly used NoSQL databases and found out that the more natural representation of relationships resulted in significant performance increase gains~\cite{holzschuher2013performance}.
 
-There are some specific aspects of Neo4j that make it a very suitable candidate for the \todo{project}. These are:
+There are some specific aspects of Neo4j that make it a very suitable candidate for this application. These are:
 
 \begin{description}
 \item[properties] Any entity in the Neo4j graph can be given properties (key-value pairs) containing information about the entity. Properties are primarily meant to provide additional information and are less suitable to be queried on. As an example, a city can have a number of inhabitants and districts attached to it as a property.
 \item[labels] Nodes can be tagged with a label, describing their roles in the network. These annotations are especially useful to filter the data set on one or more categories. For example, a city can be labelled as "capital" to be able to distinguish between regular and capital cities.
-\item[relations] Nodes can be connected using relationships. These are always directed, typed and named and can have properties. Using these properties, one can control how the graph is traversed. For example, if a path (relationship) is to be avoided unless absolutely necessary, the relation can be given a high cost. To give importance to some relationship, one could also assign a strength score to it. Since relationships are handled efficiently by Neo4j, nodes can have any number of relationships linked to it without decreasing performance. For our purposes, a relation could comprise the strength of the relationship between two cities (nodes).
+\item[relations] Nodes can be connected using relationships. These are always directed, typed and named and can have properties. Using these properties, one can control how the graph is traversed. For example, if a path (relationship) is to be avoided unless absolutely necessary, the relation can be given a high cost. To give importance to some relationship, one could also assign a strength score to it. Since relationships are handled efficiently by Neo4j, nodes can have any number of relationships linked to it without compromising performance. For our purpose, a relation could comprise the strength of the relationship between two cities (nodes).
 \end{description}
 
 The Neo4j model can be depicted as shown in figure \ref{fig:neo4j}. It consists of nodes, relationships (edges), properties (within the nodes) and labels (rectangular blocks above the nodes).

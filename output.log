@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  4 MAY 2017 08:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  4 MAY 2017 10:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/main.tex
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/main.tex
 LaTeX2e <2017/01/01> patch level 1
 Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
@@ -376,22 +376,44 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks18
 \verbatim@line=\toks19
 \verbatim@in@stream=\read1
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/commands.tex (/usr/local/texlive/2016/texmf-dist/tex/latex/xifthen/xifthe
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen107
+\Gm@wd@mp=\dimen108
+\Gm@odd@mp=\dimen109
+\Gm@even@mp=\dimen110
+\Gm@layoutwidth=\dimen111
+\Gm@layoutheight=\dimen112
+\Gm@layouthoffset=\dimen113
+\Gm@layoutvoffset=\dimen114
+\Gm@dimlist=\toks20
+)
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/commands.tex (/usr/local/texlive/2016/texmf-dist/tex/latex/xifthen/xifthe
 n.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count89
-\calc@Bcount=\count90
-\calc@Adimen=\dimen107
-\calc@Bdimen=\dimen108
+\calc@Acount=\count92
+\calc@Bcount=\count93
+\calc@Adimen=\dimen115
+\calc@Bdimen=\dimen116
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count91
+\calc@Ccount=\count94
 \calc@Cskip=\skip45
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -408,16 +430,16 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen109
-\extrarowheight=\dimen110
-\NC@list=\toks20
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks21
 \extratabsurround=\skip46
 \backup@length=\skip47
 )
-\everycr=\toks21
+\everycr=\toks22
 \minrowclearance=\skip48
 )
-\rownum=\count92
+\rownum=\count95
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -436,86 +458,84 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box27
 \beforetitleunit=\skip49
 \aftertitleunit=\skip50
-\ttl@plus=\dimen111
-\ttl@minus=\dimen112
-\ttl@toksa=\toks22
-\titlewidth=\dimen113
-\titlewidthlast=\dimen114
-\titlewidthfirst=\dimen115
+\ttl@plus=\dimen119
+\ttl@minus=\dimen120
+\ttl@toksa=\toks23
+\titlewidth=\dimen121
+\titlewidthlast=\dimen122
+\titlewidthfirst=\dimen123
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box28
 \UL@hyphenbox=\box29
 \UL@skip=\skip51
-\UL@hook=\toks23
-\UL@height=\dimen116
-\UL@pe=\count93
-\UL@pixel=\dimen117
+\UL@hook=\toks24
+\UL@height=\dimen124
+\UL@pe=\count96
+\UL@pixel=\dimen125
 \ULC@box=\box30
 Package: ulem 2012/05/18
-\ULdepth=\dimen118
+\ULdepth=\dimen126
 )) (/usr/local/texlive/2016/texmf-dist/tex/latex/bbding/bbding.sty
 Package: bbding 1999/04/15 v1.01 Dingbats symbols
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen119
-\lightrulewidth=\dimen120
-\cmidrulewidth=\dimen121
-\belowrulesep=\dimen122
-\belowbottomsep=\dimen123
-\aboverulesep=\dimen124
-\abovetopsep=\dimen125
-\cmidrulesep=\dimen126
-\cmidrulekern=\dimen127
-\defaultaddspace=\dimen128
-\@cmidla=\count94
-\@cmidlb=\count95
-\@aboverulesep=\dimen129
-\@belowrulesep=\dimen130
-\@thisruleclass=\count96
-\@lastruleclass=\count97
-\@thisrulewidth=\dimen131
+\heavyrulewidth=\dimen127
+\lightrulewidth=\dimen128
+\cmidrulewidth=\dimen129
+\belowrulesep=\dimen130
+\belowbottomsep=\dimen131
+\aboverulesep=\dimen132
+\abovetopsep=\dimen133
+\cmidrulesep=\dimen134
+\cmidrulekern=\dimen135
+\defaultaddspace=\dimen136
+\@cmidla=\count97
+\@cmidlb=\count98
+\@aboverulesep=\dimen137
+\@belowrulesep=\dimen138
+\@thisruleclass=\count99
+\@lastruleclass=\count100
+\@thisrulewidth=\dimen139
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box31
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/output.aux)
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/output.aux)
 \openout1 = `output.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count98
-\scratchdimen=\dimen132
+\scratchcounter=\count101
+\scratchdimen=\dimen140
 \scratchbox=\box32
-\nofMPsegments=\count99
-\nofMParguments=\count100
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count101
-\MPscratchDim=\dimen133
-\MPnumerator=\count102
-\makeMPintoPDFobject=\count103
-\everyMPtoPDFconversion=\toks25
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen141
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -548,8 +568,43 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/00-frontpage.tex
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/00-frontpage.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -558,84 +613,65 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png used on input line 43.
-(pdftex.def)             Requested size: 86.25pt x 36.6224pt.
+(pdftex.def)             Requested size: 113.24197pt x 48.08449pt.
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </var/li
-b/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900de9092/im
+b/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900de9097/im
 ages/logo.png>])
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/00-abstract.tex
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/00-abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 ) [1]
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/output.toc)
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/output.toc)
 \tf@toc=\write3
 \openout3 = `output.toc'.
 
 [2]
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/01-introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/01-introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 6.
+(Font)              <8> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
-)
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/02-related-work.tex
-Overfull \hbox (5.88945pt too wide) in paragraph at lines 3--4
-\OT1/cmr/m/n/10 In eco-nomics there is the ques-tion "What fac-tors play a role
- in eco-nomic growth?".
+(Font)              <6> on input line 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--11
+
  []
 
-
+)
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/02-related-work.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/03-requirement-analysis.tex
-Overfull \hbox (4.74133pt too wide) in paragraph at lines 5--1
-\OT1/cmr/m/n/10 Other stud-ies fo-cus in-stead on the growth of coun-tries in-s
-tead of cities. Economist
- []
-
-[3] [4])
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-framework-and-tools.tex [5]
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-subsections/gathering.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/03-requirement-analysis.tex [3] [4])
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-framework-and-tools.tex
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-subsections/01-gathering.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[][]$\OT1/cmtt/m/n/8 http : / / index . commoncrawl . org / CC-[]MAIN-[]2017-[]
-13-[]index ? url = * . nl & output = json &
- []
-
-)
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-subsections/selecting_relevant_data.tex)
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-subsections/storage_and_ingestion.tex
-Overfull \hbox (13.44504pt too wide) in paragraph at lines 4--1
-[]\OT1/cmr/m/n/10 We have cho-sen this ap-proach be-cause stor-ing and in-dex-i
-ng all doc-u-ments/pages
- []
-
-[7]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+[5])
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-subsections/02-selecting_relevant_data.tex)
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-subsections/03-storage_and_ingestion.tex [6]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
@@ -644,29 +680,23 @@ LaTeX Font Info:    Try loading font information for U+ding on input line 14.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-[]\OT1/cmr/m/n/10 Using a sep-a-rate tool Aster Ap-p-Cen-ter: $\OT1/cmtt/m/n/10
- http : / / www . teradata . com /
+Underfull \hbox (badness 10000) in paragraph at lines 11--30
+
  []
 
 
-Overfull \hbox (52.22292pt too wide) in paragraph at lines 11--30
-[] 
- []
+LaTeX Warning: Reference `sec:elastic-downsides' on page 7 undefined on input l
+ine 34.
 
-
-LaTeX Warning: Reference `sec:elastic-downsides' on page 8 undefined on input l
-ine 32.
-
-[8] <images/neo4j.png, id=48, 732.7375pt x 476.78125pt>
+[7] <images/neo4j.png, id=45, 732.7375pt x 476.78125pt>
 File: images/neo4j.png Graphic file (type png)
 <use images/neo4j.png>
-Package pdftex.def Info: images/neo4j.png used on input line 46.
-(pdftex.def)             Requested size: 258.75pt x 168.36732pt.
+Package pdftex.def Info: images/neo4j.png used on input line 48.
+(pdftex.def)             Requested size: 339.72592pt x 221.0535pt.
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-subsections/classifying.tex [9] [10 </var/lib/sharelatex/data/compiles
-/59083c8dab7ef76900de907c-59084be3ab7ef76900de9092/images/neo4j.png>]
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-subsections/04-classifying.tex [8 </var/lib/sharelatex/data/compiles/5
+9083c8dab7ef76900de907c-59084c2eab7ef76900de9097/images/neo4j.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
@@ -676,106 +706,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
-[11] <images/classTable.png, id=59, 307.74976pt x 40.35075pt>
+<images/classTable.png, id=50, 307.74976pt x 40.35075pt> [9]
 File: images/classTable.png Graphic file (type png)
 <use images/classTable.png>
 Package pdftex.def Info: images/classTable.png used on input line 34.
 (pdftex.def)             Requested size: 307.749pt x 40.35065pt.
-[12 </var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76
-900de9092/images/classTable.png>] <images/classificatie.png, id=64, 412.54124pt
- x 198.7425pt>
+<images/classificatie.png, id=54, 412.54124pt x 198.7425pt>
 File: images/classificatie.png Graphic file (type png)
 <use images/classificatie.png>
 Package pdftex.def Info: images/classificatie.png used on input line 59.
 (pdftex.def)             Requested size: 412.54024pt x 198.742pt.
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-subsections/search_engine.tex
-Overfull \hbox (82.54024pt too wide) in paragraph at lines 59--1
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--1
-
- []
-
-[13 </var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76
-900de9092/images/classificatie.png>] <images/ql-example.png, id=68, 554.07pt x 
-364.36125pt>
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-subsections/05-search_engine.tex [10 </var/lib/sharelatex/data/compile
+s/59083c8dab7ef76900de907c-59084c2eab7ef76900de9097/images/classTable.png>] <im
+ages/ql-example.png, id=58, 554.07pt x 364.36125pt>
 File: images/ql-example.png Graphic file (type png)
 <use images/ql-example.png>
 Package pdftex.def Info: images/ql-example.png used on input line 26.
-(pdftex.def)             Requested size: 258.75pt x 170.15454pt.
-<images/qi-example.png, id=69, 569.12625pt x 376.40625pt>
+(pdftex.def)             Requested size: 339.72592pt x 223.40533pt.
+[11 </var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76
+900de9097/images/classificatie.png> </var/lib/sharelatex/data/compiles/59083c8d
+ab7ef76900de907c-59084c2eab7ef76900de9097/images/ql-example.png>] <images/qi-ex
+ample.png, id=64, 569.12625pt x 376.40625pt>
 File: images/qi-example.png Graphic file (type png)
 <use images/qi-example.png>
 Package pdftex.def Info: images/qi-example.png used on input line 37.
-(pdftex.def)             Requested size: 258.75pt x 171.13875pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/ii-example.png, id=70, 551.05875pt x 359.3425pt>
+(pdftex.def)             Requested size: 339.72592pt x 224.69678pt.
+<images/ii-example.png, id=65, 551.05875pt x 359.3425pt>
 File: images/ii-example.png Graphic file (type png)
 <use images/ii-example.png>
 Package pdftex.def Info: images/ii-example.png used on input line 49.
-(pdftex.def)             Requested size: 258.75pt x 168.73746pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+(pdftex.def)             Requested size: 339.72592pt x 221.53989pt.
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/04-subsections/visualising.tex [14 </var/lib/sharelatex/data/compiles/590
-83c8dab7ef76900de907c-59084be3ab7ef76900de9092/images/ql-example.png>] [15 </va
-r/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900de909
-2/images/qi-example.png> </var/lib/sharelatex/data/compiles/59083c8dab7ef76900d
-e907c-59084be3ab7ef76900de9092/images/ii-example.png>]))
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/05-conclusion.tex
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/04-subsections/06-visualising.tex [12 </var/lib/sharelatex/data/compiles/
+59083c8dab7ef76900de907c-59084c2eab7ef76900de9097/images/qi-example.png> </var/
+lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900de9097/
+images/ii-example.png>]))
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/05-conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
 )
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/output.bbl [16]
-Underfull \hbox (badness 2401) in paragraph at lines 29--33
-[]\OT1/cmr/m/n/10 Elasticsearch.  Elas-tic-search.  $\OT1/cmtt/m/n/10 https : /
- / www . elastic . co / products /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--75
-\OT1/cmtt/m/n/10 https : / / docs . microsoft . com / en-[]us / azure / machine
--[]learning /
- []
-
-[17]
-Underfull \hbox (badness 2261) in paragraph at lines 113--116
-[]\OT1/cmr/m/n/10 Akhtar Ra-sool, Am-rita Ti-wari, Gun-jan Singla, and Ni-lay K
-hare.
- []
-
-) [18]
-(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084be3ab7ef76900d
-e9092/output.aux)
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/output.bbl [14]) [15]
+(/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59084c2eab7ef76900d
+e9097/output.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3749 strings out of 494945
- 54199 string characters out of 6180678
- 124042 words of memory out of 5000000
- 6897 multiletter control sequences out of 15000+600000
+ 4228 strings out of 494945
+ 61316 string characters out of 6180678
+ 139507 words of memory out of 5000000
+ 7365 multiletter control sequences out of 15000+600000
  10331 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,14n,35p,1313b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,14n,35p,1316b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
  </var/www/.texlive2016/texmf-var/fonts/pk/ljfour/public/bbding/bbding10.600p
 k></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
@@ -792,10 +788,10 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59
-084be3ab7ef76900de9092/output.pdf (19 pages, 771301 bytes).
+084c2eab7ef76900de9097/output.pdf (16 pages, 771525 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 131 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

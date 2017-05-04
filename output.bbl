@@ -5,6 +5,12 @@ Alfred~V. Aho and Margaret~J. Corasick.
 \newblock Efficient string matching: An aid to bibliographic search.
 \newblock {\em Commun. ACM}, 18(6):333--340, June 1975.
 
+\bibitem{468391}
+R.~A. Becker, S.~G. Eick, and A.~R. Wilks.
+\newblock Visualizing network data.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  1(1):16--28, Mar 1995.
+
 \bibitem{cairncross2013factors}
 Alexander~Kirkland Cairncross.
 \newblock {\em Factors in economic development}.
