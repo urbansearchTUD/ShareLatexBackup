@@ -39,6 +39,11 @@ Google.
 \newblock \url{ https://trends.google.com/trends/home/all/NL}, 2017.
 \newblock Accessed: 2017-05-01.
 
+\bibitem{haerder1983principles}
+Theo Haerder and Andreas Reuter.
+\newblock Principles of transaction-oriented database recovery.
+\newblock {\em ACM Computing Surveys (CSUR)}, 15(4):287--317, 1983.
+
 \bibitem{holzschuher2013performance}
 Florian Holzschuher and Ren{\'e} Peinl.
 \newblock Performance of graph query languages: comparison of cypher, gremlin

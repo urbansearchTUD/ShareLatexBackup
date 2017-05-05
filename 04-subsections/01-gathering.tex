@@ -1,8 +1,8 @@
 \subsection{Gathering the Data}
-As explained in section \ref{sec:design-goals}, data sources should be plugable. However, a corpus of documents is needed to base the project on initially. In this section, we will decide what data source to use. 
+As explained in section \ref{sec:design-goals}, data sources should be plugable. An initial corpus of documents is needed to base the project, which we will decide on in this section. 
 
 \subsubsection{Common Crawl} \label{sec:commoncrawl}
-Common Crawl \cite{commoncrawl} is a freely accessible corpus of pages across the web, updated and released on a monthly basis. Many researchers have used the data for various purposes~\cite{smith2013dirt, muhleisen2012web, singh2012wikilinks}. Since the project requires analyse on a very large set of documents, the corpus is a very suitable candidate for us to work with. \\
+Common Crawl \cite{commoncrawl} is a freely accessible corpus of pages across the web, updated and released on a monthly basis. Many researchers have used the data for various purposes~\cite{smith2013dirt, muhleisen2012web, singh2012wikilinks}. Since the project requires analysis on a very large set of documents, the corpus is a very suitable candidate for us to work with. \\
 
 The data from Common Crawl comes in three    formats\footnote{\url{https://gist.github.com/Smerity/e750f0ef0ab9aa366558}}: 
 \begin{description}
@@ -19,6 +19,6 @@ A simple query on the latest index using the online interface\footnote{\url{http
 
 
 \subsubsection{Other Data Sources}
-Besides Common Crawl, there are a plethora of other sources that might contain valuable information. The most notable is the Dutch royal library, Delpher\footnote{\url{http://delpher.nl}}. It contains millions of Dutch digitalised newspapers, books and magazines from the fifteenth century up until about 1995. Because of this, it is a useful resource for historical research. Additionally, the Statistics Netherlands\footnote{\url{https://www.cbs.nl/en-gb}} is the governmental organisation collecting statistical data about the Netherlands and comes with an API, making most of their data publicly accessible. The NOW Corpus\footnote{\url{http://corpus.byu.edu/now/}} collects newspaper and magazine articles through Google News and provides several tools to perform queries on this data. It can also be downloaded. 
+Besides Common Crawl, there are a plethora of other sources that might contain valuable information. The most notable is the Dutch royal library, Delpher\footnote{\url{http://delpher.nl}}. It contains millions of Dutch digitalised newspapers, books and magazines from the fifteenth century up until about 1995. Because of this, it is a useful resource for historical research. Additionally, Statistics Netherlands\footnote{\url{https://www.cbs.nl/en-gb}} is the governmental organisation collecting statistical data about the Netherlands and comes with an API, making most of their data publicly accessible. The NOW Corpus\footnote{\url{http://corpus.byu.edu/now/}} collects newspaper and magazine articles through Google News and provides several tools to perform queries on this data. It can also be downloaded. 
 
 Due to time and resource constraints, we have chosen to exclude these from the project. Of course, in future versions, other data sources could be included.
