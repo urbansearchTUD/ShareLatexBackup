@@ -1,4 +1,35 @@
-\subsection{Grouping the Data}
+\subsection{Extracting Relations from Documents}
+Now that a selection of relevant documents has been made, we can identify the relations between cities based on these documents. Since this is a difficult task, we split it into two sub-tasks. 
+First, one or more subjects should be extracted from each relevant document. These subjects should reflect the contents of the document well in order to adequately identify relationships.
+The second sub-task is to determine the relationships between the cities mentioned in the document, based on the extracted subjects.
+
+% \\
+% The first challenge we face is to extract one or more subjects from each document that we selected in the previous step. These subjects should be a good description of what is stated in the document and will be the main source of identifying the relations between the cities cited in the document.
+% \\
+% The second challenge is, using the former mentioned subjects, to identify relations based on these subjects. 
+% \\
+% We will consider several possibilities which can help us in tackling these challenges in the sections below.
+
+
+\subsubsection{Extracting Subjects from Documents}
+To identify the subjects associated with each individual document, we investigated several algorithms that we will present next.
+
+\begin{description}
+    \item[RAKE] offers an unsupervised, domain-independent, and language-independent method for extracting keywords from individual documents \cite{rose2010automatic}. This fits well within the context of our application. We work with individual documents which we want to label with one or more subjects/keywords.
+    \item[Gensim]
+    \item[NLTK]
+\end{description}
+
+
+\subsubsection{Identifying Relations Based on Subjects}
+
+
+
+
+
+
+
+\begin{comment}
 After we've stored the indexes of relevant websites we want to group each website according to subject: examples include, but are not limited to economy, politics and migration. There are two possible approaches for this: clustering and classifying. Clustering means grouping without first defining what groups (or classes) should be used. For classifying you need to first define groups and then the websites are sorted in those groups. \\
 A standard approach for grouping is to use only the text from the websites and removing all other data. The big advantage is that it costs much less storage. Information from images may be lost however. Since we have to go over millions of pages, storage is a big issue for us therefor we choose this approach. \\
 Text based classification/Cauterization itself can be split on structured and unstructured text. Text is structured when sentences are used, meaning grammar is used. In the case of structured texts a word may say something about the next word in the sentence, therefor other techniques can be used (for example n-grams) then in case of unstructured texts.Because the text from websites can be structured as well as unstructured, we will most likely use unstructured approaches. One way to do this is by using machine learning.
@@ -57,3 +88,4 @@ After all websites are classified or clustered and possibly sub-classified or su
 An earlier problem we encountered was differentiating between the cities Utrecht and Groningen and the provinces Utrecht and Groningen. We might be able to use machine learning as well to check if a website is talking about the province or the city, however it could very well be that this does not significantly improve our data.
 
 \includegraphics{classificatie}
+\end{comment}

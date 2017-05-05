@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  5 MAY 2017 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  5 MAY 2017 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,31 +679,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 (/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59083c4bab7ef76900d
 e907a/04-subsections/02-selecting_relevant_data.tex)
 (/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59083c4bab7ef76900d
-e907a/04-subsections/03-classifying.tex [7]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-
- []
-
-[8] <images/classTable.png, id=46, 307.74976pt x 40.35075pt>
-File: images/classTable.png Graphic file (type png)
-<use images/classTable.png>
-Package pdftex.def Info: images/classTable.png used on input line 34.
-(pdftex.def)             Requested size: 307.749pt x 40.35065pt.
-<images/classificatie.png, id=47, 412.54124pt x 198.7425pt>
-File: images/classificatie.png Graphic file (type png)
-<use images/classificatie.png>
-Package pdftex.def Info: images/classificatie.png used on input line 59.
-(pdftex.def)             Requested size: 412.54024pt x 198.742pt.
-)
+e907a/04-subsections/03-classifying.tex)
 (/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59083c4bab7ef76900d
-e907a/04-subsections/04-storage_and_ingestion.tex [9 </var/lib/sharelatex/data/
-compiles/59083c8dab7ef76900de907c-59083c4bab7ef76900de907a/images/classTable.pn
-g>]
+e907a/04-subsections/04-storage_and_ingestion.tex [7]
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
@@ -716,37 +694,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--32
 
  []
 
-[10 </var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59083c4bab7ef76
-900de907a/images/classificatie.png>] <images/neo4j.png, id=55, 732.7375pt x 476
-.78125pt>
+[8] <images/neo4j.png, id=47, 732.7375pt x 476.78125pt>
 File: images/neo4j.png Graphic file (type png)
 <use images/neo4j.png>
 Package pdftex.def Info: images/neo4j.png used on input line 50.
 (pdftex.def)             Requested size: 339.72592pt x 221.0535pt.
 )
 (/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59083c4bab7ef76900d
-e907a/04-subsections/05-search_engine.tex [11] <images/ql-example.png, id=60, 5
-54.07pt x 364.36125pt>
+e907a/04-subsections/05-search_engine.tex [9 </var/lib/sharelatex/data/compiles
+/59083c8dab7ef76900de907c-59083c4bab7ef76900de907a/images/neo4j.png>] <images/q
+l-example.png, id=52, 554.07pt x 364.36125pt>
 File: images/ql-example.png Graphic file (type png)
 <use images/ql-example.png>
 Package pdftex.def Info: images/ql-example.png used on input line 24.
 (pdftex.def)             Requested size: 339.72592pt x 223.40533pt.
-<images/qi-example.png, id=61, 569.12625pt x 376.40625pt>
+<images/qi-example.png, id=53, 569.12625pt x 376.40625pt>
 File: images/qi-example.png Graphic file (type png)
 <use images/qi-example.png>
 Package pdftex.def Info: images/qi-example.png used on input line 35.
 (pdftex.def)             Requested size: 339.72592pt x 224.69678pt.
-<images/ii-example.png, id=62, 551.05875pt x 359.3425pt>
+<images/ii-example.png, id=54, 551.05875pt x 359.3425pt>
 File: images/ii-example.png Graphic file (type png)
 <use images/ii-example.png>
 Package pdftex.def Info: images/ii-example.png used on input line 46.
 (pdftex.def)             Requested size: 339.72592pt x 221.53989pt.
-[12 </var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59083c4bab7ef76
-900de907a/images/neo4j.png> </var/lib/sharelatex/data/compiles/59083c8dab7ef769
-00de907c-59083c4bab7ef76900de907a/images/ql-example.png>])
+[10 </var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59083c4bab7ef76
+900de907a/images/ql-example.png> </var/lib/sharelatex/data/compiles/59083c8dab7
+ef76900de907c-59083c4bab7ef76900de907a/images/qi-example.png>])
 (/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59083c4bab7ef76900d
-e907a/04-subsections/06-visualising.tex [13 </var/lib/sharelatex/data/compiles/
-59083c8dab7ef76900de907c-59083c4bab7ef76900de907a/images/qi-example.png>]))
+e907a/04-subsections/06-visualising.tex [11 </var/lib/sharelatex/data/compiles/
+59083c8dab7ef76900de907c-59083c4bab7ef76900de907a/images/ii-example.png>]))
 (/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59083c4bab7ef76900d
 e907a/05-conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
@@ -760,15 +737,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
 )
 (/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59083c4bab7ef76900d
-e907a/output.bbl [14 </var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907
-c-59083c4bab7ef76900de907a/images/ii-example.png>] [15]) [16]
+e907a/output.bbl [12]) [13]
 (/var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59083c4bab7ef76900d
 e907a/output.aux) ) 
 Here is how much of TeX's memory you used:
- 4207 strings out of 494945
- 60945 string characters out of 6180678
- 141518 words of memory out of 5000000
- 7348 multiletter control sequences out of 15000+600000
+ 4191 strings out of 494945
+ 60624 string characters out of 6180678
+ 138493 words of memory out of 5000000
+ 7334 multiletter control sequences out of 15000+600000
  9985 words of font info for 37 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  43i,14n,35p,1316b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -787,10 +763,10 @@ pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /var/lib/sharelatex/data/compiles/59083c8dab7ef76900de907c-59
-083c4bab7ef76900de907a/output.pdf (17 pages, 761285 bytes).
+083c4bab7ef76900de907a/output.pdf (14 pages, 741750 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

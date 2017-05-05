@@ -18,23 +18,21 @@
 \contentsline {subsection}{\numberline {4.1}Gathering the Data}{6}
 \contentsline {subsubsection}{\numberline {4.1.1}Common Crawl}{6}
 \contentsline {subsubsection}{\numberline {4.1.2}Other Data Sources}{7}
-\contentsline {subsection}{\numberline {4.2}Selecting Relevant Data}{7}
-\contentsline {subsection}{\numberline {4.3}Grouping the Data}{7}
-\contentsline {subsubsection}{\numberline {4.3.1}Pre-processing}{7}
-\contentsline {subsubsection}{\numberline {4.3.2}Clustering}{8}
-\contentsline {subsubsection}{\numberline {4.3.3}Classifying}{8}
-\contentsline {subsubsection}{\numberline {4.3.4}Conclusion}{9}
-\contentsline {subsection}{\numberline {4.4}Storing and Ingesting the Data}{10}
-\contentsline {subsubsection}{\numberline {4.4.1}Graph Database, Search Engine or Traditional Database}{10}
-\contentsline {subsubsection}{\numberline {4.4.2}Comparing Graph Databases}{10}
-\contentsline {subsubsection}{\numberline {4.4.3}Using Neo4j for Storage and Ingestion}{11}
-\contentsline {subsection}{\numberline {4.5}Interacting with the Data}{11}
-\contentsline {subsubsection}{\numberline {4.5.1}Query Language}{11}
-\contentsline {subsubsection}{\numberline {4.5.2}Query Composer Interface}{12}
-\contentsline {subsubsection}{\numberline {4.5.3}Interactive Search}{12}
-\contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{13}
-\contentsline {subsection}{\numberline {4.6}Visualising the Data}{13}
-\contentsline {subsubsection}{\numberline {4.6.1}Representing the Data Graphically}{13}
-\contentsline {subsubsection}{\numberline {4.6.2}Using Geographical Maps}{13}
-\contentsline {subsubsection}{\numberline {4.6.3}Handling Map Clutter}{14}
-\contentsline {section}{\numberline {5}Conclusion}{14}
+\contentsline {subsection}{\numberline {4.2}Selecting Relevant Documents}{7}
+\contentsline {subsection}{\numberline {4.3}Extracting Relations from Documents}{7}
+\contentsline {subsubsection}{\numberline {4.3.1}Extracting Subjects from Documents}{7}
+\contentsline {subsubsection}{\numberline {4.3.2}Identifying Relations Based on Subjects}{8}
+\contentsline {subsection}{\numberline {4.4}Storing and Ingesting the Data}{8}
+\contentsline {subsubsection}{\numberline {4.4.1}Graph Database, Search Engine or Traditional Database}{8}
+\contentsline {subsubsection}{\numberline {4.4.2}Comparing Graph Databases}{8}
+\contentsline {subsubsection}{\numberline {4.4.3}Using Neo4j for Storage and Ingestion}{8}
+\contentsline {subsection}{\numberline {4.5}Interacting with the Data}{9}
+\contentsline {subsubsection}{\numberline {4.5.1}Query Language}{9}
+\contentsline {subsubsection}{\numberline {4.5.2}Query Composer Interface}{10}
+\contentsline {subsubsection}{\numberline {4.5.3}Interactive Search}{11}
+\contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{11}
+\contentsline {subsection}{\numberline {4.6}Visualising the Data}{11}
+\contentsline {subsubsection}{\numberline {4.6.1}Representing the Data Graphically}{11}
+\contentsline {subsubsection}{\numberline {4.6.2}Using Geographical Maps}{11}
+\contentsline {subsubsection}{\numberline {4.6.3}Handling Map Clutter}{12}
+\contentsline {section}{\numberline {5}Conclusion}{12}
