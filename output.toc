@@ -5,7 +5,7 @@
 \contentsline {paragraph}{credible}{4}
 \contentsline {paragraph}{understandable}{4}
 \contentsline {paragraph}{scalable}{4}
-\contentsline {paragraph}{pluggable}{4}
+\contentsline {paragraph}{plugable}{4}
 \contentsline {paragraph}{fast development}{4}
 \contentsline {subsection}{\numberline {3.2}User Stories}{4}
 \contentsline {subsection}{\numberline {3.3}Product Requirements}{4}
@@ -31,10 +31,10 @@
 \contentsline {subsection}{\numberline {4.5}Interacting with the Data}{11}
 \contentsline {subsubsection}{\numberline {4.5.1}Query Language}{11}
 \contentsline {subsubsection}{\numberline {4.5.2}Query Composer Interface}{12}
-\contentsline {subsubsection}{\numberline {4.5.3}Interactive Search}{12}
+\contentsline {subsubsection}{\numberline {4.5.3}Interactive Search}{13}
 \contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{13}
-\contentsline {subsection}{\numberline {4.6}Visualising the Data}{13}
-\contentsline {subsubsection}{\numberline {4.6.1}Representing the Data Graphically}{13}
-\contentsline {subsubsection}{\numberline {4.6.2}Using Geographical Maps}{13}
+\contentsline {subsection}{\numberline {4.6}Visualising the Data}{14}
+\contentsline {subsubsection}{\numberline {4.6.1}Representing the Data Graphically}{14}
+\contentsline {subsubsection}{\numberline {4.6.2}Using Geographical Maps}{14}
 \contentsline {subsubsection}{\numberline {4.6.3}Handling Map Clutter}{14}
 \contentsline {section}{\numberline {5}Conclusion}{14}
