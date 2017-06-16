@@ -1,5 +1,58 @@
 \subsection{Extracting Relations from Documents}
-Now that a selection of relevant documents has been made, we can identify the relations between cities based on these documents. Since this is a difficult task, we split it into two sub-tasks. 
+Now that a selection of relevant documents has been made, we can identify the relations between cities based on these documents. Text documents can be split into two types: structured and unstructured. Text is structured when sentences are used, meaning grammar is used. In the case of structured texts a word may say something about the next word in the sentence, therefor other techniques can be used (for example n-grams) then in case of unstructured texts.Because the text from websites can be structured as well as unstructured, we will most likely use unstructured approaches. One way to do this is by using machine learning. The two common approaches are supervised classification and unsupervised clustering. \\
+
+Clustering, is sorting these websites into groups based on how much they are alike. It does however not assign these groups with a label (or class). this can be a large problem because in one group may be several topics that have similarities with some of the other topics within the group but not with all other topics in the group, which makes it very hard to assign a label to these groups. Although it is possible to label these groups manually, since it is quit tedious and we are on a limited time schedule, it is better to use a classification algorithm. \\
+
+With classification you need to decide upon the labels (classes) you want to use beforehand, and then for each class find a small subset as training data. Afterwards the classifier can automatically label a new document to one of the labels. Before we can enter the training data or classify a text document we need to preprocess the document into valid input and define which classes are important.
+
+\subsubsection{defining classes}
+Since we decided on using classification as our supervised machine learning algorithm we need to define the classes beforehand. Since we are not familiar with the most useful categories for measuring relationships between cities, we asked our clients Evert Meijers and Antoine Peris for their help. They choose the following topics for us to investigate:\\
+- Commuting ('woon-werk') \\
+- Shopping or servicetrips ('winkelen / diensten') \\
+- Leisure trips ('vrije tijd / recreatie / toerisme') \\
+- Residential mobility ('verhuizingen') \\
+- Business trips ('zakelijk verkeer') \\
+- Education ('Onderwijs, School') \\
+- Collaboration ('Samenwerken') \\
+- Goods Transportation ('Goederenvervoer') \\
+- Other ('overig / restcategorie') \\
+\\
+For each of these we selected five typical articles which can be found in appendix \ref{App:validation_articles}
+
+\subsubsection{preprocess}
+
+For text preprocessing there are a number of tools available. We used NLTK \cite{nlkt_stemming} for tokenizing, removing stopwords and stemming and Gensim \cite{Gensim} for Modelling.
+\begin{enumerate}
+\item Tokenization. \\ splitting up the text into words and other symbols called tokens. For this we implemented the tokenizer NLTK provides. Testing showed that it does what it is supposed to do.
+\item Removing stop words. \\ Removing all common words (the, a, an etc) and symbols ('.', ',', '!', etc). For removing stopwords we used a list from NLTK containing dutch stopwords. For removing symbols we made a method that removes all non alphabet values except spaces from text. 
+\item Stemming. \\ Reducing derived words to their stem (e.g. fishing -> fish). We first wanted to use NLTK, which itself implements several stemmers including SnowBallStemmer \cite{snowball_dutch} and Porter \cite{porter_Stemmer}. However research from the Rijks Universiteit Groningen (RUG) by Tanja Gaustad and Gosse Bouma \cite{gaustad2002accurate} evaluated a Bayesian text classification system with either no stemming or the Porter or dictionary based stemmer. Which concludeded stemming does not lead to significant change in classification accuracy.
+
+\item Modelling (TF-IDF). \\ Before we can enter this tokenized data into the machine learning algorithm we first need to transform it to the correct model. Gensim provides two ready to use method for this to change tokenized text into the proper input data. The first is token2ID which gives each unique word a numeric ID and counts the amount that those words occur in a text and the second is tfidf which changes the amount that words occur in tf-idf values. tf-idf means term frequence inverse documet frequency. Term frequency is the number of times the word occurs in a document and idf is the number of documents devided by the number of documents where the term occurs. These two values are then multiplied. The results are normalized to make up for different document lenghts [https://radimrehurek.com/gensim/models/tfidfmodel.html].
+\end{enumerate}
+
+\subsubsection{training}
+In order to use supervised machine learning, we first need to find training data for each class. We thought about two ways to do this. In order to get a good training sample for these categories, we discussed two different methods. \\
+
+The first option was to query for results from news(paper) sites. However, this approach did not give us the desired results. The reason for this is that the categories we find in the newspapers do not match the categories Antoine and Evert provided us with. We also tried using the search engine from those news sites, however using those we found completely unrelated articles to the search queries (A search query about 'verhuizen' resulted in an article about parrots and minecraft).\\
+
+The second option we are considering is to use Google Custom Search to obtain results from Google using the categories/keywords Antoine and Evert provided us with. A quick test with this last method provided us with quite good results (although we still see some noise in the results this is less than with the search engines from news sites).\\
+
+
+\subsubsection{classifying}
+For classifying there are a multitude of algorithms available. For choosing the classifier we make use of the Microsoft Azure Machine Learning Test Sheet \cite{MLCheatSheet}. Several factors should be taken into account when choosing an algorithm. These are:
+    \begin{enumerate}
+        \item Accuracy - How well the algorithm separates the websites.
+        \item Training Time - How long it takes to train the algorithm.
+        \item Linearity - Linear regression assumes data trends follow a straight line. This is trade-off between accuracy and speed.
+        \item Number of Parameters - Adjustable parameters increase the flexibility of the algorithms. This is a trade-off between training time and accuracy.
+        \item Number of Features - A large number of features can make some algorithms unfeasibly long. Especially text data (what we are using!) has a large number features. Support Vector Machines are especially well suited in this case.
+        \item Special Cases - Some learning algorithms make particular assumptions about the data or the results.
+    \end{enumerate}
+    
+    For textual data especially support vector machines are recommended, so it is most likely we will choose that machine learning algorithm. Depending on whether we have time we might do some tests before making our decision however. The sci-kit package\cite{scikit-learn} provides an easy to implement module to use this.
+
+
+\begin{comment}
 First, one or more subjects should be extracted from each relevant document. These subjects should reflect the contents of the document well in order to adequately identify relationships.
 The second sub-task is to determine the relationships between the cities mentioned in the document, based on the extracted subjects.
 
@@ -24,68 +77,4 @@ To identify the subjects associated with each individual document, we investigat
 \subsubsection{Identifying Relations Based on Subjects}
 
 
-
-
-
-
-
-\begin{comment}
-After we've stored the indexes of relevant websites we want to group each website according to subject: examples include, but are not limited to economy, politics and migration. There are two possible approaches for this: clustering and classifying. Clustering means grouping without first defining what groups (or classes) should be used. For classifying you need to first define groups and then the websites are sorted in those groups. \\
-A standard approach for grouping is to use only the text from the websites and removing all other data. The big advantage is that it costs much less storage. Information from images may be lost however. Since we have to go over millions of pages, storage is a big issue for us therefor we choose this approach. \\
-Text based classification/Cauterization itself can be split on structured and unstructured text. Text is structured when sentences are used, meaning grammar is used. In the case of structured texts a word may say something about the next word in the sentence, therefor other techniques can be used (for example n-grams) then in case of unstructured texts.Because the text from websites can be structured as well as unstructured, we will most likely use unstructured approaches. One way to do this is by using machine learning.
-
-\subsubsection{Pre-processing}
-Before we can use the unstructured text we need to pre-process it. There are three steps to this. 
-\begin{enumerate}
-\item Tokenization. \\ splitting up the text into words and other symbols called tokens.
-\item Removing stop words. \\ Removing all common words (the, a, an etc) and symbols ('.', ',', '!', etc). 
-\item Stemming. \\ Reducing derived words to their stem (e.g. fishing -> fish).
-\end{enumerate}
-The programs Snowball \cite{snowball_dutch} and NLTK \cite{nlkt_stemming} (which uses the snowball version) have a dutch implementation for this, although it might need to be improved a bit.
-
-\subsubsection{Clustering}
-One method of grouping websites is clustering. For clustering text documents the standard approach is using k-means clustering, which uses the bag of words model. Scikit-Learn \cite{scikit-learn} has a library for this. In this library you can specify what feature extractors are used (TfidfVectorizer for tf-idf, a method for determining weights of words, and HashingVectorizer which hashes the words). Furthermore this library automaticly places the documents in batches if it would become too big to do it in one time. Initially we will test this method, however as we don't know whether we will get valid results we will keep the other method (classifying) in mind.
-
-\subsubsection{Classifying}
-Classifying is done in two steps: choosing the classes and actual classifying. Classes can be chosen manually, however, you can also apply certain techniques to automatise results. The advantage of this that you will get unbiased results, the disadvantage is that it takes more time to make these results and it may also cause classes to be chosen which the user can't use, for example when using Google Trends  \cite{googleTrends}  results as "AFC Ajax", "Aeroflot" and "Eric Dane" may be found. The same problem occurs when searching for sub-classes.\\
-
-\textbf{Defining classes}\\
-One problem we need to solve is the problem of choosing classes. This can be done in several ways. The easiest way is to define these ourselves, however we may get better results if we used some algorithm. When using algorithms we may also decide if we want to consistently use the same classes for each pair of cities, or define the classes per pair depending on the importance. For example if Rotterdam and Vlissingen have a huge trade of fish, "fish" we be an important class of the relation between Rotterdam and Vlissingen. However if Leiden does nothing with fish, the class will be absent for the relation Rotterdam-Leiden or Vlissingen-Leiden. One way to do this is to look at the websites for each relation and apply the 'bag of words' model to check which words occur most frequently (after stemming and the removal of stop words). To make sure we don't get similar results (for example the relations 'fish' and 'fishmarket') we could remove all websites containing 'fish' and then applying the same model again. Our plan is to first find some general classes (e.g. economy) from all websites. And then make subclasses (e.g. fish) for each pair. The general classes are used to compare between relations of different cities.\\
-
-\textbf{Machine Learning for classification of unstructured text}\\
-Text based machine learning for unstructured texts is done using the 'bag of words'. This model counts how often each word is used. There are 3 libraries available which contain most steps needed. There is scikit-learn \cite{scikit-learn} and TensorFlow \cite{tensorFlow} for Python and Weka \cite{weka} for Java. Since we write our program in python, and TensorFlow is only about neural networks, we choose to use scikit-learn.
-The machine learning works in 4 steps:
-\begin{enumerate}
-    \item \textbf{Creating a feature extractor} \\
-    To prepare the features for the machine learning algorithm. We need to give each feature/token a numeric id. Count each of these tokens. And we need to normalise the tokens. For this scikit-learn provides algorithms.
-    
-    \item \textbf{Manually labelling} \\
-    For each of the classes (e.g. business, tourism, art etc) we select a few websites we know fit to that class. Here occurs the problem of defining classes which will be expanded on later. From these websites all the words will be extracted and their occurrence will be counted. Possibly some normalisation functions are applied to get better values. We call these values the weight for each word for each class. From this we create a two dimensional array with in the rows each of the websites and in the columns all different words and one extra for the class. We fill the fields with the weights or a zero if the words don't occur.
-    
-    \includegraphics{classTable}
-    
-    \item \textbf{Generating a classifier} \\
-    The array is fed to a learning algorithms. This will generate a classifier. There are a multitude of classifiers importable from Scikit-learn and TensorFlow. For choosing the classifier we make use of the Microsoft Azure Machine Learning Test Sheet \cite{MLCheatSheet}. Several factors should be taken into account when choosing an algorithm. These are:
-    \begin{enumerate}
-        \item Accuracy - How well the algorithm separates the websites.
-        \item Training Time - How long it takes to train the algorithm.
-        \item Linearity - Linear regression assumes data trends follow a straight line. This is trade-off between accuracy and speed.
-        \item Number of Parameters - Adjustable parameters increase the flexibility of the algorithms. This is a trade-off between training time and accuracy.
-        \item Number of Features - A large number of features can make some algorithms unfeasibly long. Especially text data (what we are using!) has a large number features. Support Vector Machines are especially well suited in this case.
-        \item Special Cases - Some learning algorithms make particular assumptions about the data or the results.
-    \end{enumerate}
-    
-    For textual data especially support vector machines are recommended, so it is most likely we will choose that machine learning algorithm. Depending on whether we have time we might do some tests before making our decision however.
-    
-    \item \textbf{Entering new examples} \\
-    When a new (unlabelled) example (website) comes - extract the features and feed it to your classifier - it will tell you what it thinks it is (and usually - what is the probability the classifier is correct). Afterwards the classifier can be updated to include new features extracted from the example. This updating probably needs to be done a couple of times because the first few times not all features (possible words in the dutch dictionary) will be included. It is important to choose the same amount of websites for each class.
-\end{enumerate}
-
-\subsubsection{Conclusion}
-Our approach will be to first transform the data into the bag of words model using tokenizing, stemming and the removal of stop words. Afterwards we will try to group the websites in 3 tries. First we try to cluster all the websites into groups. We will then whether these clusters are actually viable clusters and whether they can be labelled into useful categories. If this is not the case we will instead try classification. To define classes we will try to look at the most common words. Then removing all associated websites and repeating this until multiple words are chosen as categories. If even this does not work we will define our own categories.
-After all websites are initially clustered or classified we will use the same method for the websites for a pair of cities. We will try to automatically assign the found relations to one of the main categories as well (e.g. fish to economy, train to travel etc). \\
-After all websites are classified or clustered and possibly sub-classified or sub-clustered we can use that data to show the strengths of the connections between cities by counting for each class how many websites there are that contain information about both cities. \\
-An earlier problem we encountered was differentiating between the cities Utrecht and Groningen and the provinces Utrecht and Groningen. We might be able to use machine learning as well to check if a website is talking about the province or the city, however it could very well be that this does not significantly improve our data.
-
-\includegraphics{classificatie}
 \end{comment}

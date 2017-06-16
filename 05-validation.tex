@@ -1,0 +1,32 @@
+\section{Validation}
+
+\subsection{Tests}
+We will test the program using four different testing methods. The first is unit testing, which tests the separate components individually. Integration testing for testing how well different components work together. system testing for testing the different entire system and Acceptance testing for testing how well the clients think the program works.
+
+\subsubsection{unit tests}
+Unit testing is done by writing automatic tests and making sure they pass every time the tests are executed. Unit tests test each method of a function separately, checking that the method does what it is supposed to do. If the method would need information from outside the class that information is mocked. This means that instead of using that other class, a fake object is made which returns a fake value. This ensures the tests will never fail due to changes in other classes. \\
+\\
+\textbf{selenium tests} \\
+Selenium tests are automated tests that are run to test the front-end of systems. Just as normal unit testing, selenium testing is useful for regression testing.
+
+\subsubsection{Integration tests}
+Integration testing uses automated tests which test how well different components of the system work together. This is done more or less the same as unit testing, however whilst you would mock methods from other classes in unit testing, with integration testing you do not. It is assumed that the separate modules are unit tested, therefor if an error occurs it is because something is wrong with the interaction between the modules and not with the modules themselves. 
+
+\subsubsection{System tests}
+We are also planning to use system testing. System testing provides a more complete test of the entire system. This means it is useful to detect faults in the overall system, but less easy to determine where these faults may be located. System testing is done manually, which means the tests can not be easily repeated when the system changes whilst with other testing techniques this is possible.
+
+\subsubsection{Acceptance Testing}
+Last we will also use acceptance testing. This is testing done to see if the software does what the clients are expecting it to do. These tests are therefor also executed by the clients manually. Afterwards they can say what worked, what didn't worked, what was missing and what could be improved. Part of the acceptance test will be to see how well the machine learning classifier is. Since we need documents fitting to the different classes this is part of acceptance testing too.\\
+\\
+\textbf{machine learning} \\
+To test the machine learning we will manually search for a small set of pages per class. We will then manually decide to which class we would expect those pages to be sorted. Then we will run the algorithm and check whether or not a page was correctly sorted. There are 4 outcomes per page per class: true/false positives and true/false negatives. Positives are the pages that should be sorted to that class; true means they were sorted to that class, false meaning they were not sorted to that class. Negatives are pages that should not be sorted to that class and in this case true means they were indeed not sorted to that class and false means they were. So the true values are the ones that should be high. From this we can say how accurate our classifier is.
+
+\subsection{SIG}
+SIG \cite{sig}, short for software improvement development group, is a tool to give deep code visibility we require so we can remedy current problems and prevent future vulnerabilities. SIG includes Better Code Hub \cite{better_code_hub} which checks our code according to 10 guidelines as can be seen in appendix \ref{bch_guidelines}. The great thing about Better Code Hub is that it can be run at anytime. We can check better code hub whenever, whilst for SIG we have to send in our code and wait for feedback.
+
+
+\begin{comment}
+- double city names
+- city names with meaning (leiden)
+- city/province names (utrecht / groningen / zeeland)
+\end{comment}

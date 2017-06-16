@@ -28,6 +28,16 @@ Elasticsearch.
 \newblock \url{https://www.elastic.co/products/elasticsearch}.
 \newblock Accessed: 2017-04-26.
 
+\bibitem{nlkt_stemming}
+Alex~Rudnick et~al.
+\newblock Nlkt.
+\newblock \url{http://www.nltk.org/api/nltk.stem.html}, 2017.
+
+\bibitem{gaustad2002accurate}
+Tanja Gaustad and Gosse Bouma.
+\newblock Accurate stemming of dutch for text classification.
+\newblock {\em Language and Computers}, 45(1):104--117, 2002.
+
 \bibitem{haerder1983principles}
 Theo Haerder and Andreas Reuter.
 \newblock Principles of transaction-oriented database recovery.
@@ -40,11 +50,30 @@ Florian Holzschuher and Ren{\'e} Peinl.
 \newblock In {\em Proceedings of the Joint EDBT/ICDT 2013 Workshops}, pages
   195--204. ACM, 2013.
 
+\bibitem{better_code_hub}
+Software improvement group.
+\newblock better code hub.
+\newblock \url{https://bettercodehub.com/}, 2017.
+
+\bibitem{scikit-learn}
+Scikit learn developers.
+\newblock Scikit-learn.
+\newblock \url{http://scikit-learn.org/stable/index.html}, 2017.
+\newblock Accessed: 2017-04-26].
+
 \bibitem{meijers2007synergy}
 Evert~J Meijers.
 \newblock {\em Synergy in polycentric urban regions: complementarity,
   organising capacity and critical mass}, volume~13.
 \newblock IOS Press, 2007.
+
+\bibitem{MLCheatSheet}
+Microsoft.
+\newblock Microsoft azure machine learning algorithm cheat sheet.
+\newblock
+  \url{https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-choice},
+  2017.
+\newblock Accessed: 2017-04-28.
 
 \bibitem{muhleisen2012web}
 Hannes M{\"u}hleisen and Christian Bizer.
@@ -57,6 +86,17 @@ Neo4j.
 \newblock Neo4j, the world's leading graph database.
 \newblock \url{https://www.neo4j.com}.
 \newblock Accessed: 2017-04-26.
+
+\bibitem{snowball_dutch}
+Richard~Boulton Olly~Betts.
+\newblock Snowball.
+\newblock \url{http://snowball.tartarus.org/algorithms/dutch/stemmer.html},
+  2017.
+
+\bibitem{porter_Stemmer}
+M.F. Porter.
+\newblock Porter.
+\newblock \url{https://tartarus.org/martin/PorterStemmer/}, 1980.
 
 \bibitem{porter2000location}
 Michael~E Porter.
@@ -75,11 +115,6 @@ Akhtar Rasool, Amrita Tiwari, Gunjan Singla, and Nilay Khare.
 \newblock String matching methodologies: A comparative analysis.
 \newblock {\em REM (Text)}, 234567(11):3, 2012.
 
-\bibitem{rose2010automatic}
-Stuart Rose, Dave Engel, Nick Cramer, and Wendy Cowley.
-\newblock Automatic keyword extraction from individual documents.
-\newblock {\em Text Mining}, pages 1--20, 2010.
-
 \bibitem{singh2012wikilinks}
 Sameer Singh, Amarnag Subramanya, Fernando Pereira, and Andrew McCallum.
 \newblock Wikilinks: A large-scale cross-document coreference corpus labeled
@@ -93,11 +128,22 @@ Jason~R Smith, Herve Saint-Amand, Magdalena Plamada, Philipp Koehn, Chris
 \newblock Dirt cheap web-scale parallel text from the common crawl.
 \newblock In {\em ACL (1)}, pages 1374--1383, 2013.
 
+\bibitem{sig}
+software~improvement group.
+\newblock Sig.
+\newblock \url{https://www.sig.eu/}, 2017.
+
 \bibitem{wu2014future}
 Lynn Wu and Erik Brynjolfsson.
 \newblock The future of prediction: How google searches foreshadow housing
   prices and sales.
 \newblock In {\em Economic analysis of the digital economy}, pages 89--118.
   University of Chicago Press, 2014.
+
+\bibitem{Gensim}
+Radim Řehůřek.
+\newblock Gensim.
+\newblock \url{ https://radimrehurek.com/gensim/models/tfidfmodel.html}, 2017.
+\newblock Accessed: 2017-05-17].
 
 \end{thebibliography}
