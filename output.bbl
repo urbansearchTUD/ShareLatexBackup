@@ -22,6 +22,12 @@ Common Crawl.
 \newblock \url{https://commoncrawl.org/}, 2017.
 \newblock Accessed: 2017-04-25.
 
+\bibitem{derudder2005appraisal}
+Ben Derudder and Frank Witlox.
+\newblock An appraisal of the use of airline data in assessing the world city
+  network: a research note on data.
+\newblock {\em Urban Studies}, 42(13):2371--2388, 2005.
+
 \bibitem{elasticsearch}
 Elasticsearch.
 \newblock Elasticsearch.
@@ -114,6 +120,13 @@ Tobias Preis, Helen~Susannah Moat, and H~Eugene Stanley.
 Akhtar Rasool, Amrita Tiwari, Gunjan Singla, and Nilay Khare.
 \newblock String matching methodologies: A comparative analysis.
 \newblock {\em REM (Text)}, 234567(11):3, 2012.
+
+\bibitem{short1996dirty}
+John~Rennie Short, Y~Kim, Merje Kuus, and Heather Wells.
+\newblock The dirty little secret of world cities research: data problems in
+  comparative analysis.
+\newblock {\em International Journal of Urban and Regional Research},
+  20(4):697--717, 1996.
 
 \bibitem{singh2012wikilinks}
 Sameer Singh, Amarnag Subramanya, Fernando Pereira, and Andrew McCallum.
