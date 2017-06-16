@@ -4,10 +4,11 @@ In this section, we first define the design goals. Next, we present user stories
 \subsection{Design Goals} \label{sec:design-goals}
 The high-level design goals for this project have been provided by the client. These serve as a guideline to determine the priority label of the specific requirements as defined in section \ref{sec:reqs}. The design goals are listed below, ordered by priority.
 
-\paragraph{credible} The results of the project will be used in research on intercity relations. Therefore, the results must be reliable and verifiable.
-\paragraph{understandable} The results of the application should be visually understandable, in order to make it easy for the client to deduce conclusions. Additionally, retrievable numeric data enable the client to further investigate the results outside of the scope of the application, should the need arise.
-\paragraph{scalable} Restricting the project to a set of non-English domains might impair the probability that the results are generally accepted. Allowing for investigating other domains would greatly help the client in a later stadium.
+\paragraph{credible} The results of the project will be used in research on intercity relations. Therefore, the results must be reliable and verifiable. This means that the application should produce the same results given the same input and it should be possible to manually access the input to verify the output of the application.
+\paragraph{understandable} The results of the application should be visually understandable, in order to make it easy for the client to deduce conclusions. 
+\paragraph{scalable} During the project a TU Delft server will be used with a limited amount of resources. Therefore only .nl pages will be used as input to limit the amount of data storage and processing power needed. However, allowing for investigating other domains would greatly help the client in a later stadium, which means that the system would have to be scalable where possible.
 \paragraph{plugable} It might be interesting for the user to let the application perform analysis on different data sets without the need of a developer. 
+\paragraph{exportable} Besides making the results available visually, all the relevant numeric data should also be exportable. For example as a matrix.
 \paragraph{fast development} Because of the time constraints of the project we need a fast development cycle. As a result of that, choices regarding tools, applications and programming languages are to be made with the time constraint taken into account.
 
 \subsection{User Stories}
