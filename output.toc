@@ -1,22 +1,22 @@
 \contentsline {section}{\numberline {1}Introduction}{3}
 \contentsline {section}{\numberline {2}Related Work}{3}
 \contentsline {section}{\numberline {3}Requirement Analysis}{4}
-\contentsline {subsection}{\numberline {3.1}Design Goals}{4}
-\contentsline {paragraph}{credible}{4}
-\contentsline {paragraph}{understandable}{4}
-\contentsline {paragraph}{scalable}{4}
-\contentsline {paragraph}{plugable}{4}
-\contentsline {paragraph}{exportable}{4}
+\contentsline {subsection}{\numberline {3.1}User Stories}{4}
+\contentsline {subsection}{\numberline {3.2}Design Goals}{5}
+\contentsline {paragraph}{credible}{5}
+\contentsline {paragraph}{understandable}{5}
+\contentsline {paragraph}{scalable}{5}
+\contentsline {paragraph}{plugable}{5}
+\contentsline {paragraph}{exportable}{5}
 \contentsline {paragraph}{fast development}{5}
-\contentsline {subsection}{\numberline {3.2}User Stories}{5}
 \contentsline {subsection}{\numberline {3.3}Product Requirements}{5}
 \contentsline {subsubsection}{\numberline {3.3.1}Must Have}{5}
-\contentsline {subsubsection}{\numberline {3.3.2}Should Have}{5}
+\contentsline {subsubsection}{\numberline {3.3.2}Should Have}{6}
 \contentsline {subsubsection}{\numberline {3.3.3}Could Have}{6}
 \contentsline {subsubsection}{\numberline {3.3.4}Would Like}{6}
 \contentsline {subsection}{\numberline {3.4}Design Decisions}{6}
 \contentsline {section}{\numberline {4}Framework and Tools}{6}
-\contentsline {subsection}{\numberline {4.1}Gathering the Data}{6}
+\contentsline {subsection}{\numberline {4.1}Gathering the Data}{7}
 \contentsline {subsubsection}{\numberline {4.1.1}Common Crawl}{7}
 \contentsline {subsubsection}{\numberline {4.1.2}Other Data Sources}{7}
 \contentsline {subsection}{\numberline {4.2}Selecting Relevant Documents}{8}
@@ -29,8 +29,8 @@
 \contentsline {subsubsection}{\numberline {4.4.1}Graph Database, Search Engine or Traditional Database}{10}
 \contentsline {subsubsection}{\numberline {4.4.2}Comparing Graph Databases}{10}
 \contentsline {subsubsection}{\numberline {4.4.3}Using Neo4j for Storage and Ingestion}{11}
-\contentsline {subsection}{\numberline {4.5}Interacting with the Data}{12}
-\contentsline {subsubsection}{\numberline {4.5.1}Query Language}{12}
+\contentsline {subsection}{\numberline {4.5}Interacting with the Data}{11}
+\contentsline {subsubsection}{\numberline {4.5.1}Query Language}{11}
 \contentsline {subsubsection}{\numberline {4.5.2}Query Composer Interface}{12}
 \contentsline {subsubsection}{\numberline {4.5.3}Interactive Search}{12}
 \contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{13}
