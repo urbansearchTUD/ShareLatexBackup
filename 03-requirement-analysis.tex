@@ -78,8 +78,8 @@ Requirements labelled as "must have" are key to the minimal performance of the a
 Requirements labelled as "could have" are useful and should be included in the system if time and resources permit.
 
 \begin{enumerate}
-    \item The system should use Delpher to characterise relationships between a region and cities outside that region based on newspapers in those regions, aggregated over the past 50 years. These relationships are either simple or complex information flows. Simple information flows consist of a newspaper located in city $i$ publishing about city $j$, whereas complex information flows are co-occurrences of cities in an article.
-    \item The relations that are extracted from the data by the machine learning algorithm have to be visualised in a way that makes it easy to compare the different relations for the end user.
+    \item The system should use Delpher to characterise relationships between a region and cities outside that region based on newspapers in those regions. For example, the local newspaper of the province Gelderland writing about the city of Alkmaar. These relationships are either simple or complex information flows \todo{Definition of Information flow}. According to our client simple information flows consist of a newspaper located in city $i$ publishing about city $j$, whereas complex information flows are co-occurrences of cities in an article.
+    \item The relations that are extracted from the data by the machine learning algorithm have to be visualised in a way that makes it easy to compare the different relations for the end user. For example, a split-screen comparison in the user interface or an export of graphs comparing selected relations.
 \end{enumerate}
 \iffalse
 \begin{enumerate}
@@ -95,9 +95,8 @@ Requirements labelled as "could have" are useful and should be included in the s
 \begin{enumerate}
     \item The application would be able to show all connections of all places on the map at the same time.
     \item Using data from top-level domains other than \texttt{.nl}.
-    \item Evaluating places of residency with less than 750 inhabitants.
 \end{enumerate}
 
 \subsection{Design Decisions}
 To be able to have a fast development cycle and leverage our experience we chose to develop the application using Python. 
-Since the validity of our results is very important for the results to be considered credible, we need to do thorough validation of the obtained results. We plan to not only test the code we deliver thoroughly, but also to cross-validate the obtained results.
+ We plan to not only test the code we deliver thoroughly, but also to cross-validate the obtained results \todo{Refer to section with evaluation protocol}.
