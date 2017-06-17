@@ -6,11 +6,11 @@ Together with the client, several user stories are identified and listed below:
 \begin{enumerate}
     \item As a user, I want to be able to see all the identified relations between all cities, so that I can reason about interesting patterns.
     \item As a user, I want to be able to access the processed data in an excel file. I want this to be available per relation type and as a total of all relations, so that I can apply my own models on the data when I want to.
-    \item As a user, I want to be able to switch between absolute and relative relation strengths, so that I can interpret the data in a more complete way.
-    \item As a user, I want to be able to (de)select cities, so that I can create a network of cities connected with relations.
-    \item As a user, I want to be able to (de)select relations between cities, so that I can inspect only the relations I am interested in at that time.
+    \item As a user, I want to be able to see relation strengths. Which can be expressed by counting the relations
+    \item As a user, I want to be able to (de)select cities in the user interface, so that I can create a network of cities connected with relations. Where a network of cities will be the cities on a map and the different types of relationships such as Transportation will be the connecting edges between cities.
+    \item As a user, I want to be able to (de)select relations between cities in the user interface, so that I can inspect only the relations I am interested in at that time. For example, as a user I might only be interested in the Transportation relationship between Amsterdam and Rotterdam.
     \item As a user, I want to be able to change the colours associated with the different relation types, so that I can adjust the styling to my own preferences.
-    \item As a user, I want to be able to export an image of the map that I composed, so that I can use it for presentations, papers or educational purposes
+    \item As a user, I want to be able to export an image of the map that I composed in the user interface so that I can use it for presentations, papers or educational purposes
 \end{enumerate}
 
 \subsection{Design Goals} \label{sec:design-goals}
@@ -32,8 +32,8 @@ Requirements labelled as "must have" are key to the minimal performance of the a
 
 \begin{enumerate}
     \item Data that is of relevance for the UrbanSearch project, should be mined from the Common Crawl web corpus (see section\ref{sec:commoncrawl}) and stored for further processing/access.
-    \item There has to be a way to query the collected data based on relations between cities/nodes.
-    \item A machine learning algorithm should analyse the collected data and attempt to identify different types of relations that are important for intercity relations.
+    \item There has to be a way to extract the collected data based on relations between cities/nodes.
+    \item A machine learning algorithm should analyse the collected data and label different types of relations that are important for intercity relations.
     \item A front-end should be built for the project. This front-end should visualise basic relations and statistics and can be used for presentations and educational purposes.
     \item Several statistically important aspects of intercity relations should be extracted from the data set. These statistics should be easily accessible and visualised to the end user. Furthermore, it should be easy to extend or update the list of statistics that are associated with a relation.
 \end{enumerate}
