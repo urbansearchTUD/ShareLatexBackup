@@ -22,18 +22,17 @@ Common Crawl.
 \newblock \url{https://commoncrawl.org/}, 2017.
 \newblock Accessed: 2017-04-25.
 
-\bibitem{derudder2010intercity}
-Ben Derudder, Michael Timberlake, Frank Witlox, Arthur~S Alderson, Jason
-  Beckfield, and Jessica Sprague-Jones.
-\newblock Intercity relations and globalisation: The evolution of the global
-  urban hierarchy, 1981—2007.
-\newblock {\em Urban Studies}, 47(9):1899--1923, 2010.
-
 \bibitem{derudder2005appraisal}
 Ben Derudder and Frank Witlox.
 \newblock An appraisal of the use of airline data in assessing the world city
   network: a research note on data.
 \newblock {\em Urban Studies}, 42(13):2371--2388, 2005.
+
+\bibitem{devriendt2008cyberplace}
+Lomme Devriendt, Ben Derudder, and Frank Witlox.
+\newblock Cyberplace and cyberspace: two approaches to analyzing digital
+  intercity linkages.
+\newblock {\em Journal of Urban Technology}, 15(2):5--32, 2008.
 
 \bibitem{elasticsearch}
 Elasticsearch.
@@ -73,12 +72,6 @@ Scikit learn developers.
 \newblock Scikit-learn.
 \newblock \url{http://scikit-learn.org/stable/index.html}, 2017.
 \newblock Accessed: 2017-04-26].
-
-\bibitem{meijers2007synergy}
-Evert~J Meijers.
-\newblock {\em Synergy in polycentric urban regions: complementarity,
-  organising capacity and critical mass}, volume~13.
-\newblock IOS Press, 2007.
 
 \bibitem{MLCheatSheet}
 Microsoft.
