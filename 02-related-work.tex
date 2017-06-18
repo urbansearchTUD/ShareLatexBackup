@@ -1,9 +1,9 @@
 \section{Related Work}
-In this section, we discuss several existing methods to measure relations and their strength between cities. Currently there are only two methods to be considered. \\
-%The first is to manually process data from search engines. The second is to look at what cities companies are located in. After discussing these two methods we will also take a look at NLTK \cite{nlkt_stemming}. NLTK is  a text processing tool on which (a part of) our system will be based.\\
+In this section, we discuss several existing methods to measure relations and their strength between cities. Currently there are many different methods available to measure the strength of relations between cities, however these methods all have limitations. Below we will discuss the most common and why this does not give a good result for our problem.\\
 
-\todo{
-The most famous example of heuristic used in the research on world cities is the interlocking network model (INM) developed by Taylor (2001). This widespread model is based on the strong assumption that there are flows of knowledge and capitals between two cities if they host offices of the same firm. Apart from the fact that this assumption can be discussed (Lambregts, 2008), most of the applications of the INM deal with predefined samples of firms and cities, giving an incomplete assessment of the system. More generally, most of the studies on city networks use ‘stock’ variables rather than flows or links between cities.} \\
+One of the most common methods used is the interlocking network model (INM)\cite{taylor2012interlocking}. This model assumes cities have a flow of knowledge connection if there are offices of the same company in those cities. The biggest problem with this is that it is very limited. It only includes one relation type and it is discutable wether this is a good measurement for the relation. \\
+
+
 
 \todo{ 
 Working on digital intercity linkages, Devriendt et al. (2008) distinguished two approaches to measure it – the cybersplace and the cyberspace – echoing the typology made by
