@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  18 JUN 2017 10:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  18 JUN 2017 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -685,14 +685,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba70003
 20ea7/04-framework-and-tools.tex
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba70003
-20ea7/04-subsections/01-gathering.tex
+20ea7/04-subsections/01-gathering.tex [6]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[6])
+[7])
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba70003
-20ea7/04-subsections/02-selecting_relevant_data.tex [7])
+20ea7/04-subsections/02-selecting_relevant_data.tex)
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba70003
 20ea7/04-subsections/03-classifying.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -750,18 +750,18 @@ Package pdftex.def Info: images/neo4j.png used on input line 50.
 (pdftex.def)             Requested size: 339.72592pt x 221.0535pt.
 )
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba70003
-20ea7/04-subsections/05-search_engine.tex [11] <images/ql-example.png, id=58, 5
+20ea7/04-subsections/05-search_engine.tex [11] <images/ql-example.png, id=57, 5
 54.07pt x 364.36125pt>
 File: images/ql-example.png Graphic file (type png)
 <use images/ql-example.png>
 Package pdftex.def Info: images/ql-example.png used on input line 24.
 (pdftex.def)             Requested size: 339.72592pt x 223.40533pt.
-<images/qi-example.png, id=59, 569.12625pt x 376.40625pt>
+<images/qi-example.png, id=58, 569.12625pt x 376.40625pt>
 File: images/qi-example.png Graphic file (type png)
 <use images/qi-example.png>
 Package pdftex.def Info: images/qi-example.png used on input line 35.
 (pdftex.def)             Requested size: 339.72592pt x 224.69678pt.
-<images/ii-example.png, id=60, 551.05875pt x 359.3425pt>
+<images/ii-example.png, id=59, 551.05875pt x 359.3425pt>
 File: images/ii-example.png Graphic file (type png)
 <use images/ii-example.png>
 Package pdftex.def Info: images/ii-example.png used on input line 46.
@@ -771,15 +771,16 @@ Package pdftex.def Info: images/ii-example.png used on input line 46.
 00320e85-59107c0b2577ba7000320ea7/images/ql-example.png>])
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba70003
 20ea7/04-subsections/06-visualising.tex [13 </var/lib/sharelatex/data/compiles/
-59107b872577ba7000320e85-59107c0b2577ba7000320ea7/images/qi-example.png>]))
+59107b872577ba7000320e85-59107c0b2577ba7000320ea7/images/qi-example.png> </var/
+lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba7000320ea7/
+images/ii-example.png>]))
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba70003
 20ea7/05-validation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--11
 
  []
 
-[14 </var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba7
-000320ea7/images/ii-example.png>]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 19--23
 
  []
@@ -840,7 +841,7 @@ ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59
-107c0b2577ba7000320ea7/output.pdf (19 pages, 761804 bytes).
+107c0b2577ba7000320ea7/output.pdf (19 pages, 762051 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
