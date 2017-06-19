@@ -2,18 +2,18 @@
 In this section we will discuss which data storage solution we are going to use and why. We will compare a few options and select the best. We will then briefly explain how it works and how we plan to use it.
 
 \subsubsection{Graph Database, Search Engine or Traditional Database}
-Now that relationships have been extracted from the documents and web pages, we need to store these. Note that is not necessary to store all the documents, because the relationships which have been extracted are the information that is actually worth storing. Therefore, the original document can be discarded. However, the index pointing to the original document will be stored to be able to view it on demand. To store these relationships and indices there are two possibilities: (1) graph databases and (2) traditional relational databases.
+Now that relationships have been extracted from the documents and web pages, we need to store these. Note that is not necessary to store all the documents, because the relationships which have been extracted are the information that is actually worth storing. Therefore, the original document can be discarded. To store these relationships there are two possibilities: (1) graph databases and (2) traditional relational databases.
 
-Because visualisation of the network of cities as a graph is an important part of the application, and relations between cities play a key role in the system, we need a database that is designed for these features. Relations are the most important in the graph data model, where this is not true for traditional relational databases. \todo{Meer argumentatie waarom Graph DB beter} Therefore, we are confident that a graph database is the best choice.
+Because visualisation of the network of cities as a graph is an essential part of the application, and relations between cities play a key role in the system, we need a database that is designed for these features. Relations are the most important in the graph data model, where this is not true for traditional relational databases. Therefore, we are confident that a graph database is the best choice.
 
 \subsubsection{Comparing Graph Databases}
-Next, the type of database needs to be selected. For this, six of the most popular databases according to the solid IT Graph DBMS ranking\footnote{\url{https://db-engines.com/en/ranking/graph+dbms}\label{ranking}}.  This rating is established using multiple parameters, among these parameters is the number of mentions on websites and in job offers. Next to that, the parameters also include the number of searches, relevance in social networks and the general interest in the system\footnote{\url{https://db-engines.com/en/ranking_definition}}. These six most popular Graph Databases are rated on five important aspects. These are, is the graph database open-source, scalable and free and does it support Python and have built-in visualisation. \todo{Argumentatie voor deze 5}\\
+Next, the type of database needs to be selected. For this, six of the most popular databases are rated on five important aspects. These are, is the graph database open-source, scalable and free and does it support Python and have built-in visualisation.\\
 
 
 \noindent\begin{threeparttable}
 \begin{tabular}{@{} l *5c @{}}    \toprule
 \emph{name} & \emph{Open-source} & \emph{Scalable} & \emph{Python support} & \emph{Free} & \emph{Built-in Visualisation}\\  \\\midrule
-AllegroGraph    & \XSolidBrush  & \Checkmark  & \Checkmark  & \Checkmark\tnote{a} & \XSolidBrush\tnote{b} \\ 
+AllegroGraph    & \XSolidBrush  & \Checkmark  & \Checkmark  & \XSolidBrush\tnote{a} & \XSolidBrush\tnote{b} \\ 
 ArangoDB  & \Checkmark & \Checkmark & \Checkmark & \Checkmark & \Checkmark\\ 
 Neo4j  & \Checkmark & \Checkmark & \Checkmark & \Checkmark\tnote{c} & \Checkmark\\ 
 OrientDB  & \Checkmark & \Checkmark & \Checkmark & \Checkmark & \Checkmark\\ 
@@ -30,10 +30,10 @@ Titan  & \Checkmark & \Checkmark & \XSolidBrush & \Checkmark & \XSolidBrush\tnot
 \end{tablenotes}
 \end{threeparttable}\\
 
-From this table, it can be deduced that three of these graph databases are viable candidates: ArangoDB, Neo4j and OrientDB. For this project, Neo4j is the best choice because of three reasons. Firstly because we have experience with Neo4j, which means less time will be spent on getting to know the graph database and functionality. Secondly because it is by far the most popular graph database $^{\ref{ranking}}$. Thirdly, since Neo4j is the most popular graph database, the support community and amount of available examples is large.
+From this table, it can be deduced that three of these graph databases are viable candidates: ArangoDB, Neo4j and OrientDB. For this project, Neo4j is the best choice because of three reasons. Firstly because we have experience with Neo4j, which means less time will be spent on getting to know the graph database and functionality. Secondly because is by far the most popular graph database \footnote{\url{https://db-engines.com/en/ranking/graph+dbms}}. Thirdly, since Neo4j is the most popular graph database, the support community and amount of available examples is large.
 
 \subsubsection{Using Neo4j for Storage and Ingestion}
-Neo4j is a highly scalable native graph database that leverages data relationships as first-class entities \cite{neo4j}. It is the single highly scalable, fast and ACID compliant graph database available. ACID stands for the four properties atomicity, consistency, isolation and durability of transactions in database systems that ensure reliability for query results \cite{haerder1983principles}. The scalability of Neo4j comes from the fact that is easily spread across clusters, which provides a read throughput that scales linearly. Next to that, when spread across clusters Neo4j provides data redundancy and still high write speed \cite{neo4jscalable}. Additionally, Neo4j is free to use for non-commercial purposes. To illustrate how scalable Neo4j is, consider that very large companies such as eBay, Cisco, Walmart, HP and LinkedIn\footnote{\url{https://neo4j.com/customers/}} use it in their mission-critical systems. Holzschuher and Peinl compared the performance of Neo4j to the more classic and commonly used NoSQL databases and found that the more natural representation of relationships resulted in significant performance increase gains~\cite{holzschuher2013performance}.
+Neo4j is a highly scalable native graph database that leverages data relationships as first-class entities \cite{neo4j}, enabling enterprises of any size to connect their data and use the relationships to improve their businesses. It is the single highly scalable, fast and ACID compliant graph database available. ACID stands for the four properties atomicity, consistency, isolation and durability of transactions in database systems that ensure reliability for query results \cite{haerder1983principles}. Additionally, Neo4j is free to use for non-commercial purposes. To illustrate how scalable Neo4j is, consider that very large companies such as eBay, Cisco, Walmart, HP and LinkedIn\footnote{\url{https://neo4j.com/customers/}} use it in their mission-critical systems. Holzschuher and Peinl compared the performance of Neo4j to the more classic and commonly used NoSQL databases and found that the more natural representation of relationships resulted in significant performance increase gains~\cite{holzschuher2013performance}.
 
 There are some specific aspects of Neo4j that make it a very suitable candidate for this application. These are:
 
@@ -48,7 +48,7 @@ The Neo4j model can be depicted as shown in figure \ref{fig:neo4j}. It consists 
 \begin{figure}
 \centering
 \includegraphics[width=0.75\textwidth]{neo4j}
-\caption{The Neo4j model \footnote{\url{https://neo4j.com/developer/graph-database/}}}
+\caption{The Neo4j model}
 \label{fig:neo4j}
 \end{figure}
 
