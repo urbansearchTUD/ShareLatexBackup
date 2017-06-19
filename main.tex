@@ -1,4 +1,4 @@
-\documentclass[whitelogo]{tudelft-report}
+\documentclass[]{article}
 \usepackage{natbib}
 \usepackage{changes}
 
@@ -14,11 +14,8 @@
 \usepackage{bbding}
 \usepackage{booktabs}
 \usepackage{threeparttable}
+\usefont{T1}{cmr}{m}{n}
 \begin{document}
-
-%% Use Roman numerals for the page numbers of the title pages and table of
-%% contents.
-\frontmatter
 
 % Related Work
 % Problem Analysis ("4 main parts")
@@ -43,12 +40,14 @@
 
 % image of UI?
 \input{00-frontpage}
+\input{00-title}
 % Academic people like this, bit of 
 \input{00-preface-and-acknowledgements}
 % Instead of abstract, add a single page summary
 \input{00-summary}
 
-\mainmatter
+\tableofcontents
+\newpage
 
 % Three parts: background, methodology and structure
 \input{01-introduction}
