@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  19 JUN 2017 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  19 JUN 2017 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -704,17 +704,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 69--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--73
-
- []
-
-)
+[9])
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba70003
 20ea7/04-subsections/04-storage_and_ingestion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
@@ -735,54 +725,33 @@ File: images/neo4j.png Graphic file (type png)
 <use images/neo4j.png>
 Package pdftex.def Info: images/neo4j.png used on input line 50.
 (pdftex.def)             Requested size: 339.72592pt x 221.0535pt.
-! Argument of \@caption has an extra }.
-<inserted text> 
-                \par 
-l.51 \caption{The Neo4j model \footnotemark{}}
-                                              
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@captype {\@xfootnotemark }\def \reserved@b {\stepcounter {footnote}\ETC.
-! Paragraph ended before \@caption was complete.
-<to be read again> 
-                   \par 
-l.51 \caption{The Neo4j model \footnotemark{}}
-                                              
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
 )
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba70003
-20ea7/04-subsections/05-search_engine.tex [12 </var/lib/sharelatex/data/compile
-s/59107b872577ba7000320e85-59107c0b2577ba7000320ea7/images/neo4j.png>] <images/
-ql-example.png, id=63, 554.07pt x 364.36125pt>
+20ea7/04-subsections/05-search_engine.tex <images/ql-example.png, id=58, 554.07
+pt x 364.36125pt>
 File: images/ql-example.png Graphic file (type png)
 <use images/ql-example.png>
 Package pdftex.def Info: images/ql-example.png used on input line 24.
 (pdftex.def)             Requested size: 339.72592pt x 223.40533pt.
-<images/qi-example.png, id=64, 569.12625pt x 376.40625pt>
+[12 </var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba7
+000320ea7/images/neo4j.png>] <images/qi-example.png, id=65, 569.12625pt x 376.4
+0625pt>
 File: images/qi-example.png Graphic file (type png)
 <use images/qi-example.png>
 Package pdftex.def Info: images/qi-example.png used on input line 35.
 (pdftex.def)             Requested size: 339.72592pt x 224.69678pt.
-<images/ii-example.png, id=65, 551.05875pt x 359.3425pt>
+<images/ii-example.png, id=66, 551.05875pt x 359.3425pt>
 File: images/ii-example.png Graphic file (type png)
 <use images/ii-example.png>
 Package pdftex.def Info: images/ii-example.png used on input line 46.
 (pdftex.def)             Requested size: 339.72592pt x 221.53989pt.
-[13 </var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba7
-000320ea7/images/ql-example.png> </var/lib/sharelatex/data/compiles/59107b87257
-7ba7000320e85-59107c0b2577ba7000320ea7/images/qi-example.png>])
+)
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba70003
-20ea7/04-subsections/06-visualising.tex [14 </var/lib/sharelatex/data/compiles/
-59107b872577ba7000320e85-59107c0b2577ba7000320ea7/images/ii-example.png>]))
+20ea7/04-subsections/06-visualising.tex [13 </var/lib/sharelatex/data/compiles/
+59107b872577ba7000320e85-59107c0b2577ba7000320ea7/images/ql-example.png> </var/
+lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba7000320ea7/
+images/qi-example.png>] [14 </var/lib/sharelatex/data/compiles/59107b872577ba70
+00320e85-59107c0b2577ba7000320ea7/images/ii-example.png>]))
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107c0b2577ba70003
 20ea7/05-validation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--11
@@ -832,7 +801,7 @@ n/10 https : / / neo4j . com / resources /
 Here is how much of TeX's memory you used:
  4220 strings out of 494945
  61443 string characters out of 6180678
- 143585 words of memory out of 5000000
+ 144585 words of memory out of 5000000
  7356 multiletter control sequences out of 15000+600000
  10331 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -853,7 +822,7 @@ pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59
-107c0b2577ba7000320ea7/output.pdf (20 pages, 777151 bytes).
+107c0b2577ba7000320ea7/output.pdf (20 pages, 777159 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  93 compressed objects within 1 object stream

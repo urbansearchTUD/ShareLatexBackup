@@ -46,33 +46,31 @@ Another approach is to use Google Custom Search to obtain results from Google, u
 Finally, we decided to provide our clients with a "labelling interface". The labelling interface provides the user with a document from the set of collected documents. It allows the user to label these documents with zero or more categories, after which the document is assigned to the correct category. If no category is selected, the document is discarded from the training set. This way, we have total control of the documents that are added to the data set. The documents are labelled by experts in the field of the built environment so we may assume these documents will represent the labelled categories well. 
 
 \subsubsection{Modelling}
-When considering classification there are a multitude of algorithms available. When choosing the right algorithm for a problem several factors should be taken into account. These are \cite{MLCheatSheet}:
-    \begin{enumerate}
-        \item Accuracy - How well the algorithm separates the websites.
-        \item Training Time - How long it takes to train the algorithm.
-        \item Linearity - Linear regression assumes data trends follow a straight line. This is trade-off between accuracy and speed.
-        \item Number of Parameters - Adjustable parameters increase the flexibility of the algorithms. This is a trade-off between training time and accuracy.
-        \item Number of Features - A large number of features can make some algorithms unfeasible long. Especially text data (what we are using!) has a high number features.
-        \item Special Cases - Some learning algorithms make particular assumptions about the data or the results.
-    \end{enumerate}
+When considering classification, there are a plethora of algorithms available. When choosing the right algorithm for a problem, several factors should be taken into account\cite{MLCheatSheet}. These are:
+    \begin{description}
+        \item[\textbf{Accuracy}] How well the algorithm separates the websites.
+        \item[\textbf{Training Time}] How long it takes to train the algorithm.
+        \item[\textbf{Linearity}] Linear regression assumes data trends follow a straight line. This is trade-off between accuracy and speed.
+        \item[\textbf{Number of Parameters}] Adjustable parameters increase the flexibility of the algorithms. This is a trade-off between training time and accuracy.
+        \item[\textbf{Number of Features}] A large number of features can make some algorithms slow. Especially text data (what we are using) has a high number of features.
+        \item[\textbf{Special Cases}] Some learning algorithms make particular assumptions about the data or the results.
+    \end{description}
 
-Regarding the fact that we are dealing with textual data, we can assume that we will have a large feature set. An algorithm like SVM \cite{ml_text} works well with large feature sets\cite{MLCheatSheet}.
-Also previous research concerning the classification of text-documents suggests SVM is one of the leading techniques in this regard\cite{ml_text}. While we are using the Scikit library for this project 
+Because of the fact that we are dealing with textual data, we can assume that we will have a large feature set. An algorithm like SVM \cite{ml_text} works well with large feature sets\cite{MLCheatSheet}.
+Previous research concerning the classification of text documents suggests SVM is one of the leading techniques in this regard\cite{ml_text}. While we are using the Scikit library for this project \todo{waar is de rest van de zin?}
 
-
-\begin{enumerate}
-\item Features:\\ 
-To get an useful set of inputs (features) for our system we need to decide what describes the properties of our documents best. Since we are dealing with text-documents a natural choice for these inputs are the words contained in these documents. 
-The words alone do not provide us a very useful input to the system. That is why we use TF-IDF to give the words that we encountered a weight. TF-IDF (Term Frequency-Inverse Document Frequency) gives words a weight based on their frequency in a document and on the frequency of the word in the complete document set. This way words that are rare in the complete document set but occur often in a document are assigned a high weight. Words that occur in many documents in the complete document set get awarded a low weight\cite{ramos_tfidf}.
+\begin{description}
+\item[\textbf{Features}] 
+To get a useful set of inputs (features) for our system we need to decide what describes the properties of our documents best. Since we are dealing with text-documents a natural choice for these inputs are the words contained in these documents. 
+The words alone do not provide us a very useful input to the system. That is why we use TF-IDF to give the words that we encountered a weight. TF-IDF (Term Frequency over Inverse Document Frequency) gives words a weight based on their frequency in a document and on the frequency of the word in the complete document set. This way words that are rare in the complete document set but occur often in a document are assigned a high weight. Words that occur in many documents in the complete document set get awarded a low weight\cite{ramos_tfidf}.
 Using TF-IDF our features become words with weights associated to them.
 
-\item Dimensionality reduction: 
+\item[\textbf{Dimensionality reduction}]
 Since we are working with text-documents and our features are words with TF-IDF weights we can assume that our feature set will be very large. The total number of features determines how fast we can train our model and has implications regarding over-fitting \cite{ml_text}. To reduce the number of features we considered different techniques from \cite{ml_text}. Since we have no time to test all the techniques, we decided to select the top ten percent of our features (based on the TF-IDF weights)\cite{yang1997}. To provide an easy way to add different types of dimensionality reduction techniques later we will keep the code for defining new classifiers easily extendable.
-\\
-\\
-\item Classification:
+
+\item[\textbf{Classification}]
 Even after applying the dimensionality reduction that we discussed in the previous section we are left with a lot of features. Thus we need a algorithm that works well with a feature rich problem. From \cite{MLCheatSheet} we know SVM is a algorithm that works well with feature rich problems. Also \cite{ml_text} claims SVM is one of the best techniques when considering text classification. This combined with the fact that Scikit offers an easy to use implementation of SVM has lead us to using SVM as our classification algorithm.
-\end{enumerate}
+\end{description}
 
 \subsubsection{Remarks}
 Scikit offers a lot of useful features to optimise the classifier. Also using Scikit-"Pipelines" composing a classifier is an relatively easy task. Since we unfortunately do not have the time to benchmark the results of different types of classifiers and to play around with the different optimisation options, we plan on implementing our code in such a way that extending the code to use these optimisations and different pipelines will be real easy.
