@@ -1,39 +1,39 @@
 \subsection{Extracting Relations from Documents}
-Now that a selection of relevant documents has been made, we can make an attempt to identify the relations between cities based on these documents. Since labelling every relevant document by hand is not feasible an automated approach is desirable. 
-One way to automate this process is by identifying intercity relations using machine learning. Machine learning algorithms can be roughly divided into two distinct groups: Supervised and unsupervised algorithms. Supervised algorithms expect an input set and a corresponding output set by which an model is trained to predict unseen instances of the problem. Unsupervised algorithms identify clusters of entities based on similarities in the feature set corresponding to said entity.
-Considering the fact that we have a strict time schedule of only two months to develop the complete system, we decided with our client to go with the supervised approach. 
-The main reason for this choice is that the training and tweaking of supervised algorithms can be done faster compared to unsupervised algorithms. The main reason for this is that we do not need the complete data-set to start training a supervised model, while for the unsupervised case the complete set is needed.
+Now that a selection of relevant documents has been made, we can make an attempt to identify the relations between cities based on these documents. Since labelling every relevant document by hand is not feasible, an automated approach is desirable. 
+One way to automate this process is by identifying intercity relations using machine learning. Machine learning algorithms can be roughly divided into two distinct groups: (1) supervised and (2) unsupervised algorithms. Supervised algorithms expect an input set and a corresponding output set, with which a model is trained to predict unseen instances of the problem. Unsupervised algorithms identify clusters of entities based on similarities in the feature set corresponding to said entity.
+\replace{
+Considering the fact that we have a strict time schedule of little over two months to develop the complete system, we decided to go with the supervised approach. 
+The main reason for this choice is that the training and tweaking of supervised algorithms can be done faster compared to unsupervised algorithms. The main reason for this is that we do not need the complete data-set to start training a supervised model, while for the unsupervised case the complete set is needed.}{Lees dit nog effe goed, twee keer main reason en in feite geef je daarvoor al de main reason}
 
 \subsubsection{Defining Classes}
-Our choice of using classification has naturally lead to the need for categories we want to identify within the collected documents. Together with our clients, Dr. Evert Meijers and Antoine Peris, we identified the following categories which are useful to identify from the collected documents:\\
+Our choice of using classification has naturally lead to the need for categories we want to identify within the collected documents. Together with our clients, \replace{Dr. Evert Meijers and Antoine Peris}{beetje vreemd om die hier pas te into'en?}, we identified the following categories which are useful to identify from the collected documents:\\
 
 \begin{enumerate}
+    \item Collaboration
     \item Commuting
+    \item Education
     \item Leisure
     \item Residential mobility
-    \item Education
-    \item Collaboration
-    \item Transportation
     \item Shopping
+    \item Transportation
     \item Other
 \end{enumerate}
 
-These categories represent topics that are of interest for our clients. They relate to research that is being done by our clients and to relations that were deemed important in previous research on intercity relations.
+These categories represent topics that are of interest for our clients. They relate to research that is being done by them and to relations that were deemed important in previous research on intercity relations. The category \textit{other} is there to make the classification exhaustive, i.e. relevant documents can always be labelled.
 
 \subsubsection{Pre-processing}
+For pre-processing the documents, there are a number of tools available. We used NLTK \cite{nlkt_stemming} for removing stopwords and regular expressions for removing unwanted characters. The HTML parsing/\todo{..} was done using BeautifulSoup.\todo{add ref}
 
-For pre-processing the documents there are a number of tools available. We used NLTK \cite{nlkt_stemming} for removing stopwords and regular expressions for removing unwanted characters. The HTML parsing/.. was done using BeautifulSoup.\todo{add ref}
-
-\begin{enumerate}
-\item Stop words. \\ 
+\begin{description}
+\item[\textbf{Stop words}]
 Removing all common words (the, a, an etc) and symbols ('.', ',', '!', etc). For removing stopwords we used a list from NLTK containing dutch stopwords.
 
-\item Unwanted characters. \\
+\item[\textbf{Unwanted characters}] \\
 To strip unwanted characters we have developed our own regular expression, which helps us identify and strip instances of unwanted characters (punctuation marks, years, etc.). 
 
-\item HTML. \\
+\item[\textbf{HTML}] \\
 Since we are dealing with HTML pages which we are parsing to plain-text documents we need to strip unwanted content from the HTML. Using BeautifulSoup we strip unwanted tags (script, style, link, etc.) and parse the rest of the page to plain-text.
-\end{enumerate}
+\end{description}
 
 \subsubsection{Data-set}
 Before we can start building up and training our model we need to collect data we can use as an input for the model. To collect this data we have considered several options.
