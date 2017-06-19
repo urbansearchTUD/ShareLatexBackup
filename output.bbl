@@ -1,0 +1,195 @@
+\begin{thebibliography}{10}
+
+\bibitem{Aho-Corasick}
+Alfred~V. Aho and Margaret~J. Corasick.
+\newblock Efficient string matching: An aid to bibliographic search.
+\newblock {\em Commun. ACM}, 18(6):333--340, June 1975.
+
+\bibitem{468391}
+R.~A. Becker, S.~G. Eick, and A.~R. Wilks.
+\newblock Visualizing network data.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  1(1):16--28, Mar 1995.
+
+\bibitem{brunn2010networks}
+Stanley~D Brunn, Lomme Devriendt, Andrew Boulton, Ben Derudder, and Frank
+  Witlox.
+\newblock Networks of european cities in worlds of global economic and
+  environmental change.
+\newblock {\em Fennia}, 188(1):37--49, 2010.
+
+\bibitem{choi2006comparing}
+Junho~H Choi, George~A Barnett, and BUM-SOO CHON.
+\newblock Comparing world city networks: a network analysis of internet
+  backbone and air transport intercity linkages.
+\newblock {\em Global Networks}, 6(1):81--99, 2006.
+
+\bibitem{clegg1994case}
+Dai Clegg and Richard Barker.
+\newblock {\em Case method fast-track: a RAD approach}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., 1994.
+
+\bibitem{commoncrawl}
+Common Crawl.
+\newblock Common crawl.
+\newblock \url{https://commoncrawl.org/}, 2017.
+\newblock Accessed: 2017-04-25.
+
+\bibitem{derudder2005appraisal}
+Ben Derudder and Frank Witlox.
+\newblock An appraisal of the use of airline data in assessing the world city
+  network: a research note on data.
+\newblock {\em Urban Studies}, 42(13):2371--2388, 2005.
+
+\bibitem{devriendt2008cyberplace}
+Lomme Devriendt, Ben Derudder, and Frank Witlox.
+\newblock Cyberplace and cyberspace: two approaches to analyzing digital
+  intercity linkages.
+\newblock {\em Journal of Urban Technology}, 15(2):5--32, 2008.
+
+\bibitem{elasticsearch}
+Elasticsearch.
+\newblock Elasticsearch.
+\newblock \url{https://www.elastic.co/products/elasticsearch}.
+\newblock Accessed: 2017-04-26.
+
+\bibitem{nlkt_stemming}
+Alex~Rudnick et~al.
+\newblock Nlkt.
+\newblock \url{http://www.nltk.org/api/nltk.stem.html}, 2017.
+
+\bibitem{gorman2000networks}
+Sean~P Gorman and Edward~J Malecki.
+\newblock The networks of the internet: an analysis of provider networks in the
+  usa.
+\newblock {\em Telecommunications Policy}, 24(2):113--134, 2000.
+
+\bibitem{haerder1983principles}
+Theo Haerder and Andreas Reuter.
+\newblock Principles of transaction-oriented database recovery.
+\newblock {\em ACM Computing Surveys (CSUR)}, 15(4):287--317, 1983.
+
+\bibitem{holzschuher2013performance}
+Florian Holzschuher and Ren{\'e} Peinl.
+\newblock Performance of graph query languages: comparison of cypher, gremlin
+  and native access in neo4j.
+\newblock In {\em Proceedings of the Joint EDBT/ICDT 2013 Workshops}, pages
+  195--204. ACM, 2013.
+
+\bibitem{better_code_hub}
+Software improvement group.
+\newblock better code hub.
+\newblock \url{https://bettercodehub.com/}, 2017.
+
+\bibitem{janc2015geography}
+Krzysztof Janc.
+\newblock Geography of hyperlinks—spatial dimensions of local government
+  websites.
+\newblock {\em European Planning Studies}, 23(5):1019--1037, 2015.
+
+\bibitem{janc2015visibility}
+Krzysztof Janc.
+\newblock Visibility and connections among cities in digital space.
+\newblock {\em Journal of Urban Technology}, 22(4):3--21, 2015.
+
+\bibitem{MLCheatSheet}
+Microsoft.
+\newblock Microsoft azure machine learning algorithm cheat sheet.
+\newblock
+  \url{https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-choice},
+  2017.
+\newblock Accessed: 2017-04-28.
+
+\bibitem{muhleisen2012web}
+Hannes M{\"u}hleisen and Christian Bizer.
+\newblock Web data commons-extracting structured data from two large web
+  corpora.
+\newblock {\em LDOW}, 937:133--145, 2012.
+
+\bibitem{neo4j}
+Neo4j.
+\newblock Neo4j, the world's leading graph database.
+\newblock \url{https://www.neo4j.com}.
+\newblock Accessed: 2017-04-26.
+
+\bibitem{neo4jscalable}
+Neo4j.
+\newblock Understanding neo4j scalability.
+\newblock
+  \url{https://neo4j.com/resources/understanding-neo4j-scalability-white-paper/
+  }.
+\newblock Accessed: 2017-06-19.
+
+\bibitem{porter2000location}
+Michael~E Porter.
+\newblock Location, competition, and economic development: Local clusters in a
+  global economy.
+\newblock {\em Economic development quarterly}, 14(1):15--34, 2000.
+
+\bibitem{preis2013quantifying}
+Tobias Preis, Helen~Susannah Moat, and H~Eugene Stanley.
+\newblock Quantifying trading behavior in financial markets using google
+  trends.
+\newblock {\em Nature: scientific reports}, 2013.
+
+\bibitem{ramos_tfidf}
+Juan Ramos et~al.
+\newblock Using tf-idf to determine word relevance in document queries.
+\newblock In {\em Proceedings of the first instructional conference on machine
+  learning}, 2003.
+
+\bibitem{rasool2012string}
+Akhtar Rasool, Amrita Tiwari, Gunjan Singla, and Nilay Khare.
+\newblock String matching methodologies: A comparative analysis.
+\newblock {\em REM (Text)}, 234567(11):3, 2012.
+
+\bibitem{ml_text}
+Fabrizio Sebastiani.
+\newblock Machine learning in automated text categorization.
+\newblock {\em ACM Comput. Surv.}, 34(1):1--47, March 2002.
+
+\bibitem{short1996dirty}
+John~Rennie Short, Y~Kim, Merje Kuus, and Heather Wells.
+\newblock The dirty little secret of world cities research: data problems in
+  comparative analysis.
+\newblock {\em International Journal of Urban and Regional Research},
+  20(4):697--717, 1996.
+
+\bibitem{singh2012wikilinks}
+Sameer Singh, Amarnag Subramanya, Fernando Pereira, and Andrew McCallum.
+\newblock Wikilinks: A large-scale cross-document coreference corpus labeled
+  via links to wikipedia.
+\newblock {\em University of Massachusetts, Amherst, Tech. Rep.
+  UM-CS-2012-015}, 2012.
+
+\bibitem{smith2013dirt}
+Jason~R Smith, Herve Saint-Amand, Magdalena Plamada, Philipp Koehn, Chris
+  Callison-Burch, and Adam Lopez.
+\newblock Dirt cheap web-scale parallel text from the common crawl.
+\newblock In {\em ACL (1)}, pages 1374--1383, 2013.
+
+\bibitem{sig}
+software~improvement group.
+\newblock Sig.
+\newblock \url{https://www.sig.eu/}, 2017.
+
+\bibitem{taylor2012interlocking}
+Peter~J Taylor.
+\newblock The interlocking network model.
+\newblock {\em International handbook of globalization and world cities}, pages
+  51--63, 2012.
+
+\bibitem{tornqvist1968flows}
+Gunnar T{\"o}rnqvist.
+\newblock Flows of information and the location of economic activities.
+\newblock {\em Geografiska Annaler. Series B, Human Geography}, 50(1):99--107,
+  1968.
+
+\bibitem{wu2014future}
+Lynn Wu and Erik Brynjolfsson.
+\newblock The future of prediction: How google searches foreshadow housing
+  prices and sales.
+\newblock In {\em Economic analysis of the digital economy}, pages 89--118.
+  University of Chicago Press, 2014.
+
+\end{thebibliography}
