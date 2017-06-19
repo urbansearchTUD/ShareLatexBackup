@@ -1,10 +1,12 @@
 \subsection{Gathering the Data}
-As explained in section \ref{sec:design-goals}, data sources should be plugable. An initial corpus of documents is needed to base the project, which we will decide on in this section. 
+As explained in subsection \ref{sec:design-goals}, data sources should be plugable. An initial corpus of documents is needed to base the project, which we will decide on in this subsection. 
 
 \subsubsection{Common Crawl} \label{sec:commoncrawl}
-Common Crawl \cite{commoncrawl} is a freely accessible corpus of pages across the web, updated and released on a monthly basis. Many researchers have used the data for various purposes~\cite{smith2013dirt, muhleisen2012web, singh2012wikilinks}. Since the project requires analysis on a very large set of documents, the corpus is a very suitable candidate for us to work with. \\
+Common Crawl \cite{commoncrawl} is a freely accessible corpus of pages across the web, updated and released on a monthly basis. Many researchers have used the data for various purposes
+\cite{smith2013dirt, muhleisen2012web, singh2012wikilinks}.
+Since the project requires analysis on a very large set of documents, the corpus is a very suitable candidate for us to work with. \\
 
-The data from Common Crawl comes in three    formats\footnote{\url{https://gist.github.com/Smerity/e750f0ef0ab9aa366558}}: 
+The data from Common Crawl comes in three formats\footnote{\url{https://gist.github.com/Smerity/e750f0ef0ab9aa366558}}: 
 \begin{description}
 \item[\textbf{WARC}] This is the default and most verbose format. It stores the HTTP-response, information about the request and meta-data on the crawl process itself. The content is stored as HTML-content.
 \item[\textbf{WAT}] Files of this type contain meta-data, such as link addresses, about the WARC-records. This meta-data is computed for each of the three types of records (meta-data, request, and response). The textual content of the page is not present in this format.
@@ -26,17 +28,17 @@ Due to time and resource constraints, we have chosen to exclude these from the p
 
 
 \includegraphics[width=\textwidth]{occurences_per_page}
-\todo{add info:}
+% \todo{add info:}
 
-Piet Bep, [16.06.17 11:55]
-num 20
-773665
-num 30
-7510
-num 40
-4020
-num 50
-979
+% Piet Bep, [16.06.17 11:55]
+% num 20
+% 773665
+% num 30
+% 7510
+% num 40
+% 4020
+% num 50
+% 979
 
-Piet Bep, [16.06.17 11:55]
-bovenstaande is aantal documenten met minder dan 20 occurrences, tussen 20 en 30, tussen 30 en 40, en tussen 40 en 50
+% Piet Bep, [16.06.17 11:55]
+% bovenstaande is aantal documenten met minder dan 20 occurrences, tussen 20 en 30, tussen 30 en 40, en tussen 40 en 50

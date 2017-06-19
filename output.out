@@ -1,0 +1,51 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Related Work}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Requirement Analysis}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Design Goals}{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{User Stories}{chapter.3}% 5
+\BOOKMARK [1][-]{section.3.3}{Product Requirements}{chapter.3}% 6
+\BOOKMARK [2][-]{subsection.3.3.1}{Must Have}{section.3.3}% 7
+\BOOKMARK [2][-]{subsection.3.3.2}{Should Have}{section.3.3}% 8
+\BOOKMARK [2][-]{subsection.3.3.3}{Could Have}{section.3.3}% 9
+\BOOKMARK [2][-]{subsection.3.3.4}{Would Like}{section.3.3}% 10
+\BOOKMARK [1][-]{section.3.4}{Design Decisions}{chapter.3}% 11
+\BOOKMARK [0][-]{chapter.4}{Framework and Tools}{}% 12
+\BOOKMARK [1][-]{section.4.1}{Gathering the Data}{chapter.4}% 13
+\BOOKMARK [2][-]{subsection.4.1.1}{Common Crawl}{section.4.1}% 14
+\BOOKMARK [2][-]{subsection.4.1.2}{Other Data Sources}{section.4.1}% 15
+\BOOKMARK [1][-]{section.4.2}{Selecting Relevant Documents}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.3}{Extracting Relations from Documents}{chapter.4}% 17
+\BOOKMARK [2][-]{subsection.4.3.1}{defining classes}{section.4.3}% 18
+\BOOKMARK [2][-]{subsection.4.3.2}{preprocess}{section.4.3}% 19
+\BOOKMARK [2][-]{subsection.4.3.3}{training}{section.4.3}% 20
+\BOOKMARK [2][-]{subsection.4.3.4}{classifying}{section.4.3}% 21
+\BOOKMARK [1][-]{section.4.4}{Storing and Ingesting the Data}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.4.1}{Graph Database, Search Engine or Traditional Database}{section.4.4}% 23
+\BOOKMARK [2][-]{subsection.4.4.2}{Comparing Graph Databases}{section.4.4}% 24
+\BOOKMARK [2][-]{subsection.4.4.3}{Using Neo4j for Storage and Ingestion}{section.4.4}% 25
+\BOOKMARK [1][-]{section.4.5}{Interacting with the Data}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.5.1}{Query Language}{section.4.5}% 27
+\BOOKMARK [2][-]{subsection.4.5.2}{Query Composer Interface}{section.4.5}% 28
+\BOOKMARK [2][-]{subsection.4.5.3}{Interactive Search}{section.4.5}% 29
+\BOOKMARK [2][-]{subsection.4.5.4}{Conclusion}{section.4.5}% 30
+\BOOKMARK [1][-]{section.4.6}{Visualising the Data}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.6.1}{Representing the Data Graphically}{section.4.6}% 32
+\BOOKMARK [2][-]{subsection.4.6.2}{Using Geographical Maps}{section.4.6}% 33
+\BOOKMARK [2][-]{subsection.4.6.3}{Handling Map Clutter}{section.4.6}% 34
+\BOOKMARK [1][-]{section.4.7}{server}{chapter.4}% 35
+\BOOKMARK [0][-]{chapter.5}{framework implementation}{}% 36
+\BOOKMARK [0][-]{chapter.6}{project evaluation}{}% 37
+\BOOKMARK [0][-]{chapter.7}{discussion}{}% 38
+\BOOKMARK [0][-]{chapter.8}{recommendation}{}% 39
+\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 40
+\BOOKMARK [1][-]{section.9.1}{related work}{chapter.9}% 41
+\BOOKMARK [1][-]{section.9.2}{related work}{chapter.9}% 42
+\BOOKMARK [1][-]{section.9.3}{Requirement analysis}{chapter.9}% 43
+\BOOKMARK [1][-]{section.9.4}{Framework-and-tools}{chapter.9}% 44
+\BOOKMARK [0][-]{appendix.A}{Sig Feedback}{}% 45
+\BOOKMARK [1][-]{section.A.1}{week 5}{appendix.A}% 46
+\BOOKMARK [1][-]{section.A.2}{week 9}{appendix.A}% 47
+\BOOKMARK [0][-]{appendix.B}{User manual}{}% 48
+\BOOKMARK [0][-]{appendix.C}{dev-manual}{}% 49
+\BOOKMARK [0][-]{appendix.D}{Used Libararies}{}% 50
+\BOOKMARK [0][-]{appendix*.9}{Bibliography}{}% 51

@@ -3,44 +3,46 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: output.aux
 The style file: plain.bst
 Database file #1: references.bib
-You've used 25 entries,
+Warning--empty journal in Aho-Corasick
+You've used 30 entries,
             2118 wiz_defined-function locations,
-            639 strings with 7542 characters,
-and the built_in function-call counts, 7197 in all, are:
-= -- 715
-> -- 297
+            678 strings with 8630 characters,
+and the built_in function-call counts, 9213 in all, are:
+= -- 932
+> -- 381
 < -- 4
-+ -- 120
-- -- 94
-* -- 400
-:= -- 1197
-add.period$ -- 83
-call.type$ -- 25
-change.case$ -- 120
++ -- 155
+- -- 122
+* -- 580
+:= -- 1529
+add.period$ -- 98
+call.type$ -- 30
+change.case$ -- 150
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 268
-empty$ -- 623
-format.name$ -- 94
-if$ -- 1540
+cite$ -- 31
+duplicate$ -- 337
+empty$ -- 766
+format.name$ -- 122
+if$ -- 1943
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 16
-newline$ -- 134
-num.names$ -- 50
-pop$ -- 172
+int.to.str$ -- 30
+missing$ -- 22
+newline$ -- 159
+num.names$ -- 60
+pop$ -- 174
 preamble$ -- 1
-purify$ -- 97
+purify$ -- 121
 quote$ -- 0
-skip$ -- 207
+skip$ -- 254
 stack$ -- 0
-substring$ -- 362
-swap$ -- 55
+substring$ -- 561
+swap$ -- 65
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
-warning$ -- 0
-while$ -- 71
-width$ -- 27
-write$ -- 275
+type$ -- 118
+warning$ -- 1
+while$ -- 98
+width$ -- 32
+write$ -- 333
+(There was 1 warning)

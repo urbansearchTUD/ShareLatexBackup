@@ -1,0 +1,110 @@
+\section{Requirement Analysis}\label{sec:reqs-analysis}
+In this section, we first define the design goals. Next, we present user stories that were created together with the client. Then, we list the requirements which followed from the user stories and which the application should meet. To do so, we use the MoSCoW method\cite{clegg1994case} as a prioritisation technique. Lastly, we discuss the design decisions that follow from the design goals and the requirements.
+
+\todo{ subsections:
+ 3.1 problem definition
+ 3.2 problem analysis
+ 3.3 requirement analysis (with design goals, requirements and minimal viable product)
+}
+
+
+
+\subsection{Design Goals} \label{sec:design-goals}
+The high-level design goals for this project have been provided by the client. These serve as a guideline to determine the priority label of the specific requirements as defined in section \ref{sec:reqs}. The design goals are listed below, ordered by priority.
+
+\paragraph{credible} The results of the project will be used to dispute a widely spread belief. Therefore, the results must be reliable and verifiable.
+\paragraph{understandable} The results of the application should be visually understandable, in order to make it easy for the client to deduce conclusions. Additionally, retrievable numeric data enable the client to further investigate the results outside of the scope of the application, should the need arise.
+\paragraph{scalable} Restricting the project to a set of non-English domains might impair the probability that the results are generally accepted. Allowing for investigating other domains would greatly help the client in a later stadium.
+\paragraph{plugable} It might be interesting for the user to let the application perform analysis on different data sets without the need of a developer. 
+\paragraph{fast development} Because of the time constraints of the project we need a fast development cycle. As a result of that, choices regarding tools, applications and programming languages are to be made with the time constraint taken into account.
+
+\subsection{User Stories}
+Together with the client, several user stories are identified and listed below:
+\begin{enumerate}
+    \item As a user, I want to be able to see all the identified relations between all cities, so that I can reason about interesting patterns.
+    \item As a user, I want to be able to access the processed data in an excel file. I want this to be available per relation type and as a total of all relations, so that I can apply my own models on the data when I want to.
+    \item As a user, I want to be able to switch between absolute and relative relation strengths, so that I can interpret the data in a more complete way.
+    \item As a user, I want to be able to (de)select cities, so that I can create a network of cities connected with relations.
+    \item As a user, I want to be able to (de)select relations between cities, so that I can inspect only the relations I am interested in at that time.
+    \item As a user, I want to be able to change the colours associated with the different relation types, so that I can adjust the styling to my own preferences.
+    \item As a user, I want to be able to export an image of the map that I composed, so that I can use it for presentations, papers or educational purposes
+\end{enumerate}
+
+
+\subsection{Product Requirements}\label{sec:reqs}
+As mentioned in the intro of subsection \ref{sec:reqs-analysis} we will be using he MoSCoW method prioritisation technique. Four levels of priority are defined: must have, should have, could have and won't have (also known as would like). We also differentiate between functional and non-functional requirements. 
+
+\subsubsection {Must Have}
+Requirements labelled as "must have" are key to the minimal performance of the application If they are not met, the application can be considered a failure.
+
+\begin{enumerate}
+    \item Data that is of relevance for the UrbanSearch project, should be mined from the Common Crawl web corpus (see section\ref{sec:commoncrawl}) and stored for further processing/access.
+    \item There has to be a way to query the collected data based on relations between cities/nodes.
+    \item A machine learning algorithm should analyse the collected data and attempt to identify different types of relations that are important for intercity relations.
+    \item A front-end should be built for the project. This front-end should visualise basic relations and statistics and can be used for presentations and educational purposes.
+    \item Several statistically important aspects of intercity relations should be extracted from the data set. These statistics should be easily accessible and visualised to the end user. Furthermore, it should be easy to extend or update the list of statistics that are associated with a relation.
+\end{enumerate}
+\iffalse
+\begin{enumerate}
+    \item A user must be able to select place names.
+    \item The system must display a map with the before mentioned places and the important connection they have to other places.
+    \item A user must be able to choose a connection between two places and get information about what kind of relations they have.
+    \item The strength of all relations must be displayed.
+    \item The user must be able to export the found connections and their strengths between places.
+    \item Data, that is of relevance for the UrbanSearch project, should be mined from the Common Crawl web corpus and stored for further processing/access. 
+    \item A machine learning algorithm should analyse the collected data and attempt to identify different types of relations that are important for intercity relations.
+    \item Several statistically important aspects of intercity relations should be extracted from the data set. These statistics should be easily accessible and understandable to the end user. Which statistics are important is one of the research topics of this project, so it should be easy to extend/update the list of statistics that are associated with a relation.
+
+\end{enumerate}
+\fi
+\subsubsection {Should Have}
+"Should have" requirements are those that greatly improve system performance and/or usability but might not fit in the available development time.
+
+\begin{enumerate}
+    \item Relations between cities should be accessible hierarchically. This means that there is the possibility to explore a relation and, provided that this relation has sub-types associated with it, the relation can be expanded in the different sub-types of the relation.
+    \item A machine learning algorithm should be able to group different relationships that are strongly connected to each other.
+    \item It should be possible to add big data sets on which the system can perform its data mining routines. This way a data set can be created that contains potentially interesting information for intercity relations.
+    \item The application should understand that the same city can have different names in different languages/dialects. It should still be able to extract and group relevant data correctly (e.g. 'The Hague' and 'Den Haag' should be viewed as the same city).
+\end{enumerate}
+\iffalse
+\begin{enumerate}
+    \item The user should be able to (de)select cities.
+    \item The application should be able to use multiple data sets.
+    \item The application should be able to group the relations (e.g. 'fish-trade' and 'finance' to economy, 'medicine' to health-care etc).
+    \item The user should be able to 'zoom' on places in order to see more/less connections to other places.
+    \item The user should be able to interact with the map so only relations of a certain type will be shown.
+    \item The user should be able to select whether relative or absolute strengths should be shown.
+    \item A user should be able to export an image of the map.
+    \item Relations between cities should be accessible hierarchically. This means that there is the possibility to query a relation and, provided that this relation has sub-types associated with it, the relation can be expanded in the different sub-types of the relation.
+    \item A machine learning algorithm should be able to group different relationships that are strongly connected to each other.
+    \item It should be possible to add big data sets on which the system can perform its data mining routines. This way a data set can be created that contains potentially interesting information for intercity relations.
+    \item The software should understand that the same city can have different names in different languages/dialects. It should still be able to extract and group relevant data correctly (e.g. 'The Hague' and 'Den Haag' should be viewed as the same city).
+\end{enumerate}
+\fi
+\subsubsection {Could Have}
+Requirements labelled as "could have" are useful and should be included in the system if time and resources permit.
+
+\begin{enumerate}
+    \item The system should use Delpher to characterise relationships between a region and cities outside that region based on newspapers in those regions, aggregated over the past 50 years. These relationships are either simple or complex information flows. Simple information flows consist of a newspaper located in city $i$ publishing about city $j$, whereas complex information flows are co-occurrences of cities in an article.
+    \item The relations that are extracted from the data by the machine learning algorithm have to be visualised in a way that makes it easy to compare the different relations for the end user.
+\end{enumerate}
+\iffalse
+\begin{enumerate}
+    \item The application could be able to use international names.
+    \item A front-end should be build for the UrbanSearch system. This front-end should visualise basic relations and statistics and can be used for presentations or educational purposes
+    \item The software should use Delpher to characterise relationships between a region and cities outside that region based on newspapers in those regions, aggregated over the past 50 years. These relationships are either simple or complex information flows. Simple information flows consist of a newspaper located in city i publishing about city j, whereas complex information flows are co-occurrences of cities in an article.
+    \item The relations that are extracted from the data by the machine learning algorithm and the relations provided by the CBS have to be visualised in a way that makes it easy to compare the different relations for the end user.
+\end{enumerate}
+\fi
+\subsubsection {Would Like}
+"Would like" requirements have been agreed upon to be not important to include within the current time schedule. However, they can be included in future releases.
+
+\begin{enumerate}
+    \item The application would be able to show all connections of all places on the map at the same time.
+    \item Using data from top-level domains other than \texttt{.nl}.
+    \item Evaluating places of residency with less than 750 inhabitants.
+\end{enumerate}
+
+\subsection{Design Decisions}
+To be able to have a fast development cycle and leverage our experience we chose to develop the application using Python. 
+Since the validity of our results is very important for the results to be considered credible, we need to do thorough validation of the obtained results. We plan to not only test the code we deliver thoroughly, but also to cross-validate the obtained results.

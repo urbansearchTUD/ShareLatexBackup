@@ -1,36 +1,29 @@
 \section{Validation}
 
-\subsection {machine learning}
-To test the machine learning we will manually search for a small set of 50 pages per class. We will then manually decide to which class we would expect those pages to be sorted. Then we will run the algorithm and check whether or not a page was correctly sorted. There are 4 outcomes per page per class: true/false positives and true/false negatives. Positives are the pages that should be sorted to that class; true means they were sorted to that class, false meaning they were not sorted to that class. Negatives are pages that should not be sorted to that class and in this case true means they were indeed not sorted to that class and false means they were. So the true values are the ones that should be high. From this we can say how accurate our classifier is.
+\subsection{Tests}
+We will test the program using four different testing methods. The first is unit testing, which tests the separate components individually. Integration testing for testing how well different components work together. system testing for testing the different entire system and Acceptance testing for testing how well the clients think the program works.
 
-\subsection{unit tests}
+\subsubsection{unit tests}
+Unit testing is done by writing automatic tests and making sure they pass every time the tests are executed. Unit tests test each method of a function separately, checking that the method does what it is supposed to do. If the method would need information from outside the class that information is mocked. This means that instead of using that other class, a fake object is made which returns a fake value. This ensures the tests will never fail due to changes in other classes. \\
+\\
+\textbf{selenium tests} \\
+Selenium tests are automated tests that are run to test the front-end of systems. Just as normal unit testing, selenium testing is useful for regression testing.
 
-\subsection{selenium tests}
+\subsubsection{Integration tests}
+Integration testing uses automated tests which test how well different components of the system work together. This is done more or less the same as unit testing, however whilst you would mock methods from other classes in unit testing, with integration testing you do not. It is assumed that the separate modules are unit tested, therefor if an error occurs it is because something is wrong with the interaction between the modules and not with the modules themselves. 
+
+\subsubsection{System tests}
+We are also planning to use system testing. System testing provides a more complete test of the entire system. This means it is useful to detect faults in the overall system, but less easy to determine where these faults may be located. System testing is done manually, which means the tests can not be easily repeated when the system changes whilst with other testing techniques this is possible.
+
+\subsubsection{Acceptance Testing}
+Last we will also use acceptance testing. This is testing done to see if the software does what the clients are expecting it to do. These tests are therefor also executed by the clients manually. Afterwards they can say what worked, what didn't worked, what was missing and what could be improved. Part of the acceptance test will be to see how well the machine learning classifier is. Since we need documents fitting to the different classes this is part of acceptance testing too.\\
+\\
+\textbf{machine learning} \\
+To test the machine learning we will manually search for a small set of pages per class. We will then manually decide to which class we would expect those pages to be sorted. Then we will run the algorithm and check whether or not a page was correctly sorted. There are 4 outcomes per page per class: true/false positives and true/false negatives. Positives are the pages that should be sorted to that class; true means they were sorted to that class, false meaning they were not sorted to that class. Negatives are pages that should not be sorted to that class and in this case true means they were indeed not sorted to that class and false means they were. So the true values are the ones that should be high. From this we can say how accurate our classifier is. 
 
 \subsection{SIG}
-SIG \cite{sig}, short for software improvement development group, is a tool to give deep code visibility we require so we can remedy current problems and prevent future vulnerabilities. A part of sig \todo{}(?) also includes betterCodeHub \cite{better_code_hub} which checks our code in 10 steps:
-\begin{enumerate}
-    \item \textbf {Write short units of code} \\
-    Units of code should be no longer than 15 lines.
-    \item \textbf {Write simple units of code} \\
-    Separate units of code should contain no more than 4 branch points (if, for, while, etc)
-    \item \textbf{Write code once} \\
-    Shared code should be extracted, either to a new unit or to a super class
-    \item \textbf{Keep unit interfaces small} \\
-    The number of parameters per unit of code should be no more than four.
-    \item \textbf{Separate concerns in modules} \\
-    Identify and extract responsibilities of large modules to separate modules and hide implementation details behind interfaces.
-    \item \textbf{Couple architecture components loosely} \\
-    minimizing the amount of interface code (e.g. by using 'abstract factory' design pattern)
-    \item \textbf{Keep architecture components balanced} \\
-    Organize code in such a way that the number of components is between 2 and 12, and ensure the components are of approximately equal size (keep component size uniformity less than 0.71).
-    \item \textbf{Keep your codebase small} \\
-    Refactor existing code to achieve the same functionality using less volume, and prefer libraries and frameworks over "homegrown" implementations of standard functionality.
-    \item \textbf{Automate tests} \\
-    Add tests for existing code every time you change it.
-    \item \textbf{Write clean code}\\
-    Remove useless comments, commented code blocks, and dead code. Refactor poorly handled exceptions, magic constants, and poorly named units or variables.  
-\end{enumerate}
+SIG \cite{sig}, short for software improvement development group, is a tool to give deep code visibility we require so we can remedy current problems and prevent future vulnerabilities. SIG includes Better Code Hub \cite{better_code_hub} which checks our code according to 10 guidelines as can be seen in appendix \ref{bch_guidelines}. The great thing about Better Code Hub is that it can be run at anytime. We can check better code hub whenever, whilst for SIG we have to send in our code and wait for feedback.
+
 
 \begin{comment}
 - double city names
