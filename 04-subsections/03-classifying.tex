@@ -1,79 +1,81 @@
-\section{Extracting Relations from Documents}
-Now that a selection of relevant documents has been made, we can identify the relations between cities based on these documents. Text documents can be split into two types: structured and unstructured. Text is structured when sentences are used, meaning grammar is used. In the case of structured texts a word may say something about the next word in the sentence, therefor other techniques can be used (for example n-grams) then in case of unstructured texts.Because the text from websites can be structured as well as unstructured, we will most likely use unstructured approaches. One way to do this is by using machine learning. The two common approaches are supervised classification and unsupervised clustering. \\
+\subsection{Extracting Relations from Documents}
+Now that a selection of relevant documents has been made, we can make an attempt to identify the relations between cities based on these documents. Since labelling every relevant document by hand is not feasible an automated approach is desirable. 
+One way to automate this process is by identifying intercity relations using machine learning. Machine learning algorithms can be roughly divided into two distinct groups: Supervised and unsupervised algorithms. Supervised algorithms expect an input set and a corresponding output set by which an model is trained to predict unseen instances of the problem. Unsupervised algorithms identify clusters of entities based on similarities in the feature set corresponding to said entity.
+Considering the fact that we have a strict time schedule of only two months to develop the complete system, we decided with our client to go with the supervised approach. 
+The main reason for this choice is that the training and tweaking of supervised algorithms can be done faster compared to unsupervised algorithms. The main reason for this is that we do not need the complete data-set to start training a supervised model, while for the unsupervised case the complete set is needed.
 
-Clustering, is sorting these websites into groups based on how much they are alike. It does however not assign these groups with a label (or class). this can be a large problem because in one group may be several topics that have similarities with some of the other topics within the group but not with all other topics in the group, which makes it very hard to assign a label to these groups. Although it is possible to label these groups manually, since it is quit tedious and we are on a limited time schedule, it is better to use a classification algorithm. \\
+\subsubsection{Defining Classes}
+Our choice of using classification has naturally lead to the need for categories we want to identify within the collected documents. Together with our clients, Dr. Evert Meijers and Antoine Peris, we identified the following categories which are useful to identify from the collected documents:\\
 
-With classification you need to decide upon the labels (classes) you want to use beforehand, and then for each class find a small subset as training data. Afterwards the classifier can automatically label a new document to one of the labels. Before we can enter the training data or classify a text document we need to pre-process the document into valid input and define which classes are important.
-
-\subsection{defining classes}
-Since we decided on using classification as our supervised machine learning algorithm we need to define the classes beforehand. Since we are not familiar with the most useful categories for measuring relationships between cities, we asked our clients Evert Meijers and Antoine Peris for their help. They choose the following topics for us to investigate:\\
-- Commuting ('woon-werk') \\
-- Shopping or servicetrips ('winkelen / diensten') \\
-- Leisure trips ('vrije tijd / recreatie / toerisme') \\
-- Residential mobility ('verhuizingen') \\
-- Business trips ('zakelijk verkeer') \\
-- Education ('Onderwijs, School') \\
-- Collaboration ('Samenwerken') \\
-- Goods Transportation ('Goederenvervoer') \\
-- Other ('overig / restcategorie') \\
-\\
-
-
-\subsection{preprocess}
-
-For text preprocessing there are a number of tools available. We used NLTK \cite{nlkt_stemming} for tokenizing, removing stopwords and stemming and Gensim \cite{Gensim} for Modelling.
 \begin{enumerate}
-\item Tokenization. \\ splitting up the text into words and other symbols called tokens. For this we implemented the tokenizer NLTK provides. Testing showed that it does what it is supposed to do.
-\item Removing stop words. \\ Removing all common words (the, a, an etc) and symbols ('.', ',', '!', etc). For removing stopwords we used a list from NLTK containing dutch stopwords. For removing symbols we made a method that removes all non alphabet values except spaces from text. 
-\item Stemming. \\ Reducing derived words to their stem (e.g. fishing -> fish). We first wanted to use NLTK, which itself implements several stemmers including SnowBallStemmer \cite{snowball_dutch} and Porter \cite{porter_Stemmer}. However research from the Rijks Universiteit Groningen (RUG) by Tanja Gaustad and Gosse Bouma \cite{gaustad2002accurate} evaluated a Bayesian text classification system with either no stemming or the Porter or dictionary based stemmer. Which concludeded stemming does not lead to significant change in classification accuracy.
-\item Modelling (TF-IDF). \\ Before we can enter this tokenized data into the machine learning algorithm we first need to transform it to the correct model. Gensim provides two ready to use method for this to change tokenized text into the proper input data. The first is token2ID which gives each unique word a numeric ID and counts the amount that those words occur in a text and the second is tfidf which changes the amount that words occur in tf-idf values. tf-idf means term frequence inverse documet frequency. Term frequency is the number of times the word occurs in a document and idf is the number of documents devided by the number of documents where the term occurs. These two values are then multiplied. The results are normalized to make up for different document lenghts [https://radimrehurek.com/gensim/models/tfidfmodel.html].
+    \item Commuting
+    \item Leisure
+    \item Residential mobility
+    \item Education
+    \item Collaboration
+    \item Transportation
+    \item Shopping
+    \item Other
 \end{enumerate}
 
-\subsection{training}
-In order to use supervised machine learning, we first need to find training data for each class. We thought about two ways to do this. In order to get a good training sample for these categories, we discussed two different methods. \\
+These categories represent topics that are of interest for our clients. They relate to research that is being done by our clients and to relations that were deemed important in previous research on intercity relations.
 
-The first option was to query for results from news(paper) sites. However, this approach did not give us the desired results. The reason for this is that the categories we find in the newspapers do not match the categories Antoine and Evert provided us with. We also tried using the search engine from those news sites, however using those we found completely unrelated articles to the search queries (A search query about 'verhuizen' resulted in an article about parrots and minecraft).\\
+\subsubsection{Pre-processing}
 
-The second option we are considering is to use Google Custom Search to obtain results from Google using the categories/keywords Antoine and Evert provided us with. A quick test with this last method provided us with quite good results (although we still see some noise in the results this is less than with the search engines from news sites).\\
+For pre-processing the documents there are a number of tools available. We used NLTK \cite{nlkt_stemming} for removing stopwords and regular expressions for removing unwanted characters. The HTML parsing/.. was done using BeautifulSoup.\todo{add ref}
 
+\begin{enumerate}
+\item Stop words. \\ 
+Removing all common words (the, a, an etc) and symbols ('.', ',', '!', etc). For removing stopwords we used a list from NLTK containing dutch stopwords.
 
-\subsection{classifying}
-For classifying there are a multitude of algorithms available. For choosing the classifier we make use of the Microsoft Azure Machine Learning Test Sheet \cite{MLCheatSheet}. Several factors should be taken into account when choosing an algorithm. These are:
+\item Unwanted characters. \\
+To strip unwanted characters we have developed our own regular expression, which helps us identify and strip instances of unwanted characters (punctuation marks, years, etc.). 
+
+\item HTML. \\
+Since we are dealing with HTML pages which we are parsing to plain-text documents we need to strip unwanted content from the HTML. Using BeautifulSoup we strip unwanted tags (script, style, link, etc.) and parse the rest of the page to plain-text.
+\end{enumerate}
+
+\subsubsection{Data-set}
+Before we can start building up and training our model we need to collect data we can use as an input for the model. To collect this data we have considered several options.
+\\
+\\
+The first option is to query for documents from news(paper) sites. Since these documents are categorised by professionals we may assume these documents will provide us with features that represent the categories associated with these documents well.
+Unfortunately the categories that we identified with our clients do not match typical newspaper categories, so this approach was not suitable for us.
+\\
+\\
+Another approach is to use Google Custom Search to obtain results from Google using the categories/keywords the client provided us with. The main disadvantage of this approach is lack of control over the files that get added into the data-set and the large amount of noise produced by this method.
+\\
+\\
+Finally we decided to provide our clients with a "labelling interface". The labelling interface provides the user with an document from the set of collected documents. Then it allows the user to label these documents with zero or more categories after which the document gets assigned to the correct category, or it gets discarded (if no category is selected). This way we have total control of the documents that get added into the data-set. The documents are labelled by experts in the field of intercity-relations so we may assume these documents will represent the labelled categories well. 
+
+\subsubsection{Modelling}
+When considering classification there are a multitude of algorithms available. When choosing the right algorithm for a problem several factors should be taken into account. These are \cite{MLCheatSheet}:
     \begin{enumerate}
         \item Accuracy - How well the algorithm separates the websites.
         \item Training Time - How long it takes to train the algorithm.
         \item Linearity - Linear regression assumes data trends follow a straight line. This is trade-off between accuracy and speed.
         \item Number of Parameters - Adjustable parameters increase the flexibility of the algorithms. This is a trade-off between training time and accuracy.
-        \item Number of Features - A large number of features can make some algorithms unfeasibly long. Especially text data (what we are using!) has a large number features. Support Vector Machines are especially well suited in this case.
+        \item Number of Features - A large number of features can make some algorithms unfeasible long. Especially text data (what we are using!) has a high number features.
         \item Special Cases - Some learning algorithms make particular assumptions about the data or the results.
     \end{enumerate}
-    
-    For textual data especially support vector machines are recommended, so it is most likely we will choose that machine learning algorithm. Depending on whether we have time we might do some tests before making our decision however. The sci-kit package\cite{scikit-learn} provides an easy to implement module to use this.
+
+Regarding the fact that we are dealing with textual data, we can assume that we will have a large feature set. An algorithm like SVM \cite{ml_text} works well with large feature sets\cite{MLCheatSheet}.
+Also previous research concerning the classification of text-documents suggests SVM is one of the leading techniques in this regard\cite{ml_text}. While we are using the Scikit library for this project 
 
 
-\begin{comment}
-First, one or more subjects should be extracted from each relevant document. These subjects should reflect the contents of the document well in order to adequately identify relationships.
-The second sub-task is to determine the relationships between the cities mentioned in the document, based on the extracted subjects.
+\begin{enumerate}
+\item Features:\\ 
+To get an useful set of inputs (features) for our system we need to decide what describes the properties of our documents best. Since we are dealing with text-documents a natural choice for these inputs are the words contained in these documents. 
+The words alone do not provide us a very useful input to the system. That is why we use TF-IDF to give the words that we encountered a weight. TF-IDF (Term Frequency-Inverse Document Frequency) gives words a weight based on their frequency in a document and on the frequency of the word in the complete document set. This way words that are rare in the complete document set but occur often in a document are assigned a high weight. Words that occur in many documents in the complete document set get awarded a low weight\cite{ramos_tfidf}.
+Using TF-IDF our features become words with weights associated to them.
 
-% \\
-% The first challenge we face is to extract one or more subjects from each document that we selected in the previous step. These subjects should be a good description of what is stated in the document and will be the main source of identifying the relations between the cities cited in the document.
-% \\
-% The second challenge is, using the former mentioned subjects, to identify relations based on these subjects. 
-% \\
-% We will consider several possibilities which can help us in tackling these challenges in the sections below.
+\item Dimensionality reduction: 
+Since we are working with text-documents and our features are words with TF-IDF weights we can assume that our feature set will be very large. The total number of features determines how fast we can train our model and has implications regarding over-fitting \cite{ml_text}. To reduce the number of features we considered different techniques from \cite{ml_text}. Since we have no time to test all the techniques, we decided to select the top ten percent of our features (based on the TF-IDF weights)\cite{yang1997}. To provide an easy way to add different types of dimensionality reduction techniques later we will keep the code for defining new classifiers easily extendable.
+\\
+\\
+\item Classification:
+Even after applying the dimensionality reduction that we discussed in the previous section we are left with a lot of features. Thus we need a algorithm that works well with a feature rich problem. From \cite{MLCheatSheet} we know SVM is a algorithm that works well with feature rich problems. Also \cite{ml_text} claims SVM is one of the best techniques when considering text classification. This combined with the fact that Scikit offers an easy to use implementation of SVM has lead us to using SVM as our classification algorithm.
+\end{enumerate}
 
-
-\subsubsection{Extracting Subjects from Documents}
-To identify the subjects associated with each individual document, we investigated several algorithms that we will present next.
-
-\begin{description}
-    \item[RAKE] offers an unsupervised, domain-independent, and language-independent method for extracting keywords from individual documents \cite{rose2010automatic}. This fits well within the context of our application. We work with individual documents which we want to label with one or more subjects/keywords.
-    \item[Gensim]
-    \item[NLTK]
-\end{description}
-
-
-\subsection{Identifying Relations Based on Subjects}
-
-
-\end{comment}
+\subsubsection{Remarks}
+Scikit offers a lot of useful features to optimise the classifier. Also using Scikit-"Pipelines" composing a classifier is an relatively easy task. Since we unfortunately do not have the time to benchmark the results of different types of classifiers and to play around with the different optimisation options, we plan on implementing our code in such a way that extending the code to use these optimisations and different pipelines will be real easy.
