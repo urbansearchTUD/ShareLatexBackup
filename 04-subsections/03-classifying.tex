@@ -3,21 +3,22 @@ Now that a selection of relevant documents has been made, we can identify the re
 
 Clustering, is sorting these websites into groups based on how much they are alike. It does however not assign these groups with a label (or class). This can be a large problem because in one group may be several topics that have similarities with some of the other topics within the group but not with all other topics in the group, which makes it very hard to assign a label to these groups. Although it is possible to label these groups manually, since it is quit tedious and we are on a limited time schedule, it is better to use a classification algorithm. \\
 
-With classification you need to decide upon the labels (classes) you want to use beforehand, and then for each class find a small subset as training data. Afterwards the classifier can automatically label a new document to one of the labels. Before we can enter the training data or classify a text document we need to preprocess the document into valid input and define which classes are important.
+With classification you need to decide upon the labels (classes) you want to use beforehand, and then for each class find a subset as training data. Afterwards the classifier can automatically label a new document to one of the labels. Before we can enter the training data or classify a text document we need to preprocess the document into valid input and define which classes are important.
 
-\subsubsection{defining classes}
-Since we decided on using classification as our supervised machine learning algorithm we need to define the classes beforehand. Since we are not familiar with the most useful categories for measuring relationships between cities, we asked our clients Evert Meijers and Antoine Peris for their help. They choose the following topics for us to investigate:\\
-- Commuting ('woon-werk') \\
-- Shopping or servicetrips ('winkelen / diensten') \\
-- Leisure trips ('vrije tijd / recreatie / toerisme') \\
-- Residential mobility ('verhuizingen') \\
-- Business trips ('zakelijk verkeer') \\
-- Education ('Onderwijs, School') \\
-- Collaboration ('Samenwerken') \\
-- Goods Transportation ('Goederenvervoer') \\
-- Other ('overig / restcategorie') \\
-\\
-For each of these we selected five typical articles which can be found in appendix \ref{App:validation_articles}
+\subsubsection{Defining Classes}
+Our choice of using classification has naturally lead to the need for categories we want to identify within the collected documents. Together with our clients, Dr. Evert Meijers and Antoine Peris, we identified the following categories which are useful to identify from the collected documents:\\
+
+\begin{enumerate}
+    \item Commuting
+    \item Leisure
+    \item Residential mobility
+    \item Education
+    \item Collaboration
+    \item Transportation
+    \item Other
+\end{enumerate}
+
+These categories represent topics that are of interest for our clients. It relates to research that is being done by our clients and 
 
 \subsubsection{preprocess}
 
@@ -25,9 +26,9 @@ For text preprocessing there are a number of tools available. We used NLTK \cite
 \begin{enumerate}
 \item Tokenization. \\ splitting up the text into words and other symbols called tokens. For this we implemented the tokenizer NLTK provides. Testing showed that it does what it is supposed to do.
 \item Removing stop words. \\ Removing all common words (the, a, an etc) and symbols ('.', ',', '!', etc). For removing stopwords we used a list from NLTK containing dutch stopwords. For removing symbols we made a method that removes all non alphabet values except spaces from text. 
-\item Stemming. \\ Reducing derived words to their stem (e.g. fishing -> fish). We first wanted to use NLTK, which itself implements several stemmers including SnowBallStemmer \cite{snowball_dutch} and Porter \cite{porter_Stemmer}. However research from the Rijks Universiteit Groningen (RUG) by Tanja Gaustad and Gosse Bouma \cite{gaustad2002accurate} evaluated a Bayesian text classification system with either no stemming or the Porter or dictionary based stemmer. Which concludeded stemming does not lead to significant change in classification accuracy.
+\item Stemming. \\ Reducing derived words to their stem (e.g. fishing -> fish). We first wanted to use NLTK, which itself implements several stemmers including SnowBallStemmer \cite{snowball_dutch} and Porter \cite{porter_Stemmer}. However research from the Rijks Universiteit Groningen (RUG) by Tanja Gaustad and Gosse Bouma \cite{gaustad2002accurate} evaluated a Bayesian text classification system with either no stemming or the Porter or dictionary based stemmer. Which concluded stemming does not lead to significant change in classification accuracy.
 
-\item Modelling (TF-IDF). \\ Before we can enter this tokenized data into the machine learning algorithm we first need to transform it to the correct model. Gensim provides two ready to use method for this to change tokenized text into the proper input data. The first is token2ID which gives each unique word a numeric ID and counts the amount that those words occur in a text and the second is tfidf which changes the amount that words occur in tf-idf values. tf-idf means term frequence inverse documet frequency. Term frequency is the number of times the word occurs in a document and idf is the number of documents devided by the number of documents where the term occurs. These two values are then multiplied. The results are normalized to make up for different document lenghts [https://radimrehurek.com/gensim/models/tfidfmodel.html].
+\item Modelling (TF-IDF). \\ Before we can enter this tokenized data into the machine learning algorithm we first need to transform it to the correct model. Gensim provides two ready to use method for this to change tokenized text into the proper input data. The first is token2ID which gives each unique word a numeric ID and counts the amount that those words occur in a text and the second is tfidf which changes the amount that words occur in tf-idf values. tf-idf means term frequency inverse document frequency. Term frequency is the number of times the word occurs in a document and idf is the number of documents divided by the number of documents where the term occurs. These two values are then multiplied. The results are normalised to make up for different document lengths [https://radimrehurek.com/gensim/models/tfidfmodel.html].
 \end{enumerate}
 
 \subsubsection{training}

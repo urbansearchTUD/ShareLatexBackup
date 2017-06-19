@@ -21,7 +21,7 @@
 \contentsline {subsubsection}{\numberline {4.1.2}Other Data Sources}{7}
 \contentsline {subsection}{\numberline {4.2}Selecting Relevant Documents}{7}
 \contentsline {subsection}{\numberline {4.3}Extracting Relations from Documents}{8}
-\contentsline {subsubsection}{\numberline {4.3.1}defining classes}{8}
+\contentsline {subsubsection}{\numberline {4.3.1}Defining Classes}{8}
 \contentsline {subsubsection}{\numberline {4.3.2}preprocess}{9}
 \contentsline {subsubsection}{\numberline {4.3.3}training}{9}
 \contentsline {subsubsection}{\numberline {4.3.4}classifying}{9}
