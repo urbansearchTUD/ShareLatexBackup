@@ -3,50 +3,53 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: output.aux
 The style file: plain.bst
 Database file #1: references.bib
-Repeated entry---line 424 of file references.bib
+Repeated entry---line 108 of file references.bib
+ : @article{devriendt2008cyberplace
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 467 of file references.bib
  : @article{scikit-learn
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "3"
-You've used 29 entries,
+You've used 30 entries,
             2118 wiz_defined-function locations,
-            675 strings with 8615 characters,
-and the built_in function-call counts, 8954 in all, are:
-= -- 903
-> -- 375
+            680 strings with 8781 characters,
+and the built_in function-call counts, 9406 in all, are:
+= -- 950
+> -- 397
 < -- 4
-+ -- 154
-- -- 120
-* -- 561
-:= -- 1482
-add.period$ -- 94
-call.type$ -- 29
-change.case$ -- 146
++ -- 163
+- -- 128
+* -- 609
+:= -- 1560
+add.period$ -- 97
+call.type$ -- 30
+change.case$ -- 153
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 326
-empty$ -- 744
-format.name$ -- 120
-if$ -- 1891
+cite$ -- 30
+duplicate$ -- 341
+empty$ -- 773
+format.name$ -- 128
+if$ -- 1976
 int.to.chr$ -- 0
-int.to.str$ -- 29
-missing$ -- 21
-newline$ -- 153
-num.names$ -- 58
-pop$ -- 174
+int.to.str$ -- 30
+missing$ -- 23
+newline$ -- 158
+num.names$ -- 60
+pop$ -- 173
 preamble$ -- 1
-purify$ -- 118
+purify$ -- 124
 quote$ -- 0
-skip$ -- 247
+skip$ -- 253
 stack$ -- 0
-substring$ -- 548
-swap$ -- 65
+substring$ -- 594
+swap$ -- 66
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 114
+type$ -- 118
 warning$ -- 0
-while$ -- 94
-width$ -- 31
-write$ -- 319
-(There was 1 error message)
+while$ -- 100
+width$ -- 32
+write$ -- 331
+(There were 2 error messages)

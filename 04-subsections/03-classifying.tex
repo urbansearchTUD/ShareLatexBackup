@@ -21,13 +21,40 @@ These categories represent topics that are of interest for our clients. They rel
 
 \subsubsection{Pre-processing}
 
-For text pre-processing there are a number of tools available. We used NLTK \cite{3} removing stopwords and Scikit-Learn \cite{scikit-learn} for Modelling.
-\begin{enumerate}
-\item Tokenization. \\ splitting up the text into words and other symbols called tokens. For this we implemented the tokenizer NLTK provides. Testing showed that it does what it is supposed to do.
-\item Removing stop words. \\ Removing all common words (the, a, an etc) and symbols ('.', ',', '!', etc). For removing stopwords we used a list from NLTK containing dutch stopwords. For removing symbols we made a method that removes all non alphabet values except spaces from text. 
-\item Stemming. \\ Reducing derived words to their stem (e.g. fishing -> fish). We first wanted to use NLTK, which itself implements several stemmers including SnowBallStemmer \cite{snowball_dutch} and Porter \cite{porter_Stemmer}. However research from the Rijks Universiteit Groningen (RUG) by Tanja Gaustad and Gosse Bouma \cite{gaustad2002accurate} evaluated a Bayesian text classification system with either no stemming or the Porter or dictionary based stemmer. Which concluded stemming does not lead to significant change in classification accuracy.
+For pre-processing the documents there are a number of tools available. We used NLTK \cite{nlkt_stemming} for removing stopwords and regular expressions for removing unwanted characters. The HTML parsing/.. was done using BeautifulSoup.\todo{add ref}
 
-\item Modelling (TF-IDF). \\ Before we can enter this tokenized data into the machine learning algorithm we first need to transform it to the correct model. Gensim provides two ready to use method for this to change tokenized text into the proper input data. The first is token2ID which gives each unique word a numeric ID and counts the amount that those words occur in a text and the second is tfidf which changes the amount that words occur in tf-idf values. tf-idf means term frequency inverse document frequency. Term frequency is the number of times the word occurs in a document and idf is the number of documents divided by the number of documents where the term occurs. These two values are then multiplied. The results are normalised to make up for different document lengths [https://radimrehurek.com/gensim/models/tfidfmodel.html].
+\begin{enumerate}
+\item Stop words. \\ 
+Removing all common words (the, a, an etc) and symbols ('.', ',', '!', etc). For removing stopwords we used a list from NLTK containing dutch stopwords.
+
+\item Unwanted characters. \\
+To strip unwanted characters we have developed our own regular expression, which helps us identify and strip instances of unwanted characters (punctuation marks, years, etc.). 
+
+\item HTML. \\
+Since we are dealing with HTML pages which we are parsing to plain-text documents we need to strip unwanted content from the HTML. Using BeautifulSoup we strip unwanted tags (script, style, link, etc.) and parse the rest of the page to plain-text.
+\end{enumerate}
+
+\subsubsection{Data-set}
+
+\subsubsection{Modelling}
+For classifying there are a multitude of algorithms available. For choosing the classifier we make use of the Microsoft Azure Machine Learning Test Sheet \cite{MLCheatSheet}. Several factors should be taken into account when choosing an algorithm. These are:
+    \begin{enumerate}
+        \item Accuracy - How well the algorithm separates the websites.
+        \item Training Time - How long it takes to train the algorithm.
+        \item Linearity - Linear regression assumes data trends follow a straight line. This is trade-off between accuracy and speed.
+        \item Number of Parameters - Adjustable parameters increase the flexibility of the algorithms. This is a trade-off between training time and accuracy.
+        \item Number of Features - A large number of features can make some algorithms unfeasibly long. Especially text data (what we are using!) has a large number features. Support Vector Machines are especially well suited in this case.
+        \item Special Cases - Some learning algorithms make particular assumptions about the data or the results.
+    \end{enumerate}
+    
+For textual data especially support vector machines are recommended, so it is most likely we will choose that machine learning algorithm. Depending on whether we have time we might do some tests before making our decision however. The sci-kit package\cite{scikit-learn} provides an easy to implement module to use this.
+
+\begin{enumerate}
+\item TF-IDF \\ 
+Before we can enter this tokenized data into the machine learning algorithm we first need to transform it to the correct model. Gensim provides two ready to use method for this to change tokenized text into the proper input data. The first is token2ID which gives each unique word a numeric ID and counts the amount that those words occur in a text and the second is tfidf which changes the amount that words occur in tf-idf values. tf-idf means term frequency inverse document frequency. Term frequency is the number of times the word occurs in a document and idf is the number of documents divided by the number of documents where the term occurs. These two values are then multiplied. The results are normalised to make up for different document lengths [https://radimrehurek.com/gensim/models/tfidfmodel.html].
+\item ANOVA
+
+\item SVM
 \end{enumerate}
 
 \subsubsection{training}
@@ -39,17 +66,7 @@ The second option we are considering is to use Google Custom Search to obtain re
 
 
 \subsubsection{classifying}
-For classifying there are a multitude of algorithms available. For choosing the classifier we make use of the Microsoft Azure Machine Learning Test Sheet \cite{MLCheatSheet}. Several factors should be taken into account when choosing an algorithm. These are:
-    \begin{enumerate}
-        \item Accuracy - How well the algorithm separates the websites.
-        \item Training Time - How long it takes to train the algorithm.
-        \item Linearity - Linear regression assumes data trends follow a straight line. This is trade-off between accuracy and speed.
-        \item Number of Parameters - Adjustable parameters increase the flexibility of the algorithms. This is a trade-off between training time and accuracy.
-        \item Number of Features - A large number of features can make some algorithms unfeasibly long. Especially text data (what we are using!) has a large number features. Support Vector Machines are especially well suited in this case.
-        \item Special Cases - Some learning algorithms make particular assumptions about the data or the results.
-    \end{enumerate}
-    
-    For textual data especially support vector machines are recommended, so it is most likely we will choose that machine learning algorithm. Depending on whether we have time we might do some tests before making our decision however. The sci-kit package\cite{scikit-learn} provides an easy to implement module to use this.
+
 
 
 \begin{comment}
