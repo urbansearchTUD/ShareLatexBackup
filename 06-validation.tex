@@ -1,0 +1,39 @@
+\section{Validation}
+
+\subsection {machine learning}
+To test the machine learning we will manually search for a small set of 50 pages per class. We will then manually decide to which class we would expect those pages to be sorted. Then we will run the algorithm and check whether or not a page was correctly sorted. There are 4 outcomes per page per class: true/false positives and true/false negatives. Positives are the pages that should be sorted to that class; true means they were sorted to that class, false meaning they were not sorted to that class. Negatives are pages that should not be sorted to that class and in this case true means they were indeed not sorted to that class and false means they were. So the true values are the ones that should be high. From this we can say how accurate our classifier is.
+
+\subsection{unit tests}
+
+\subsection{selenium tests}
+
+\subsection{SIG}
+SIG \cite{sig}, short for software improvement development group, is a tool to give deep code visibility we require so we can remedy current problems and prevent future vulnerabilities. A part of sig \todo{}(?) also includes betterCodeHub \cite{better_code_hub} which checks our code in 10 steps:
+\begin{enumerate}
+    \item \textbf {Write short units of code} \\
+    Units of code should be no longer than 15 lines.
+    \item \textbf {Write simple units of code} \\
+    Separate units of code should contain no more than 4 branch points (if, for, while, etc)
+    \item \textbf{Write code once} \\
+    Shared code should be extracted, either to a new unit or to a super class
+    \item \textbf{Keep unit interfaces small} \\
+    The number of parameters per unit of code should be no more than four.
+    \item \textbf{Separate concerns in modules} \\
+    Identify and extract responsibilities of large modules to separate modules and hide implementation details behind interfaces.
+    \item \textbf{Couple architecture components loosely} \\
+    minimizing the amount of interface code (e.g. by using 'abstract factory' design pattern)
+    \item \textbf{Keep architecture components balanced} \\
+    Organize code in such a way that the number of components is between 2 and 12, and ensure the components are of approximately equal size (keep component size uniformity less than 0.71).
+    \item \textbf{Keep your codebase small} \\
+    Refactor existing code to achieve the same functionality using less volume, and prefer libraries and frameworks over "homegrown" implementations of standard functionality.
+    \item \textbf{Automate tests} \\
+    Add tests for existing code every time you change it.
+    \item \textbf{Write clean code}\\
+    Remove useless comments, commented code blocks, and dead code. Refactor poorly handled exceptions, magic constants, and poorly named units or variables.  
+\end{enumerate}
+
+\begin{comment}
+- double city names
+- city names with meaning (leiden)
+- city/province names (utrecht / groningen / zeeland)
+\end{comment}

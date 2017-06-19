@@ -1,51 +1,81 @@
-\contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {section}{\numberline {2}Related Work}{3}
+\contentsline {section}{\numberline {1}Introduction}{4}
+\contentsline {section}{\numberline {2}Related Work}{4}
 \contentsline {section}{\numberline {3}Requirement Analysis}{4}
-\contentsline {subsection}{\numberline {3.1}User Stories}{4}
-\contentsline {subsection}{\numberline {3.2}Design Goals}{4}
-\contentsline {paragraph}{credible}{4}
-\contentsline {paragraph}{understandable}{4}
-\contentsline {paragraph}{scalable}{4}
+\contentsline {subsection}{\numberline {3.1}Design Goals}{5}
+\contentsline {paragraph}{credible}{5}
+\contentsline {paragraph}{understandable}{5}
+\contentsline {paragraph}{scalable}{5}
 \contentsline {paragraph}{plugable}{5}
-\contentsline {paragraph}{exportable}{5}
 \contentsline {paragraph}{fast development}{5}
+\contentsline {subsection}{\numberline {3.2}User Stories}{5}
 \contentsline {subsection}{\numberline {3.3}Product Requirements}{5}
-\contentsline {subsubsection}{\numberline {3.3.1}Must Have}{5}
-\contentsline {subsubsection}{\numberline {3.3.2}Should Have}{5}
+\contentsline {subsubsection}{\numberline {3.3.1}Must Have}{6}
+\contentsline {subsubsection}{\numberline {3.3.2}Should Have}{6}
 \contentsline {subsubsection}{\numberline {3.3.3}Could Have}{6}
 \contentsline {subsubsection}{\numberline {3.3.4}Would Like}{6}
-\contentsline {subsection}{\numberline {3.4}Design Decisions}{6}
-\contentsline {section}{\numberline {4}Framework and Tools}{6}
-\contentsline {subsection}{\numberline {4.1}Gathering the Data}{6}
-\contentsline {subsubsection}{\numberline {4.1.1}Common Crawl}{6}
-\contentsline {subsubsection}{\numberline {4.1.2}Other Data Sources}{7}
-\contentsline {subsection}{\numberline {4.2}Selecting Relevant Documents}{7}
-\contentsline {subsection}{\numberline {4.3}Extracting Relations from Documents}{8}
-\contentsline {subsubsection}{\numberline {4.3.1}Defining Classes}{8}
-\contentsline {subsubsection}{\numberline {4.3.2}Pre-processing}{8}
-\contentsline {subsubsection}{\numberline {4.3.3}Data-set}{9}
-\contentsline {subsubsection}{\numberline {4.3.4}Modelling}{9}
-\contentsline {subsubsection}{\numberline {4.3.5}training}{10}
-\contentsline {subsubsection}{\numberline {4.3.6}classifying}{10}
-\contentsline {subsection}{\numberline {4.4}Storing and Ingesting the Data}{10}
-\contentsline {subsubsection}{\numberline {4.4.1}Graph Database, Search Engine or Traditional Database}{10}
-\contentsline {subsubsection}{\numberline {4.4.2}Comparing Graph Databases}{10}
+\contentsline {subsection}{\numberline {3.4}Design Decisions}{7}
+\contentsline {section}{\numberline {4}Framework and Tools}{7}
+\contentsline {subsection}{\numberline {4.1}Gathering the Data}{7}
+\contentsline {subsubsection}{\numberline {4.1.1}Common Crawl}{7}
+\contentsline {subsubsection}{\numberline {4.1.2}Other Data Sources}{8}
+\contentsline {subsection}{\numberline {4.2}Selecting Relevant Documents}{8}
+\contentsline {subsection}{\numberline {4.3}Extracting Relations from Documents}{9}
+\contentsline {subsubsection}{\numberline {4.3.1}defining classes}{9}
+\contentsline {subsubsection}{\numberline {4.3.2}preprocess}{9}
+\contentsline {subsubsection}{\numberline {4.3.3}training}{10}
+\contentsline {subsubsection}{\numberline {4.3.4}classifying}{10}
+\contentsline {subsection}{\numberline {4.4}Storing and Ingesting the Data}{11}
+\contentsline {subsubsection}{\numberline {4.4.1}Graph Database, Search Engine or Traditional Database}{11}
+\contentsline {subsubsection}{\numberline {4.4.2}Comparing Graph Databases}{11}
 \contentsline {subsubsection}{\numberline {4.4.3}Using Neo4j for Storage and Ingestion}{11}
 \contentsline {subsection}{\numberline {4.5}Interacting with the Data}{12}
 \contentsline {subsubsection}{\numberline {4.5.1}Query Language}{12}
-\contentsline {subsubsection}{\numberline {4.5.2}Query Composer Interface}{12}
-\contentsline {subsubsection}{\numberline {4.5.3}Interactive Search}{12}
-\contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{13}
-\contentsline {subsection}{\numberline {4.6}Visualising the Data}{13}
-\contentsline {subsubsection}{\numberline {4.6.1}Representing the Data Graphically}{13}
-\contentsline {subsubsection}{\numberline {4.6.2}Using Geographical Maps}{13}
-\contentsline {subsubsection}{\numberline {4.6.3}Handling Map Clutter}{14}
-\contentsline {section}{\numberline {5}Validation}{14}
-\contentsline {subsection}{\numberline {5.1}Tests}{14}
-\contentsline {subsubsection}{\numberline {5.1.1}unit tests}{14}
-\contentsline {subsubsection}{\numberline {5.1.2}Integration tests}{15}
-\contentsline {subsubsection}{\numberline {5.1.3}System tests}{15}
-\contentsline {subsubsection}{\numberline {5.1.4}Acceptance Testing}{15}
-\contentsline {subsection}{\numberline {5.2}SIG}{16}
-\contentsline {section}{\numberline {6}Conclusion}{16}
-\contentsline {section}{\numberline {A}Better Code Hub Guidelines}{16}
+\contentsline {subsubsection}{\numberline {4.5.2}Query Composer Interface}{13}
+\contentsline {subsubsection}{\numberline {4.5.3}Interactive Search}{14}
+\contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{14}
+\contentsline {subsection}{\numberline {4.6}Visualising the Data}{14}
+\contentsline {subsubsection}{\numberline {4.6.1}Representing the Data Graphically}{14}
+\contentsline {subsubsection}{\numberline {4.6.2}Using Geographical Maps}{14}
+\contentsline {subsubsection}{\numberline {4.6.3}Handling Map Clutter}{15}
+\contentsline {subsection}{\numberline {4.7}server}{15}
+\contentsline {section}{\numberline {5}Code Quality}{16}
+\contentsline {subsection}{\numberline {5.1}SIG \& BetterCodeHub}{16}
+\contentsline {subsubsection}{\numberline {5.1.1}week 5}{16}
+\contentsline {subsubsection}{\numberline {5.1.2}week 9}{16}
+\contentsline {subsection}{\numberline {5.2}Testing}{16}
+\contentsline {subsubsection}{\numberline {5.2.1}Unit Testing}{16}
+\contentsline {paragraph}{Selenium}{16}
+\contentsline {subsubsection}{\numberline {5.2.2}Integration tests}{16}
+\contentsline {subsubsection}{\numberline {5.2.3}System Testing}{16}
+\contentsline {subsubsection}{\numberline {5.2.4}Acceptance Testing}{17}
+\contentsline {section}{\numberline {6}Validation}{17}
+\contentsline {subsection}{\numberline {6.1}machine learning}{17}
+\contentsline {subsection}{\numberline {6.2}unit tests}{17}
+\contentsline {subsection}{\numberline {6.3}selenium tests}{17}
+\contentsline {subsection}{\numberline {6.4}SIG}{17}
+\contentsline {section}{\numberline {7}Process}{18}
+\contentsline {subsection}{\numberline {7.1}Collaboration between the team members}{18}
+\contentsline {subsection}{\numberline {7.2}Collaboration between the team members and the TU Delft Coach}{18}
+\contentsline {subsection}{\numberline {7.3}Collaboration between the team members and the client}{18}
+\contentsline {section}{\numberline {8}Implementation}{19}
+\contentsline {subsection}{\numberline {8.1}Scrum}{19}
+\contentsline {subsection}{\numberline {8.2}Implementation per week}{19}
+\contentsline {subsubsection}{\numberline {8.2.1}week 1}{19}
+\contentsline {subsubsection}{\numberline {8.2.2}week 2}{19}
+\contentsline {subsubsection}{\numberline {8.2.3}week 3}{19}
+\contentsline {subsubsection}{\numberline {8.2.4}week 4}{19}
+\contentsline {subsubsection}{\numberline {8.2.5}week 5}{19}
+\contentsline {subsubsection}{\numberline {8.2.6}week 6}{19}
+\contentsline {subsubsection}{\numberline {8.2.7}week 7}{19}
+\contentsline {subsubsection}{\numberline {8.2.8}week 8}{19}
+\contentsline {subsubsection}{\numberline {8.2.9}week 9}{19}
+\contentsline {section}{\numberline {9}Conclusion}{19}
+\contentsline {subsection}{\numberline {9.1}related work}{19}
+\contentsline {subsection}{\numberline {9.2}related work}{19}
+\contentsline {subsection}{\numberline {9.3}Requirement analysis}{19}
+\contentsline {subsection}{\numberline {9.4}Framework-and-tools}{19}
+\contentsline {section}{\numberline {A}Sig Feedback}{20}
+\contentsline {subsection}{\numberline {A.1}week 5}{20}
+\contentsline {subsection}{\numberline {A.2}week 9}{20}
+\contentsline {section}{\numberline {B}User manual}{21}
+\contentsline {section}{\numberline {C}Used Libararies}{21}

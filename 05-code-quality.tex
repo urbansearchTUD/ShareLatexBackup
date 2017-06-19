@@ -1,0 +1,32 @@
+\newpage
+
+\section{Code Quality}
+To ensure code quality in our project we used several methods. The results from SIG \cite{sig}, a tool to ensure code quality and maintainability, are discussed and the testing is discussed.
+
+\subsection{SIG \& BetterCodeHub}
+SIG, Software Improvement Group, gives detailed insight needed to achieve better code quality and maintainability. SIG rates the code on a five star scale based on nine different values concerning code quality. Before submitting code to SIG we used BetterCodeHub\cite{better_code_hub} to check for possible faults in our code. BetterCodeHub does partly what SIG also does, but it is done online instead and can be done on every moment. Code was submitted to SIG on week 5 and week 9 of the project. Feedback can be found in appendix \ref{sig_fb}.
+
+\subsubsection{week 5}
+The first feedback from SIG was in the fifth week of development. Before uploading on BetterCodeHub our code passed all checks. For SIG it had a score from four out of five stars which means our code is above average maintainable. The last star was missed because the code is above average complex. This means that some of the functionality of some methods should be split into separate methods.
+\todo{fixed this?}
+
+\subsubsection{week 9}
+
+
+\subsection{Testing}
+We tested the program using three different testing methods. The first is unit testing, which tests the separate components individually. Selenium testing for testing the front-end of the app. And system testing for testing the different components together.
+
+
+\subsubsection{Unit Testing}
+Unit testing is done by writing automatic tests and making sure they pass every time the tests are executed. Unit tests test each method of a function separately, checking that the method does what it is supposed to do. If the method would need information from outside the class that information is mocked. This means that instead of using that other class, a fake object is made which returns a fake value. This ensures the tests will never fail due to changes in other classes. In total these test cover \todo \% of the code.
+
+\paragraph{Selenium}
+Selenium tests are automated tests that are run to test the front-end of systems. Just as normal unit testing, selenium testing is useful for regression testing.
+
+\subsubsection{Integration tests}
+Integration testing uses automated tests which test how well different components of the system work together. This is done more or less the same as unit testing, however whilst you would mock methods from other classes in unit testing, with integration testing you do not. It is assumed that the separate modules are unit tested, therefor if an error occurs it is because something is wrong with the interaction between the modules and not with the modules themselves. 
+
+\subsubsection{System Testing}
+Last we are also using system testing. System testing provides a more complete test of the entire system. This means it is useful to detect faults in the overall system, but less easy to determine where these faults may be located. System testing is done manually, which means the tests can not be easily repeated when the system changes whilst with other testing techniques this is possible. 
+
+\subsubsection{Acceptance Testing}

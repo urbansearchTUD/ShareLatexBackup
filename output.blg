@@ -1,55 +1,56 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: output.aux
-The style file: plain.bst
-Database file #1: references.bib
-Repeated entry---line 108 of file references.bib
- : @article{devriendt2008cyberplace
- :                                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 476 of file references.bib
- : @article{scikit-learn
- :                      ,
-I'm skipping whatever remains of this entry
-You've used 32 entries,
-            2118 wiz_defined-function locations,
-            691 strings with 9028 characters,
-and the built_in function-call counts, 9891 in all, are:
-= -- 1000
-> -- 411
-< -- 4
-+ -- 169
-- -- 132
-* -- 635
-:= -- 1642
-add.period$ -- 104
-call.type$ -- 32
-change.case$ -- 161
+I couldn't open style file tudelft-report.bst
+---line 20 of file output.aux
+ : \bibstyle{tudelft-report
+ :                         }
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 92 of file output.aux
+ : \bibstyle
+ :          {plain}
+I'm skipping whatever remains of this command
+I found no \citation commands---while reading file output.aux
+I found no style file---while reading file output.aux
+You've used 0 entries,
+            0 wiz_defined-function locations,
+            85 strings with 510 characters,
+and the built_in function-call counts, 0 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 0
+:= -- 0
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 359
-empty$ -- 819
-format.name$ -- 132
-if$ -- 2078
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 0
+format.name$ -- 0
+if$ -- 0
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 24
-newline$ -- 169
-num.names$ -- 64
-pop$ -- 185
-preamble$ -- 1
-purify$ -- 130
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 0
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 0
+purify$ -- 0
 quote$ -- 0
-skip$ -- 265
+skip$ -- 0
 stack$ -- 0
-substring$ -- 620
-swap$ -- 68
-text.length$ -- 4
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 126
+type$ -- 0
 warning$ -- 0
-while$ -- 106
-width$ -- 34
-write$ -- 353
-(There were 2 error messages)
+while$ -- 0
+width$ -- 0
+write$ -- 0
+(There were 4 error messages)
