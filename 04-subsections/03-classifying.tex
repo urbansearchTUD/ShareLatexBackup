@@ -1,5 +1,14 @@
 \subsection{Extracting Relations from Documents}
-Now that a selection of relevant documents has been made, we can identify the relations between cities based on these documents. Text documents can be split into two types: structured and unstructured. Text is structured when sentences are used, meaning grammar is used. In the case of structured texts a word may say something about the next word in the sentence, therefor other techniques can be used (for example n-grams) then in case of unstructured texts. Because the text from websites can be structured as well as unstructured, we will most likely use unstructured approaches. One way to do this is by using machine learning. The two common approaches are supervised classification and unsupervised clustering. \\
+Now that a selection of relevant documents has been made, we can make an attempt to identify the relations between cities based on these documents. Since labelling every relevant document by hand is not feasible an automated approach is desirable. 
+One way of an automated approach to identifying inter
+
+
+
+
+
+
+
+Text documents can be split into two types: structured and unstructured. Text is structured when sentences are used, meaning grammar is used. In the case of structured texts a word may say something about the next word in the sentence, therefor other techniques can be used (for example n-grams) then in case of unstructured texts. Because the text from websites can be structured as well as unstructured, we will most likely use unstructured approaches. One way to do this is by using machine learning. The two common approaches are supervised classification and unsupervised clustering. \\
 
 Clustering, is sorting these websites into groups based on how much they are alike. It does however not assign these groups with a label (or class). This can be a large problem because in one group may be several topics that have similarities with some of the other topics within the group but not with all other topics in the group, which makes it very hard to assign a label to these groups. Although it is possible to label these groups manually, since it is quit tedious and we are on a limited time schedule, it is better to use a classification algorithm. \\
 
@@ -18,11 +27,11 @@ Our choice of using classification has naturally lead to the need for categories
     \item Other
 \end{enumerate}
 
-These categories represent topics that are of interest for our clients. It relates to research that is being done by our clients and 
+These categories represent topics that are of interest for our clients. They relate to research that is being done by our clients and to relations that were deemed important in previous research on intercity relations.
 
-\subsubsection{preprocess}
+\subsubsection{Pre-processing}
 
-For text preprocessing there are a number of tools available. We used NLTK \cite{nlkt_stemming} for tokenizing, removing stopwords and stemming and Gensim \cite{Gensim} for Modelling.
+For text pre-processing there are a number of tools available. We used NLTK \cite{nlkt_stemming} for tokenizing, removing stopwords and stemming and Gensim \cite{Gensim} for Modelling.
 \begin{enumerate}
 \item Tokenization. \\ splitting up the text into words and other symbols called tokens. For this we implemented the tokenizer NLTK provides. Testing showed that it does what it is supposed to do.
 \item Removing stop words. \\ Removing all common words (the, a, an etc) and symbols ('.', ',', '!', etc). For removing stopwords we used a list from NLTK containing dutch stopwords. For removing symbols we made a method that removes all non alphabet values except spaces from text. 
