@@ -1,15 +1,14 @@
 \section{Conclusion}
 
+\subsection{related work}
 First, we discussed related work. We saw that there are currently two methods for analysing the relations between cities. Manually analysing search engine data is very slow and requires a lot of man-hours and looking at the different locations where businesses are located is only interesting for the economic relation and still misses a lot of data.
 \\
 
+\subsection{related work}
 Second, we identified the requirements for a solution to the problem and discuss issues that might arise. The used the MoSCoW model to describe the importance of the different requirements. The most import must haves we found are being able to input place names, displaying a map with the connection data and being able to extract this data.
 \\
 
+\subsection{Requirement analysis}
 Third, we developed a methodology for a framework that satisfies the requirements and tackles the issues. We decided to start by using data from Common Crawl, although we might later extend this to other data sources such as Delpher. After selecting relevant data (data which contains 2 or more city names) we store the data with Neo4j. We then use clustering and classifying machine learning to group the data. First we use this on all data to get the general groups (e.g. economy, health-care, immigration) and then we use this on the data per pair of cities to see what the important connection types for each city are. Then we link these connections to the general groups ('fish' might relate to economy.. etc). To visualise this data we use the graph Neo4j provides.
-\\
 
-Last we discussed how to validate the methodology applied. We will test our code with four levels of testing and send our code to SIG for analysis. We will use unit tests to tests individual modules, integration tests to check how different modules that call upon each other work together, system tests to check the entire system ourselves and acceptance testing to see how well the system fits the clients needs. To ensure visibility and maintainability in our code send the code twice to SIG for feedback and frequently use the service of Better Code Hub.
-\\
-
-With this setup we should be able to make a well-tested functioning system that meets the requirements of our clients. Furthermore, using this system will enable us to answer the question "how can the strength of relationships between cities be extracted and visualised from open data?" 
+\subsection{Framework-and-tools}

@@ -1,6 +1,14 @@
-\section{Better Code Hub Guidelines}\label{bch_guidelines}
+\section{Validation}
 
-Better Code Hub \cite{better_code_hub} checks our code according to ten guidelines:
+\subsection {machine learning}
+To test the machine learning we will manually search for a small set of 50 pages per class. We will then manually decide to which class we would expect those pages to be sorted. Then we will run the algorithm and check whether or not a page was correctly sorted. There are 4 outcomes per page per class: true/false positives and true/false negatives. Positives are the pages that should be sorted to that class; true means they were sorted to that class, false meaning they were not sorted to that class. Negatives are pages that should not be sorted to that class and in this case true means they were indeed not sorted to that class and false means they were. So the true values are the ones that should be high. From this we can say how accurate our classifier is.
+
+\subsection{unit tests}
+
+\subsection{selenium tests}
+
+\subsection{SIG}
+SIG \cite{sig}, short for software improvement development group, is a tool to give deep code visibility we require so we can remedy current problems and prevent future vulnerabilities. A part of sig \todo{}(?) also includes betterCodeHub \cite{better_code_hub} which checks our code in 10 steps:
 \begin{enumerate}
     \item \textbf {Write short units of code} \\
     Units of code should be no longer than 15 lines.
@@ -23,3 +31,9 @@ Better Code Hub \cite{better_code_hub} checks our code according to ten guidelin
     \item \textbf{Write clean code}\\
     Remove useless comments, commented code blocks, and dead code. Refactor poorly handled exceptions, magic constants, and poorly named units or variables.  
 \end{enumerate}
+
+\begin{comment}
+- double city names
+- city names with meaning (leiden)
+- city/province names (utrecht / groningen / zeeland)
+\end{comment}
