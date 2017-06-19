@@ -135,6 +135,11 @@ Akhtar Rasool, Amrita Tiwari, Gunjan Singla, and Nilay Khare.
 \newblock String matching methodologies: A comparative analysis.
 \newblock {\em REM (Text)}, 234567(11):3, 2012.
 
+\bibitem{ml_text}
+Fabrizio Sebastiani.
+\newblock Machine learning in automated text categorization.
+\newblock {\em ACM Comput. Surv.}, 34(1):1--47, March 2002.
+
 \bibitem{short1996dirty}
 John~Rennie Short, Y~Kim, Merje Kuus, and Heather Wells.
 \newblock The dirty little secret of world cities research: data problems in

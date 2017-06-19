@@ -11,45 +11,45 @@ Repeated entry---line 467 of file references.bib
  : @article{scikit-learn
  :                      ,
 I'm skipping whatever remains of this entry
-You've used 30 entries,
+You've used 31 entries,
             2118 wiz_defined-function locations,
-            680 strings with 8781 characters,
-and the built_in function-call counts, 9406 in all, are:
-= -- 950
-> -- 397
+            687 strings with 8885 characters,
+and the built_in function-call counts, 9678 in all, are:
+= -- 979
+> -- 404
 < -- 4
-+ -- 163
-- -- 128
-* -- 609
-:= -- 1560
-add.period$ -- 97
-call.type$ -- 30
-change.case$ -- 153
++ -- 166
+- -- 130
+* -- 630
+:= -- 1606
+add.period$ -- 100
+call.type$ -- 31
+change.case$ -- 157
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 341
-empty$ -- 773
-format.name$ -- 128
-if$ -- 1976
+cite$ -- 31
+duplicate$ -- 352
+empty$ -- 797
+format.name$ -- 130
+if$ -- 2031
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 23
-newline$ -- 158
-num.names$ -- 60
-pop$ -- 173
+int.to.str$ -- 31
+missing$ -- 24
+newline$ -- 163
+num.names$ -- 62
+pop$ -- 175
 preamble$ -- 1
-purify$ -- 124
+purify$ -- 127
 quote$ -- 0
-skip$ -- 253
+skip$ -- 260
 stack$ -- 0
-substring$ -- 594
-swap$ -- 66
+substring$ -- 615
+swap$ -- 67
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 118
+type$ -- 122
 warning$ -- 0
-while$ -- 100
-width$ -- 32
-write$ -- 331
+while$ -- 104
+width$ -- 33
+write$ -- 342
 (There were 2 error messages)
