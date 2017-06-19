@@ -1,12 +1,12 @@
 \subsection{Extracting Relations from Documents}
 Now that a selection of relevant documents has been made, we can make an attempt to identify the relations between cities based on these documents. Since labelling every relevant document by hand is not feasible, an automated approach is desirable. 
 One way to automate this process is by identifying intercity relations using machine learning. Machine learning algorithms can be roughly divided into two distinct groups: (1) supervised and (2) unsupervised algorithms. Supervised algorithms expect an input set and a corresponding output set, with which a model is trained to predict unseen instances of the problem. Unsupervised algorithms identify clusters of entities based on similarities in the feature set corresponding to said entity.
-\replace{
+
 Considering the fact that we have a strict time schedule of little over two months to develop the complete system, we decided to go with the supervised approach. 
-The main reason for this choice is that the training and tweaking of supervised algorithms can be done faster compared to unsupervised algorithms. The main reason for this is that we do not need the complete data-set to start training a supervised model, while for the unsupervised case the complete set is needed.}{Lees dit nog effe goed, twee keer main reason en in feite geef je daarvoor al de main reason}
+Another reason for this choice is that the training and tweaking of supervised algorithms can be done faster compared to unsupervised algorithms. This stems from the fact that we do not need the complete data-set to start training a supervised model, while for the unsupervised case the complete set is needed.
 
 \subsubsection{Defining Classes}
-Our choice of using classification has naturally lead to the need for categories we want to identify within the collected documents. Together with our clients, \replace{Dr. Evert Meijers and Antoine Peris}{beetje vreemd om die hier pas te into'en?}, we identified the following categories which are useful to identify from the collected documents:\\
+Our choice of using classification has naturally lead to the need for categories we want to identify within the collected documents. Together with our clients we identified the following categories which are useful to identify from the collected documents:\\
 
 \begin{enumerate}
     \item Collaboration
@@ -22,7 +22,7 @@ Our choice of using classification has naturally lead to the need for categories
 These categories represent topics that are of interest for our clients. They relate to research that is being done by them and to relations that were deemed important in previous research on intercity relations. The category \textit{other} is there to make the classification exhaustive, i.e. relevant documents can always be labelled.
 
 \subsubsection{Pre-processing}
-For pre-processing the documents, there are a number of tools available. We used NLTK \cite{nlkt_stemming} for removing stopwords and regular expressions for removing unwanted characters. The HTML parsing/\todo{..} was done using BeautifulSoup.\todo{add ref}
+For pre-processing the documents, there are a number of tools available. We used NLTK \cite{nlkt_stemming} for removing stopwords and regular expressions for removing unwanted characters. The HTML parsing is done using BeautifulSoup.\todo{add ref}
 
 \begin{description}
 \item[\textbf{Stop words}]
@@ -41,7 +41,7 @@ Before we can start building up and training our model, we need to collect data 
 The first option is to query for documents from news(paper) sites. Since the documents are categorised by professionals, we may assume they will provide us with features that represent the categories associated with these documents well.
 Unfortunately, the categories that we identified with our clients do not match typical newspaper categories, so this approach was not suitable for us.\\
 
-Another approach is to use Google Custom Search to obtain results from Google, using the categories the client provided us with as keywords. The main disadvantage of this approach is lack of control over the files that get added into the data set and \todo{stukje over noise is zo'n typisch stukje waar claudolf de kriebels van krijgt. Hoe weet je dat er veel noise meekomt?} the large amount of noise produced by this method.\\
+Another approach is to use Google Custom Search to obtain results from Google, using the categories the client provided us with as keywords. The main disadvantage of this approach is lack of control over the files that get added into the data set. This way documents that get returned by the query are not analysed on desirable content but are added immediately.\\
 
 Finally, we decided to provide our clients with a "labelling interface". The labelling interface provides the user with a document from the set of collected documents. It allows the user to label these documents with zero or more categories, after which the document is assigned to the correct category. If no category is selected, the document is discarded from the training set. This way, we have total control of the documents that are added to the data set. The documents are labelled by experts in the field of the built environment so we may assume these documents will represent the labelled categories well. 
 
@@ -56,8 +56,8 @@ When considering classification, there are a plethora of algorithms available. W
         \item[\textbf{Special Cases}] Some learning algorithms make particular assumptions about the data or the results.
     \end{description}
 
-Because of the fact that we are dealing with textual data, we can assume that we will have a large feature set. An algorithm like SVM \cite{ml_text} works well with large feature sets\cite{MLCheatSheet}.
-Previous research concerning the classification of text documents suggests SVM is one of the leading techniques in this regard\cite{ml_text}. While we are using the Scikit library for this project \todo{waar is de rest van de zin?}
+Keeping all these properties in mind we construct a setup that fits our purposes best.
+Below we have stated our approach of how we reached the setup we think is best suited for our goals.
 
 \begin{description}
 \item[\textbf{Features}] 
@@ -66,10 +66,10 @@ The words alone do not provide us a very useful input to the system. That is why
 Using TF-IDF our features become words with weights associated to them.
 
 \item[\textbf{Dimensionality reduction}]
-Since we are working with text documents and our features are words with TF-IDF weights we can assume that our feature set will be very large. The total number of features determines how fast we can train our model and has implications regarding over-fitting \cite{ml_text}. To reduce the number of features we considered different techniques from \cite{ml_text}. \todo{niet echt een sterk argument, lijkt net alsof we maar een random techniek gepakt hebben}Since we have no time to test all the techniques, we decided to select the top ten percent of our features (based on the TF-IDF weights)\cite{yang1997}. To provide an easy way to add different types of dimensionality reduction techniques later, we will keep the code for defining new classifiers easily extendable.
+Since we are working with text documents and our features are words with TF-IDF weights we can assume that our feature set will be very large. The total number of features determines how fast we can train our model and has implications regarding over-fitting \cite{ml_text}. To reduce the number of features we considered different techniques from \cite{ml_text}. Since we have no time to test all the techniques, we decided to select the top ten percent of our features (based on the TF-IDF weights). In \cite{yang1997} it is stated that a dimensionality reduction with a factor ten using this approach does not lead to a loss in accuracy. To provide an easy way to add different types of dimensionality reduction techniques later, we will keep the code for defining new classifiers easily extendable.
 
 \item[\textbf{Classification}]
-Even after applying the dimensionality reduction that we discussed in the previous section, we are left with a lot of features. Thus, we need an algorithm that works well with a feature rich problem. From \cite{MLCheatSheet} we know SVM is a algorithm that works well with feature rich problems. Also \cite{ml_text} claims SVM is one of the best techniques when considering text classification. This combined with the fact that Scikit offers an easy to use implementation of SVM has lead us to use SVM as our classification algorithm.
+Even after applying dimensionality reduction which we discussed in the previous section, we are left with a lot of features. Thus, we need an algorithm that works well with a feature rich problem. From \cite{MLCheatSheet} we know SVM is a algorithm that works well with feature rich problems. Also \cite{ml_text} claims SVM is one of the best techniques when considering text classification. This combined with the fact that Scikit offers an easy to use implementation of SVM has lead us to use SVM as our classification algorithm.
 \end{description}
 
 \subsubsection{Remarks}
