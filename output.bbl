@@ -11,6 +11,12 @@ R.~A. Becker, S.~G. Eick, and A.~R. Wilks.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   1(1):16--28, Mar 1995.
 
+\bibitem{choi2006comparing}
+Junho~H Choi, George~A Barnett, and BUM-SOO CHON.
+\newblock Comparing world city networks: a network analysis of internet
+  backbone and air transport intercity linkages.
+\newblock {\em Global Networks}, 6(1):81--99, 2006.
+
 \bibitem{clegg1994case}
 Dai Clegg and Richard Barker.
 \newblock {\em Case method fast-track: a RAD approach}.
@@ -40,15 +46,16 @@ Elasticsearch.
 \newblock \url{https://www.elastic.co/products/elasticsearch}.
 \newblock Accessed: 2017-04-26.
 
-\bibitem{nlkt_stemming}
-Alex~Rudnick et~al.
-\newblock Nlkt.
-\newblock \url{http://www.nltk.org/api/nltk.stem.html}, 2017.
-
 \bibitem{gaustad2002accurate}
 Tanja Gaustad and Gosse Bouma.
 \newblock Accurate stemming of dutch for text classification.
 \newblock {\em Language and Computers}, 45(1):104--117, 2002.
+
+\bibitem{gorman2000networks}
+Sean~P Gorman and Edward~J Malecki.
+\newblock The networks of the internet: an analysis of provider networks in the
+  usa.
+\newblock {\em Telecommunications Policy}, 24(2):113--134, 2000.
 
 \bibitem{haerder1983principles}
 Theo Haerder and Andreas Reuter.
@@ -164,11 +171,5 @@ Lynn Wu and Erik Brynjolfsson.
   prices and sales.
 \newblock In {\em Economic analysis of the digital economy}, pages 89--118.
   University of Chicago Press, 2014.
-
-\bibitem{Gensim}
-Radim Řehůřek.
-\newblock Gensim.
-\newblock \url{ https://radimrehurek.com/gensim/models/tfidfmodel.html}, 2017.
-\newblock Accessed: 2017-05-17].
 
 \end{thebibliography}
