@@ -43,11 +43,15 @@ When considering classification there are a multitude of algorithms available. W
         \item Training Time - How long it takes to train the algorithm.
         \item Linearity - Linear regression assumes data trends follow a straight line. This is trade-off between accuracy and speed.
         \item Number of Parameters - Adjustable parameters increase the flexibility of the algorithms. This is a trade-off between training time and accuracy.
-        \item Number of Features - A large number of features can make some algorithms unfeasibly long. Especially text data (what we are using!) has a high number features.
+        \item Number of Features - A large number of features can make some algorithms unfeasible long. Especially text data (what we are using!) has a high number features.
         \item Special Cases - Some learning algorithms make particular assumptions about the data or the results.
     \end{enumerate}
+
+Regarding the fact that we are dealing with textual data, we can assume that we will have a large feature set. An algorithm like SVM \cite{ml_text} works well with large feature sets\cite{MLCheatSheet}.
+Also previous research concerning the classification of text-documents suggests SVM is one of the leading techniques in this regard\cite{ml_text}.
+
     
-For textual data especially support vector machines are recommended\cite{MLCheatSheet, ml_text}, so it is most likely we will choose that machine learning algorithm. Depending on whether we have time we might do some tests before making our decision however. The sci-kit package\cite{scikit-learn} provides an easy to implement module to use this.
+For textual data especially support vector machines are recommended\cite{MLCheatSheet, ml_text}, so it is most likely we will choose that machine learning algorithm. Depending on whether we have time we might do some tests before making our decision however. The Scikit package\cite{scikit-learn} provides an easy to implement module to use this.
 
 \begin{enumerate}
 \item TF-IDF \\ 

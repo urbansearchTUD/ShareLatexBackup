@@ -118,6 +118,14 @@ Neo4j.
 \newblock \url{https://www.neo4j.com}.
 \newblock Accessed: 2017-04-26.
 
+\bibitem{neo4jscalable}
+Neo4j.
+\newblock Understanding neo4j scalability.
+\newblock
+  \url{https://neo4j.com/resources/understanding-neo4j-scalability-white-paper/
+  }.
+\newblock Accessed: 2017-06-19.
+
 \bibitem{porter2000location}
 Michael~E Porter.
 \newblock Location, competition, and economic development: Local clusters in a

@@ -7,49 +7,49 @@ Repeated entry---line 108 of file references.bib
  : @article{devriendt2008cyberplace
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 467 of file references.bib
+Repeated entry---line 476 of file references.bib
  : @article{scikit-learn
  :                      ,
 I'm skipping whatever remains of this entry
-You've used 31 entries,
+You've used 32 entries,
             2118 wiz_defined-function locations,
-            687 strings with 8885 characters,
-and the built_in function-call counts, 9678 in all, are:
-= -- 979
-> -- 404
+            691 strings with 9028 characters,
+and the built_in function-call counts, 9891 in all, are:
+= -- 1000
+> -- 411
 < -- 4
-+ -- 166
-- -- 130
-* -- 630
-:= -- 1606
-add.period$ -- 100
-call.type$ -- 31
-change.case$ -- 157
++ -- 169
+- -- 132
+* -- 635
+:= -- 1642
+add.period$ -- 104
+call.type$ -- 32
+change.case$ -- 161
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 352
-empty$ -- 797
-format.name$ -- 130
-if$ -- 2031
+cite$ -- 32
+duplicate$ -- 359
+empty$ -- 819
+format.name$ -- 132
+if$ -- 2078
 int.to.chr$ -- 0
-int.to.str$ -- 31
+int.to.str$ -- 32
 missing$ -- 24
-newline$ -- 163
-num.names$ -- 62
-pop$ -- 175
+newline$ -- 169
+num.names$ -- 64
+pop$ -- 185
 preamble$ -- 1
-purify$ -- 127
+purify$ -- 130
 quote$ -- 0
-skip$ -- 260
+skip$ -- 265
 stack$ -- 0
-substring$ -- 615
-swap$ -- 67
+substring$ -- 620
+swap$ -- 68
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 122
+type$ -- 126
 warning$ -- 0
-while$ -- 104
-width$ -- 33
-write$ -- 342
+while$ -- 106
+width$ -- 34
+write$ -- 353
 (There were 2 error messages)
