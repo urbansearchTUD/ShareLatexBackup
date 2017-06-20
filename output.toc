@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {3.1}User Stories}{4}
 \contentsline {subsection}{\numberline {3.2}Design Goals}{4}
 \contentsline {paragraph}{credible}{4}
-\contentsline {paragraph}{understandable}{5}
+\contentsline {paragraph}{understandable}{4}
 \contentsline {paragraph}{scalable}{5}
 \contentsline {paragraph}{plugable}{5}
 \contentsline {paragraph}{exportable}{5}
