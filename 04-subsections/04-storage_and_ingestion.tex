@@ -1,6 +1,9 @@
 \subsection{Storing and Ingesting the Data}
 In this section we will discuss which data storage solution we are going to use and why. We will compare a few options and select the best. We will then briefly explain how it works and how we plan to use it.
 
+\subsubsection{Storing Extracted Relations}
+
+
 \subsubsection{Graph Database, Search Engine or Traditional Database}
 Now that relationships have been extracted from the documents and web pages, we need to store these. Note that is not necessary to store all the documents, because the relationships which have been extracted are the information that is actually worth storing. Therefore, the original document can be discarded. However, the index pointing to the original document will be stored to be able to view it on demand. To store these relationships and indices there are two possibilities: (1) graph databases and (2) traditional relational databases.
 
