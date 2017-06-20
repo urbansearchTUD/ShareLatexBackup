@@ -1,52 +1,62 @@
-\contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {section}{\numberline {2}Related Work}{3}
-\contentsline {section}{\numberline {3}Requirement Analysis}{4}
-\contentsline {subsection}{\numberline {3.1}User Stories}{4}
-\contentsline {subsection}{\numberline {3.2}Design Goals}{4}
-\contentsline {paragraph}{credible}{4}
-\contentsline {paragraph}{understandable}{4}
-\contentsline {paragraph}{scalable}{4}
-\contentsline {paragraph}{plugable}{5}
-\contentsline {paragraph}{exportable}{5}
-\contentsline {paragraph}{fast development}{5}
-\contentsline {subsection}{\numberline {3.3}Product Requirements}{5}
-\contentsline {subsubsection}{\numberline {3.3.1}Must Have}{5}
-\contentsline {subsubsection}{\numberline {3.3.2}Should Have}{5}
-\contentsline {subsubsection}{\numberline {3.3.3}Could Have}{6}
-\contentsline {subsubsection}{\numberline {3.3.4}Would Like}{6}
-\contentsline {subsection}{\numberline {3.4}Design Decisions}{6}
-\contentsline {section}{\numberline {4}Framework and Tools}{7}
-\contentsline {subsection}{\numberline {4.1}Gathering the Data}{7}
-\contentsline {subsubsection}{\numberline {4.1.1}Common Crawl}{7}
-\contentsline {subsubsection}{\numberline {4.1.2}Other Data Sources}{8}
-\contentsline {subsection}{\numberline {4.2}Selecting Relevant Documents}{8}
-\contentsline {subsection}{\numberline {4.3}Extracting Relations from Documents}{8}
-\contentsline {subsubsection}{\numberline {4.3.1}Defining Classes}{9}
-\contentsline {subsubsection}{\numberline {4.3.2}Pre-processing}{9}
-\contentsline {subsubsection}{\numberline {4.3.3}Data-set}{9}
-\contentsline {subsubsection}{\numberline {4.3.4}Modelling}{10}
-\contentsline {subsubsection}{\numberline {4.3.5}Remarks}{10}
+\contentsline {section}{\numberline {1}Introduction}{5}
+\contentsline {section}{\numberline {2}Related Work}{5}
+\contentsline {section}{\numberline {3}Requirement Analysis}{5}
+\contentsline {subsection}{\numberline {3.1}Design Goals}{6}
+\contentsline {paragraph}{credible}{6}
+\contentsline {paragraph}{understandable}{6}
+\contentsline {paragraph}{scalable}{6}
+\contentsline {paragraph}{plugable}{6}
+\contentsline {paragraph}{fast development}{6}
+\contentsline {subsection}{\numberline {3.2}User Stories}{6}
+\contentsline {subsection}{\numberline {3.3}Product Requirements}{6}
+\contentsline {subsubsection}{\numberline {3.3.1}Must Have}{7}
+\contentsline {subsubsection}{\numberline {3.3.2}Should Have}{7}
+\contentsline {subsubsection}{\numberline {3.3.3}Could Have}{7}
+\contentsline {subsubsection}{\numberline {3.3.4}Would Like}{7}
+\contentsline {subsection}{\numberline {3.4}Design Decisions}{8}
+\contentsline {section}{\numberline {4}Framework and Tools}{8}
+\contentsline {subsection}{\numberline {4.1}Gathering the Data}{8}
+\contentsline {subsubsection}{\numberline {4.1.1}Common Crawl}{8}
+\contentsline {subsubsection}{\numberline {4.1.2}Other Data Sources}{9}
+\contentsline {subsection}{\numberline {4.2}Selecting Relevant Documents}{9}
+\contentsline {subsection}{\numberline {4.3}Extracting Relations from Documents}{10}
+\contentsline {subsubsection}{\numberline {4.3.1}defining classes}{10}
+\contentsline {subsubsection}{\numberline {4.3.2}preprocess}{10}
+\contentsline {subsubsection}{\numberline {4.3.3}training}{11}
+\contentsline {subsubsection}{\numberline {4.3.4}classifying}{11}
 \contentsline {subsection}{\numberline {4.4}Storing and Ingesting the Data}{11}
-\contentsline {subsubsection}{\numberline {4.4.1}Graph Database, Search Engine or Traditional Database}{11}
-\contentsline {subsubsection}{\numberline {4.4.2}Comparing Graph Databases}{11}
+\contentsline {subsubsection}{\numberline {4.4.1}Graph Database, Search Engine or Traditional Database}{12}
+\contentsline {subsubsection}{\numberline {4.4.2}Comparing Graph Databases}{12}
 \contentsline {subsubsection}{\numberline {4.4.3}Using Neo4j for Storage and Ingestion}{12}
-\contentsline {subsection}{\numberline {4.5}Interacting with the Data}{12}
-\contentsline {subsubsection}{\numberline {4.5.1}Query Language}{12}
-\contentsline {subsubsection}{\numberline {4.5.2}Query Composer Interface}{13}
-\contentsline {subsubsection}{\numberline {4.5.3}Interactive Querying}{14}
-\contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{14}
+\contentsline {subsection}{\numberline {4.5}Interacting with the Data}{13}
+\contentsline {subsubsection}{\numberline {4.5.1}Query Language}{13}
+\contentsline {subsubsection}{\numberline {4.5.2}Query Composer Interface}{14}
+\contentsline {subsubsection}{\numberline {4.5.3}Interactive Search}{14}
+\contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{15}
 \contentsline {subsection}{\numberline {4.6}Visualising the Data}{15}
 \contentsline {subsubsection}{\numberline {4.6.1}Representing the Data Graphically}{15}
 \contentsline {subsubsection}{\numberline {4.6.2}Using Geographical Maps}{15}
-\contentsline {subsubsection}{\numberline {4.6.3}Handling Map Clutter}{15}
-\contentsline {section}{\numberline {5}Validation}{16}
-\contentsline {subsection}{\numberline {5.1}Evaluation Protocol}{16}
-\contentsline {subsection}{\numberline {5.2}Testing the Application}{16}
-\contentsline {subsubsection}{\numberline {5.2.1}Unit Tests}{16}
-\contentsline {subsubsection}{\numberline {5.2.2}Integration Tests}{16}
-\contentsline {subsubsection}{\numberline {5.2.3}System Tests}{16}
-\contentsline {subsubsection}{\numberline {5.2.4}Acceptance Testing}{16}
-\contentsline {paragraph}{Machine Learning}{16}
-\contentsline {subsection}{\numberline {5.3}SIG}{17}
-\contentsline {section}{\numberline {6}Conclusion}{17}
-\contentsline {section}{\numberline {A}Better Code Hub Guidelines}{17}
+\contentsline {subsubsection}{\numberline {4.6.3}Handling Map Clutter}{16}
+\contentsline {subsection}{\numberline {4.7}server}{16}
+\contentsline {subsection}{\numberline {4.8}Validation}{16}
+\contentsline {subsubsection}{\numberline {4.8.1}Tests}{16}
+\contentsline {subsubsection}{\numberline {4.8.2}SIG}{17}
+\contentsline {section}{\numberline {5}Framework Implementation}{17}
+\contentsline {section}{\numberline {6}Project Evaluation}{17}
+\contentsline {subsection}{\numberline {6.1}Fulfilment of requirements}{17}
+\contentsline {subsection}{\numberline {6.2}Process}{17}
+\contentsline {subsubsection}{\numberline {6.2.1}Collaboration between the team members}{17}
+\contentsline {subsubsection}{\numberline {6.2.2}Collaboration between the team members and the TU Delft Coach}{17}
+\contentsline {subsubsection}{\numberline {6.2.3}Collaboration between the team members and the client}{17}
+\contentsline {section}{\numberline {7}discussion}{18}
+\contentsline {section}{\numberline {8}Recommendation}{18}
+\contentsline {section}{\numberline {9}Conclusion}{18}
+\contentsline {subsection}{\numberline {9.1}related work}{18}
+\contentsline {subsection}{\numberline {9.2}related work}{18}
+\contentsline {subsection}{\numberline {9.3}Requirement analysis}{18}
+\contentsline {subsection}{\numberline {9.4}Framework-and-tools}{18}
+\contentsline {section}{\numberline {A}Better Code Hub Guidelines}{18}
+\contentsline {section}{\numberline {B}week 5}{20}
+\contentsline {section}{\numberline {C}week 9}{20}
+\contentsline {section}{\numberline {D}User manual}{21}
+\contentsline {section}{\numberline {E}dev-manual}{21}

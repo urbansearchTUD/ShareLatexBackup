@@ -16,7 +16,6 @@ We are also planning to use system testing. System testing provides a more compl
 
 \textbf{Acceptance Testing}\\
 Last we will also use acceptance testing. This is testing done to see if the software does what the clients are expecting it to do. These tests are therefor also executed by the clients manually. Afterwards they can say what worked, what didn't worked, what was missing and what could be improved. Part of the acceptance test will be to see how well the machine learning classifier is. Since we need documents fitting to the different classes this is part of acceptance testing too.\\
-
 \textbf{machine learning} \\
 To test the machine learning we will manually search for a small set of pages per class. We will then manually decide to which class we would expect those pages to be sorted. Then we will run the algorithm and check whether or not a page was correctly sorted. There are 4 outcomes per page per class: true/false positives and true/false negatives. Positives are the pages that should be sorted to that class; true means they were sorted to that class, false meaning they were not sorted to that class. Negatives are pages that should not be sorted to that class and in this case true means they were indeed not sorted to that class and false means they were. So the true values are the ones that should be high. From this we can say how accurate our classifier is. \\
 
