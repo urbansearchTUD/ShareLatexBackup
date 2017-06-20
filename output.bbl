@@ -153,6 +153,11 @@ Akhtar Rasool, Amrita Tiwari, Gunjan Singla, and Nilay Khare.
 \newblock String matching methodologies: A comparative analysis.
 \newblock {\em REM (Text)}, 234567(11):3, 2012.
 
+\bibitem{reilly1931law}
+William~John Reilly.
+\newblock {\em The law of retail gravitation}.
+\newblock WJ Reilly, 1931.
+
 \bibitem{ml_text}
 Fabrizio Sebastiani.
 \newblock Machine learning in automated text categorization.
@@ -188,6 +193,11 @@ Peter~J Taylor.
 \newblock The interlocking network model.
 \newblock {\em International handbook of globalization and world cities}, pages
   51--63, 2012.
+
+\bibitem{tobler1970computer}
+Waldo~R Tobler.
+\newblock A computer movie simulating urban growth in the detroit region.
+\newblock {\em Economic geography}, 46(sup1):234--240, 1970.
 
 \bibitem{tornqvist1968flows}
 Gunnar T{\"o}rnqvist.

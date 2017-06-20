@@ -2,7 +2,9 @@
 In this section we will discuss which data storage solution we are going to use and why. We will compare a few options and select the best. We will then briefly explain how it works and how we plan to use it.
 
 \subsubsection{Storing Extracted Relations}
-
+The relations that are extracted from documents, as described in the previous section, need to be stored. We want to be able to apply different models on the data and we also want access to the raw data. \\
+To keep this flexibility and to maintain scalability, extracted occurrences of relations are saved as a raw count. This means that if a relation "transportation" is extracted from a document that contains the cities "Rotterdam" and "Amsterdam", we increment the total count of "transportation" on the "Rotterdam-Amsterdam" relation.\\
+Considering the fact that relations are bidirectional, meaning a relation of "transportation" between "Rotterdam-Amsterdam" implicates a relation of "transportation" between "Amsterdam-Rotterdam" as well, we only need one relation between two distinct cities.
 
 \subsubsection{Graph Database, Search Engine or Traditional Database}
 Now that relationships have been extracted from the documents and web pages, we need to store these. Note that is not necessary to store all the documents, because the relationships which have been extracted are the information that is actually worth storing. Therefore, the original document can be discarded. However, the index pointing to the original document will be stored to be able to view it on demand. To store these relationships and indices there are two possibilities: (1) graph databases and (2) traditional relational databases.
