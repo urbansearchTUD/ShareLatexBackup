@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  20 JUN 2017 09:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  20 JUN 2017 10:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -847,7 +847,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 20eac/output.aux) ) 
 Here is how much of TeX's memory you used:
  4714 strings out of 494945
- 72345 string characters out of 6180678
+ 72359 string characters out of 6180678
  141770 words of memory out of 5000000
  7805 multiletter control sequences out of 15000+600000
  10834 words of font info for 38 fonts, out of 8000000 for 9000
@@ -868,7 +868,7 @@ pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107c4b2577ba7000320eac/output.pdf (23 pages, 805102 bytes).
+107c4b2577ba7000320eac/output.pdf (23 pages, 805204 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
