@@ -1,94 +1,35 @@
-\documentclass[]{article}
-\usepackage{natbib}
-\usepackage{changes}
-
+\documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{cite}
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 \usepackage{wrapfig}
 \usepackage{url}
 \usepackage{verbatim}
+\usepackage[a4paper, margin=1in]{geometry}
 % \usepackage{todonotes}
 \input{commands}
 \usepackage{bbding}
 \usepackage{booktabs}
 \usepackage{threeparttable}
-\usefont{T1}{cmr}{m}{n}
 \begin{document}
 
-% Related Work
-% Problem Analysis ("4 main parts")
-%       Sub problem identification
-% Requirement Analysis
-% Framework and Tools
-% Conclusion
-% \input{00-frontpage}
-% \input{00-abstract}
-% \newpage
-% \tableofcontents
-% \newpage
-% \input{01-introduction}
-% \input{02-related-work}  
-% \input{03-requirement-analysis}
-% \input{04-framework-and-tools}
-% \input{05-code-quality}
-% \input{06-validation}
-% \input{07-process}
-% \input{08-implementation}
-% \input{09-conclusion}
 
-% image of UI?
 \input{00-frontpage}
-\input{00-title}
-% Academic people like this, bit of 
-\input{00-preface-and-acknowledgements}
-% Instead of abstract, add a single page summary
-\input{00-summary}
-
+\input{00-abstract}
 \newpage
 \tableofcontents
 \newpage
-
-% Three parts: background, methodology and structure
 \input{01-introduction}
-% % ~10 references at least, pick from Antoine's work
-\input{02-related-work}
-% subsections:
-% 3.1 problem definition
-% 3.2 problem analysis
-% 3.3 requirement analysis (with design goals, requirements and minimal viable product)
-\input{03-problem-definition-and-analysis}
-% same as research report, but add section "evaluation strategies"
+\input{02-related-work}  
+\input{03-requirement-analysis}
+
 \input{04-framework-and-tools}
-% Describe how we used the selected tools to actually build the framework
-% Also describe the modules we designed, including code snippets and UML stuff
-% Make sure to split back-end and front-end here, but discuss how they are linked
-\input{05-framework-implementation}
-% evaluate the product, and see whether we have at least the minimum viable product
-% using the requirements and design goals (possibly in a table)
-% make sure to add lots and lots of figures, tables and benchmarks here
-% also add SIG stuff and talk about SCRUM
-\input{06-project-evaluation}
-% describe issues faced during implementation, as well as issues that are still 
-% open. Main thing here is to discuss the Neo4j python driver with multiprocessing,
-% which we could not get to work. Also mention the state of the document 
-% classification
-% DONT FORGET a subsection on ethical issues!
-\input{07-discussion}
-% Make recommendations for future version, for extending the back-end and front-end
-% Try to mention the requirements here
-\input{08-recommendations}
-% Start with "In the past few months we blah" and shortly mention the chapters
-% Mention the project goal and how well it is met, without duplicating the 
-% evaluation chapter
-\input{09-conclusion}
+\input{05-validation}
+\input{06-conclusion}
 
 \appendix
-\input{A-SIG-analysis}
-\input{B-user-manual}
-\input{C-dev-manual-with-UML}
-\input{D-used-libraries}
+\input{A-better_code_hub_guidelines}
 
 \bibliographystyle{plain}
 \bibliography{references}{}
