@@ -8,7 +8,13 @@
 \todo{}
 
 \subsection{Fulfilment of requirements}
-In section \ref{sec:reqs} we declared the requirements for our program. Table \ref{requirements_pass/fail} shows which of these requirements passed or failed. 
+In section \ref{sec:reqs} we declared the requirements for our program. Table \ref{requirements_pass/fail} shows which of these requirements passed or failed. \\
+The program works as intended so all must haves passed. \\
+There are however two should haves which failed. Finding correct relations proved more time-consuming than expected therefor our algorithm only discerns the top level relations (e.g. trade) and not sub levels (e.g. food trade). Furthermore there are a lot of places with duplicate names, yet no complete lists of these duplicates are available. Therefor it is less easy implementable than first thought. \\
+Since other, more important, tasks took longer to implement than intended we did not make implement functionality to use Delpher to characterise relationships. We did add functionality to visualise the data by using a map. \\
+As expected the would likes did not pass. It is theoretically possible to show all connections of all places on the map at the same time. However, it would result in a completely filled in map because there is a line for each relation so one would not be able to get any useful information from this.
+
+\todo{more about not mentioned pass/fail, name reqs?}
 
 \begin{table}[h]
 \centering
