@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  21 JUN 2017 08:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  21 JUN 2017 08:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -674,17 +674,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/03-problem-definition-and-analysis.tex [5] [6]
-! Undefined control sequence.
-l.64 \pargraph
-              {Should Have}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
+20ea7/03-problem-definition-and-analysis.tex [5] [6])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/04-framework-and-tools.tex [7]
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
@@ -789,9 +779,16 @@ d4966000c0fa8-59107c0b2577ba7000320ea7/images/qi-example.png>])
 20ea7/04-subsections/06-visualising.tex [15 </var/lib/sharelatex/data/compiles/
 591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/images/ii-example.png>])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/07-server.tex)
+20ea7/04-subsections/07-server.tex
+
+Package natbib Warning: Citation `apigee' on page 16 undefined on input line 2.
+
+
+)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/08-validation.tex
+20ea7/04-subsections/08-frontend.tex)
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/04-subsections/09-validation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -859,10 +856,10 @@ Package natbib Warning: There were undefined citations.
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/output.aux) ) 
 Here is how much of TeX's memory you used:
- 4715 strings out of 494945
- 72376 string characters out of 6180678
+ 4719 strings out of 494945
+ 72623 string characters out of 6180678
  141774 words of memory out of 5000000
- 7806 multiletter control sequences out of 15000+600000
+ 7807 multiletter control sequences out of 15000+600000
  10834 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,14n,68p,1155b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -881,7 +878,7 @@ pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107c0b2577ba7000320ea7/output.pdf (23 pages, 807144 bytes).
+107c0b2577ba7000320ea7/output.pdf (23 pages, 807720 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
