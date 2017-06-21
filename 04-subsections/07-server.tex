@@ -8,12 +8,9 @@ All routes in the API start with the "/api/v1" prefix. The routes below will be 
 \subsubsection{Classify Route: /classify}
 The classify route is meant as an easy means of labelling a provided document with a category or the probabilities of said document belonging to a set of predefined categories.
 The available subroutes are specified below.
-
 \begin{enumerate}
-\item[\textbf{/}]\\
+\item[\textbf{/}]
 \item[\textbf{/predict}]
-\newline
-\newline
 Predicts the category of the document that is submitted in the body of the request.
 \newline
 \newline
@@ -32,26 +29,21 @@ Content-Type & application/json\\ \hline
 \newline
 \begin{tabular}{ | l | l | l |}
 \hline
-Property & Required & Description\\ \hline
+\textbf{Property} & \textbf{Required} & \textbf{Description}\\ \hline
 document & True & String containing the document that needs to be labelled\\ \hline
 \end{tabular}
-
 \textbf{Response:}
 \newline
 \newline
 \begin{tabular}{ | l | l |}
 \hline
-Property & Description\\ \hline
+\textbf{Property} & \textbf{Description}\\ \hline
 status & Status code for the response\\ \hline
 category & The category that was predicted for this document\\ \hline
 error & Boolean indicating if there was an error during the processing of the request\\ \hline
 message & Message containing extra information about the response\\ \hline
-
 \end{tabular}
-
 \item[\textbf{/probabilities}]
-\newline
-\newline
 Returns the probabilities of the supplied document belonging to each of the predefined categories. 
 \newline
 \newline
@@ -64,30 +56,41 @@ Method & POST\\ \hline
 Content-Type & application/json\\ \hline
 \end{tabular}
 \\
-
-
 \textbf{Request data:}\\
-
 \begin{tabular}{ | l | l | l |}
 \hline
-Property & Required & Description\\ \hline
+\textbf{Property} & \textbf{Required} & \textbf{Description}\\ \hline
 document & True & String containing the document that needs to be labelled\\ \hline
 \end{tabular}
-
+\newline
+\newline
 \textbf{Response:}
 \newline
 \newline
-\begin{tabular}{ | l | l | l |}
+\begin{tabular}{ | l | l |}
 \hline
-Property & Required & Description\\ \hline
-document & True & String containing the document that needs to be labelled\\ \hline
+\textbf{Property} & \textbf{Description}\\ \hline
+status & Status code for the response\\ \hline
+probabilities & The probabilities per category that are predicted for this document\\ \hline
+error & Boolean indicating if there was an error during the processing of the request\\ \hline
+message & Message containing extra information about the response\\ \hline
 \end{tabular}
+\end{enumerate}
 
+
+\subsubsection{Data-set Route: /datasets}
+The datasets route is meant for extending and querying information about the data-set which is used to train classifiers. 
+
+\begin{enumerate}
+    \item [\textbf{/append}]
 \end{enumerate}
 
 
 
-\subsubsection{Data-set Route}
+
+
+
+
 \subsubsection{Documents Route}
 \subsubsection{Classifier Route}
 \subsubsection{Indices Route}
