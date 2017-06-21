@@ -1,13 +1,13 @@
 \subsection{API}
+\todo{Verplaatsen naar 5?}
 To provide the users an easy way of interacting and controling the system we decided to develop an web API. With this API the different parts that compose the complete UrbanSearch system are easily accessible. During the development of the API we have tried to adhere to best-practices and community standards as described in \cite{apigee}. The sections below will describe the parts of the system that are controlled by the API in more detail. Finally we will give some recommendations for the API which we feel would be a good addition/improvement of the API.
 
 \subsubsection{General Remarks}
 
 All routes in the API start with the "/api/v1" prefix. The routes below will be referred to without this prefix to keep the text concise. The API always returns a 200 status code, the response body also contains a status code which indicates if a request was handled successfully.
 
-
-
-
+\input{API-routes/classify}
+\input{API-routes/datasets}
 
 
 
