@@ -2,15 +2,17 @@
 In this section, we first present user stories that were created together with the client. Next, we define the design goals. Then, we list the requirements which followed from the user stories and which the application should meet. To do so, we use the MoSCoW method\cite{clegg1994case} as a prioritisation technique. Lastly, we discuss the design decisions that follow from the design goals and the requirements.
 
 \subsection{User Stories}
-Together with the client, several user stories are identified and listed below:
+Together with the client, several user stories are identified for interaction with the system. These are listed below.
+
+As a user:
 \begin{enumerate}
-    \item As a user, I want to be able to see all the identified relations between all cities, so that I can reason about interesting patterns.
-    \item As a user, I want to be able to access the processed data in an excel file. I want this to be available per relation type and as a total of all relations, so that I can apply my own models on the data when I want to.
-    \item As a user, I want to be able to see relation strengths. Which can be expressed by counting the relations
-    \item As a user, I want to be able to (de)select cities in the user interface, so that I can create a network of cities connected with relations. Where a network of cities will be the cities on a map and the different types of relationships such as Transportation will be the connecting edges between cities.
-    \item As a user, I want to be able to (de)select relations between cities in the user interface, so that I can inspect only the relations I am interested in at that time. For example, as a user I might only be interested in the Transportation relationship between Amsterdam and Rotterdam.
-    \item As a user, I want to be able to change the colours associated with the different relation types, so that I can adjust the styling to my own preferences.
-    \item As a user, I want to be able to export an image of the map that I composed in the user interface so that I can use it for presentations, papers or educational purposes
+    \item I want to be able to see all the identified relations between all cities, so that I can reason about interesting patterns.
+    \item I want to be able to access extracted relations in an Excel file. I want this to be available per relation type and as a total of all relations, so that I can apply my own models on the data.
+    \item I want to be able to see relation strengths, which can be expressed by counting the relations.
+    \item I want to be able to (de)select cities in the user interface, so that I can create a network of cities connected with relations. A network of cities consists of the cities as nodes and the different types of relationships as edges between them.
+    \item I want to be able to (de)select relations between cities in the user interface, so that I can inspect only the relations I am interested in. For example, as a user I might only be interested in the Transportation relationship between Amsterdam and Rotterdam.
+    \item I want to be able to change the colours associated with the different relation types, so that I can adjust the styling to my own preferences.
+    \item I want to be able to export an image of the map that I composed in the user interface so that I can use it for presentations, papers or educational purposes
 \end{enumerate}
 
 \subsection{Design Goals} \label{sec:design-goals}
@@ -20,20 +22,20 @@ The high-level design goals for this project have been provided by the client. T
 \paragraph{understandable} The results of the application should be visually understandable, in order to make it easy for the client to deduce conclusions. 
 \paragraph{scalable} During the project a TU Delft server will be used with a limited amount of resources. Therefore only .nl pages will be used as input to limit the amount of data storage and processing power needed. However, allowing for investigating other domains would greatly help the client in a later stadium, which means that the system would have to be scalable where possible. For example, using a dedicated database which can be spread across clusters.
 \paragraph{plugable} It might be interesting for the user to let the application perform analysis on different data sets without the need of a developer. So if possible within the time constraints the application should be able to use any form of textual input data.
-\paragraph{exportable} Besides making the results available visually, all the relevant numeric data should also be exportable, for example as a matrix.
+\paragraph{exportable} Besides making the results available visually, all the relevant numeric data should also be exportable, for example in CSV format, so the client is able to process the data beyond the system.
 \paragraph{fast development} Because of the time constraints of the project we need a fast development cycle. As a result of that, choices regarding tools, applications and programming languages are to be made with the time constraint taken into account.
 
 
 \subsection{Product Requirements}\label{sec:reqs}
-As mentioned in the introduction of section \ref{sec:reqs-analysis} we will be using he MoSCoW method prioritisation technique. Four levels of priority are defined: must have, should have, could have and would have (also known as would like). We also differentiate between functional and non-functional requirements. 
+As mentioned in the introduction of section \ref{sec:reqs-analysis} we will be using the MoSCoW method prioritisation technique. Four levels of priority are defined: must have, should have, could have and would have (also known as would like). We also differentiate between functional and non-functional requirements. 
 
 \subsubsection {Must Have}
-Requirements labelled as "must have" are key to the minimal performance of the application If they are not met, the application can be considered a failure.
+Requirements labelled as must have are key to the minimal performance of the application. If they are not met, the application can be considered a failure.
 
 \begin{enumerate}
     \item Data that is of relevance for the UrbanSearch project, should be mined from the Common Crawl web corpus (see section\ref{sec:commoncrawl}) and stored for further processing/access.
-    \item There has to be a way to extract the collected data based on relations between cities/nodes.
-    \item A machine learning algorithm should analyse the collected data and label different types of relations that are important for intercity relations.
+    \item There has to be a way to export the relations between cities.
+    \item A machine learning algorithm should analyse and label the collected data to extract different types of relations that are important for intercity relations.
     \item A front-end should be built for the project. This front-end should visualise basic relations and statistics and can be used for presentations and educational purposes.
     \item Several statistically important aspects of intercity relations should be extracted from the data set. These statistics should be easily accessible and visualised to the end user. Furthermore, it should be easy to extend or update the list of statistics that are associated with a relation.
 \end{enumerate}
@@ -55,8 +57,8 @@ Requirements labelled as "must have" are key to the minimal performance of the a
 
 \begin{enumerate}
     \item Relations between cities should be accessible hierarchically. This means that there is the possibility to explore a relation and, provided that this relation has sub-types associated with it, the relation can be expanded in the different sub-types of the relation.
-    \item It should be possible to train the machine-learning algorithm by feeding it labeled data.
-    \item It should be possible to add data sets with more than 1 million documents on which the system can perform its data mining routines. This way a data set can be created that contains potentially interesting information for intercity relations.
+    \item It should be possible to retrain the machine-learning algorithm on demand by feeding it a set of labelled documents.
+    \item It should be possible to add large data sets, e.g. with more than 1 million documents, on which the system can perform its data mining routines. This way a data set can be created that contains potentially interesting information for intercity relations.
     \item The application should be able to deal with the fact that the same city can have different names in different languages/dialects. It should still be able to extract and group relevant data correctly (e.g. 'The Hague' and 'Den Haag' should be viewed as the same city).
 \end{enumerate}
 \iffalse
@@ -78,7 +80,7 @@ Requirements labelled as "must have" are key to the minimal performance of the a
 Requirements labelled as "could have" are useful and should be included in the system if time and resources permit.
 
 \begin{enumerate}
-    \item The system should use Delpher to characterise relationships between a region and cities outside that region based on newspapers in those regions. For example, the local newspaper of the province Gelderland writing about the city of Alkmaar. These relationships are either simple or complex information flows. An information flow in this context is shown in figure \ref{fig:infoflow}.
+    \item The system should use Delpher (see also section \ref{sec:delpher}), a collection of over 60 million digitalised newspaper articles, books and magazines in the Netherlands, of age ranging from the seventeenth century to now, to characterise relationships between a region and cities outside that region. For example, the local newspaper of the province Gelderland writing about the city of Alkmaar. These relationships are either simple or complex information flows. A newspaper mentioning a city is considered a simple information flow, whereas multiple cities mentioned in a single document is a complex information flow. Both simple and complex flows reside on the basic properties of the document, such as the publication date. An illustration of this is given in figure \ref{fig:infoflow}.
     \item The relations that are extracted from the data by the machine learning algorithm have to be visualised in a way that makes it easy to compare the different relations for the end user. For example, a split-screen comparison in the user interface or an export of graphs comparing selected relations.
 \end{enumerate}
 \begin{figure}
