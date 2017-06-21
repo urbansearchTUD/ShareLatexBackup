@@ -1,6 +1,7 @@
 \relax 
-\citation{short1996dirty}
-\citation{derudder2005appraisal}
+\citation{porter2000location}
+\citation{neo4j}
+\citation{elasticsearch}
 \citation{preis2013quantifying}
 \citation{wu2014future}
 \citation{tornqvist1968flows}
@@ -10,156 +11,154 @@
 \citation{choi2006comparing,gorman2000networks}
 \citation{devriendt2008cyberplace,janc2015visibility,janc2015geography}
 \citation{brunn2010networks}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Problem Definition and Analysis}{5}}
+\newlabel{sec:problem-definition-analysis}{{3}{5}}
 \citation{clegg1994case}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Requirement Analysis}{5}}
-\newlabel{sec:reqs-analysis}{{3}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}User Stories}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Design Goals}{5}}
-\newlabel{sec:design-goals}{{3.2}{5}}
-\@writefile{toc}{\contentsline {paragraph}{credible}{5}}
-\@writefile{toc}{\contentsline {paragraph}{understandable}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Problem Definition}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Problem Analysis}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Filtering}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Classification}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}Storing Data}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.4}Visualisation and Export}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Requirement Analysis}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Design Goals}{6}}
+\newlabel{sec:design-goals}{{3.3.1}{6}}
+\@writefile{toc}{\contentsline {paragraph}{credible}{6}}
+\@writefile{toc}{\contentsline {paragraph}{understandable}{6}}
 \@writefile{toc}{\contentsline {paragraph}{scalable}{6}}
 \@writefile{toc}{\contentsline {paragraph}{plugable}{6}}
-\@writefile{toc}{\contentsline {paragraph}{exportable}{6}}
-\@writefile{toc}{\contentsline {paragraph}{fast development}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Product Requirements}{6}}
-\newlabel{sec:reqs}{{3.3}{6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Must Have}{6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Should Have}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Solid lines represent simple information flows, whereas the dashed line is a complex connection of information. We focus on the part depicted by the dashed line.}}{7}}
-\newlabel{fig:infoflow}{{1}{7}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Could Have}{7}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.4}Would Like}{7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Design Decisions}{7}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Framework and Tools}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Simplified overview}{8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces High-level overview of the system}}{8}}
-\newlabel{fig:overview}{{2}{8}}
+\@writefile{toc}{\contentsline {paragraph}{fast development}{7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}User Stories}{7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Product Requirements}{7}}
+\newlabel{sec:reqs}{{3.3.3}{7}}
+\@writefile{toc}{\contentsline {paragraph}{Must Have}{7}}
+\@writefile{toc}{\contentsline {paragraph}{Should Have}{7}}
 \citation{commoncrawl}
 \citation{smith2013dirt,muhleisen2012web,singh2012wikilinks}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Gathering the Data}{9}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Common Crawl}{9}}
-\newlabel{sec:commoncrawl}{{4.2.1}{9}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Other Data Sources}{9}}
+\@writefile{toc}{\contentsline {paragraph}{Could Have}{8}}
+\@writefile{toc}{\contentsline {paragraph}{Would Like}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Design Decisions}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Framework and Tools}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Gathering the Data}{8}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Common Crawl}{8}}
+\newlabel{sec:commoncrawl}{{4.1.1}{8}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Other Data Sources}{9}}
 \citation{rasool2012string}
 \citation{Aho-Corasick}
-\citation{kernighan1984unix}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Benchmark of multi-string vs. plain string matching}}{10}}
-\newlabel{tab:bm-matching}{{1}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Filtering Documents}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Extracting Relations from Documents}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Selecting Relevant Documents}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Extracting Relations from Documents}{10}}
 \citation{nlkt_stemming}
-\citation{BeautifulSoup}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1}Defining Classes}{11}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2}Pre-processing}{11}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.3}Data-set}{11}}
+\citation{Gensim}
+\citation{snowball_dutch}
+\citation{porter_Stemmer}
+\citation{gaustad2002accurate}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}defining classes}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}preprocess}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3}training}{11}}
 \citation{MLCheatSheet}
-\citation{ramos_tfidf}
-\citation{ml_text}
-\citation{ml_text}
-\citation{yang1997}
-\citation{MLCheatSheet}
-\citation{ml_text}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.4}Modelling}{12}}
-\citation{vicknair2010}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.5}Remarks}{13}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Storing and Ingesting the Data}{13}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.1}Storing Extracted Relations}{13}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2}Graph Database, Search Engine or Traditional Database}{13}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.3}Comparing Graph Databases}{13}}
-\newlabel{ranking}{{14}{13}}
+\citation{scikit-learn}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.4}classifying}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Storing and Ingesting the Data}{12}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1}Graph Database, Search Engine or Traditional Database}{12}}
 \citation{neo4j}
 \citation{haerder1983principles}
-\citation{neo4jscalable}
 \citation{holzschuher2013performance}
-\citation{jouili2013}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.4}Using Neo4j for Storage and Ingestion}{14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The Neo4j model \footnotemark {}}}{15}}
-\newlabel{fig:neo4j}{{3}{15}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Interacting with the Data}{15}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.1}Query Language}{15}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.2}Query Composer Interface}{15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Example interface for the query language}}{16}}
-\newlabel{fig:ql-example}{{4}{16}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.3}Interactive Querying}{16}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.4}Conclusion}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Visualising the Data}{16}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.1}Representing the Data Graphically}{16}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.2}Using Geographical Maps}{16}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2}Comparing Graph Databases}{13}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.3}Using Neo4j for Storage and Ingestion}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The Neo4j model}}{14}}
+\newlabel{fig:neo4j}{{1}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Interacting with the Data}{14}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.1}Query Language}{14}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2}Query Composer Interface}{14}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.3}Interactive Search}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Example interface for the query language}}{15}}
+\newlabel{fig:ql-example}{{2}{15}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Visualising the Data}{15}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.1}Representing the Data Graphically}{15}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.2}Using Geographical Maps}{15}}
 \citation{468391}
 \citation{468391}
 \citation{468391}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Example interface for the query composer}}{17}}
-\newlabel{fig:qi-example}{{5}{17}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.3}Handling Map Clutter}{17}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Validation}{17}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Testing the Application}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Example 1 of an interactive map}}{18}}
-\newlabel{fig:i1-example}{{6}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Example 2 of an interactive map}}{18}}
-\newlabel{fig:i2-example}{{7}{18}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Unit Tests}{18}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Integration Tests}{18}}
-\citation{tobler1970computer}
-\citation{reilly1931law}
-\citation{van2010economic}
+\citation{apigee}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Example interface for the query composer}}{16}}
+\newlabel{fig:qi-example}{{3}{16}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.3}Handling Map Clutter}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}API}{16}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.1}General Remarks}{16}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.2}Classify Route: /classify}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Example of an interactive map}}{17}}
+\newlabel{fig:ii-example}{{4}{17}}
 \citation{sig}
 \citation{better_code_hub}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3}System Tests}{19}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Validating the Application's Results}{19}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}Evaluation Protocol}{19}}
-\newlabel{sec:validation_protocol}{{5.2.1}{19}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}evaluating the classification}{19}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Accuracy}{19}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2}Precision}{19}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.3}Recall}{19}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.4}F1}{19}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.5}AUC}{19}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.3}Data-set Route}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.4}Documents Route}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.5}Classifier Route}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.6}Indices Route}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.7}Indices Route}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}Front-End}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.9}Validation}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.9.1}Tests}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.9.2}SIG}{19}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Framework Implementation}{19}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Project Evaluation}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Fulfilment of requirements}{19}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Requirements pass fail}}{19}}
+\newlabel{requirements_pass/fail}{{1}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Process}{19}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.1}Collaboration between the team members}{19}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2}Collaboration between the team members and the TU Delft Coach}{19}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.3}Collaboration between the team members and the client}{19}}
+\citation{better_code_hub}
+\@writefile{toc}{\contentsline {section}{\numberline {7}discussion}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Recommendation}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Conclusion}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}related work}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}related work}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Requirement analysis}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Framework-and-tools}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Better Code Hub Guidelines}{20}}
+\newlabel{bch_guidelines}{{A}{20}}
+\newlabel{sig_fb}{{A}{22}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}week 5}{22}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}week 9}{22}}
 \bibstyle{plain}
 \bibdata{references}
-\bibcite{Aho-Corasick}{1}
-\bibcite{468391}{2}
-\bibcite{brunn2010networks}{3}
-\bibcite{choi2006comparing}{4}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}SIG}{20}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{20}}
-\bibcite{clegg1994case}{5}
-\bibcite{commoncrawl}{6}
-\bibcite{derudder2005appraisal}{7}
-\bibcite{devriendt2008cyberplace}{8}
-\bibcite{nlkt_stemming}{9}
-\bibcite{gorman2000networks}{10}
-\bibcite{haerder1983principles}{11}
-\bibcite{holzschuher2013performance}{12}
-\bibcite{better_code_hub}{13}
-\bibcite{BeautifulSoup}{14}
-\bibcite{janc2015geography}{15}
-\bibcite{janc2015visibility}{16}
-\bibcite{jouili2013}{17}
-\bibcite{kernighan1984unix}{18}
-\bibcite{lambregts2008geographies}{19}
-\bibcite{MLCheatSheet}{20}
-\bibcite{muhleisen2012web}{21}
-\bibcite{neo4j}{22}
-\bibcite{neo4jscalable}{23}
-\bibcite{preis2013quantifying}{24}
-\bibcite{ramos_tfidf}{25}
-\bibcite{rasool2012string}{26}
-\bibcite{reilly1931law}{27}
-\bibcite{ml_text}{28}
-\bibcite{short1996dirty}{29}
-\bibcite{singh2012wikilinks}{30}
-\bibcite{smith2013dirt}{31}
-\bibcite{sig}{32}
-\bibcite{taylor2012interlocking}{33}
-\bibcite{tobler1970computer}{34}
-\bibcite{tornqvist1968flows}{35}
-\bibcite{van2010economic}{36}
-\bibcite{vicknair2010}{37}
-\bibcite{wu2014future}{38}
-\bibcite{yang1997}{39}
-\citation{better_code_hub}
-\@writefile{toc}{\contentsline {section}{\numberline {A}Better Code Hub Guidelines}{23}}
-\newlabel{bch_guidelines}{{A}{23}}
+\bibcite{Aho-Corasick}{{1}{}{{}}{{}}}
+\bibcite{468391}{{2}{}{{}}{{}}}
+\bibcite{brunn2010networks}{{3}{}{{}}{{}}}
+\bibcite{choi2006comparing}{{4}{}{{}}{{}}}
+\bibcite{clegg1994case}{{5}{}{{}}{{}}}
+\bibcite{commoncrawl}{{6}{}{{}}{{}}}
+\bibcite{devriendt2008cyberplace}{{7}{}{{}}{{}}}
+\bibcite{elasticsearch}{{8}{}{{}}{{}}}
+\bibcite{nlkt_stemming}{{9}{}{{}}{{}}}
+\bibcite{gaustad2002accurate}{{10}{}{{}}{{}}}
+\bibcite{gorman2000networks}{{11}{}{{}}{{}}}
+\bibcite{haerder1983principles}{{12}{}{{}}{{}}}
+\bibcite{holzschuher2013performance}{{13}{}{{}}{{}}}
+\bibcite{better_code_hub}{{14}{}{{}}{{}}}
+\bibcite{janc2015geography}{{15}{}{{}}{{}}}
+\bibcite{janc2015visibility}{{16}{}{{}}{{}}}
+\bibcite{lambregts2008geographies}{{17}{}{{}}{{}}}
+\bibcite{scikit-learn}{{18}{}{{}}{{}}}
+\bibcite{MLCheatSheet}{{19}{}{{}}{{}}}
+\bibcite{muhleisen2012web}{{20}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {D}User manual}{23}}
+\@writefile{toc}{\contentsline {section}{\numberline {E}dev-manual}{23}}
+\bibcite{neo4j}{{21}{}{{}}{{}}}
+\bibcite{snowball_dutch}{{22}{}{{}}{{}}}
+\bibcite{porter_Stemmer}{{23}{}{{}}{{}}}
+\bibcite{porter2000location}{{24}{}{{}}{{}}}
+\bibcite{preis2013quantifying}{{25}{}{{}}{{}}}
+\bibcite{rasool2012string}{{26}{}{{}}{{}}}
+\bibcite{singh2012wikilinks}{{27}{}{{}}{{}}}
+\bibcite{smith2013dirt}{{28}{}{{}}{{}}}
+\bibcite{sig}{{29}{}{{}}{{}}}
+\bibcite{taylor2012interlocking}{{30}{}{{}}{{}}}
+\bibcite{tornqvist1968flows}{{31}{}{{}}{{}}}
+\bibcite{wu2014future}{{32}{}{{}}{{}}}
+\bibcite{Gensim}{{33}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
