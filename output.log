@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  21 JUN 2017 12:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  21 JUN 2017 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -700,17 +700,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--8
  []
 
 [9 </var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70
-00320ea7/informationflow.png>] <images/occurences_per_page.jpg, id=51, 1284.8pt
- x 684.5575pt>
+00320ea7/informationflow.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+<images/occurences_per_page.jpg, id=51, 1284.8pt x 684.5575pt>
 File: images/occurences_per_page.jpg Graphic file (type jpg)
 <use images/occurences_per_page.jpg>
 Package pdftex.def Info: images/occurences_per_page.jpg used on input line 30.
-(pdftex.def)             Requested size: 452.9679pt x 241.34311pt.
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 30--32
-[][] 
- []
-
+(pdftex.def)             Requested size: 430.31812pt x 229.27856pt.
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/04-subsections/02-selecting_relevant_data.tex [10 </var/lib/sharelatex/da
@@ -904,7 +903,7 @@ exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107c0b2577ba7000320ea7/output.pdf (26 pages, 1399772 bytes).
+107c0b2577ba7000320ea7/output.pdf (26 pages, 1399778 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  103 compressed objects within 2 object streams
