@@ -3,47 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: output.aux
 The style file: plain.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "apigee"
-Warning--empty journal in Aho-Corasick
-You've used 33 entries,
+You've used 41 entries,
             2118 wiz_defined-function locations,
-            694 strings with 8943 characters,
-and the built_in function-call counts, 9944 in all, are:
-= -- 1006
-> -- 402
-< -- 4
-+ -- 164
-- -- 128
-* -- 616
-:= -- 1650
-add.period$ -- 107
-call.type$ -- 33
-change.case$ -- 162
+            747 strings with 10548 characters,
+and the built_in function-call counts, 13176 in all, are:
+= -- 1325
+> -- 541
+< -- 9
++ -- 226
+- -- 174
+* -- 849
+:= -- 2147
+add.period$ -- 130
+call.type$ -- 41
+change.case$ -- 206
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 362
-empty$ -- 839
-format.name$ -- 128
-if$ -- 2100
+cite$ -- 41
+duplicate$ -- 501
+empty$ -- 1098
+format.name$ -- 174
+if$ -- 2794
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 23
-newline$ -- 174
-num.names$ -- 66
-pop$ -- 192
+int.to.str$ -- 41
+missing$ -- 35
+newline$ -- 212
+num.names$ -- 82
+pop$ -- 240
 preamble$ -- 1
-purify$ -- 130
+purify$ -- 168
 quote$ -- 0
-skip$ -- 275
+skip$ -- 380
 stack$ -- 0
-substring$ -- 607
-swap$ -- 68
-text.length$ -- 4
+substring$ -- 852
+swap$ -- 111
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 130
-warning$ -- 1
-while$ -- 106
-width$ -- 35
-write$ -- 364
-(There were 2 warnings)
+type$ -- 158
+warning$ -- 0
+while$ -- 138
+width$ -- 43
+write$ -- 450
