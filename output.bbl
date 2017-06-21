@@ -3,7 +3,7 @@
 \bibitem{Aho-Corasick}
 Alfred~V. Aho and Margaret~J. Corasick.
 \newblock Efficient string matching: An aid to bibliographic search.
-\newblock {\em Commun. ACM}, 18(6):333--340, June 1975.
+\newblock 18(6):333--340, June 1975.
 
 \bibitem{468391}
 R.~A. Becker, S.~G. Eick, and A.~R. Wilks.
@@ -35,12 +35,6 @@ Common Crawl.
 \newblock \url{https://commoncrawl.org/}, 2017.
 \newblock Accessed: 2017-04-25.
 
-\bibitem{derudder2005appraisal}
-Ben Derudder and Frank Witlox.
-\newblock An appraisal of the use of airline data in assessing the world city
-  network: a research note on data.
-\newblock {\em Urban Studies}, 42(13):2371--2388, 2005.
-
 \bibitem{devriendt2008cyberplace}
 Lomme Devriendt, Ben Derudder, and Frank Witlox.
 \newblock Cyberplace and cyberspace: two approaches to analyzing digital
@@ -50,13 +44,18 @@ Lomme Devriendt, Ben Derudder, and Frank Witlox.
 \bibitem{elasticsearch}
 Elasticsearch.
 \newblock Elasticsearch.
-\newblock \url{https://www.elastic.co/products/elasticsearch}.
+\newblock \url{https://www.elastic.co/products/elasticsearch}, 2017.
 \newblock Accessed: 2017-04-26.
 
 \bibitem{nlkt_stemming}
 Alex~Rudnick et~al.
 \newblock Nlkt.
 \newblock \url{http://www.nltk.org/api/nltk.stem.html}, 2017.
+
+\bibitem{gaustad2002accurate}
+Tanja Gaustad and Gosse Bouma.
+\newblock Accurate stemming of dutch for text classification.
+\newblock {\em Language and Computers}, 45(1):104--117, 2002.
 
 \bibitem{gorman2000networks}
 Sean~P Gorman and Edward~J Malecki.
@@ -81,10 +80,6 @@ Software improvement group.
 \newblock better code hub.
 \newblock \url{https://bettercodehub.com/}, 2017.
 
-\bibitem{BeautifulSoup}
-Fermentas Inc.
-\newblock Beautifulsoup: Beautiful soup documentation.
-
 \bibitem{janc2015geography}
 Krzysztof Janc.
 \newblock Geography of hyperlinks—spatial dimensions of local government
@@ -96,11 +91,11 @@ Krzysztof Janc.
 \newblock Visibility and connections among cities in digital space.
 \newblock {\em Journal of Urban Technology}, 22(4):3--21, 2015.
 
-\bibitem{jouili2013}
-S.~Jouili and V.~Vansteenberghe.
-\newblock An empirical comparison of graph databases.
-\newblock In {\em 2013 International Conference on Social Computing}, pages
-  708--715, Sept 2013.
+\bibitem{scikit-learn}
+Scikit learn developers.
+\newblock Scikit-learn.
+\newblock \url{http://scikit-learn.org/stable/index.html}, 2017.
+\newblock Accessed: 2017-04-26].
 
 \bibitem{MLCheatSheet}
 Microsoft.
@@ -119,16 +114,19 @@ Hannes M{\"u}hleisen and Christian Bizer.
 \bibitem{neo4j}
 Neo4j.
 \newblock Neo4j, the world's leading graph database.
-\newblock \url{https://www.neo4j.com}.
+\newblock \url{https://www.neo4j.com}, 2017.
 \newblock Accessed: 2017-04-26.
 
-\bibitem{neo4jscalable}
-Neo4j.
-\newblock Understanding neo4j scalability.
-\newblock
-  \url{https://neo4j.com/resources/understanding-neo4j-scalability-white-paper/
-  }.
-\newblock Accessed: 2017-06-19.
+\bibitem{snowball_dutch}
+Richard~Boulton Olly~Betts.
+\newblock Snowball.
+\newblock \url{http://snowball.tartarus.org/algorithms/dutch/stemmer.html},
+  2017.
+
+\bibitem{porter_Stemmer}
+M.F. Porter.
+\newblock Porter.
+\newblock \url{https://tartarus.org/martin/PorterStemmer/}, 1980.
 
 \bibitem{porter2000location}
 Michael~E Porter.
@@ -142,33 +140,10 @@ Tobias Preis, Helen~Susannah Moat, and H~Eugene Stanley.
   trends.
 \newblock {\em Nature: scientific reports}, 2013.
 
-\bibitem{ramos_tfidf}
-Juan Ramos et~al.
-\newblock Using tf-idf to determine word relevance in document queries.
-\newblock In {\em Proceedings of the first instructional conference on machine
-  learning}, 2003.
-
 \bibitem{rasool2012string}
 Akhtar Rasool, Amrita Tiwari, Gunjan Singla, and Nilay Khare.
 \newblock String matching methodologies: A comparative analysis.
 \newblock {\em REM (Text)}, 234567(11):3, 2012.
-
-\bibitem{reilly1931law}
-William~John Reilly.
-\newblock {\em The law of retail gravitation}.
-\newblock WJ Reilly, 1931.
-
-\bibitem{ml_text}
-Fabrizio Sebastiani.
-\newblock Machine learning in automated text categorization.
-\newblock {\em ACM Comput. Surv.}, 34(1):1--47, March 2002.
-
-\bibitem{short1996dirty}
-John~Rennie Short, Y~Kim, Merje Kuus, and Heather Wells.
-\newblock The dirty little secret of world cities research: data problems in
-  comparative analysis.
-\newblock {\em International Journal of Urban and Regional Research},
-  20(4):697--717, 1996.
 
 \bibitem{singh2012wikilinks}
 Sameer Singh, Amarnag Subramanya, Fernando Pereira, and Andrew McCallum.
@@ -194,31 +169,11 @@ Peter~J Taylor.
 \newblock {\em International handbook of globalization and world cities}, pages
   51--63, 2012.
 
-\bibitem{tobler1970computer}
-Waldo~R Tobler.
-\newblock A computer movie simulating urban growth in the detroit region.
-\newblock {\em Economic geography}, 46(sup1):234--240, 1970.
-
 \bibitem{tornqvist1968flows}
 Gunnar T{\"o}rnqvist.
 \newblock Flows of information and the location of economic activities.
-\newblock {\em Geografiska Annaler. Series B, Human Geography}, 50(1):99--107,
+\newblock {\em Geografiska Annaler Series B, Human Geography}, 50(1):99--107,
   1968.
-
-\bibitem{van2010economic}
-Frank van Oort, Martijn Burger, and Otto Raspe.
-\newblock On the economic foundation of the urban network paradigm: Spatial
-  integration, functional integration and economic complementarities within the
-  dutch randstad.
-\newblock {\em Urban Studies}, 47(4):725--748, 2010.
-
-\bibitem{vicknair2010}
-Chad Vicknair, Michael Macias, Zhendong Zhao, Xiaofei Nan, Yixin Chen, and Dawn
-  Wilkins.
-\newblock A comparison of a graph database and a relational database: A data
-  provenance perspective.
-\newblock In {\em Proceedings of the 48th Annual Southeast Regional
-  Conference}, ACM SE '10, pages 42:1--42:6, New York, NY, USA, 2010. ACM.
 
 \bibitem{wu2014future}
 Lynn Wu and Erik Brynjolfsson.
@@ -227,9 +182,10 @@ Lynn Wu and Erik Brynjolfsson.
 \newblock In {\em Economic analysis of the digital economy}, pages 89--118.
   University of Chicago Press, 2014.
 
-\bibitem{yang1997}
-Yiming Yang and Jan~O Pedersen.
-\newblock A comparative study on feature selection in text categorization.
-\newblock In {\em Icml}, volume~97, pages 412--420, 1997.
+\bibitem{Gensim}
+Radim Řehůřek.
+\newblock Gensim.
+\newblock \url{ https://radimrehurek.com/gensim/models/tfidfmodel.html}, 2017.
+\newblock Accessed: 2017-05-17].
 
 \end{thebibliography}
