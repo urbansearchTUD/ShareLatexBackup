@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  21 JUN 2017 09:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  21 JUN 2017 09:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,25 +665,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/03-problem-definition-and-analysis.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
 [5] [6]
 
 LaTeX Warning: Reference `sec:reqs-analysis' on page 7 undefined on input line 
-40.
+44.
 
-)
+[7])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-framework-and-tools.tex [7]
+20ea7/04-framework-and-tools.tex
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/04-subsections/01-gathering.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
  []
 
-[8] <images/occurences_per_page.jpg, id=45, 1284.8pt x 684.5575pt>
+[8] <images/occurences_per_page.jpg, id=46, 1284.8pt x 684.5575pt>
 File: images/occurences_per_page.jpg Graphic file (type jpg)
 <use images/occurences_per_page.jpg>
 Package pdftex.def Info: images/occurences_per_page.jpg used on input line 30.
@@ -695,15 +695,16 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 30--32
 
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/02-selecting_relevant_data.tex)
+20ea7/04-subsections/02-selecting_relevant_data.tex [9 </var/lib/sharelatex/dat
+a/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/images/occurences_
+per_page.jpg>])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/04-subsections/03-classifying.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[9 </var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70
-00320ea7/images/occurences_per_page.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -733,9 +734,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-)
+[11])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/04-storage_and_ingestion.tex [11]
+20ea7/04-subsections/04-storage_and_ingestion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
@@ -757,32 +758,71 @@ Package pdftex.def Info: images/neo4j.png used on input line 50.
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/04-subsections/05-search_engine.tex [13 </var/lib/sharelatex/data/compile
 s/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/images/neo4j.png>] <images/
-ql-example.png, id=67, 554.07pt x 364.36125pt>
+ql-example.png, id=66, 554.07pt x 364.36125pt>
 File: images/ql-example.png Graphic file (type png)
 <use images/ql-example.png>
 Package pdftex.def Info: images/ql-example.png used on input line 24.
 (pdftex.def)             Requested size: 339.72592pt x 223.40533pt.
-<images/qi-example.png, id=68, 569.12625pt x 376.40625pt>
+<images/qi-example.png, id=67, 569.12625pt x 376.40625pt>
 File: images/qi-example.png Graphic file (type png)
 <use images/qi-example.png>
 Package pdftex.def Info: images/qi-example.png used on input line 35.
 (pdftex.def)             Requested size: 339.72592pt x 224.69678pt.
-<images/ii-example.png, id=69, 551.05875pt x 359.3425pt>
+<images/ii-example.png, id=68, 551.05875pt x 359.3425pt>
 File: images/ii-example.png Graphic file (type png)
 <use images/ii-example.png>
 Package pdftex.def Info: images/ii-example.png used on input line 46.
 (pdftex.def)             Requested size: 339.72592pt x 221.53989pt.
-[14 </var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7
-000320ea7/images/ql-example.png> </var/lib/sharelatex/data/compiles/591474f353b
-d4966000c0fa8-59107c0b2577ba7000320ea7/images/qi-example.png>])
+)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/06-visualising.tex [15 </var/lib/sharelatex/data/compiles/
-591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/images/ii-example.png>])
+20ea7/04-subsections/06-visualising.tex [14 </var/lib/sharelatex/data/compiles/
+591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/images/ql-example.png>])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/04-subsections/07-server.tex
 
-Package natbib Warning: Citation `apigee' on page 16 undefined on input line 2.
+Package natbib Warning: Citation `apigee' on page 15 undefined on input line 2.
 
+
+[15 </var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7
+000320ea7/images/qi-example.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \item
+          [\textbf{/predict}]\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \begin
+           {center}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
@@ -793,12 +833,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-
+[16 </var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7
+000320ea7/images/ii-example.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-[16]
+
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
@@ -813,22 +854,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--22
 
  []
 
-))
+[17]))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/05-framework-implementation.tex)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/06-project-evaluation.tex [17])
+20ea7/06-project-evaluation.tex)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/07-discussion.tex)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/08-recommendations.tex)
+20ea7/08-recommendations.tex [18])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/09-conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-[18]
+
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
@@ -882,7 +923,7 @@ exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107c0b2577ba7000320ea7/output.pdf (24 pages, 808905 bytes).
+107c0b2577ba7000320ea7/output.pdf (24 pages, 810322 bytes).
 PDF statistics:
  151 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream

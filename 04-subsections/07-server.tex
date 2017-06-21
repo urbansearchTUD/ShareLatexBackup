@@ -5,8 +5,36 @@ To provide the users an easy way of interacting and controling the system we dec
 
 All routes in the API start with the "/api/v1" prefix. The routes below will be referred to without this prefix to keep the text concise.
 
-\subsubsection{Predict Route: /predict}
-The predict route is meant as an easy means of labelling a provided document with a category or 
+\subsubsection{Predict Route: /classify}
+The predict route is meant as an easy means of labelling a provided document with a category or the probabilities of said document belonging to a set of predefined categories.
+The available routes are specified below.
+
+\begin{description}
+\item[\textbf{/}]\\
+\item[\textbf{/predict}]\\
+\begin{center}
+    \begin{tabular}{ | l | l |}
+    \hline
+    Method & POST\\ \hline
+    Content-Type & application/json\\ \hline
+    \end{tabular}
+\end{center}
+
+
+\begin{center}
+    \begin{tabular}{ | l | l | l |}
+    \hline
+    Property & Required & Description\\ \hline
+    document & True & String containing the document that needs to be labelled\\ \hline
+    \end{tabular}
+\end{center}
+
+\item[\textbf{/probabilities}]\\
+
+\end{description}
+
+
+
 \subsubsection{Data-set Route}
 \subsubsection{Documents Route}
 \subsubsection{Classifier Route}
