@@ -1,7 +1,21 @@
-\subsection{Selecting Relevant Documents}
-Because not all data from information sources such as Common Crawl is relevant, the data needs to be filtered. One way to do this, is to only select the data that mentions at least two different cities. Because the data is plain text, we need a way to scan through the text and determine if the text indeed has a co-occurrence of two different cities.
-Making use of the comparative analysis of Rasool et al. \cite{rasool2012string}, we chose the Aho-Corasick algorithm \cite{Aho-Corasick}, which is a multi-pattern exact string matching algorithm. Using this algorithm, a predefined list of cities can be matched against the text of a web page or document. If at least two cities from the list appear in the text, we mark it as a useful document.
+\subsection{Filtering Documents}
+Because not all data from information sources such as Common Crawl is relevant to find relationships between cities, the data needs to be filtered. One way to do this, is to only select the data that mentions at least two different cities. Because the data is plain text, we need a way to scan through the text and determine if the text indeed has a co-occurrence of two different cities.
+Making use of the comparative analysis of Rasool et al. \cite{rasool2012string}, we chose the Aho-Corasick algorithm \cite{Aho-Corasick}, which is a multi-pattern exact string matching algorithm and is the driver of widely used tools such as \texttt{grep} \cite{kernighan1984unix}. The algorithm creates a finite state machine, where strings to match are final states. Since we are looking for the co-occurrence of cities, using a multi-pattern string matching algorithm is preferred over a plain string matching algorithm. This is especially well illustrated by table \ref{tab:bm-matching} below. The benchmark was performed on a string of 1500 characters, with a million iterations. In the table, the average speed of matching is shown in milliseconds.
+
+\begin{table}
+\centering
+\begin{tabular}{ |c|c| } 
+    \hline
+    multi-pattern matching & 0.049831339 \\
+    plain string matching &  1.870154497 \\
+    \hline
+\end{tabular}
+\caption{Benchmark of multi-string vs. plain string matching}
+\label{tab:bm-matching}
+\end{table}
+
+Using the Aho-Corasick algorithm, a predefined list of cities can be matched against the text of a web page or document. If at least two cities from the list appear in the text, we mark it as a useful document.
 
 The decision to use the Aho-Corasick algorithm is strengthened by the fact that a well documented and stable Python library exists, which implements the aforementioned algorithm. This library is called \texttt{pyahocorasick}\footnote{\url{https://pypi.python.org/pypi/pyahocorasick/}} and is a fast and memory efficient implementation of the Aho-Corasick algorithm.
 
-We make a selection of documents without storing the documents first, because storing and indexing all documents is not feasible due to storage constraints. As we do not have access to a fast and large data storage platform, we will not store and index everything first and then delete irrelevant documents.
+We make a selection of documents without storing the documents first, because storing all documents is not feasible due to storage constraints. For the .nl web pages only would need about 250 GB of storage and to store all available documents around 250 TB of storage would be needed. As we do not have access to a fast and large data storage platform, we will not store everything first and then delete documents that were filtered out. However, to test if finding and storing relationships between cities is fast enough when the documents are actually stored on disk a random selection of 1 million documents will be downloaded. Processing the already stored documents could finish within one day\footnote{On a virtual server with 8GB RAM, 4 CPUs and 100GB of HDD storage.} whereas downloading all documents will most certainly take multiple days.
