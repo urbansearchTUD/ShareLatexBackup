@@ -6,7 +6,7 @@
 \contentsline {paragraph}{Filtering}{6}
 \contentsline {paragraph}{Classification}{6}
 \contentsline {paragraph}{Storing Data}{6}
-\contentsline {paragraph}{Visualisation and Export}{6}
+\contentsline {paragraph}{Data Visualisation \& Export}{6}
 \contentsline {subsection}{\numberline {3.3}Requirement Analysis}{6}
 \contentsline {subsubsection}{\numberline {3.3.1}User Stories}{6}
 \contentsline {subsubsection}{\numberline {3.3.2}Design Goals}{7}
@@ -23,56 +23,55 @@
 \contentsline {paragraph}{Would Like}{8}
 \contentsline {subsubsection}{\numberline {3.3.4}Design Decisions}{8}
 \contentsline {section}{\numberline {4}Framework and Tools}{8}
-\contentsline {subsection}{\numberline {4.1}Gathering the Data}{8}
-\contentsline {subsubsection}{\numberline {4.1.1}Common Crawl}{9}
-\contentsline {subsubsection}{\numberline {4.1.2}Other Data Sources}{10}
-\contentsline {subsection}{\numberline {4.2}Selecting Relevant Documents}{10}
-\contentsline {subsection}{\numberline {4.3}Extracting Relations from Documents}{11}
-\contentsline {subsubsection}{\numberline {4.3.1}defining classes}{11}
-\contentsline {subsubsection}{\numberline {4.3.2}preprocess}{11}
-\contentsline {subsubsection}{\numberline {4.3.3}training}{12}
-\contentsline {subsubsection}{\numberline {4.3.4}classifying}{12}
-\contentsline {subsection}{\numberline {4.4}Storing and Ingesting the Data}{13}
-\contentsline {subsubsection}{\numberline {4.4.1}Graph Database, Search Engine or Traditional Database}{13}
-\contentsline {subsubsection}{\numberline {4.4.2}Comparing Graph Databases}{13}
-\contentsline {subsubsection}{\numberline {4.4.3}Using Neo4j for Storage and Ingestion}{13}
-\contentsline {subsection}{\numberline {4.5}Interacting with the Data}{14}
-\contentsline {subsubsection}{\numberline {4.5.1}Query Language}{14}
-\contentsline {subsubsection}{\numberline {4.5.2}Query Composer Interface}{15}
-\contentsline {subsubsection}{\numberline {4.5.3}Interactive Search}{16}
-\contentsline {subsubsection}{\numberline {4.5.4}Conclusion}{16}
-\contentsline {subsection}{\numberline {4.6}Visualising the Data}{16}
-\contentsline {subsubsection}{\numberline {4.6.1}Representing the Data Graphically}{16}
-\contentsline {subsubsection}{\numberline {4.6.2}Using Geographical Maps}{16}
-\contentsline {subsubsection}{\numberline {4.6.3}Handling Map Clutter}{17}
-\contentsline {subsection}{\numberline {4.7}API}{17}
-\contentsline {subsubsection}{\numberline {4.7.1}General Remarks}{17}
-\contentsline {subsubsection}{\numberline {4.7.2}Classify Route: /classify}{17}
-\contentsline {subsubsection}{\numberline {4.7.3}Data-set Route: /datasets}{18}
-\contentsline {subsubsection}{\numberline {4.7.4}Documents Route}{18}
-\contentsline {subsubsection}{\numberline {4.7.5}Classifier Route}{18}
-\contentsline {subsubsection}{\numberline {4.7.6}Indices Route}{18}
-\contentsline {subsubsection}{\numberline {4.7.7}Indices Route}{18}
-\contentsline {subsection}{\numberline {4.8}Front-End}{18}
-\contentsline {subsection}{\numberline {4.9}Validation}{18}
-\contentsline {subsubsection}{\numberline {4.9.1}Tests}{18}
-\contentsline {subsubsection}{\numberline {4.9.2}SIG}{19}
-\contentsline {section}{\numberline {5}Framework Implementation}{19}
-\contentsline {section}{\numberline {6}Project Evaluation}{19}
-\contentsline {subsection}{\numberline {6.1}Fulfilment of requirements}{19}
-\contentsline {subsection}{\numberline {6.2}Process}{19}
-\contentsline {subsubsection}{\numberline {6.2.1}Collaboration between the team members}{19}
-\contentsline {subsubsection}{\numberline {6.2.2}Collaboration between the team members and the TU Delft Coach}{20}
-\contentsline {subsubsection}{\numberline {6.2.3}Collaboration between the team members and the client}{20}
-\contentsline {section}{\numberline {7}discussion}{20}
-\contentsline {section}{\numberline {8}Recommendation}{20}
-\contentsline {section}{\numberline {9}Conclusion}{20}
-\contentsline {subsection}{\numberline {9.1}related work}{20}
-\contentsline {subsection}{\numberline {9.2}related work}{20}
-\contentsline {subsection}{\numberline {9.3}Requirement analysis}{21}
-\contentsline {subsection}{\numberline {9.4}Framework-and-tools}{21}
-\contentsline {section}{\numberline {A}Better Code Hub Guidelines}{21}
-\contentsline {section}{\numberline {B}week 5}{22}
-\contentsline {section}{\numberline {C}week 9}{22}
-\contentsline {section}{\numberline {D}User manual}{23}
-\contentsline {section}{\numberline {E}dev-manual}{23}
+\contentsline {subsection}{\numberline {4.1}High-level overview}{9}
+\contentsline {subsection}{\numberline {4.2}Gathering the Data}{9}
+\contentsline {subsubsection}{\numberline {4.2.1}Common Crawl}{9}
+\contentsline {subsubsection}{\numberline {4.2.2}Other Data Sources}{10}
+\contentsline {subsection}{\numberline {4.3}Selecting Relevant Documents}{11}
+\contentsline {subsection}{\numberline {4.4}Extracting Relations from Documents}{11}
+\contentsline {subsubsection}{\numberline {4.4.1}defining classes}{11}
+\contentsline {subsubsection}{\numberline {4.4.2}preprocess}{12}
+\contentsline {subsubsection}{\numberline {4.4.3}training}{12}
+\contentsline {subsubsection}{\numberline {4.4.4}classifying}{12}
+\contentsline {subsection}{\numberline {4.5}Storing and Ingesting the Data}{13}
+\contentsline {subsubsection}{\numberline {4.5.1}Graph Database, Search Engine or Traditional Database}{13}
+\contentsline {subsubsection}{\numberline {4.5.2}Comparing Graph Databases}{13}
+\contentsline {subsubsection}{\numberline {4.5.3}Using Neo4j for Storage and Ingestion}{14}
+\contentsline {subsection}{\numberline {4.6}Interacting with the Data}{14}
+\contentsline {subsubsection}{\numberline {4.6.1}Query Language}{14}
+\contentsline {subsubsection}{\numberline {4.6.2}Query Composer Interface}{15}
+\contentsline {subsubsection}{\numberline {4.6.3}Interactive Search}{15}
+\contentsline {subsubsection}{\numberline {4.6.4}Conclusion}{15}
+\contentsline {subsection}{\numberline {4.7}Visualising the Data}{15}
+\contentsline {subsubsection}{\numberline {4.7.1}Representing the Data Graphically}{15}
+\contentsline {subsubsection}{\numberline {4.7.2}Using Geographical Maps}{15}
+\contentsline {subsubsection}{\numberline {4.7.3}Handling Map Clutter}{15}
+\contentsline {subsection}{\numberline {4.8}API}{16}
+\contentsline {subsubsection}{\numberline {4.8.1}General Remarks}{16}
+\contentsline {subsubsection}{\numberline {4.8.2}Documents Route}{16}
+\contentsline {subsubsection}{\numberline {4.8.3}Classifier Route}{16}
+\contentsline {subsubsection}{\numberline {4.8.4}Indices Route}{16}
+\contentsline {subsubsection}{\numberline {4.8.5}Indices Route}{16}
+\contentsline {subsection}{\numberline {4.9}Front-End}{16}
+\contentsline {subsection}{\numberline {4.10}Validation}{16}
+\contentsline {subsubsection}{\numberline {4.10.1}Tests}{16}
+\contentsline {subsubsection}{\numberline {4.10.2}SIG}{17}
+\contentsline {section}{\numberline {5}Framework Implementation}{17}
+\contentsline {section}{\numberline {6}Project Evaluation}{17}
+\contentsline {subsection}{\numberline {6.1}Fulfilment of requirements}{17}
+\contentsline {subsection}{\numberline {6.2}Process}{18}
+\contentsline {subsubsection}{\numberline {6.2.1}Collaboration between the team members}{18}
+\contentsline {subsubsection}{\numberline {6.2.2}Collaboration between the team members and the TU Delft Coach}{18}
+\contentsline {subsubsection}{\numberline {6.2.3}Collaboration between the team members and the client}{18}
+\contentsline {section}{\numberline {7}discussion}{18}
+\contentsline {section}{\numberline {8}Recommendation}{18}
+\contentsline {section}{\numberline {9}Conclusion}{18}
+\contentsline {subsection}{\numberline {9.1}related work}{18}
+\contentsline {subsection}{\numberline {9.2}related work}{18}
+\contentsline {subsection}{\numberline {9.3}Requirement analysis}{19}
+\contentsline {subsection}{\numberline {9.4}Framework-and-tools}{19}
+\contentsline {section}{\numberline {A}Better Code Hub Guidelines}{19}
+\contentsline {section}{\numberline {B}week 5}{20}
+\contentsline {section}{\numberline {C}week 9}{20}
+\contentsline {section}{\numberline {D}User manual}{21}
+\contentsline {section}{\numberline {E}dev-manual}{21}

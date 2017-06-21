@@ -1,0 +1,38 @@
+\subsubsection{Data-set Route: /datasets}
+The datasets route is meant for extending and querying information about the data-set which is used to train classifiers. 
+
+\begin{enumerate}
+\item [\textbf{/append}]
+Appends a document to the 
+\newline
+\newline
+\textbf{Request:}
+\newline
+\newline
+\begin{tabular}{ | l | l |}
+\hline
+Method & POST\\ \hline
+Content-Type & application/json\\ \hline
+\end{tabular}
+\newline
+\newline
+\textbf{Request data:}
+\newline
+\newline
+\begin{tabular}{ | l | l | l |}
+\hline
+\textbf{Property} & \textbf{Required} & \textbf{Description}\\ \hline
+document & True & String containing the document that needs to be labelled\\ \hline
+\end{tabular}
+\textbf{Response:}
+\newline
+\newline
+\begin{tabular}{ | l | l |}
+\hline
+\textbf{Property} & \textbf{Description}\\ \hline
+status & Status code for the response\\ \hline
+category & The category that was predicted for this document\\ \hline
+error & Boolean indicating if there was an error during the processing of the request\\ \hline
+message & Message containing extra information about the response\\ \hline
+\end{tabular}
+\end{enumerate}
