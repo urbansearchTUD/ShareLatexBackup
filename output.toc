@@ -3,10 +3,10 @@
 \contentsline {section}{\numberline {3}Problem Definition and Analysis}{5}
 \contentsline {subsection}{\numberline {3.1}Problem Definition}{6}
 \contentsline {subsection}{\numberline {3.2}Problem Analysis}{6}
-\contentsline {subsubsection}{\numberline {3.2.1}Filtering}{6}
-\contentsline {subsubsection}{\numberline {3.2.2}Classification}{6}
-\contentsline {subsubsection}{\numberline {3.2.3}Storing Data}{6}
-\contentsline {subsubsection}{\numberline {3.2.4}Visualisation and Export}{6}
+\contentsline {paragraph}{Filtering}{6}
+\contentsline {paragraph}{Classification}{6}
+\contentsline {paragraph}{Storing Data}{6}
+\contentsline {paragraph}{Visualisation and Export}{6}
 \contentsline {subsection}{\numberline {3.3}Requirement Analysis}{6}
 \contentsline {subsubsection}{\numberline {3.3.1}Design Goals}{6}
 \contentsline {paragraph}{credible}{6}
