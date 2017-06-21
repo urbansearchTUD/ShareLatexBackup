@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  21 JUN 2017 07:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  21 JUN 2017 08:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -676,7 +676,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/03-problem-definition-and-analysis.tex [5] [6]
 ! Undefined control sequence.
-l.63 \pargraph
+l.64 \pargraph
               {Should Have}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -881,7 +881,7 @@ pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107c0b2577ba7000320ea7/output.pdf (23 pages, 807049 bytes).
+107c0b2577ba7000320ea7/output.pdf (23 pages, 807144 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
