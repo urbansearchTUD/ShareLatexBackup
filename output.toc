@@ -53,12 +53,12 @@
 \contentsline {subsection}{\numberline {4.11.3}Data-set Route: /datasets}{22}{subsection.4.11.3}
 \contentsline {subsection}{\numberline {4.11.4}Documents Route: /documents}{24}{subsection.4.11.4}
 \contentsline {subsection}{\numberline {4.11.5}Indices Route: /indices}{24}{subsection.4.11.5}
-\contentsline {subsection}{\numberline {4.11.6}Classify Documents Route: /classify_documents}{25}{subsection.4.11.6}
+\contentsline {subsection}{\numberline {4.11.6}Classify Documents Route: /classify\_documents}{25}{subsection.4.11.6}
 \contentsline {section}{\numberline {4.12}Front-End}{25}{section.4.12}
 \contentsline {subsection}{\numberline {4.12.1}Technical Overview}{26}{subsection.4.12.1}
+\contentsline {subsubsection}{Modular Design}{26}{subsection.4.12.1}
 \contentsline {subsubsection}{NodeJS}{26}{subsection.4.12.1}
 \contentsline {subsubsection}{ExpressJS}{26}{subsection.4.12.1}
-\contentsline {subsubsection}{Modular Design}{26}{subsection.4.12.1}
 \contentsline {subsection}{\numberline {4.12.2}Interfaces}{26}{subsection.4.12.2}
 \contentsline {subsubsection}{Interactive Map}{26}{subsection.4.12.2}
 \contentsline {subsubsection}{Classification Interface}{26}{subsection.4.12.2}
