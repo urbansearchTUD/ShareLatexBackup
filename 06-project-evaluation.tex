@@ -29,7 +29,7 @@ Last we use acceptance testing. This is testing done to see if the software does
 \subsection{SIG}
 SIG \cite{sig}, short for software improvement development group, is an organisation that analyses the code of projects to give insights in the quality of how the code is written. A high score means the code is highly maintainable and is kept simple. SIG includes Better Code Hub \cite{better_code_hub} which checks our code according to 10 guidelines as can be seen in appendix \ref{bch_guidelines}. The great thing about Better Code Hub is that it can be run at anytime. We can check Better Code Hub whenever, whilst for SIG we have to send in our code and wait for feedback. 
 
-\subsection{evaluating the classification}
+\subsection{Evaluating the Classification}
 There are several ways to evaluate machine learning algorithms. We will base our evaluation of the classifier on the guidelines of the Microsoft Azure Machine Learning evaluation model \cite{EvualteML}. According to the page binary classification can be evaluated with the following metrics: Accuracy, Precision, Recall, F1 and AUC.
 
 \subsubsection{Accuracy}
@@ -64,7 +64,7 @@ The \textbf{Receiver Operating Characteristic (ROC) curve} and the corresponding
 \end{figure}
 \footnotetext{\url{https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-evaluate-model-performance}}
 
-\subsection{Evaluation of relation scores}
+\subsection{Evaluation of Relation Scores}
 Evaluating relation scores is done differently. An important factor here is that cities have a natural relation due to their geographical position \cite{tobler1970computer}, so one would expect cities that lie close to each other are more related than cities that are on different sides of the country. This natural relation can be represented using the Gravity Model by Reilly \cite{reilly1931law}. The Gravity Model describes that the expected relation between two cities is based on the population of the two cities and the distance between these cities. A relation between two cities that is extracted from the data should thus expose a similar relative score as they would for the gravity model. Consider for example Amsterdam and Hoofddorp, which are cities that lie close to each other. Amsterdam is a large city, whereas Hoofddorp is much smaller. However, due to their close geographical position, the score that results from the Gravity Model would be high. If they turn out to have a very high score in our system, that would imply that the system is correct. Besides the Gravity Model, one can rely on the opinion of an expert in the field of urbanism that can judge whether an extracted relation is close to reality or not. We therefore agreed with the client that they would decide on a small set of relations whether they are correct. Lastly, the relations in the Randstad, a large urban area with the four largest cities of the Netherlands, have been examined before on the basis of firms \cite{van2010economic}. These relations can be compared to those extracted by the system.
 
 \section{Fulfilment of Requirements}
@@ -92,25 +92,22 @@ As expected the would likes did not pass. It is theoretically possible to show a
 
 \section{Process}
 
-\subsection{Collaboration between the team members}
-The collebaration between the team members went well. The team members worked in a room in the faculty of architecture from 9-5 each day. Three of the four team members knew each other already. The work was devided even over the team members. 
+\subsection{Collaboration Between the Team Members}
+The collaboration between the team members went well. The team members worked in a room in the faculty of architecture from 9-5 each day. Three of the four team members knew each other already. The work was divided even over the team members. 
 
-\subsection{Collaboration between the team members and the TU Delft Coach}
-Each week 9:30 on monday the team members had a meeting with the TU Delft coach. In the beginning there were some communication issues between the team and the coach but as the process went on communication became better.
+\subsection{Collaboration Between the Team Members and the TU Delft Coach}
+Each week 9:30 on Monday the team members had a meeting with the TU Delft coach. In the beginning there were some communication issues between the team and the coach but as the process went on communication became better.
 \todo{Claudia absent twice}
 
-\subsection{Collaboration between the team members and the client}
+\subsection{Collaboration Between the Team Members and the Client}
 The collaboration between the team members and the client was good as well. 
 Weekly meetings helped the team members making the product as good as possible to the clients wishes. 
 
-\section{ethics}
-When using our program, there are two ethical issues that may arrive. The first is due to the fact that pages may be downloaded and stored, which may result in privacy issues. The second is about what the results of our program may be used for, and how the world will react to this.
+\section{Ethics}
+When using our program, there are two ethical issues that may arrive. The first is due to the fact that pages may be downloaded and stored, which may result in privacy or copyright issues. The second is about what the results of our program may be used for, and how the world will react to this.
 
 \subsubsection{Storage}
-One ethical issue is due to the storing of data. Since we store random webpages we do not know whether or not these pages may contain private or copyrighted data. For instance news articles could be downloaded and stored
+One ethical issue is due to the storing of data. Since we store random web pages we do not know whether or not these pages may contain private or copyrighted data. For instance news articles could be downloaded and stored whilst this could violate the copyright issues. For most free news sites this is not a problem but this especially becomes a problem when using Delpher as a data source. Therefor if this source is added it must also be ensured that the data is stored in a safe way.
 
 \subsubsection{Influence}
-
-opslag documented
-mindere steden benadeld
-invloed van patronen
+Another issue that may occur is the influence this kind of research may have. If there is indeed a correlation between the results of our program and the economic growth of cities this may influence the behaviour of investors, companies and cities. Investors may look at the data and decide to invest in companies from more growing cities. Companies may use this data to decide where to build their new offices. And cities may change their policies based on the results. In future executions of our system it may also occur that data is being manipulated. Involved parties which put extra data online containing the names of cities they want to have a better result for. Whilst these issues may occur, we do not suspect our system to have a large enough impact to cause this. It may rather be a step towards these effects. Over time the effects will become clearer and they should be taken into account when continuing research in this field.
