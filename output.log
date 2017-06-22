@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  22 JUN 2017 19:30
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  22 JUN 2017 20:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2117,4 +2117,4 @@ Here is how much of TeX's memory you used:
  63i,14n,94p,10412b,1963s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107c0b2577ba7000320ea7/output.xdv (61 pages, 774408 bytes).
+107c0b2577ba7000320ea7/output.xdv (61 pages, 775292 bytes).
