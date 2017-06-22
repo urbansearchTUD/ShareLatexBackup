@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  22 JUN 2017 07:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.22)  22 JUN 2017 07:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -801,192 +801,153 @@ Package natbib Warning: Citation `apigee' on page 16 undefined on input line 3.
 
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/API-routes/classify.tex
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 
-    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--43
+Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--43
+Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--43
+Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--43
+Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--43
+Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--43
+Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--75
+Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--75
+Underfull \hbox (badness 10000) in paragraph at lines 42--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--75
+Underfull \hbox (badness 10000) in paragraph at lines 42--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--75
+Underfull \hbox (badness 10000) in paragraph at lines 42--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--73
 
  []
 
 [16])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/API-routes/datasets.tex
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 \item[\textbf{/append_all}]
-                                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 \item[\textbf{/append_all}]
-                                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.40 \item[\textbf{/append_all}]
-                                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.40 \item[\textbf{/append_all}]
-                                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\llap #1->\hb@xt@ \z@ {\hss #1}
-                               
-l.40 \item[\textbf{/append_all}]
-                                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.40 \item[\textbf{/append_all}]
-                                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.40 \item[\textbf{/append_all}]
-                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.40 \item[\textbf{/append_all}]
-                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 8--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 8--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 8--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 8--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
-
- []
-
-
-Overfull \hbox (324.74973pt too wide) in paragraph at lines 6--48
+Overfull \hbox (61.58798pt too wide) in paragraph at lines 8--42
 [] 
  []
 
-))
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--80
+
+ []
+
+
+Overfull \hbox (105.338pt too wide) in paragraph at lines 45--80
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--104
+
+ []
+
+[17]))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/04-subsections/08-frontend.tex)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
@@ -1005,7 +966,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-[17]
+
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
@@ -1015,7 +976,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--22
 
  []
 
-))
+[18]))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/05-framework-implementation.tex
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
@@ -1029,13 +990,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--22
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/05-subsections/05-frontend.tex))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
-20ea2/06-project-evaluation.tex [18])
+20ea2/06-project-evaluation.tex [19])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/07-discussion.tex)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/08-recommendations.tex)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
-20ea2/09-conclusion.tex [19]
+20ea2/09-conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
@@ -1045,9 +1006,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-)
+[20])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
-20ea2/A_better_code_hub_guidelines.tex [20])
+20ea2/A_better_code_hub_guidelines.tex)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/B-SIG-analysis.tex [21])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
@@ -1091,21 +1052,20 @@ k></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107bb92577ba7000320ea2/output.pdf (28 pages, 1411408 bytes).
+107bb92577ba7000320ea2/output.pdf (28 pages, 1404606 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
+ 168 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
