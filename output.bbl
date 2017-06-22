@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{37}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -8,7 +8,8 @@
 \bibitem[Aho and Corasick(1975)]{Aho-Corasick}
 Alfred~V. Aho and Margaret~J. Corasick.
 \newblock Efficient string matching: An aid to bibliographic search.
-\newblock 18\penalty0 (6):\penalty0 333--340, June 1975.
+\newblock \emph{Communications of the ACM}, 18\penalty0 (6):\penalty0 333--340,
+  June 1975.
 \newblock ISSN 0001-0782.
 \newblock \doi{10.1145/360825.360855}.
 \newblock URL \url{http://doi.acm.org/10.1145/360825.360855}.
@@ -179,6 +180,11 @@ Akhtar Rasool, Amrita Tiwari, Gunjan Singla, and Nilay Khare.
 \newblock String matching methodologies: A comparative analysis.
 \newblock \emph{REM (Text)}, 234567\penalty0 (11):\penalty0 3, 2012.
 
+\bibitem[Reilly(1931)]{reilly1931law}
+William~John Reilly.
+\newblock \emph{The law of retail gravitation}.
+\newblock WJ Reilly, 1931.
+
 \bibitem[Singh et~al.(2012)Singh, Subramanya, Pereira, and
   McCallum]{singh2012wikilinks}
 Sameer Singh, Amarnag Subramanya, Fernando Pereira, and Andrew McCallum.
@@ -205,11 +211,24 @@ Peter~J Taylor.
 \newblock \emph{International handbook of globalization and world cities},
   pages 51--63, 2012.
 
+\bibitem[Tobler(1970)]{tobler1970computer}
+Waldo~R Tobler.
+\newblock A computer movie simulating urban growth in the detroit region.
+\newblock \emph{Economic geography}, 46\penalty0 (sup1):\penalty0 234--240,
+  1970.
+
 \bibitem[T{\"o}rnqvist(1968)]{tornqvist1968flows}
 Gunnar T{\"o}rnqvist.
 \newblock Flows of information and the location of economic activities.
 \newblock \emph{Geografiska Annaler Series B, Human Geography}, 50\penalty0
   (1):\penalty0 99--107, 1968.
+
+\bibitem[van Oort et~al.(2010)van Oort, Burger, and Raspe]{van2010economic}
+Frank van Oort, Martijn Burger, and Otto Raspe.
+\newblock On the economic foundation of the urban network paradigm: Spatial
+  integration, functional integration and economic complementarities within the
+  dutch randstad.
+\newblock \emph{Urban Studies}, 47\penalty0 (4):\penalty0 725--748, 2010.
 
 \bibitem[Wu and Brynjolfsson(2014)]{wu2014future}
 Lynn Wu and Erik Brynjolfsson.
