@@ -1,11 +1,9 @@
 \subsubsection{Data-set Route: /datasets}
 The datasets route is meant for extending and querying information about the data-set which is used to train classifiers. 
 
-\begin{description}
-
-
+\begin{enumerate}
 \item [\textbf{/append}]
-Appends a document to the data-set of the category specified in the request.
+Appends a document to the dataset of the category specified in the request.
 \newline
 \newline
 \textbf{Request:}
@@ -25,47 +23,7 @@ Content-Type & application/json\\ \hline
 \hline
 \textbf{Property} & \textbf{Required} & \textbf{Description}\\ \hline
 document & True & String containing the document that needs to be labelled\\ \hline
-category & True & String specifying the category of the data-set we want to append this document to\\ \hline
 \end{tabular}
-\newline
-\newline
-\textbf{Response:}
-\newline
-\newline
-\begin{tabular}{ | l | l |}
-\hline
-\textbf{Property} & \textbf{Description}\\ \hline
-status & Status code for the response\\ \hline
-error & Boolean indicating if there was an error during the processing of the request\\ \hline
-message & Message containing extra information about the response\\ \hline
-\end{tabular}
-
-
-\item[\textbf{/append\_all}]
-Appends a document to the data-set of all the categories specified in the request.
-\newline
-\newline
-\textbf{Request:}
-\newline
-\newline
-\begin{tabular}{ | l | l |}
-\hline
-Method & POST\\ \hline
-Content-Type & application/json\\ \hline
-\end{tabular}
-\newline
-\newline
-\textbf{Request data:}
-\newline
-\newline
-\begin{tabular}{ | l | l | l |}
-\hline
-\textbf{Property} & \textbf{Required} & \textbf{Description}\\ \hline
-document & True & String containing the document that needs to be labelled\\ \hline
-categories & True & List of strings specifying the categories of the data-sets we want to append this document to\\ \hline
-\end{tabular}
-\newline
-\newline
 \textbf{Response:}
 \newline
 \newline
@@ -76,30 +34,7 @@ status & Status code for the response\\ \hline
 category & The category that was predicted for this document\\ \hline
 error & Boolean indicating if there was an error during the processing of the request\\ \hline
 message & Message containing extra information about the response\\ \hline
-\end{tabular}
 
-\item[\textbf{/create}]
-Creates a data-set from all the category specific data-sets.
-\newline
-\newline
-\textbf{Request:}
-\newline
-\newline
-\begin{tabular}{ | l | l |}
-\hline
-Method & GET\\ \hline
+\item[\textbf{/append_all}]
 \end{tabular}
-\newline
-\newline
-\textbf{Response:}
-\newline
-\newline
-\begin{tabular}{ | l | l |}
-\hline
-\textbf{Property} & \textbf{Description}\\ \hline
-status & Status code for the response\\ \hline
-error & Boolean indicating if there was an error during the processing of the request\\ \hline
-message & Message containing extra information about the response\\ \hline
-\end{tabular}
-
-\end{description}
+\end{enumerate}
