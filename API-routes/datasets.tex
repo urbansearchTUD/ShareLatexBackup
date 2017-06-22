@@ -3,7 +3,7 @@ The datasets route is meant for extending and querying information about the dat
 
 \begin{enumerate}
 \item [\textbf{/append}]
-Appends a document to the 
+Appends a document to the data-set of the category specified in the request.
 \newline
 \newline
 \textbf{Request:}
@@ -24,6 +24,8 @@ Content-Type & application/json\\ \hline
 \textbf{Property} & \textbf{Required} & \textbf{Description}\\ \hline
 document & True & String containing the document that needs to be labelled\\ \hline
 \end{tabular}
+\newline
+\newline
 \textbf{Response:}
 \newline
 \newline
@@ -34,5 +36,13 @@ status & Status code for the response\\ \hline
 category & The category that was predicted for this document\\ \hline
 error & Boolean indicating if there was an error during the processing of the request\\ \hline
 message & Message containing extra information about the response\\ \hline
+
+\item[\textbf{/append_all}]
+Appends a document to the data-set of all the categories specified in the request.
+\newline
+\newline
+\textbf{Request:}
+\newline
+\newline
 \end{tabular}
 \end{enumerate}
