@@ -1,4 +1,12 @@
 \section{Downloading and parsing indices}
+
 As can be seen in figure \ref{fig:overview}, the first step of the process is to download data from Common Crawl. This required functions that would parse the Common Crawl indices and gather the data that corresponds to these indices. The first step in parsing the Common Crawl indices and filtering out the indices that have a HTTP Status Code \footnote{\url{https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html}} other than 200, as only these indices with these HTTP Status Code would be useful. 
 
-At first a simple implementation was used as can be seen in listing x. However, a remove operation on a list in Python has a time complexity of O(n), the implementation of \textit{clean_indices()} loops over all indices and removes it if it has status other than 200, which meant that this function had a complexity of O(n^2). 
+At first a simple implementation was used as can be seen in listing \ref{lst:regex}. However, a remove operation on a list in Python has a time complexity of O(n), the implementation of \textit{clean\_indices()} loops over all indices and removes it if it has status other than 200, which meant that this function had a complexity of $O(n^2)$. To improve this, a regular expression to search the string for the status before parsing to JSON is ued. This way, the list will never contain any indices with a HTTP Status Code other than 200. This resulted in a speedup of about 5.6 times compared to the $O(n^2)$ method.
+
+\begin{lstlisting}[language=Python, caption=Regular expression solution]\label{lst:regex}
+def _useful_str_responsecode(string):
+    if string:
+        return int(re.search('\"status\": \"(\w+)\",', string)
+                   .group(1)) == 200
+\end{lstlisting}

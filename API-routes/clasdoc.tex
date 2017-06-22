@@ -1,9 +1,10 @@
 \subsection{Classify Documents Route: /classify_documents}
-The datasets route is meant for extending and querying information about the data-set which is used to train classifiers. 
+Run workers to classify all documents and log only.
+All the indices from the specified directory will be parsed using the number of workers specified.
 
 \begin{description}
 
-\item[{\large \textbf{/predict}}]
+\item[{\large \textbf{/log\_only}}]
 Predicts the category of the document that is submitted in the body of the request.
 \newline
 \newline
@@ -12,18 +13,10 @@ Predicts the category of the document that is submitted in the body of the reque
 \newline
 \begin{tabular}{ | l | l |}
 \hline
-Method & POST\\ \hline
-Content-Type & application/json\\ \hline
-\end{tabular}
-\newline
-\newline
-\textbf{Request data:}
-\newline
-\newline
-\begin{tabular}{ | l | l | l |}
-\hline
-\textbf{Property} & \textbf{Required} & \textbf{Description}\\ \hline
-document & True & String containing the document that needs to be labelled\\ \hline
+Method & GET\\ \hline
+?pworkers & Number of producing workers, parsing indices and adds to queue\\ \hline
+?cworkers & Number of consuming workers, classifying indices from the queue\\ \hline
+?directory & Path to directory containing indices\\ \hline
 \end{tabular}
 \newline
 \newline
@@ -34,7 +27,34 @@ document & True & String containing the document that needs to be labelled\\ \hl
 \hline
 \textbf{Property} & \textbf{Description}\\ \hline
 status & Status code for the response\\ \hline
-category & The category that was predicted for this document\\ \hline
+error & Boolean indicating if there was an error during the processing of the request\\ \hline
+message & Message containing extra information about the response\\ \hline
+\end{tabular}\\
+
+\item[{\large \textbf{/to\_database}}]
+Run workers to classify all documents and output to database.
+Database must be online, all the indices from the specified directory will be parsed using the number of workers specified.
+\newline
+\newline
+\textbf{Request:}
+\newline
+\newline
+\begin{tabular}{ | l | l |}
+\hline
+Method & GET\\ \hline
+?pworkers & Number of producing workers, parsing indices and adds to queue\\ \hline
+?cworkers & Number of consuming workers, classifying indices from the queue\\ \hline
+?directory & Path to directory containing indices\\ \hline
+\end{tabular}
+\newline
+\newline
+\textbf{Response:}
+\newline
+\newline
+\begin{tabular}{ | l | l |}
+\hline
+\textbf{Property} & \textbf{Description}\\ \hline
+status & Status code for the response\\ \hline
 error & Boolean indicating if there was an error during the processing of the request\\ \hline
 message & Message containing extra information about the response\\ \hline
 \end{tabular}\\
