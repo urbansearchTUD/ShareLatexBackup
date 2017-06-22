@@ -34,40 +34,21 @@
 
 \newfontfamily{\tudtitlefamily}[
     Path = fonts/,
-    Extension = .ttf]{Roboto-Thin}
+    Extension = .ttf]{OpenSans-Light}
 \newfontfamily{\tudsffamily}[
     Path = fonts/,
-    Extension = .ttf]{Roboto-Regular}
+    Extension = .ttf]{OpenSans-Regular}
 
 \setmainfont[
-    Path = fonts/,
-    Extension = .ttf,
-    UprightFont = {*R},
-    BoldFont = {*B},
-    ItalicFont = {*I},
-    BoldItalicFont = {*BI},
-    Ligatures=TeX, % supposed to replace Mapping=tex-text
-    ]{GenBkBas} % Gentium Book Basic
-\setsansfont[
     Path = fonts/,
     Extension = .ttf,
     UprightFont = {*-Regular},
     BoldFont = {*-Bold},
     ItalicFont = {*-Italic},
     BoldItalicFont = {*-BoldItalic},
-    Ligatures=TeX,
-    Numbers=OldStyle]{OpenSans}
-\setmonofont[
-    Path = fonts/,
-    Extension = .ttf,
-    UprightFont = {*-Regular},
-    BoldFont = {*-Bold},
-    Scale=MatchLowercase]{FiraMono}
-%\RequirePackage[bigdelims,vvarbb]{newpxmath}
-\RequirePackage{txfonts}
-%\setmathfont[math-style=ISO,bold-style=ISO,vargreek-shape=TeX]{TeX Gyre Pagella Math} 
+    Ligatures=TeX, % supposed to replace Mapping=tex-text
+    ]{OpenSans}
 
-\RequirePackage[utf8]{inputenc}
 \def\largetitlefont{\tudtitlefamily}
 \def\largetitleseries{\fontseries{t}}
 \def\largetitleshape{\fontshape{n}}

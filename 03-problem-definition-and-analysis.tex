@@ -1,7 +1,7 @@
-\section{Problem Definition and Analysis}\label{sec:problem-definition-analysis}
+\chapter{Problem Definition and Analysis}\label{sec:problem-definition-analysis}
 In this section first the problem definition will be introduced. Next, the analysis of this problem will be discussed. Last, the requirements following from this analysis and the wishes of the client are presented.
 
-\subsection{Problem Definition}
+\section{Problem Definition}
 As discussed in the previous sections the hypthesis the client proposed is if a semantic association of cities can give insight into on the actual relationships and strengths between cities. This hypothesis introduces the problem how software could be used to find and analyse these semantic associations. This lead to the following problem definition:\\
 
 \begin{quote} 
@@ -9,25 +9,25 @@ As discussed in the previous sections the hypthesis the client proposed is if a 
 \textit{How can open data be leveraged such that a metric for the strength of relationships between cities can be defined and visualised?}
 \end{quote}
 
-\subsection{Problem Analysis}
+\section{Problem Analysis}
 The problem can be divided into four sub-problems that need to be addressed to solve the problem. These are Filtering, Classification, Storing Data and  Data Visualisation \& Export. 
 
-\paragraph{Filtering}
+\subsubsection{Filtering}
 The first sub-problem is filtering, which means searching through the available text data to find co-occurrences of cities and discarding text data that does not contain co-occurrences. This should reduce the amount of data and thereby potentially speed up the rest of process.
 
-\paragraph{Classification}
+\subsubsection{Classification}
 The sub-problem that arises after filtering is how to determine what relationships can be extracted from the text-data, this will be referred to as the classification of the text-data. This requires a method that reliably and efficiently processes the text-data and can be tuned to the clients wishes, meaning that the classification should output what the client desires. 
 
-\paragraph{Storing Data}
+\subsubsection{Storing Data}
 Next, when the classification sub-problem is addressed the need arises to store the data and determine the strength of the relationships. 
 
-\paragraph{Data Visualisation \& Export}
+\subsubsection{Data Visualisation \& Export}
 When these three sub-problems have been successfully solved the last sub-problem that is left is how to combine the stored data and present it to a user, this means visualising and/or exporting the data in an accessible way.
 
-\subsection{Requirement Analysis}\label{sec:reqs-analysis}
+\section{Requirement Analysis}\label{sec:reqs-analysis}
 In this section, we first present user stories that were created together with the client. Next, we define the design goals. Then, we list the requirements which followed from the user stories and which the application should meet. To do so, we use the MoSCoW method\cite{clegg1994case} as a prioritisation technique. Lastly, we discuss the design decisions that follow from the design goals and the requirements.
 
-\subsubsection{User Stories}
+\subsection{User Stories}
 Together with the client, several user stories are identified for interaction with the system. These are listed below.
 
 As a user:
@@ -41,21 +41,21 @@ As a user:
     \item I want to be able to export an image of the map that I composed in the user interface so that I can use it for presentations, papers or educational purposes
 \end{enumerate}
 
-\subsubsection{Design Goals} \label{sec:design-goals}
+\subsection{Design Goals} \label{sec:design-goals}
 The high-level design goals for this project have been provided by the client. These serve as a guideline to determine the priority label of the specific requirements as defined in section \ref{sec:reqs}. The design goals are listed below, ordered by priority.
 
-\paragraph{credible} The results of the project will be used in research on intercity relations. Therefore, the results must be reliable and verifiable. This means that the application should produce the same results given the same input and it should be possible to manually access the input to verify the output of the application.
-\paragraph{understandable} The results of the application should be visually understandable, in order to make it easy for the client to deduce conclusions. 
-\paragraph{scalable} During the project a TU Delft server will be used with a limited amount of resources. Therefore only .nl pages will be used as input to limit the amount of data storage and processing power needed. However, allowing for investigating other domains would greatly help the client in a later stadium, which means that the system would have to be scalable where possible. For example, using a dedicated database which can be spread across clusters.
-\paragraph{plugable} It might be interesting for the user to let the application perform analysis on different data sets without the need of a developer. So if possible within the time constraints the application should be able to use any form of textual input data.
-\paragraph{exportable} Besides making the results available visually, all the relevant numeric data should also be exportable, for example in CSV format, so the client is able to process the data beyond the system.
-\paragraph{fast development} Because of the time constraints of the project we need a fast development cycle. As a result of that, choices regarding tools, applications and programming languages are to be made with the time constraint taken into account.
+\subsubsection{credible} The results of the project will be used in research on intercity relations. Therefore, the results must be reliable and verifiable. This means that the application should produce the same results given the same input and it should be possible to manually access the input to verify the output of the application.
+\subsubsection{understandable} The results of the application should be visually understandable, in order to make it easy for the client to deduce conclusions. 
+\subsubsection{scalable} During the project a TU Delft server will be used with a limited amount of resources. Therefore only .nl pages will be used as input to limit the amount of data storage and processing power needed. However, allowing for investigating other domains would greatly help the client in a later stadium, which means that the system would have to be scalable where possible. For example, using a dedicated database which can be spread across clusters.
+\subsubsection{plugable} It might be interesting for the user to let the application perform analysis on different data sets without the need of a developer. So if possible within the time constraints the application should be able to use any form of textual input data.
+\subsubsection{exportable} Besides making the results available visually, all the relevant numeric data should also be exportable, for example in CSV format, so the client is able to process the data beyond the system.
+\subsubsection{fast development} Because of the time constraints of the project we need a fast development cycle. As a result of that, choices regarding tools, applications and programming languages are to be made with the time constraint taken into account.
 
 
-\subsubsection{Product Requirements}\label{sec:reqs}
+\subsection{Product Requirements}\label{sec:reqs}
 As mentioned in the introduction of section \ref{sec:reqs-analysis} we will be using the MoSCoW method prioritisation technique. Four levels of priority are defined: must have, should have, could have and would have (also known as would like). We also differentiate between functional and non-functional requirements. 
 
-\paragraph{Must Have}
+\subsubsection{Must Have}
 Requirements labelled as must have are key to the minimal performance of the application. If they are not met, the application can be considered a failure.
 
 \begin{enumerate}
@@ -78,7 +78,7 @@ Requirements labelled as must have are key to the minimal performance of the app
 
 \end{enumerate}
 \fi
-\paragraph {Should Have}
+\subsubsection {Should Have}
 "Should have" requirements are those that greatly improve system performance and/or usability but might not fit in the available development time.
 
 \begin{enumerate}
@@ -102,7 +102,7 @@ Requirements labelled as must have are key to the minimal performance of the app
     \item The software should understand that the same city can have different names in different languages/dialects. It should still be able to extract and group relevant data correctly (e.g. 'The Hague' and 'Den Haag' should be viewed as the same city).
 \end{enumerate}
 \fi
-\paragraph {Could Have}
+\subsubsection {Could Have}
 Requirements labelled as "could have" are useful and should be included in the system if time and resources permit.
 
 \begin{enumerate}
@@ -123,7 +123,7 @@ Requirements labelled as "could have" are useful and should be included in the s
     \item The relations that are extracted from the data by the machine learning algorithm and the relations provided by the CBS have to be visualised in a way that makes it easy to compare the different relations for the end user.
 \end{enumerate}
 \fi
-\paragraph {Would Like}
+\subsubsection {Would Like}
 "Would like" requirements have been agreed upon to be not important to include within the current time schedule. However, they can be included in future releases.
 
 \begin{enumerate}
@@ -131,6 +131,6 @@ Requirements labelled as "could have" are useful and should be included in the s
     \item Using data from top-level domains other than \texttt{.nl}.
 \end{enumerate}
 
-\subsubsection{Design Decisions}
+\subsection{Design Decisions}
 To be able to have a fast development cycle and leverage our experience we chose to develop the application using Python. 
 We plan to not only test the code we deliver thoroughly, but also to cross-validate the obtained results. The specifics of this validation protocol will be discussed in section \ref{sec:validation_protocol}.

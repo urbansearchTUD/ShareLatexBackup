@@ -1,19 +1,31 @@
-\documentclass[]{article}
+\documentclass[10pt,a4paper,twoside]{tudelft-report}
+\usepackage{hyperref}
+\usepackage[noabbrev]{cleveref}
+\crefname{lstlisting}{listing}{listings}
+\Crefname{lstlisting}{Listing}{Listings}
+\usepackage{todonotes}
+\presetkeys{todonotes}{inline, noline}{}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hhline}
+\usepackage{proof}
 \usepackage{natbib}
 \usepackage{changes}
-
-\usepackage[utf8]{inputenc}
-\usepackage[a4paper, margin=1in]{geometry}
-\usepackage{graphicx}
-\graphicspath{ {images/} }
 \usepackage{wrapfig}
 \usepackage{url}
 \usepackage{verbatim}
-% \usepackage{todonotes}
-\input{commands}
 \usepackage{bbding}
 \usepackage{booktabs}
 \usepackage{threeparttable}
+\usepackage{usebib} % Use data defined in the bib file.
+\bibinput{references}
+
+\graphicspath{{images/}}
+
+% \usepackage{todonotes}
+\input{commands}
+
 \usefont{T1}{cmr}{m}{n}
 \begin{document}
 
@@ -38,6 +50,8 @@
 % \input{08-implementation}
 % \input{09-conclusion}
 
+\frontmatter
+
 % image of UI?
 \input{00-frontpage}
 \input{00-title}
@@ -46,9 +60,9 @@
 % Instead of abstract, add a single page summary
 \input{00-summary}
 
-\newpage
 \tableofcontents
-\newpage
+
+\mainmatter
 
 % Three parts: background, methodology and structure
 \input{01-introduction}
@@ -86,14 +100,13 @@
 % evaluation chapter
 \input{09-conclusion}
 
+\bibliography{references}{}
+
 \appendix
 \input{A_better_code_hub_guidelines}
 \input{B-SIG-analysis}
 \input{D-user-manual}
 \input{C-dev-manual-with-UML}
 \input{E-used-libraries}
-
-\bibliographystyle{plain}
-\bibliography{references}{}
 
 \end{document}

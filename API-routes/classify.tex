@@ -2,8 +2,8 @@
 The classify route is meant as an easy means of labelling a provided document with a category or the probabilities of said document belonging to a set of predefined categories.
 The available subroutes are specified below.
 \begin{description}
-\item[\textbf{/}]
-\item[\textbf{/predict}]
+\item[{\large \textbf{/}}]
+\item[{\large \textbf{/predict}}]
 Predicts the category of the document that is submitted in the body of the request.
 \newline
 \newline
@@ -38,7 +38,7 @@ category & The category that was predicted for this document\\ \hline
 error & Boolean indicating if there was an error during the processing of the request\\ \hline
 message & Message containing extra information about the response\\ \hline
 \end{tabular}\\
-\item[\textbf{/probabilities}]
+\item[{\large \textbf{/probabilities}}]
 Returns the probabilities of the supplied document belonging to each of the predefined categories. 
 \newline
 \newline
@@ -51,7 +51,9 @@ Method & POST\\ \hline
 Content-Type & application/json\\ \hline
 \end{tabular}
 \\
-\textbf{Request data:}\\
+\textbf{Request data:}
+\newline
+\newline
 \begin{tabular}{ | l | l | l |}
 \hline
 \textbf{Property} & \textbf{Required} & \textbf{Description}\\ \hline

@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: output.aux
-The style file: plain.bst
+The style file: tudelft-report.bst
 Database file #1: references.bib
 Warning--I didn't find a database entry for "apigee"
 Warning--I didn't find a database entry for "tobler1970computer"
@@ -9,44 +9,44 @@ Warning--I didn't find a database entry for "reilly1931law"
 Warning--I didn't find a database entry for "van2010economic"
 Warning--empty journal in Aho-Corasick
 You've used 34 entries,
-            2118 wiz_defined-function locations,
-            702 strings with 9191 characters,
-and the built_in function-call counts, 10161 in all, are:
-= -- 1028
-> -- 409
-< -- 4
-+ -- 167
-- -- 130
-* -- 622
-:= -- 1687
-add.period$ -- 111
+            2773 wiz_defined-function locations,
+            802 strings with 10134 characters,
+and the built_in function-call counts, 14068 in all, are:
+= -- 1299
+> -- 651
+< -- 30
++ -- 231
+- -- 195
+* -- 1002
+:= -- 2134
+add.period$ -- 116
 call.type$ -- 34
 change.case$ -- 166
-chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 369
-empty$ -- 861
-format.name$ -- 130
-if$ -- 2148
-int.to.chr$ -- 0
-int.to.str$ -- 34
+chr.to.int$ -- 32
+cite$ -- 69
+duplicate$ -- 670
+empty$ -- 1269
+format.name$ -- 245
+if$ -- 2996
+int.to.chr$ -- 3
+int.to.str$ -- 1
 missing$ -- 23
-newline$ -- 180
-num.names$ -- 68
-pop$ -- 200
+newline$ -- 190
+num.names$ -- 136
+pop$ -- 367
 preamble$ -- 1
 purify$ -- 133
 quote$ -- 0
-skip$ -- 281
+skip$ -- 518
 stack$ -- 0
-substring$ -- 612
-swap$ -- 69
+substring$ -- 507
+swap$ -- 75
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 134
+type$ -- 369
 warning$ -- 1
-while$ -- 108
-width$ -- 36
-write$ -- 376
+while$ -- 142
+width$ -- 0
+write$ -- 459
 (There were 5 warnings)

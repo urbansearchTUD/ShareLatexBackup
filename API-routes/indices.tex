@@ -4,12 +4,11 @@ The datasets route is meant for extending and querying information about the dat
 \begin{description}
 
 
-\item [\textbf{/}]
-\item [\textbf{/}]
-Gets an random document from the downloaded CommonCrawl pages.
+\item [{\large \textbf{/}}]
+\item [{\large \textbf{/download}}]
+Starts the download of all indices for a given url.\\
 
-\newline
-\newline
+
 \textbf{Request:}
 \newline
 \newline
@@ -26,8 +25,9 @@ Method & GET\\ \hline
 \begin{tabular}{ | l | l |}
 \hline
 \textbf{Property} & \textbf{Description}\\ \hline
+indices & String containing a list of indices\\ \hline
 status & Status code for the response\\ \hline
-document & String containing the contents of the randomly selected file\\ \hline
+error & Boolean indicating if there was an error during the processing of the request\\ \hline
 \end{tabular}}
 
 \end{description}

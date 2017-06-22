@@ -1,2 +1,2 @@
-\subsection{Downloading and parsing indices}
-As \ref{fig:overview}
+\section{Downloading and parsing indices}
+As can be seen in figure \ref{fig:overview}, the first step of the process is to download data from Common Crawl. This required functions that would parse the Common Crawl indices and gather the data that corresponds to these indices. The first step in parsing the Common Crawl indices and filtering out the indices that have a HTTP Status Code\footnote{\url{https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html}} other than 200, as only these HTTP responses would contain relevant text.
