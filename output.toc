@@ -85,7 +85,7 @@
 \contentsline {section}{\numberline {6.2}Fulfilment of Requirements}{32}{section.6.2}
 \contentsline {section}{\numberline {6.3}Process}{32}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Collaboration Between the Team Members}{32}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Collaboration Between the Team Members and the TU Delft Coach}{32}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.2}Collaboration Between the Team Members and the TU Delft Coach}{33}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Collaboration Between the Team Members and the Client}{33}{subsection.6.3.3}
 \contentsline {chapter}{\numberline {7}Discussion}{35}{chapter.7}
 \contentsline {section}{\numberline {7.1}Answering the research question}{35}{section.7.1}
@@ -96,7 +96,7 @@
 \contentsline {subsubsection}{Influence}{36}{section.7.4}
 \contentsline {chapter}{\numberline {8}Recommendations}{37}{chapter.8}
 \contentsline {chapter}{\numberline {9}Conclusion}{39}{chapter.9}
-\contentsline {chapter}{Bibliography}{41}{chapter*.37}
+\contentsline {chapter}{Bibliography}{41}{chapter*.38}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{43}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{45}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{45}{section.B.1}
