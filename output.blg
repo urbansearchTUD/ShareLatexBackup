@@ -4,45 +4,45 @@ The top-level auxiliary file: output.aux
 The style file: tudelft-report.bst
 Database file #1: references.bib
 Warning--I didn't find a database entry for "apigee"
-You've used 37 entries,
+You've used 39 entries,
             2773 wiz_defined-function locations,
-            819 strings with 10558 characters,
-and the built_in function-call counts, 15258 in all, are:
-= -- 1406
-> -- 701
-< -- 32
-+ -- 249
-- -- 210
-* -- 1094
-:= -- 2319
-add.period$ -- 125
-call.type$ -- 37
-change.case$ -- 179
-chr.to.int$ -- 35
-cite$ -- 74
-duplicate$ -- 731
-empty$ -- 1382
-format.name$ -- 263
-if$ -- 3244
+            833 strings with 10999 characters,
+and the built_in function-call counts, 16288 in all, are:
+= -- 1501
+> -- 761
+< -- 33
++ -- 269
+- -- 228
+* -- 1187
+:= -- 2475
+add.period$ -- 131
+call.type$ -- 39
+change.case$ -- 191
+chr.to.int$ -- 37
+cite$ -- 78
+duplicate$ -- 772
+empty$ -- 1465
+format.name$ -- 285
+if$ -- 3457
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 27
-newline$ -- 205
-num.names$ -- 148
-pop$ -- 394
+missing$ -- 29
+newline$ -- 215
+num.names$ -- 156
+pop$ -- 414
 preamble$ -- 1
-purify$ -- 144
+purify$ -- 154
 quote$ -- 0
-skip$ -- 558
+skip$ -- 590
 stack$ -- 0
-substring$ -- 563
-swap$ -- 79
+substring$ -- 623
+swap$ -- 81
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 397
+type$ -- 419
 warning$ -- 0
-while$ -- 155
+while$ -- 165
 width$ -- 0
-write$ -- 498
+write$ -- 524
 (There was 1 warning)

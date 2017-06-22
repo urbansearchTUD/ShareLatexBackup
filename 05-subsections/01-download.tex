@@ -2,11 +2,29 @@
 
 As can be seen in figure \ref{fig:overview}, the first step of the process is to download data from Common Crawl. This required functions that would parse the Common Crawl indices and gather the data that corresponds to these indices. The first step in parsing the Common Crawl indices and filtering out the indices that have a HTTP Status Code \footnote{\url{https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html}} other than 200, as only these indices with these HTTP Status Code would be useful. 
 
-At first a simple implementation was used as can be seen in listing \ref{lst:regex}. However, a remove operation on a list in Python has a time complexity of O(n), the implementation of \textit{clean\_indices()} loops over all indices and removes it if it has status other than 200, which meant that this function had a complexity of $O(n^2)$. To improve this, a regular expression to search the string for the status before parsing to JSON is ued. This way, the list will never contain any indices with a HTTP Status Code other than 200. This resulted in a speedup of about 5.6 times compared to the $O(n^2)$ method.
+\begin{lstlisting}[language=Python, caption=Initial implementation]
+def _useful_responsecode(self, index):
+# Check responsecode of index to determine if it's useful to download
+# the part. HTTP 200 is useful, other than 200 will be discarded.
+    if index:
+        return True if int(index['status']) == 200 else False
+    return False
 
-\begin{lstlisting}[language=Python, caption=Regular expression solution]\label{lst:regex}
+def _clean_indices(self, indices):
+    # Removes useless entries with status code other than 200
+    for index in indices:
+        if not self._useful_responsecode(index):
+    indices.remove(index)
+\end{lstlisting}
+
+At first a simple implementation was used as can be seen in listing \ref{lst:regex}. However, a remove operation on a list in Python has a time complexity of O(n), the implementation of \textit{clean\_indices()} loops over all indices and removes it if it has status other than 200, which meant that this function had a complexity of $O(n^2)$. To improve this, a regular expression to search the string for the status before parsing to JSON is ued. This way, the list will never contain any indices with a HTTP Status Code other than 200 as the function will is called in a list-comprehension. This resulted in a speedup of about 5.6 times compared to the $O(n^2)$ method.
+
+
+
+\begin{lstlisting}[language=Python, caption=Regex solution]
 def _useful_str_responsecode(string):
     if string:
         return int(re.search('\"status\": \"(\w+)\",', string)
                    .group(1)) == 200
 \end{lstlisting}
+

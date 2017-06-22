@@ -1,4 +1,4 @@
-\begin{thebibliography}{37}
+\begin{thebibliography}{39}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -46,6 +46,12 @@ Common Crawl.
 \newblock Common crawl.
 \newblock \url{https://commoncrawl.org/}, 2017.
 \newblock Accessed: 2017-04-25.
+
+\bibitem[Derudder and Witlox(2005)]{derudder2005appraisal}
+Ben Derudder and Frank Witlox.
+\newblock An appraisal of the use of airline data in assessing the world city
+  network: a research note on data.
+\newblock \emph{Urban Studies}, 42\penalty0 (13):\penalty0 2371--2388, 2005.
 
 \bibitem[Devriendt et~al.(2008)Devriendt, Derudder, and
   Witlox]{devriendt2008cyberplace}
@@ -184,6 +190,13 @@ Akhtar Rasool, Amrita Tiwari, Gunjan Singla, and Nilay Khare.
 William~John Reilly.
 \newblock \emph{The law of retail gravitation}.
 \newblock WJ Reilly, 1931.
+
+\bibitem[Short et~al.(1996)Short, Kim, Kuus, and Wells]{short1996dirty}
+John~Rennie Short, Y~Kim, Merje Kuus, and Heather Wells.
+\newblock The dirty little secret of world cities research: data problems in
+  comparative analysis.
+\newblock \emph{International Journal of Urban and Regional Research},
+  20\penalty0 (4):\penalty0 697--717, 1996.
 
 \bibitem[Singh et~al.(2012)Singh, Subramanya, Pereira, and
   McCallum]{singh2012wikilinks}
