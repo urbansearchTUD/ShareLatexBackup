@@ -1,38 +1,138 @@
-\documentclass[a4paper]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{cite}
-\usepackage{graphicx}
-\graphicspath{ {images/} }
+\documentclass[10pt,a4paper,twoside]{tudelft-report}
+\usepackage[noabbrev]{cleveref}
+\crefname{lstlisting}{listing}{listings}
+\Crefname{lstlisting}{Listing}{Listings}
+\usepackage{todonotes}
+\presetkeys{todonotes}{inline, noline}{}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hhline}
+\usepackage{proof}
+\usepackage{natbib}
+\usepackage{changes}
 \usepackage{wrapfig}
 \usepackage{url}
 \usepackage{verbatim}
-\usepackage[a4paper, margin=1in]{geometry}
-% \usepackage{todonotes}
-\input{commands}
 \usepackage{bbding}
 \usepackage{booktabs}
+\usepackage{float}
 \usepackage{threeparttable}
+\usepackage{usebib} % Use data defined in the bib file.
+\usepackage[justification=centering]{caption}
+\bibinput{references}
+
+\graphicspath{{images/}}
+
+% \usepackage{todonotes}
+\input{commands}
+
+\usefont{T1}{cmr}{m}{n}
+
+\definecolor{commentgray}{RGB}{169,173,178}
+\definecolor{stringblue}{RGB}{2,48,96}
+\definecolor{keywordred}{RGB}{213,60,76}
+\definecolor{codedefault}{RGB}{36,41,46}
+
 \begin{document}
 
+% Related Work
+% Problem Analysis ("4 main parts")
+%       Sub problem identification
+% Requirement Analysis
+% Framework and Tools
+% Conclusion
+% \input{00-frontpage}
+% \input{00-abstract}
+% \newpage
+% \tableofcontents
+% \newpage
+% \input{01-introduction}
+% \input{02-related-work}  
+% \input{03-requirement-analysis}
+% \input{04-framework-and-tools}
+% \input{05-code-quality}
+% \input{06-validation}
+% \input{07-process}
+% \input{08-implementation}
+% \input{09-conclusion}
 
+\frontmatter
+
+\lstdefinestyle{mystyle}{
+    commentstyle=\color{commentgray},
+    keywordstyle=\color{keywordred},
+    numberstyle=\tiny\color{codedefault},
+    stringstyle=\color{stringblue},
+    basicstyle=\footnotesize\tudcffamily,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
+% image of UI?
 \input{00-frontpage}
-\input{00-abstract}
-\newpage
+\input{00-title}
+% Academic people like this, bit of 
+\input{00-preface-and-acknowledgements}
+% Instead of abstract, add a single page summary
+\input{00-summary}
+
 \tableofcontents
-\newpage
+
+\mainmatter
+
+% Three parts: background, methodology and structure
 \input{01-introduction}
-\input{02-related-work}  
-\input{03-requirement-analysis}
-
+% % ~10 references at least, pick from Antoine's work
+\input{02-related-work}
+% subsections:
+% 3.1 problem definition
+% 3.2 problem analysis
+% 3.3 requirement analysis (with design goals, requirements and minimal viable product)
+\input{03-problem-definition-and-analysis}
+% same as research report, but add section "evaluation strategies"
 \input{04-framework-and-tools}
-\input{05-validation}
-\input{06-conclusion}
+% Describe how we used the selected tools to actually build the framework
+% Also describe the modules we designed, including code snippets and UML stuff
+% Make sure to split back-end and front-end here, but discuss how they are linked
+\input{05-framework-implementation}
+% evaluate the product, and see whether we have at least the minimum viable product
+% using the requirements and design goals (possibly in a table)
+% make sure to add lots and lots of figures, tables and benchmarks here
+% also add SIG stuff and talk about SCRUM
+% mention tests
+\input{06-project-evaluation}
+% evaluation protocol results
+% describe issues faced during implementation, as well as issues that are still 
+% open. Main thing here is to discuss the Neo4j python driver with multiprocessing,
+% which we could not get to work. Also mention the state of the document 
+% classification
+% DONT FORGET a subsection on ethical issues!
+\input{07-discussion}
+% Make recommendations for future version, for extending the back-end and front-end
+% Try to mention the requirements here
+\input{08-recommendations}
+% Start with "In the past few months we blah" and shortly mention the chapters
+% Mention the project goal and how well it is met, without duplicating the 
+% evaluation chapter
+\input{09-conclusion}
 
-\bibliographystyle{plain}
 \bibliography{references}{}
 
-\newpage
 \appendix
-\input{A-better_code_hub_guidelines}
+\input{A_better_code_hub_guidelines}
+\input{B-SIG-analysis}
+\input{D-user-manual}
+\input{C-dev-manual-with-UML}
+\input{E-used-libraries}
 
 \end{document}
