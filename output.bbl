@@ -103,6 +103,14 @@ Scikit learn developers.
 \newblock \url{http://scikit-learn.org/stable/index.html}, 2017.
 \newblock Accessed: 2017-04-26].
 
+\bibitem{EvualteML}
+Microsoft.
+\newblock How to evaluate model performance in azure machine learning.
+\newblock
+  \url{https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-evaluate-model-performance},
+  2017.
+\newblock Accessed: 2017-06-21.
+
 \bibitem{MLCheatSheet}
 Microsoft.
 \newblock Microsoft azure machine learning algorithm cheat sheet.

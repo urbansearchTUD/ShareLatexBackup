@@ -1,0 +1,32 @@
+\subsubsection{Data-set Route: /documents}
+The datasets route is meant for extending and querying information about the data-set which is used to train classifiers. 
+
+\begin{description}
+
+
+\item [\textbf{/}]
+Gets an random document from the downloaded CommonCrawl pages.
+
+\newline
+\newline
+\textbf{Request:}
+\newline
+\newline
+\begin{tabular}{ | l | l |}
+\hline
+Method & GET\\ \hline
+\end{tabular}
+\newline
+\newline
+\textbf{Response:}
+\newline
+\newline
+\resizebox{\textwidth}{!} {
+\begin{tabular}{ | l | l |}
+\hline
+\textbf{Property} & \textbf{Description}\\ \hline
+status & Status code for the response\\ \hline
+document & String containing the contents of the randomly selected file\\ \hline
+\end{tabular}}
+
+\end{description}

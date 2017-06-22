@@ -1,31 +1,60 @@
-\subsection{Validation and Verification}
+\section{Validation and Verification}
+In this section, we first describe how the system is tested and how we measure the quality of the code with SIG \cite{sig}. Afterwards we define a protocol with which the results of the system can be evaluated for correctness. We will first evaluate the results of the classification, and afterwards the relation scores. These are related in the sense that a relation score is calculated by the number of occurrences in labelled documents, so the correctness of labelling affects the correctness of relation scores.\\
 
-\subsubsection{Tests}
-We will test the program using four different testing methods. The first is unit testing, which tests the separate components individually. Next comes integration testing, testing how well different components work together. Afterwards we use system testing for testing the different entire system. Last acceptance testing is used for testing how well the clients think the program works.\\
+\todo{!!!!! }
 
-\textbf{unit tests}\\
-Unit testing is done by writing automatic tests and making sure they pass every time the tests are executed. Unit tests test each method of a function separately, checking that the method does what it is supposed to do. If the method would need information from outside the class that information is mocked. This means that instead of using that other class, a fake object is made which returns a fake value. This ensures the tests will never fail due to changes in other classes. \\
+\subsection{Testing the Application}
+We will test the program using four different testing methods. The first is unit testing, which tests the separate components individually. Next comes integration testing, to see how well different components work together. Afterwards we use system testing for testing the different system components. Lastly, acceptance testing is used for testing how well the clients think the program works.
 
-\todo{}
-% how many unit tests did your code eventually have? what testing framework did you use? how many lines of code did you write? which part of the functionality cost you how much code? what was the coding contribution of each member?
+\subsubsection{Unit Tests}
+Unit testing is done by writing automatic tests and making sure they pass every time the tests are executed. Unit tests test each method of a function separately, checking that the method does what it is supposed to do. If the method would need information from outside the class that information is mocked. This means that instead of using that other class, a fake object is made which returns a fake value. This ensures the tests will never fail due to changes in other classes.
 
-\textbf{Integration tests}\\
-Integration testing uses automated tests which test how well different components of the system work together. This is done more or less the same as unit testing, however whilst you would mock methods from other classes in unit testing, with integration testing you do not. It is assumed that the separate modules are unit tested, therefor if an error occurs it is because something is wrong with the interaction between the modules and not with the modules themselves. \\
+\subsubsection{Integration Tests}
+Integration testing uses automated tests which test how well different components of the system work together. This is done more or less the same as unit testing, however whilst you would mock methods from other classes in unit testing, with integration testing you do not. It is assumed that the separate modules are unit tested, therefor if an error occurs it is because something is wrong with the interaction between the modules and not with the modules themselves. 
 
-\textbf{System tests}\\
-We also used system testing. System testing provides a more complete test of the entire system. This means it is useful to detect faults in the overall system, but less easy to determine where these faults may be located. System testing is done manually, which means the tests can not be easily repeated when the system changes whilst with other testing techniques this is possible.\\
+\subsubsection{System Tests}
+We are also planning to use system testing. System testing provides a more complete test of the entire system. This means it is useful to detect faults in the overall system, but less easy to determine where these faults may be located. System testing is done manually, which means the tests can not be easily repeated when the system changes whilst with other testing techniques this is possible.
 
-\textbf{Acceptance Testing}\\
-Last we will also use acceptance testing. This is testing done to see if the software does what the clients are expecting it to do. These tests are therefor also executed by the clients manually. Afterwards they can say what worked, what didn't worked, what was missing and what could be improved. Part of the acceptance test will be to see how well the machine learning classifier is. Since we need documents fitting to the different classes this is part of acceptance testing too.\\
-\textbf{machine learning} \\
-To test the machine learning we will manually search for a small set of pages per class. We will then manually decide to which class we would expect those pages to be sorted. Then we will run the algorithm and check whether or not a page was correctly sorted. There are 4 outcomes per page per class: true/false positives and true/false negatives. Positives are the pages that should be sorted to that class; true means they were sorted to that class, false meaning they were not sorted to that class. Negatives are pages that should not be sorted to that class and in this case true means they were indeed not sorted to that class and false means they were. So the true values are the ones that should be high. From this we can say how accurate our classifier is. \\
+\subsubsection{Acceptance Tests}
+Last we use acceptance testing. This is testing done to see if the software does what the clients are expecting it to do. These tests are therefore also executed by the clients manually. Afterwards they can say what worked, what did not work, what was missing and what could be improved. For this, we set up an evaluation protocol.\\
 
-\subsubsection{SIG}
-SIG \cite{sig}, short for software improvement development group, is a tool to give deep code visibility we require so we can remedy current problems and prevent future vulnerabilities. SIG includes Better Code Hub \cite{better_code_hub} which checks our code according to 10 guidelines as can be seen in appendix \ref{bch_guidelines}. The great thing about Better Code Hub is that it can be run at anytime. We can check better code hub whenever, whilst for SIG we have to send in our code and wait for feedback.
+\subsection{SIG}
+SIG \cite{sig}, short for software improvement development group, is an organisation that analyses the code of projects to give insights in the quality of how the code is written. A high score means the code is highly maintainable and is kept simple. SIG includes Better Code Hub \cite{better_code_hub} which checks our code according to 10 guidelines as can be seen in appendix \ref{bch_guidelines}. The great thing about Better Code Hub is that it can be run at anytime. We can check Better Code Hub whenever, whilst for SIG we have to send in our code and wait for feedback. 
+
+\subsection{evaluating the classification}
+There are several ways to evaluate machine learning algorithms. We will base our evaluation of the classifier on the guidelines of the Microsoft Azure Machine Learning evaluation model \cite{EvualteML}. According to the page binary classification can be evaluated with the following metrics: Accuracy, Precision, Recall, F1 and AUC.
+
+\subsubsection{Accuracy}
+Accuracy is the proportion of correctly classified instances. This however a poor indication of how well the classifier works. For instance if you have a test set of 100 websites, of which 90\% belongs to Category A. Than if the classifier simply predicts all websites to belong to category A the accuracy would be 90\%. It would seem the classifier performs well, but it actually fails to classify the other 10\% of the websites correctly.
+
+\subsubsection{Confusion Matrix}
+A page can only either belong to class A (positive), or not belong to class A (negative). If a page is predicted by the classifier correctly it is called true positive (TP) or true negative (TN). If the classifier predicts the page incorrectly it results in a false positive (FP) or false negative (FN). This can be seen in the confusion matrix in figure \ref{fig:confusion_matrix}. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{confusion_matrix}
+\caption{confusion matrix \protect\footnotemark{}}
+\label{fig:confusion_matrix}
+\end{figure}
+\footnotetext{\url{https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-evaluate-model-performance}}
 
 
-\begin{comment}
-- double city names
-- city names with meaning (leiden)
-- city/province names (utrecht / groningen / zeeland)
-\end{comment}
+\subsubsection{Precision, Recall, F1 and UAC}
+The \textbf{precision} of the classifier is the proportion of positives that are classified correctly: TP/(TP+FP). This is used for questions such as "Out of the pages that were classified as category A, how many were classified correctly?".\\
+
+the \textbf{recall} of the classifier is used to answer the question "What percentage of the pages that fit category A were classified correctly?". In other words: TP/(TP+FN).
+
+The \textbf{F1 Score} uses both precision and consideration. It is computed by using the following formula: F1 = 2 (precision x recall) / (precision + recall). The F1 score summarised evaluation in a single number, but for evaluation it is better to use recall and precision to understand the behaviour of the classifier. \\
+
+The \textbf{Receiver Operating Characteristic (ROC) curve} and the corresponding \textbf{Area Under the Curve (AUC) value} can be used to inspect the true positive rate (Recall) vs. the false positive rate (FP / (FP + TN). To do this, the possibilities pages are correctly classified are needed. For each threshold on these probabilities for the classifier, the true positive rate and the false positive rate are calculated and are plotted in a graph, which results in something like \ref{fig:UAC}. The closer the ROC curve is to the upper left corner, the better the classifier's performance is. When close to the diagonal of the plot, the classifier tends to make predictions close to random guessing. The UAC value is the are under the ROC curve.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{UAC}
+\caption{ROC / UAC graph \protect\footnotemark{}}
+\label{fig:UAC}
+\end{figure}
+\footnotetext{\url{https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-evaluate-model-performance}}
+
+\subsection{Evaluation of relation scores}
+Evaluating relation scores is done differently. An important factor here is that cities have a natural relation due to their geographical position \cite{tobler1970computer}, so one would expect cities that lie close to each other are more related than cities that are on different sides of the country. This natural relation can be represented using the Gravity Model by Reilly \cite{reilly1931law}. The Gravity Model describes that the expected relation between two cities is based on the population of the two cities and the distance between these cities. A relation between two cities that is extracted from the data should thus expose a similar relative score as they would for the gravity model. Consider for example Amsterdam and Hoofddorp, which are cities that lie close to each other. Amsterdam is a large city, whereas Hoofddorp is much smaller. However, due to their close geographical position, the score that results from the Gravity Model would be high. If they turn out to have a very high score in our system, that would imply that the system is correct. Besides the Gravity Model, one can rely on the opinion of an expert in the field of urbanism that can judge whether an extracted relation is close to reality or not. We therefore agreed with the client that they would decide on a small set of relations whether they are correct. Lastly, the relations in the Randstad, a large urban area with the four largest cities of the Netherlands, have been examined before on the basis of firms \cite{van2010economic}. These relations can be compared to those extracted by the system.

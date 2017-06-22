@@ -1,7 +1,7 @@
 \subsubsection{Classify Route: /classify}
 The classify route is meant as an easy means of labelling a provided document with a category or the probabilities of said document belonging to a set of predefined categories.
 The available subroutes are specified below.
-\begin{enumerate}
+\begin{description}
 \item[\textbf{/}]
 \item[\textbf{/predict}]
 Predicts the category of the document that is submitted in the body of the request.
@@ -37,7 +37,7 @@ status & Status code for the response\\ \hline
 category & The category that was predicted for this document\\ \hline
 error & Boolean indicating if there was an error during the processing of the request\\ \hline
 message & Message containing extra information about the response\\ \hline
-\end{tabular}
+\end{tabular}\\
 \item[\textbf{/probabilities}]
 Returns the probabilities of the supplied document belonging to each of the predefined categories. 
 \newline
@@ -70,4 +70,4 @@ probabilities & The probabilities per category that are predicted for this docum
 error & Boolean indicating if there was an error during the processing of the request\\ \hline
 message & Message containing extra information about the response\\ \hline
 \end{tabular}
-\end{enumerate}
+\end{description}

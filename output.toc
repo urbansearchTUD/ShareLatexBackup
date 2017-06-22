@@ -50,37 +50,47 @@
 \contentsline {subsubsection}{\numberline {4.8.1}General Remarks}{16}
 \contentsline {subsubsection}{\numberline {4.8.2}Classify Route: /classify}{16}
 \contentsline {subsubsection}{\numberline {4.8.3}Data-set Route: /datasets}{17}
-\contentsline {subsubsection}{\numberline {4.8.4}Documents Route}{17}
-\contentsline {subsubsection}{\numberline {4.8.5}Classifier Route}{17}
-\contentsline {subsubsection}{\numberline {4.8.6}Indices Route}{17}
-\contentsline {subsubsection}{\numberline {4.8.7}Indices Route}{17}
-\contentsline {subsection}{\numberline {4.9}Front-End}{17}
-\contentsline {subsection}{\numberline {4.10}Validation and Verification}{17}
-\contentsline {subsubsection}{\numberline {4.10.1}Tests}{17}
-\contentsline {subsubsection}{\numberline {4.10.2}SIG}{18}
-\contentsline {section}{\numberline {5}Framework Implementation}{18}
-\contentsline {subsection}{\numberline {5.1}Downloading and parsing indices}{18}
-\contentsline {subsection}{\numberline {5.2}Filtering}{18}
-\contentsline {subsection}{\numberline {5.3}Classification}{18}
-\contentsline {subsection}{\numberline {5.4}Storing the Data}{18}
-\contentsline {subsection}{\numberline {5.5}Front-End}{18}
-\contentsline {section}{\numberline {6}Project Evaluation}{18}
-\contentsline {subsection}{\numberline {6.1}Fulfilment of requirements}{18}
-\contentsline {subsection}{\numberline {6.2}Evaluation of Design Goals}{19}
-\contentsline {subsection}{\numberline {6.3}Process}{19}
-\contentsline {subsubsection}{\numberline {6.3.1}Collaboration between the team members}{19}
-\contentsline {subsubsection}{\numberline {6.3.2}Collaboration between the team members and the TU Delft Coach}{19}
-\contentsline {subsubsection}{\numberline {6.3.3}Collaboration between the team members and the client}{19}
-\contentsline {subsection}{\numberline {6.4}Software Improvement Group}{19}
-\contentsline {section}{\numberline {7}Discussion}{19}
-\contentsline {section}{\numberline {8}Recommendations}{19}
-\contentsline {section}{\numberline {9}Conclusion}{20}
-\contentsline {subsection}{\numberline {9.1}related work}{20}
-\contentsline {subsection}{\numberline {9.2}related work}{20}
-\contentsline {subsection}{\numberline {9.3}Requirement analysis}{20}
-\contentsline {subsection}{\numberline {9.4}Framework-and-tools}{20}
-\contentsline {section}{\numberline {A}Better Code Hub Guidelines}{20}
-\contentsline {section}{\numberline {B}week 5}{22}
-\contentsline {section}{\numberline {C}week 9}{22}
-\contentsline {section}{\numberline {D}User manual}{23}
-\contentsline {section}{\numberline {E}dev-manual}{23}
+\contentsline {subsubsection}{\numberline {4.8.4}Data-set Route: /documents}{18}
+\contentsline {subsubsection}{\numberline {4.8.5}Documents Route}{19}
+\contentsline {subsubsection}{\numberline {4.8.6}Classifier Route}{19}
+\contentsline {subsubsection}{\numberline {4.8.7}Indices Route}{19}
+\contentsline {subsubsection}{\numberline {4.8.8}Indices Route}{19}
+\contentsline {subsection}{\numberline {4.9}Front-End}{19}
+\contentsline {section}{\numberline {5}Validation and Verification}{19}
+\contentsline {subsection}{\numberline {5.1}Testing the Application}{19}
+\contentsline {subsubsection}{\numberline {5.1.1}Unit Tests}{19}
+\contentsline {subsubsection}{\numberline {5.1.2}Integration Tests}{19}
+\contentsline {subsubsection}{\numberline {5.1.3}System Tests}{19}
+\contentsline {subsubsection}{\numberline {5.1.4}Acceptance Tests}{20}
+\contentsline {subsection}{\numberline {5.2}SIG}{20}
+\contentsline {subsection}{\numberline {5.3}evaluating the classification}{20}
+\contentsline {subsubsection}{\numberline {5.3.1}Accuracy}{20}
+\contentsline {subsubsection}{\numberline {5.3.2}Confusion Matrix}{20}
+\contentsline {subsubsection}{\numberline {5.3.3}Precision, Recall, F1 and UAC}{20}
+\contentsline {subsection}{\numberline {5.4}Evaluation of relation scores}{21}
+\contentsline {section}{\numberline {6}Implementation}{21}
+\contentsline {subsection}{\numberline {6.1}Downloading and parsing indices}{21}
+\contentsline {subsection}{\numberline {6.2}Filtering}{21}
+\contentsline {subsection}{\numberline {6.3}Classification}{21}
+\contentsline {subsection}{\numberline {6.4}Storing the Data}{21}
+\contentsline {subsection}{\numberline {6.5}Front-End}{21}
+\contentsline {section}{\numberline {7}Project Evaluation}{21}
+\contentsline {subsection}{\numberline {7.1}Fulfilment of requirements}{21}
+\contentsline {subsection}{\numberline {7.2}Evaluation of Design Goals}{22}
+\contentsline {subsection}{\numberline {7.3}Process}{22}
+\contentsline {subsubsection}{\numberline {7.3.1}Collaboration between the team members}{22}
+\contentsline {subsubsection}{\numberline {7.3.2}Collaboration between the team members and the TU Delft Coach}{22}
+\contentsline {subsubsection}{\numberline {7.3.3}Collaboration between the team members and the client}{22}
+\contentsline {subsection}{\numberline {7.4}Software Improvement Group}{22}
+\contentsline {section}{\numberline {8}Discussion}{22}
+\contentsline {section}{\numberline {9}Recommendations}{22}
+\contentsline {section}{\numberline {10}Conclusion}{22}
+\contentsline {subsection}{\numberline {10.1}related work}{22}
+\contentsline {subsection}{\numberline {10.2}related work}{23}
+\contentsline {subsection}{\numberline {10.3}Requirement analysis}{23}
+\contentsline {subsection}{\numberline {10.4}Framework-and-tools}{23}
+\contentsline {section}{\numberline {A}Better Code Hub Guidelines}{23}
+\contentsline {section}{\numberline {B}week 5}{24}
+\contentsline {section}{\numberline {C}week 9}{24}
+\contentsline {section}{\numberline {D}User manual}{25}
+\contentsline {section}{\numberline {E}dev-manual}{25}
