@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.22)  22 JUN 2017 17:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.22)  22 JUN 2017 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -558,19 +558,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
 [4])
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107b572577ba70003
-20e83/03-requirement-analysis.tex [5] [6]
-
-LaTeX Warning: Reference `sec:delpher' on page 7 undefined on input line 83.
-
-<images/informationflow.png, id=39, 224.5188pt x 282.3348pt>
+20e83/03-requirement-analysis.tex [5] [6] <images/informationflow.png, id=39, 2
+24.5188pt x 282.3348pt>
 File: images/informationflow.png Graphic file (type png)
 <use images/informationflow.png>
 Package pdftex.def Info: images/informationflow.png used on input line 88.
 (pdftex.def)             Requested size: 224.51823pt x 282.33409pt.
-
-LaTeX Warning: Reference `sec:validation_protocol' on page 7 undefined on input
- line 110.
-
 )
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107b572577ba70003
 20e83/04-framework-and-tools.tex
@@ -590,9 +583,6 @@ G copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
-
-
-LaTeX Warning: Reference `sec:delpher' on page 9 undefined on input line 21.
 
 [9])
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107b572577ba70003
@@ -618,12 +608,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-[11] <images/useless_page.png, id=59, 1375.1375pt x 751.80875pt>
+<images/useless_page.png, id=55, 1375.1375pt x 751.80875pt>
 File: images/useless_page.png Graphic file (type png)
 <use images/useless_page.png>
 Package pdftex.def Info: images/useless_page.png used on input line 47.
 (pdftex.def)             Requested size: 362.37569pt x 198.11562pt.
-<images/labelling_interface.png, id=60, 1394.20876pt x 804.00375pt>
+[11] <images/labelling_interface.png, id=60, 1394.20876pt x 804.00375pt>
 File: images/labelling_interface.png Graphic file (type png)
 <use images/labelling_interface.png>
 Package pdftex.def Info: images/labelling_interface.png used on input line 56.
@@ -646,9 +636,6 @@ File: images/neo4model.png Graphic file (type png)
 <use images/neo4model.png>
 Package pdftex.def Info: images/neo4model.png used on input line 55.
 (pdftex.def)             Requested size: 339.72592pt x 344.89638pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [15])
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107b572577ba70003
 20e83/04-subsections/05-search_engine.tex <images/ql-example.png, id=78, 554.07
@@ -698,9 +685,6 @@ File: images/confusion_matrix.png Graphic file (type png)
 <use images/confusion_matrix.png>
 Package pdftex.def Info: images/confusion_matrix.png used on input line 33.
 (pdftex.def)             Requested size: 226.48395pt x 129.28717pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
@@ -770,36 +754,32 @@ n/10 https : / / neo4j . com / resources /
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107b572577ba70003
 20e83/A-better_code_hub_guidelines.tex) [25]
 (/var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59107b572577ba70003
-20e83/output.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+20e83/output.aux) ) 
 Here is how much of TeX's memory you used:
  4231 strings out of 495028
  62223 string characters out of 6181497
- 142174 words of memory out of 5000000
+ 142197 words of memory out of 5000000
  7270 multiletter control sequences out of 15000+600000
  10331 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  43i,14n,35p,1714b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
- </var/www/.texmf-var/fonts/pk/ljfour/public/bbding/bbding10.600pk></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+ </var/www/.texmf-var/fonts/pk/ljfour/public/bbding/bbding10
+.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /var/lib/sharelatex/data/compiles/59107b872577ba7000320e85-59
-107b572577ba7000320e83/output.pdf (26 pages, 2298328 bytes).
+107b572577ba7000320e83/output.pdf (26 pages, 2298132 bytes).
 PDF statistics:
  178 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams

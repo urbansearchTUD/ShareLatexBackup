@@ -48,10 +48,10 @@
 \contentsline {subsubsection}{\numberline {5.1.3}System Testing}{20}
 \contentsline {subsubsection}{\numberline {5.1.4}Acceptance Testing}{20}
 \contentsline {subsection}{\numberline {5.2}SIG}{20}
-\contentsline {subsection}{\numberline {5.3}evaluating the classification}{20}
+\contentsline {subsection}{\numberline {5.3}Evaluating the Classification}{20}
 \contentsline {subsubsection}{\numberline {5.3.1}Accuracy}{20}
 \contentsline {subsubsection}{\numberline {5.3.2}Confusion Matrix}{20}
 \contentsline {subsubsection}{\numberline {5.3.3}Precision, Recall, F1 and UAC}{20}
-\contentsline {subsection}{\numberline {5.4}Evaluation of relation scores}{22}
+\contentsline {subsection}{\numberline {5.4}Evaluation of Relation Scores}{22}
 \contentsline {section}{\numberline {6}Conclusion}{22}
 \contentsline {section}{\numberline {A}Better Code Hub Guidelines}{25}
