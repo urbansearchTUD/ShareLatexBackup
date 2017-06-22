@@ -29,9 +29,10 @@
 
 \usefont{T1}{cmr}{m}{n}
 
-\definecolor{commentblue}{RGB}{19,107,251}
-\definecolor{stringgreen}{RGB}{23,153,29}
-\definecolor{keywordblue}{RGB}{73,169,234}
+\definecolor{commentgray}{RGB}{169,173,178}
+\definecolor{stringblue}{RGB}{2,48,96}
+\definecolor{keywordred}{RGB}{213,60,76}
+\definecolor{codedefault}{RGB}{36,41,46}
 
 \begin{document}
 
@@ -59,11 +60,11 @@
 \frontmatter
 
 \lstdefinestyle{mystyle}{
-    commentstyle=\color{commentblue},
-    keywordstyle=\color{keywordblue},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{stringgreen},
-    basicstyle=\footnotesize,
+    commentstyle=\color{commentgray},
+    keywordstyle=\color{keywordred},
+    numberstyle=\tiny\color{codedefault},
+    stringstyle=\color{stringblue},
+    basicstyle=\footnotesize\tudcffamily,
     breakatwhitespace=false,         
     breaklines=true,                 
     captionpos=b,                    

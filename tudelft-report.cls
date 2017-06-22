@@ -37,6 +37,10 @@
 \newfontfamily{\tudsffamily}[
     Path = fonts/,
     Extension = .ttf]{OpenSans-Regular}
+\newfontfamily{\tudcffamily}[
+    Path = fonts/,
+    Extension = .ttf]{FiraMono-Regular}
+
 
 \setmainfont[
     Path = fonts/,

@@ -55,7 +55,14 @@
 \contentsline {subsection}{\numberline {4.11.5}Indices Route: /indices}{24}{subsection.4.11.5}
 \contentsline {subsection}{\numberline {4.11.6}Classify Documents Route: /classify_documents}{25}{subsection.4.11.6}
 \contentsline {section}{\numberline {4.12}Front-End}{25}{section.4.12}
-\contentsline {subsection}{\numberline {4.12.1}}{26}{subsection.4.12.1}
+\contentsline {subsection}{\numberline {4.12.1}Technical Overview}{26}{subsection.4.12.1}
+\contentsline {subsubsection}{NodeJS}{26}{subsection.4.12.1}
+\contentsline {subsubsection}{ExpressJS}{26}{subsection.4.12.1}
+\contentsline {subsubsection}{Modular Design}{26}{subsection.4.12.1}
+\contentsline {subsection}{\numberline {4.12.2}Interfaces}{26}{subsection.4.12.2}
+\contentsline {subsubsection}{Interactive Map}{26}{subsection.4.12.2}
+\contentsline {subsubsection}{Classification Interface}{26}{subsection.4.12.2}
+\contentsline {subsubsection}{Settings Interface}{26}{subsection.4.12.2}
 \contentsline {chapter}{\numberline {5}Implementation}{27}{chapter.5}
 \contentsline {section}{\numberline {5.1}Downloading and parsing indices}{27}{section.5.1}
 \contentsline {section}{\numberline {5.2}Filtering}{28}{section.5.2}
@@ -81,6 +88,8 @@
 \contentsline {subsection}{\numberline {6.3.2}Collaboration between the team members and the TU Delft Coach}{32}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Collaboration between the team members and the client}{33}{subsection.6.3.3}
 \contentsline {section}{\numberline {6.4}ethics}{33}{section.6.4}
+\contentsline {subsubsection}{Storage}{33}{section.6.4}
+\contentsline {subsubsection}{Influence}{33}{section.6.4}
 \contentsline {chapter}{\numberline {7}Discussion}{35}{chapter.7}
 \contentsline {chapter}{\numberline {8}Recommendations}{37}{chapter.8}
 \contentsline {chapter}{\numberline {9}Conclusion}{39}{chapter.9}
