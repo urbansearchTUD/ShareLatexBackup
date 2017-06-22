@@ -1,48 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: output.aux
-The style file: tudelft-report.bst
+The style file: plain.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "apigee"
-You've used 39 entries,
-            2773 wiz_defined-function locations,
-            833 strings with 10999 characters,
-and the built_in function-call counts, 16288 in all, are:
-= -- 1501
-> -- 761
-< -- 33
-+ -- 269
-- -- 228
-* -- 1187
-:= -- 2475
-add.period$ -- 131
-call.type$ -- 39
-change.case$ -- 191
-chr.to.int$ -- 37
-cite$ -- 78
-duplicate$ -- 772
-empty$ -- 1465
-format.name$ -- 285
-if$ -- 3457
-int.to.chr$ -- 3
-int.to.str$ -- 1
-missing$ -- 29
-newline$ -- 215
-num.names$ -- 156
-pop$ -- 414
+You've used 41 entries,
+            2118 wiz_defined-function locations,
+            747 strings with 10548 characters,
+and the built_in function-call counts, 13176 in all, are:
+= -- 1325
+> -- 541
+< -- 9
++ -- 226
+- -- 174
+* -- 849
+:= -- 2147
+add.period$ -- 130
+call.type$ -- 41
+change.case$ -- 206
+chr.to.int$ -- 0
+cite$ -- 41
+duplicate$ -- 501
+empty$ -- 1098
+format.name$ -- 174
+if$ -- 2794
+int.to.chr$ -- 0
+int.to.str$ -- 41
+missing$ -- 35
+newline$ -- 212
+num.names$ -- 82
+pop$ -- 240
 preamble$ -- 1
-purify$ -- 154
+purify$ -- 168
 quote$ -- 0
-skip$ -- 590
+skip$ -- 380
 stack$ -- 0
-substring$ -- 623
-swap$ -- 81
-text.length$ -- 4
+substring$ -- 852
+swap$ -- 111
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 419
+type$ -- 158
 warning$ -- 0
-while$ -- 165
-width$ -- 0
-write$ -- 524
-(There was 1 warning)
+while$ -- 138
+width$ -- 43
+write$ -- 450

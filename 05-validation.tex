@@ -2,18 +2,18 @@
 In this section, we first describe how the system is tested and how we measure the quality of the code with SIG \cite{sig}. Afterwards we define a protocol with which the results of the system can be evaluated for correctness. We will first evaluate the results of the classification, and afterwards the relation scores. These are related in the sense that a relation score is calculated by the number of occurrences in labelled documents, so the correctness of labelling affects the correctness of relation scores.\\
 
 \subsection{Testing the Application}
-We will test the program using four different testing methods. The first is unit testing, which tests the separate components individually. Next comes integration testing, to see how well different components work together. Afterwards we use system testing for testing the different entire system. Last acceptance testing is used for testing how well the clients think the program works.
+We will test the program using four different testing methods. The first is unit testing, which tests the separate components individually. Next comes integration testing, to see how well different components work together. Afterwards we use system testing for testing the different system components. Lastly, acceptance testing is used for testing how well the clients think the program works.
 
-\subsubsection{Unit Tests}
+\subsubsection{Unit Testing}
 Unit testing is done by writing automatic tests and making sure they pass every time the tests are executed. Unit tests test each method of a function separately, checking that the method does what it is supposed to do. If the method would need information from outside the class that information is mocked. This means that instead of using that other class, a fake object is made which returns a fake value. This ensures the tests will never fail due to changes in other classes.
 
-\subsubsection{Integration Tests}
+\subsubsection{Integration Testing}
 Integration testing uses automated tests which test how well different components of the system work together. This is done more or less the same as unit testing, however whilst you would mock methods from other classes in unit testing, with integration testing you do not. It is assumed that the separate modules are unit tested, therefor if an error occurs it is because something is wrong with the interaction between the modules and not with the modules themselves. 
 
-\subsubsection{System Tests}
+\subsubsection{System Testing}
 We are also planning to use system testing. System testing provides a more complete test of the entire system. This means it is useful to detect faults in the overall system, but less easy to determine where these faults may be located. System testing is done manually, which means the tests can not be easily repeated when the system changes whilst with other testing techniques this is possible.
 
-\subsubsection{Acceptance Tests}
+\subsubsection{Acceptance Testing}
 Last we use acceptance testing. This is testing done to see if the software does what the clients are expecting it to do. These tests are therefore also executed by the clients manually. Afterwards they can say what worked, what did not work, what was missing and what could be improved. For this, we set up an evaluation protocol.\\
 
 \subsection{SIG}
@@ -44,7 +44,7 @@ the \textbf{recall} of the classifier is used to answer the question "What perce
 
 The \textbf{F1 Score} uses both precision and consideration. It is computed by using the following formula: F1 = 2 (precision x recall) / (precision + recall). The F1 score summarised evaluation in a single number, but for evaluation it is better to use recall and precision to understand the behaviour of the classifier. \\
 
-The \textbf{Receiver Operating Characteristic (ROC) curve} and the corresponding \textbf{Area Under the Curve (AUC) value} can be used to inspect the true positive rate (Recall) vs. the false positive rate (see \ref{fig:UAC}). The closer to the upper left corner, the better the classifier's performance is. When close to the diagonal of the plot, the classifier tends to make predicitions close to random guessing. \todo{check for correctness}
+The \textbf{Receiver Operating Characteristic (ROC) curve} and the corresponding \textbf{Area Under the Curve (AUC) value} can be used to inspect the true positive rate (Recall) vs. the false positive rate (FP / (FP + TN). To do this, the possibilities pages are correctly classified are needed. For each threshold on these probabilities for the classifier, the true positive rate and the false positive rate are calculated and are plotted in a graph, which results in something like \ref{fig:UAC}. The closer the ROC curve is to the upper left corner, the better the classifier's performance is. When close to the diagonal of the plot, the classifier tends to make predictions close to random guessing. The UAC value is the are under the ROC curve.
 
 \begin{figure}[h]
 \centering
