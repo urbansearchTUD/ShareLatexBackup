@@ -54,7 +54,8 @@
 \contentsline {subsection}{\numberline {4.11.4}Documents Route: /documents}{24}{subsection.4.11.4}
 \contentsline {subsection}{\numberline {4.11.5}Indices Route: /indices}{24}{subsection.4.11.5}
 \contentsline {subsection}{\numberline {4.11.6}Classify Documents Route: /classify_documents}{25}{subsection.4.11.6}
-\contentsline {subsection}{\numberline {4.11.7}Front-End}{25}{subsection.4.11.7}
+\contentsline {section}{\numberline {4.12}Front-End}{25}{section.4.12}
+\contentsline {subsection}{\numberline {4.12.1}}{26}{subsection.4.12.1}
 \contentsline {chapter}{\numberline {5}Implementation}{27}{chapter.5}
 \contentsline {section}{\numberline {5.1}Downloading and parsing indices}{27}{section.5.1}
 \contentsline {section}{\numberline {5.2}Filtering}{28}{section.5.2}

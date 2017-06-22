@@ -28,7 +28,6 @@
 \RequirePackage[noindentafter]{titlesec}
 \RequirePackage{titletoc}
 \RequirePackage[nottoc]{tocbibind}
-\RequirePackage{xcolor}
 \RequirePackage{xkeyval}
 \RequirePackage[export]{adjustbox}
 

@@ -1,5 +1,4 @@
 \documentclass[10pt,a4paper,twoside]{tudelft-report}
-\usepackage{hyperref}
 \usepackage[noabbrev]{cleveref}
 \crefname{lstlisting}{listing}{listings}
 \Crefname{lstlisting}{Listing}{Listings}
@@ -29,6 +28,11 @@
 \input{commands}
 
 \usefont{T1}{cmr}{m}{n}
+
+\definecolor{commentblue}{RGB}{19,107,251}
+\definecolor{stringgreen}{RGB}{23,153,29}
+\definecolor{keywordblue}{RGB}{73,169,234}
+
 \begin{document}
 
 % Related Work
@@ -55,10 +59,10 @@
 \frontmatter
 
 \lstdefinestyle{mystyle}{
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
+    commentstyle=\color{commentblue},
+    keywordstyle=\color{keywordblue},
     numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
+    stringstyle=\color{stringgreen},
     basicstyle=\footnotesize,
     breakatwhitespace=false,         
     breaklines=true,                 
