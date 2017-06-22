@@ -80,20 +80,23 @@
 \contentsline {subsection}{\numberline {6.1.3}Evaluating the Classification}{30}{subsection.6.1.3}
 \contentsline {subsubsection}{Accuracy}{30}{subsection.6.1.3}
 \contentsline {subsubsection}{Confusion Matrix}{30}{subsection.6.1.3}
-\contentsline {subsubsection}{Precision, Recall, F1 and UAC}{30}{figure.caption.22}
+\contentsline {subsubsection}{Precision, Recall, F1 and UAC}{30}{figure.caption.23}
 \contentsline {subsection}{\numberline {6.1.4}Evaluation of Relation Scores}{31}{subsection.6.1.4}
 \contentsline {section}{\numberline {6.2}Fulfilment of Requirements}{32}{section.6.2}
 \contentsline {section}{\numberline {6.3}Process}{32}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Collaboration Between the Team Members}{32}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Collaboration Between the Team Members and the TU Delft Coach}{32}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Collaboration Between the Team Members and the Client}{33}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Ethics}{33}{section.6.4}
-\contentsline {subsubsection}{Storage}{33}{section.6.4}
-\contentsline {subsubsection}{Influence}{33}{section.6.4}
 \contentsline {chapter}{\numberline {7}Discussion}{35}{chapter.7}
+\contentsline {section}{\numberline {7.1}Answering the research question}{35}{section.7.1}
+\contentsline {section}{\numberline {7.2}influence of the answers}{35}{section.7.2}
+\contentsline {section}{\numberline {7.3}issues faced and remaining}{35}{section.7.3}
+\contentsline {section}{\numberline {7.4}Ethics}{36}{section.7.4}
+\contentsline {subsubsection}{Storage}{36}{section.7.4}
+\contentsline {subsubsection}{Influence}{36}{section.7.4}
 \contentsline {chapter}{\numberline {8}Recommendations}{37}{chapter.8}
 \contentsline {chapter}{\numberline {9}Conclusion}{39}{chapter.9}
-\contentsline {chapter}{Bibliography}{41}{chapter*.33}
+\contentsline {chapter}{Bibliography}{41}{chapter*.37}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{43}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{45}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{45}{section.B.1}

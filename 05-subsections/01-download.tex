@@ -1,6 +1,17 @@
 \section{Downloading and parsing indices}
 
-As can be seen in figure \ref{fig:overview}, the first step of the process is to download data from Common Crawl. This required functions that would parse the Common Crawl indices and gather the data that corresponds to these indices. The first step in parsing the Common Crawl indices and filtering out the indices that have a HTTP Status Code \footnote{\url{https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html}} other than 200, as only these indices with these HTTP Status Code would be useful. 
+As can be seen in figure \ref{fig:overview}, the first step of the process is to download data from Common Crawl. This required functions that would parse the Common Crawl indices and gather the data that corresponds to these indices. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{gathering_class}
+\caption{Diagram of downloading and parsing classes}
+\label{fig:gathering_class}
+\end{figure}
+
+The parsing of indices and downloading the data depends on the IndicesSelector and PageDownloader class, methods from these classes are called by the TextDownloader, as can be seen in figure \ref{fig:gathering_class}. The classes contain workers, these workers can be run  using the \textit{run\_workers()} which will utilise Python multiprocessing\footnote{\url{https://docs.python.org/3.5/library/multiprocessing.html}} to run workers in parallel. Running these workers in parallel speeds up the downloading of data and parsing of Common Crawl indices.
+
+The first step in parsing the Common Crawl indices is filtering out the indices that have a HTTP Status Code \footnote{\url{https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html}} other than 200, as only these indices with these HTTP Status Code would be useful. 
 
 \begin{lstlisting}[language=Python, caption=Initial implementation, label={lst:initial}]
 def _useful_responsecode(self, index):
