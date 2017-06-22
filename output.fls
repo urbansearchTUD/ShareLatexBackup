@@ -202,6 +202,8 @@ INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/API-routes/datasets.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/API-routes/documents.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/API-routes/documents.tex
+INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/API-routes/indices.tex
+INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/API-routes/indices.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/04-subsections/08-frontend.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/04-subsections/08-frontend.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/04-subsections/09-validation.tex
@@ -224,6 +226,8 @@ INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/05-subsections/04-storing.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/05-subsections/05-frontend.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/05-subsections/05-frontend.tex
+INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/05-subsections/09-validation.tex
+INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/05-subsections/09-validation.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/06-project-evaluation.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/06-project-evaluation.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/07-discussion.tex
