@@ -10,12 +10,12 @@ In the \texttt{TextDownloader} class, that was already shortly discussed in sect
 To be able to interact with the results of the application, it is required to store extracted relations. The implementation of the storage follows the design of section section \ref{sec:storing-data}, using the graph database Neo4j.
 
 \subsubsection{Neo4j Model}
-The model used for the graph structure follows the concepts described in section \ref{lst:neo4j-concepts}. It consists of nodes, labels and properties. To distinguish between and to efficiently query for specific (types of) nodes, at least one label is assigned to the node. The following labels are used:
+The model used for the graph structure follows the concepts described in section \ref{lst:neo4j-concepts}. It consists of nodes, labels and properties. To distinguish between and to efficiently query for specific (types of) nodes, at least one label is assigned to the node. Below, the labels we used are listed and per label, a description of the nodes they are attached to is given:
 
 \begin{description}
-\item[\textbf{\texttt{:City}}] 
-\item[\textbf{\texttt{:Index}}] Nodes with the \texttt{:Index} label represent documents that are found useful. Every document has this label, in addition to the label representing the category they are classified as.
-\item[Categories] For each category, a label exists to separate a category from the bulk of documents. This way, documents of a specific category can be matched against. This is particularly useful to count, for example, the documents about "Leisure" (and thus labelled \texttt{:Leisure}), that two cities have in common.
+\item[:City] Nodes labelled as \texttt{:City} represent the cities the application uses. These nodes contain multiple properties: name, population, longitude and latitude. Population is used in the visualisation (see section \ref{sec 5-front-end}) for scaling. Longitude and latitude are used to place the cities on a map and were retrieved through the Google Maps Geocoding API\footnote{\url{https://developers.google.com/maps/documentation/geocoding/start?hl=en_US}}.
+\item[:Index] Nodes with the \texttt{:Index} label represent documents that are found useful. Every document has this label, in addition to the label representing the category they are classified as. The following basic properties belong to these nodes: file name, offset and length. They point to the exact file location where the page can be downloaded from CommonCrawl. Additionally, the nodes contain a probability property per category. These probabilities come from the classifier and are there for validation purposes.
+\item[Categories] For each category, a label exists to separate a category from the bulk of documents. This way, documents of a specific category can be matched against. This is particularly useful to count, for example, the documents about "Leisure" (and thus labelled \texttt{:Leisure}), that two cities have in common. Since category labels are only applied to nodes that also have the \texttt{:Index} label, they contain no additional properties.
 \end{description}
 
 % relation types
