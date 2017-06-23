@@ -17,18 +17,32 @@ Since other, more important, tasks took longer to implement than intended we did
 As expected the would likes did not pass. It is theoretically possible to show all connections of all places on the map at the same time. However, it would result in a completely filled in map because there is a line for each relation so one would not be able to get any useful information from this.
 
 \todo{more about not mentioned pass/fail, name reqs?}
-\todo{Kan die tabel niet beter Requirement:Pass/Fail:Uitleg, en dan voor Must, should etc?}
+\todo{Kan die tabel niet beter Requirement:Pass/Fail:Uitleg, en dan voor Must, should etc? ja}
 \begin{table}[h]
 \centering
-\caption{Requirements pass fail}
-\label{requirements_pass/fail}
-\begin{tabular}{llllllll}
-\begin{tabular}[c]{@{}l@{}}Must \\ Haves\end{tabular} & \begin{tabular}[c]{@{}l@{}}Pass /\\ Fail\end{tabular} & \begin{tabular}[c]{@{}l@{}}Should \\ haves\end{tabular} & \begin{tabular}[c]{@{}l@{}}Pass /\\ Fail\end{tabular} & \begin{tabular}[c]{@{}l@{}}Could \\ Haves\end{tabular} & \begin{tabular}[c]{@{}l@{}}Pass /\\ Fail\end{tabular} & \begin{tabular}[c]{@{}l@{}}Would\\ Haves\end{tabular} & \begin{tabular}[c]{@{}l@{}}Pass /\\ Fail\end{tabular} \\
-1                                                     & Pass                                                  & 1                                                       & Fail                                                  & 1                                                      & Fail                                                  & 1                                                     & \todo{Pass?}                                                      \\
-2                                                     & Fail                                                  & 2                                                       & Pass                                                  & 2                                                      & Pass                                                  & 2                                                     & Fail                                                       \\
-3                                                     & Pass                                                  & 3                                                       & Pass                                                  &                                                        &                                                       & 3                                                     &                                                       \\
-4                                                     & Pass                                                  & 4                                                       & Fail                                                  &                                                        &                                                       &                                                       &                                                       \\
-5                                                     & Pass                                                  &                                                         &                                                       &                                                        &                                                       &                                                       &                                                      
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{lll}
+Must Haves                     & Pass / Fail & Comment \\
+1 Mining from commoncrawl      & Pass        &         \\
+2 Exporting relations          & Fail        &         \\
+3 Extracting relations         & Pass        &         \\
+4 Visualisation                & Pass        &         \\
+5 Present statistics           & Pass        &         \\
+                               &             &         \\
+Should Haves                   & Pass / Fail & Comment \\
+1 Hierarchical relations       & Fail        &         \\
+2 Machine learning retrainable & Pass        &         \\
+3 Add large datasets           & Pass        &         \\
+4 Duplicate city names         & Fail        &         \\
+                               &             &         \\
+Could haves                    & Pass / Fail & Comment \\
+1 Use Delpher                  & Fail        &         \\
+2 Visualisation for comparing  & Pass        &         \\
+                               &             &         \\
+Would likes                    & Pass / Fail & Comment \\
+1 Show all connections         & Pass        &         \\
+2 Other than .nl data          & Fail        &        
 \end{tabular}
 \end{table}
 
