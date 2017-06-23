@@ -63,8 +63,7 @@ The relations controls are shown in figure \ref{fig:frontend-mc-rel}. Here the u
 The drop-down shown in the relations control interface provides a way to scale the relation totals. Lets say for example that we do not want the absolute count of occurrences as a measure for total relation strength but that we want it scaled relative to the population size of two cities. This can be done by selecting the right option in the drop-down.\\
 All of these features are meant to provide the user with means for constructing a visualisation that uncovers patterns which are not (easily) seen when looking at raw data.
 \subsubsection{Document Classification}
-The document classification interface is meant as an easy way of extending our data-set which is used to train and test our classifier. The interface loads documents that we have deemed relevant while analysing the available CommonCrawl pages. The user can select one or multiple categories which the user feels best relate to the document. If the user finds the document to be irrelevant the document can be discarded. An example of the interface with a document belonging in the "collaboration" category is shown in figure \ref{fig:frontend-label}). The interface can be extended with more settings as the user likes. This is achieved by the loose coupling of the front end and the API that was mentioned before.
-
+The document classification interface is meant as an easy way of extending our data-set which is used to train and test our classifier. The interface loads documents that we have deemed relevant while analysing the available CommonCrawl pages. The user can select one or multiple categories which the user feels best relate to the document. If the user finds the document to be irrelevant the document can be discarded. An example of the interface with a document belonging in the "collaboration" category is shown in figure \ref{fig:frontend-label}).
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{labelling_interface}
@@ -74,7 +73,8 @@ The document classification interface is meant as an easy way of extending our d
 
 \subsubsection{System Settings}
 
-Both the back end and the front end of the UrbanSearch system share and depend on some default settings. To keep the system configurable, even for an user that is not a developer, we have implemented a system settings interface (figure \ref{fig:frontend-ss} 
+Both the back end and the front end of the UrbanSearch system share and depend on some default settings. To keep the system configurable, even for an user that is not a developer, we have implemented a system settings interface (figure \ref{fig:frontend-ss}). The interface can be extended with more settings as the user likes. This is achieved by the loose coupling of the front end and the API that was mentioned before.
+
 
 \begin{figure}[H]
 \centering
