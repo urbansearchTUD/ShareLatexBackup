@@ -33,12 +33,21 @@ The main part of the front-end is the interactive map. The extracted data gets v
 
 On the right side of the interface a "Map Controls" card is always shown. This card lets users manipulate the data shown on the map. Since we have two main entities of interest (cities and relations) that are shown on the map, the controls offer an intuitive way to control these.\\
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{frontend-mc}
+\caption{Map Controls for the interactive map - Cities}
+\label{fig:frontend-mc}
+\end{figure}
+
+Figure \ref{fig:frontend-mc} shows the controls for the city entities. The slider shown in the upper part of the card allows to filter cities based on population. All cities that fall in the range of the slider are shown, all other are not visible. Besides displaying and hiding cities based on population size, users can also toggle visibility of cities by clicking on the cities displayed in the list below the slider.\\
+The relations controls are shown in figure ref{fig:frontend-mc-rel}. Here the user can select which relations are considered when calculating the total relation strengths. This is done by clicking the check-boxes next to the relation names. The sliders 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{frontend-mc}
-\caption{Map Controls for the interactive map}
-\label{fig:frontend-mc}
+\includegraphics[width=0.5\textwidth]{frontend-mc-rel}
+\caption{Map Controls for the interactive map - Relations}
+\label{fig:frontend-mc-rel}
 \end{figure}
 
 \subsubsection{Document Classification}
