@@ -40,7 +40,7 @@ From this table, it can be deduced that three of these graph databases are viabl
 \subsection{Using Neo4j for Storage and Ingestion}
 Neo4j is a highly scalable graph database that leverages data relationships as first-class entities \cite{neo4j}. It is the single highly scalable, fast and ACID compliant graph database available. ACID stands for the four properties atomicity, consistency, isolation and durability of transactions in database systems that ensure reliability for query results \cite{haerder1983principles}. The scalability of Neo4j comes from the fact that is easily spread across clusters, which provides a read throughput that scales linearly. Next to that, when spread across clusters Neo4j provides data redundancy and still high write speed \cite{neo4jscalable}. Additionally, Neo4j is free to use for non-commercial purposes. To illustrate how scalable Neo4j is, consider that very large companies such as eBay, Cisco, Walmart, HP and LinkedIn\footnote{\url{https://neo4j.com/customers/}} use it in their mission-critical systems. Holzschuher and Peinl compared the performance of Neo4j to the more classic and commonly used NoSQL databases and found that the more natural representation of relationships resulted in significant performance increase gains~\cite{holzschuher2013performance}. Jouili et al. concluded that Neo4j has a read-only performance which is comparable to other graph databases \cite{jouili2013}. Compared to other databases Neo4j is slower with writing. However, the application will eventually do more reading than writing making writing a less important aspect.
 
-The model of Neo4 is explained by three key concepts. These are:
+The model of Neo4j is explained by three key concepts. These are:
 
 \begin{description}
 \item[properties] Any entity in the Neo4j graph can be given properties (key-value pairs) containing information about the entity. Properties are primarily meant to provide additional information and are less suitable to be queried on. As an example, a city can have a number of inhabitants and districts attached to it as a property.
@@ -50,7 +50,7 @@ The model of Neo4 is explained by three key concepts. These are:
 
 The Neo4j model can be depicted as shown in figure \ref{fig:neo4j}. It consists of nodes, relationships (edges), properties (within the nodes and relations) and labels (coloured blocks above the nodes).
 
-\begin{figure}[ht]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.75\textwidth]{neo4model}
 \caption{The Neo4j model, as it appears in the default user interface}
