@@ -18,7 +18,20 @@ The model used for the graph structure follows the concepts described in section
 \item[Categories] For each category, a label exists to separate a category from the bulk of documents. This way, documents of a specific category can be matched against. This is particularly useful to count, for example, the documents about "Leisure" (and thus labelled \texttt{:Leisure}), that two cities have in common. Since category labels are only applied to nodes that also have the \texttt{:Index} label, they contain no additional properties.
 \end{description}
 
-The model is 
+\todo{say somethin about relations}
+The nodes are connected using relations. Cities (\texttt{:City} labelled nodes) occurring in documents (\texttt{:Index} labelled nodes) are connected with a \texttt{:OCCURS_IN} relation. It is mainly used to find documents in which a pair of cities occurs. For example, the query below matches the documents Rotterdam and Amsterdam have in common and returns the file names:
+
+\begin{lstlisting}[language=cypher, caption=Querying documents containing two cities, label={lst:query-occ}]
+MATCH (:City { name: 'Amsterdam })-[:OCCURS_IN]->(i:Index)<-[:OCCURS_IN]-(b:City { name: 'Rotterdam'})
+RETURN i.filename
+\end{lstlisting}
+
+\begin{figure}
+    \centering
+    \includegraphics{neo4j-model-full}
+    \caption{The Neo4j model as implemented}
+    \label{fig:my_label}
+\end{figure}
 
 % relation types
 % properties
