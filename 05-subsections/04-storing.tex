@@ -1,7 +1,10 @@
-\section{Storing the Data}
-In this section, we discuss how the filtered documents are stored and how Neo4j was used for storing extracted relations, following the design described in section \ref{sec:storage-design}. We discuss the storage a
+\section{Storing the Data}\label{sec: 5-storing}
+In this section, we discuss how the filtered documents are stored and how Neo4j was used for storing extracted relations, following the design described in section \ref{sec:storage-design}. We discuss the storage and graph database parts from the overview (see figure \ref{fig:overview}).
+
 \subsection{Storing Filtered Documents}
-% mapje met docs, niet gecomprimeerd omdat gzip traag is en we "maar" 1m docs hebben
+The documents that pass the filtering stage can be stored for several reasons. For example, the classifier can be retrained and might thus label documents differently. To avoid having to download and process all the pages again, it is useful to store the documents on disk. If the disk is small, it is wise to compress the documents. However, compression is a slow process, so if enough disk space is available, storing the documents uncompressed is more feasible.
+
+In the \texttt{TextDownloader} class, that was already shortly discussed in section \ref{sec:5-downloading}, storage to disk is done without compression in all cases. 
 \subsection{Storing Extracted Relations}
 % steden op basis van lijst van klant, coordinaten opgezocht via google api
 % issue: steden met dubbele naam kregen zelfde coordinaten en niet per se de grootste, maar belangrijkste (volgens google)

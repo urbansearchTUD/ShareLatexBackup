@@ -74,10 +74,10 @@
 \contentsline {subsection}{\numberline {5.5.3}Data-set Route: /datasets}{32}{subsection.5.5.3}
 \contentsline {subsection}{\numberline {5.5.4}Documents Route: /documents}{34}{subsection.5.5.4}
 \contentsline {subsection}{\numberline {5.5.5}Indices Route: /indices}{34}{subsection.5.5.5}
-\contentsline {subsection}{\numberline {5.5.6}Classify Documents Route: /classify\_documents}{34}{subsection.5.5.6}
+\contentsline {subsection}{\numberline {5.5.6}Classify Documents Route: /classify\_documents}{35}{subsection.5.5.6}
 \contentsline {section}{\numberline {5.6}Front-End}{35}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Technical Overview}{35}{subsection.5.6.1}
-\contentsline {subsubsection}{Modular Design}{35}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.1}Technical Overview}{36}{subsection.5.6.1}
+\contentsline {subsubsection}{Modular Design}{36}{subsection.5.6.1}
 \contentsline {subsubsection}{NodeJS}{36}{subsection.5.6.1}
 \contentsline {subsubsection}{ExpressJS}{36}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}Interfaces}{36}{subsection.5.6.2}
@@ -93,14 +93,14 @@
 \contentsline {subsection}{\numberline {6.2.3}Collaboration Between the Team Members and the Client}{38}{subsection.6.2.3}
 \contentsline {chapter}{\numberline {7}Discussion}{39}{chapter.7}
 \contentsline {section}{\numberline {7.1}Answering the research question}{39}{section.7.1}
-\contentsline {section}{\numberline {7.2}influence of the answers}{39}{section.7.2}
-\contentsline {section}{\numberline {7.3}issues faced and remaining}{39}{section.7.3}
+\contentsline {section}{\numberline {7.2}influence of the answers}{40}{section.7.2}
+\contentsline {section}{\numberline {7.3}issues faced and remaining}{40}{section.7.3}
 \contentsline {section}{\numberline {7.4}Ethics}{40}{section.7.4}
 \contentsline {subsubsection}{Storage}{40}{section.7.4}
 \contentsline {subsubsection}{Influence}{40}{section.7.4}
 \contentsline {chapter}{\numberline {8}Recommendations}{41}{chapter.8}
 \contentsline {chapter}{\numberline {9}Conclusion}{43}{chapter.9}
-\contentsline {chapter}{Bibliography}{45}{chapter*.42}
+\contentsline {chapter}{Bibliography}{45}{chapter*.44}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{49}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{51}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{51}{section.B.1}

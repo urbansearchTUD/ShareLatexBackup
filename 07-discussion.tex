@@ -6,33 +6,48 @@ This section is divided into 4 parts. First we will answer the research question
 
 \section{Answering the research question}
 
-\todo{}
 
-As mentioned in section \ref{sec:problem-definition-analysis}, the problem was the following:
+As mentioned in section \ref{sec:problem-definition-analysis}, the main problem was the following:
 \begin{quote} 
 \centering 
 \textit{How can open data be leveraged such that a metric for the strength of relationships between cities can be defined and visualised?}
 \end{quote}
 
-And the sub-problems were:
+To answer this question we came up with several sub-problems. These sub-problems, together with their answer and the reason for their importance are the following:
 \begin{itemize}
     \item How can we filter the available text data to find co-occurrences of cities and discarding text data that does not contain co-occurrences? \\
     
-    This should reduce the amount of data and thereby potentially speed up the rest of process.\\
-    As shown in sections \ref{sec:5-downloading} and \ref{sec:5-filtering} ...
+    As shown in section \ref{sec:5-filtering} the python package pyahocorasick can be used to check the text data and try to match strings within the text data. The algorithm also checks subStrings however, so if that is not wanted the package will have to be extended with a few lines of code. \\
+    
+    This should reduce the amount of data and thereby potentially speed up the rest of process.
+    
     \item The sub-problem that arises after filtering is how to determine what relationships can be extracted from the text-data, this will be referred to as the classification of the text-data. \\
     
+    In section \ref{5-classification} ... \todo{}\\
+    
     This requires a method that reliably and efficiently processes the text-data and can be tuned to the clients wishes, meaning that the classification should output what the client desires. 
-    \item The next question is how to store the data and determine the strength of the relationships. 
-    \item The last question is how to combine the stored data and present it to a user, this means visualising and/or exporting the data in an accessible way.
+    
+    \item The next question is how to store the data and determine the strength of the relationships. \\
+    
+    a \ref{sec: 5-storing}\\
+    
+    b
+    
+    \item The last question is how to combine the stored data and present it to a user, this means visualising and/or exporting the data in an accessible way.\\
+    
+    a \ref{sec: 5-API} and \ref{sec: 5-frontend}\\
+    
+    b
 \end{itemize}
+
+\todo{answer main}
 
 \section{influence of the answers}
 \todo{}
 
 \section{issues faced and remaining}
 \todo{}
-
+\todo{Discuss choice to filter "Amsterdammers", future version might include this}
 % describe issues faced during implementation, as well as issues that are still 
 % open. Main thing here is to discuss the Neo4j python driver with multiprocessing,
 % which we could not get to work. Also mention the state of the document 

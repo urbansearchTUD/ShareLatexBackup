@@ -1,7 +1,7 @@
 \section{Filtering}\label{sec:5-filtering}
-The next step in the process is filtering documents as explained in section \ref{sec:filtering_docs} and can be seen in figure \ref{fig:overview}. The implementation depends on the pyahocorasick library, which checks the page and tries to match strings within the page. We can supply this class with a list of cities, however, by default the application will retrieve a list of cities from the database.
+The next step in the process is filtering documents as explained in section \ref{sec:filtering_docs} and can be seen in figure \ref{fig:overview}. The implementation depends on the pyahocorasick library, which checks the page and tries to match strings within the page. We can supply this class with a list of cities which the Aho-Corasick algorithm will try to match. By default the application will retrieve a list of cities from the database and use this list to find matches in the text.
 
-The implementation seemed straightforward at first, however, it became apparent that the algorithm matched substrings. For example, if a text contains "Amsterdammers" than the Aho-Corasick algorithm would match because of the substring "Amsterdam". To solve this we added an additional check in the co-occurrence filtering which can be seen in listing \ref{lst:substring}.
+The implementation seemed straightforward at first, however, it became apparent that the algorithm matched substrings. For example, if a text contains "Amsterdammers" the Aho-Corasick algorithm would match because of the substring "Amsterdam". However, "Old-Amsterdam" is a brand of cheese that does not originate from Amsterdam. To solve this we added an additional check in the co-occurrence filtering which can be seen in listing \ref{lst:substring}.
 
 \begin{lstlisting}[language=Python, caption=Additional check to prevent substring matches, label={lst:substring}]
 for end, name in names:
@@ -10,5 +10,5 @@ for end, name in names:
         prev_end, prev_name = end, name
 \end{lstlisting}
 
-Another problem that surfaced during the implementation of the co-occurrence check was the fact that Aho-Corasick uses multi-match. This meant that it matches every occurrence in the text, where we were interested which cities were found in the text. Therefore, the result of the Aho-Corasick was put into a set to solve this problem.
+Another problem that surfaced during the implementation of the co-occurrence check was the fact that Aho-Corasick uses multi-match. This meant that it matches every occurrence of a city in the text, where we were interested which cities were found in the text but not if it was found multiple times. Therefore, the result of the Aho-Corasick algorithm was put into a set to solve this problem.
 % ook ff zeggen dat we set moesten gebruiken omdat aho-corasick multimatch doet
