@@ -83,43 +83,43 @@
 \contentsline {subsubsection}{ExpressJS}{37}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}Interfaces}{37}{subsection.5.6.2}
 \contentsline {subsubsection}{Interactive Map}{37}{subsection.5.6.2}
-\contentsline {subsubsection}{Classification Interface}{37}{subsection.5.6.2}
-\contentsline {subsubsection}{Settings Interface}{37}{subsection.5.6.2}
+\contentsline {subsubsection}{Document Classification}{37}{figure.caption.28}
+\contentsline {subsubsection}{System Settings}{37}{figure.caption.28}
 \contentsline {subsection}{\numberline {5.6.3}Recommendations}{37}{subsection.5.6.3}
 \contentsline {chapter}{\numberline {6}Project Evaluation}{39}{chapter.6}
 \contentsline {section}{\numberline {6.1}Fulfilment of Requirements}{39}{section.6.1}
-\contentsline {section}{\numberline {6.2}Process}{40}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Collaboration Between the Team Members}{40}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Collaboration Between the Team Members and the TU Delft Coach}{40}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Collaboration Between the Team Members and the Client}{40}{subsection.6.2.3}
-\contentsline {chapter}{\numberline {7}Discussion}{41}{chapter.7}
-\contentsline {section}{\numberline {7.1}Answering the research question}{41}{section.7.1}
-\contentsline {section}{\numberline {7.2}influence of the answers}{42}{section.7.2}
-\contentsline {section}{\numberline {7.3}issues faced and remaining}{42}{section.7.3}
-\contentsline {section}{\numberline {7.4}Ethics}{42}{section.7.4}
-\contentsline {subsubsection}{Storage}{42}{section.7.4}
-\contentsline {subsubsection}{Influence}{42}{section.7.4}
-\contentsline {chapter}{\numberline {8}Recommendations}{43}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusion}{45}{chapter.9}
-\contentsline {chapter}{Bibliography}{47}{chapter*.48}
-\contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{51}{appendix.A}
-\contentsline {chapter}{\numberline {B}Sig Feedback}{53}{appendix.B}
-\contentsline {section}{\numberline {B.1}week 5}{53}{section.B.1}
-\contentsline {section}{\numberline {B.2}week 9}{53}{section.B.2}
-\contentsline {chapter}{\numberline {C}User Manual}{55}{appendix.C}
-\contentsline {chapter}{\numberline {D}Developers Manual}{57}{appendix.D}
-\contentsline {chapter}{\numberline {E}Used Libararies}{59}{appendix.E}
-\contentsline {chapter}{\numberline {F}Validation and Verification results}{61}{appendix.F}
-\contentsline {section}{\numberline {F.1}Testing the Application}{61}{section.F.1}
-\contentsline {subsection}{\numberline {F.1.1}Unit Tests}{61}{subsection.F.1.1}
-\contentsline {subsection}{\numberline {F.1.2}Integration Tests}{61}{subsection.F.1.2}
-\contentsline {subsection}{\numberline {F.1.3}System Tests}{61}{subsection.F.1.3}
-\contentsline {subsection}{\numberline {F.1.4}Acceptance Tests}{61}{subsection.F.1.4}
-\contentsline {section}{\numberline {F.2}SIG}{61}{section.F.2}
-\contentsline {subsection}{\numberline {F.2.1}week 5}{61}{subsection.F.2.1}
-\contentsline {section}{\numberline {F.3}evaluating the classification}{62}{section.F.3}
-\contentsline {subsection}{\numberline {F.3.1}Accuracy}{62}{subsection.F.3.1}
-\contentsline {subsection}{\numberline {F.3.2}Confusion Matrix}{62}{subsection.F.3.2}
-\contentsline {subsection}{\numberline {F.3.3}Precision, Recall, F1 and UAC}{62}{subsection.F.3.3}
-\contentsline {section}{\numberline {F.4}Evaluation of relation scores}{62}{section.F.4}
+\contentsline {section}{\numberline {6.2}Answering the research question}{40}{section.6.2}
+\contentsline {section}{\numberline {6.3}Process}{41}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Collaboration Between the Team Members}{41}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Collaboration Between the Team Members and the TU Delft Coach}{41}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Collaboration Between the Team Members and the Client}{41}{subsection.6.3.3}
+\contentsline {chapter}{\numberline {7}Discussion}{43}{chapter.7}
+\contentsline {section}{\numberline {7.1}Discussing the research question answers something}{43}{section.7.1}
+\contentsline {section}{\numberline {7.2}issues faced and remaining}{43}{section.7.2}
+\contentsline {section}{\numberline {7.3}Ethics}{43}{section.7.3}
+\contentsline {subsubsection}{Storage}{43}{section.7.3}
+\contentsline {subsubsection}{Influence}{43}{section.7.3}
+\contentsline {chapter}{\numberline {8}Recommendations}{45}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{47}{chapter.9}
+\contentsline {chapter}{Bibliography}{49}{chapter*.49}
+\contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{53}{appendix.A}
+\contentsline {chapter}{\numberline {B}Sig Feedback}{55}{appendix.B}
+\contentsline {section}{\numberline {B.1}week 5}{55}{section.B.1}
+\contentsline {section}{\numberline {B.2}week 9}{55}{section.B.2}
+\contentsline {chapter}{\numberline {C}User Manual}{57}{appendix.C}
+\contentsline {chapter}{\numberline {D}Developers Manual}{59}{appendix.D}
+\contentsline {chapter}{\numberline {E}Used Libararies}{61}{appendix.E}
+\contentsline {chapter}{\numberline {F}Validation and Verification results}{63}{appendix.F}
+\contentsline {section}{\numberline {F.1}Testing the Application}{63}{section.F.1}
+\contentsline {subsection}{\numberline {F.1.1}Unit Tests}{63}{subsection.F.1.1}
+\contentsline {subsection}{\numberline {F.1.2}Integration Tests}{63}{subsection.F.1.2}
+\contentsline {subsection}{\numberline {F.1.3}System Tests}{63}{subsection.F.1.3}
+\contentsline {subsection}{\numberline {F.1.4}Acceptance Tests}{63}{subsection.F.1.4}
+\contentsline {section}{\numberline {F.2}SIG}{63}{section.F.2}
+\contentsline {subsection}{\numberline {F.2.1}week 5}{63}{subsection.F.2.1}
+\contentsline {section}{\numberline {F.3}evaluating the classification}{64}{section.F.3}
+\contentsline {subsection}{\numberline {F.3.1}Accuracy}{64}{subsection.F.3.1}
+\contentsline {subsection}{\numberline {F.3.2}Confusion Matrix}{64}{subsection.F.3.2}
+\contentsline {subsection}{\numberline {F.3.3}Precision, Recall, F1 and UAC}{64}{subsection.F.3.3}
+\contentsline {section}{\numberline {F.4}Evaluation of relation scores}{64}{section.F.4}
 \contentsfinish 
