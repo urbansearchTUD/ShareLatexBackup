@@ -9,38 +9,33 @@
 \todo{write conclusion about results}
 
 \section{Evaluation of Requirements}
-In section \ref{sec:reqs} we declared the requirements for our program. Table \ref{requirements_pass/fail} shows which of these requirements passed or failed and why. \\
-
-The program works as intended so all must haves passed. \\
-There are however two should haves which failed. Finding correct relations proved more time-consuming than expected therefor our algorithm only discerns the top level relations (e.g. trade) and not sub levels (e.g. food trade). Furthermore there are a lot of places with duplicate names, yet no complete lists of these duplicates are available. Therefor it is less easy implementable than first thought. \\
-Since other, more important, tasks took longer to implement than intended we did not make implement functionality to use Delpher to characterise relationships. We did add functionality to visualise the data by using a map. \\
-As expected the would likes did not pass. It is theoretically possible to show all connections of all places on the map at the same time. However, it would result in a completely filled in map because there is a line for each relation so one would not be able to get any useful information from this.
+In section \ref{sec:reqs} we declared the requirements for our program. Table \ref{requirements_pass/fail} shows which of these requirements passed or failed and why. Failed requirements are discussed in section \ref{sec:Discussion - Open Issues}. As can be seen most of the requirements passed, but there are also some that failed. Most of the failed requirements are acceptable, but the failed must have is planned to be fixed in the last week of coding. Since this is after the due date for this report this fix can not be included in the report.\\
 
 \begin{table}[]
 \centering
 \caption{My caption}
-\label{my-label}
+\label{requirements_pass/fail}
 \begin{tabular}{ll m{8cm}}
-Must Haves                     & Pass / Fail & Comment                                                                                                                                                                                                                               \\
+\textbf{Must Haves}                     & Pass / Fail & Comment                                                                                                                                                                                                                               \\
 1 Mining from Common Crawl     & Pass        & Data is succesfully gathered from Common Crawl.                                                                                                                                                                                       \\
 2 Exporting relations          & Fail        & Due to many delays in other parts, exporting the data was not achievable within the time set for the product.                                                                                                                         \\
 3 Extracting relations         & Pass        & Relations are succesfully extracted from documents for about \todo{x} \%.                                                                                                                                                            \\
 4 Visualisation                & Pass        & A front-end which shows the data on a map is ready for use.                                                                                                                                                                           \\
 5 Present statistics           & Pass        & The front-end presents statistics with the shown data.                                                                                                                                                                                \\
                                &             &                                                                                                                                                                                                                                       \\
-Should Haves                   & Pass / Fail & Comment                                                                                                                                                                                                                               \\
-1 Hierarchical relations       & Fail        & Since extracting relations from text documents was more challenging than first thought,\\ hierarchical relations were not included.                                                         \\
+\textbf{Should Haves}                   & Pass / Fail & Comment                                                                                                                                                                                                                               \\
+1 Hierarchical relations       & Fail        & Since extracting relations from text documents was more challenging than first thought, hierarchical relations were not included.                                                         \\
 2 Machine learning retrainable & Pass        & It is possible to retrain the machine learning by feeding it a set of labeled documents.                                                                                                                                              \\
-3 Add large datasets           & Pass        & \It is possible to add large datasets, however since it does cause an increase in time needed to run the algorithm,\\ we did not use a large dataset for our demo version.                     \\
-4 Duplicate city names         & Fail        & \The algorithm does not take cities with duplicate names, or names fitting to multiple cities into account,\\ due to time constraints.                                                         \\
+3 Add large datasets           & Pass        & It is possible to add large  datasets, however since it does cause an increase in time needed to run the algorithm, we did not use a large dataset for our demo version.                     \\
+4 Duplicate city names         & Fail        & The algorithm does not take cities with duplicate names, or names fitting to multiple cities into account, due to time constraints.                                                         \\
                                &             &                                                                                                                                                                                                                                       \\
-Could haves                    & Pass / Fail & Comment                                                                                                                                                                                                                               \\
+\textbf{Could haves}                    & Pass / Fail & Comment                                                                                                                                                                                                                               \\
 1 Use Delpher                  & Fail        & It is not possible to use data from Delpher unless it is already downloaded and stored.                                                                                                                                               \\
 2 Visualisation for comparing  & Pass        & The front-end includes visualisation for comparing cities and relationships to each other.                                                                                                                                            \\
                                &             &                                                                                                                                                                                                                                       \\
-Would likes                    & Pass / Fail & Comment                                                                                                                                                                                                                               \\
-1 Show all connections         & Fail        & \begin{tabular}[c]{@{}l@{}}Theoreticly it is possible to do this, but it would result in a map on which relationships can not be \\ differentiated from each other due to the large amount the system was not build for.\end{tabular} \\
-2 Other than .nl data          & Fail        & The classifier is only trained on Dutch domains.                                                                                                                                                                                     
+\textbf{Would likes}                    & Pass / Fail & Comment                                                                                                                                                                                                                               \\
+1 Show all connections         & Fail        & Theoreticly it is possible to do this, but it would result in a map on which relationships can not be differentiated from each other due to the large amount the system was not build for. \\
+2 Other than .nl data          & Fail        & The classifier is only trained on Dutch domains.                                                                 
 \end{tabular}
 \end{table}
 
