@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  23 JUN 2017 18:49
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  23 JUN 2017 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1045,7 +1045,11 @@ File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
 Package: listings 2013/08/26 1.5b (Carsten Heinz)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
+(/usr/share/texlive/texmf-dist/tex/latex/lstaddons/lstautogobble.sty
+Package: lstautogobble 2012/05/03 v0.1 Implements 'autogobble' option for 'list
+ings'
+\lstag@spacecount=\count196
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 1994/05/23 v2.03 Table rule package (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/lkproof/proof.sty
 \inferLineSkip=\dimen288
@@ -1089,17 +1093,18 @@ Package pdfcolmk Warning: Nothing to fix, because `pdftex.def' not loaded.
 \UL@skip=\skip85
 \UL@hook=\toks40
 \UL@height=\dimen307
-\UL@pe=\count196
+\UL@pe=\count197
 \UL@pixel=\dimen308
 \ULC@box=\box65
 Package: ulem 2012/05/18
 \ULdepth=\dimen309
 )
-\c@Changes@AuthorCount=\count197
-\c@Changes@Author=\count198
-\c@Changes@AddCount=\count199
-\c@Changes@DeleteCount=\count200
-\c@Changes@ReplaceCount=\count201
+\c@Changes@AuthorCount=\count198
+\c@Changes@Author=\count199
+\c@Changes@AddCount=\count200
+\c@Changes@DeleteCount=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\c@Changes@ReplaceCount=\count277
 (/usr/share/texlive/texmf-dist/tex/latex/truncate/truncate.sty
 Package: truncate 2001/08/20  ver 3.6
 \@Trunc@RestHyph=\toks41
@@ -1108,8 +1113,7 @@ Package: truncate 2001/08/20  ver 3.6
 ) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen310
 \WF@size=\dimen311
-Normal \count register pool exhausted, switching to extended pool.
-\c@WF@wrappedlines=\count277
+\c@WF@wrappedlines=\count278
 \WF@box=\box66
 \WF@everypar=\toks42
 Package: wrapfig 2003/01/31  v 3.6
@@ -1132,16 +1136,16 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen319
 \cmidrulekern=\dimen320
 \defaultaddspace=\dimen321
-\@cmidla=\count278
-\@cmidlb=\count279
+\@cmidla=\count279
+\@cmidlb=\count280
 \@aboverulesep=\dimen322
 \@belowrulesep=\dimen323
-\@thisruleclass=\count280
-\@lastruleclass=\count281
+\@thisruleclass=\count281
+\@lastruleclass=\count282
 \@thisrulewidth=\dimen324
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count282
+\c@float@type=\count283
 \float@exts=\toks45
 \float@box=\box67
 \@float@everytoks=\toks46
@@ -1161,7 +1165,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@old@col=\dimen329
 \TX@target=\dimen330
 \TX@delta=\dimen331
-\TX@cols=\count283
+\TX@cols=\count284
 \TX@ftn=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
@@ -1185,30 +1189,30 @@ LaTeX Font Warning: Font shape `T1/OpenSans(0)/m/n' undefined
 )
 \openout1 = `output.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 38.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 39.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 39.
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    ... okay on input line 39.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1244,17 +1248,17 @@ LaTeX Font Info:    ... okay on input line 38.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box70
-Package hyperref Info: Link coloring ON on input line 38.
+Package hyperref Info: Link coloring ON on input line 39.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count284
+\c@section@level=\count285
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
 
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/output.out)
@@ -1270,67 +1274,67 @@ LaTeX Info: Redefining \nameref on input line 38.
 .................................................
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 38.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 38.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 38.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 38.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 38.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 38.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 38.
-LaTeX Font Info:    Redeclaring math accent \check on input line 38.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 38.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 38.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 38.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 38.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 39.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 39.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 39.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 39.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 39.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 39.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 39.
+LaTeX Font Info:    Redeclaring math accent \check on input line 39.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 39.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 39.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 39.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 39.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 38.
+(Font)              `operators' in the math version `normal' on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/OpenSans(0)/m/n on input line 38.
+(Font)                  OT1/cmr/m/n --> EU1/OpenSans(0)/m/n on input line 39.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 38.
+(Font)              `operators' in the math version `bold' on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/OpenSans(0)/m/n on input line 38.
+(Font)                  OT1/cmr/bx/n --> EU1/OpenSans(0)/m/n on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/OpenSans(0)/m/n --> EU1/OpenSans(0)/m/n on input li
-ne 38.
+ne 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU1/OpenSans(0)/m/n --> EU1/OpenSans(0)/m/n on input li
-ne 38.
+ne 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/OpenSans(0)/m/it on input line 38.
+(Font)                  OT1/cmr/m/it --> EU1/OpenSans(0)/m/it on input line 39.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/OpenSans(0)/bx/n on input line 38.
+(Font)                  OT1/cmr/bx/n --> EU1/OpenSans(0)/bx/n on input line 39.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 38.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 38.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/OpenSans(0)/m/n --> EU1/OpenSans(0)/bx/n on input l
-ine 38.
+ine 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU1/OpenSans(0)/m/n --> EU1/OpenSans(0)/bx/n on input l
-ine 38.
+ine 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/OpenSans(0)/bx/it on input line 3
-8.
+9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 38.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 38.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 39.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
@@ -1338,7 +1342,7 @@ Package caption Info: threeparttable package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count285
+\c@lstlisting=\count286
 
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/00-frontpage.tex
@@ -1584,49 +1588,8 @@ LaTeX Warning: Reference `sec:storage-design' on page 31 undefined on input lin
 e 2.
 
 [31]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.21 ... are connected with a \texttt{\:OCCURS_IN}
-                                                   relation. It is mainly us...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.21 ... are connected with a \texttt{\:OCCURS_IN}
-                                                   relation. It is mainly us...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.22 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (639.88556pt too wide) in paragraph at lines 21--22
-\EU1/OpenSans(0)/m/sc/10 (\EU1/lmtt/m/n/10 :Index \EU1/OpenSans(0)/m/sc/10 labe
-lled nodes) are connected with a \EU1/lmtt/m/n/10 OCCURS$[]\OML/cmm/m/it/10 Nre
-lation:Itismainlyusedtofinddocumentsinwhichapairofcitiesoccurs:Forexample; theq
-uerybelowmatchesthedocumentsRotterdamandAmsterdamhaveincommonandreturnsthefilen
-ames \OT1/cmr/m/n/10 :$ 
- []
-
 File: images/neo4j-model-full.png Graphic file (type QTm)
-<use  "images/neo4j-model-full.png" >
-Overfull \hbox (181.14014pt too wide) in paragraph at lines 30--31
- [][] 
- []
-
-)
+<use  "images/neo4j-model-full.png" >)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/05-subsections/05-API.tex
 
@@ -1635,10 +1598,7 @@ Package natbib Warning: Citation `apigee' on page 32 undefined on input line 2.
 
 
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/API-routes/classify.tex
-LaTeX Font Info:    Font shape `EU1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `EU1/lmtt/b/n' tried instead on input line 10.
-
+20e83/API-routes/classify.tex [32]
 Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
@@ -1669,7 +1629,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--41
  []
 
 
-Overfull \hbox (48.31914pt too wide) in paragraph at lines 7--41
+Overfull \hbox (2.03008pt too wide) in paragraph at lines 7--41
 [] 
  []
 
@@ -1678,11 +1638,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
 
-[32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 42--75
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--75
 
@@ -1704,7 +1659,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--75
  []
 
 
-Overfull \hbox (74.56914pt too wide) in paragraph at lines 42--75
+Underfull \hbox (badness 10000) in paragraph at lines 42--75
+
+ []
+
+
+Overfull \hbox (16.30742pt too wide) in paragraph at lines 42--75
 [] 
  []
 
@@ -1731,7 +1691,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--44
  []
 
 
-Overfull \hbox (25.00389pt too wide) in paragraph at lines 8--44
+Overfull \hbox (24.9946pt too wide) in paragraph at lines 8--44
 [] 
  []
 
@@ -1746,7 +1706,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--44
  []
 
 
-Overfull \hbox (25.00467pt too wide) in paragraph at lines 8--44
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 8--44
+[] 
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 47--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--84
+
+ []
+
+
+Overfull \hbox (25.00555pt too wide) in paragraph at lines 47--84
 [] 
  []
 
@@ -1761,96 +1746,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--84
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--84
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--84
-
- []
-
-
-Overfull \hbox (25.00134pt too wide) in paragraph at lines 47--84
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 47--84
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--109
 
  []
 
 
-Overfull \hbox (25.00467pt too wide) in paragraph at lines 47--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--109
+
+ []
+
+
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 86--109
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--145
+
+ []
+
+
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 111--145
 [] 
  []
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 86--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--109
-
- []
-
-
-Overfull \hbox (25.00467pt too wide) in paragraph at lines 86--109
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--145
-
- []
-
-
-Overfull \hbox (25.00467pt too wide) in paragraph at lines 111--145
-[] 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 148--172
 
  []
@@ -1871,7 +1831,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--172
  []
 
 
-Overfull \hbox (25.00467pt too wide) in paragraph at lines 148--172
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 148--172
 [] 
  []
 
@@ -1896,11 +1856,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--199
  []
 
 
-Overfull \hbox (25.00467pt too wide) in paragraph at lines 175--199
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 175--199
 [] 
  []
 
-[35])
+)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/API-routes/documents.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--30
@@ -1923,7 +1883,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--30
  []
 
 
-Overfull \hbox (25.0119pt too wide) in paragraph at lines 8--30
+Overfull \hbox (25.03131pt too wide) in paragraph at lines 8--30
 [] 
  []
 
@@ -1950,11 +1910,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--32
  []
 
 
-Overfull \hbox (25.00467pt too wide) in paragraph at lines 9--32
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 9--32
 [] 
  []
 
-)
+[35])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/API-routes/clasdoc.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--33
@@ -1977,7 +1937,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--33
  []
 
 
-Overfull \hbox (48.31914pt too wide) in paragraph at lines 8--33
+Overfull \hbox (2.03008pt too wide) in paragraph at lines 8--33
 [] 
  []
 
@@ -1986,11 +1946,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--33
 
  []
 
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 35--61
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--61
 
@@ -2007,7 +1962,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--61
  []
 
 
-Overfull \hbox (48.31914pt too wide) in paragraph at lines 35--61
+Underfull \hbox (badness 10000) in paragraph at lines 35--61
+
+ []
+
+
+Overfull \hbox (2.03008pt too wide) in paragraph at lines 35--61
 [] 
  []
 
@@ -2018,15 +1978,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--61
 
 ))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-subsections/06-frontend.tex [37]
+20e83/05-subsections/06-frontend.tex [36] [37]
 File: images/frontend-map.png Graphic file (type QTm)
-<use  "images/frontend-map.png" > [38]
+<use  "images/frontend-map.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
 File: images/frontend-mc.png Graphic file (type QTm)
-<use  "images/frontend-mc.png" > [39]
+<use  "images/frontend-mc.png" > [38]
 File: images/frontend-rel-strength.png Graphic file (type QTm)
 <use  "images/frontend-rel-strength.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
@@ -2037,16 +1997,18 @@ File: images/frontend-mc-rel.png Graphic file (type QTm)
 <use  "images/frontend-mc-rel.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[40]
+[39]
 File: images/labelling_interface.png Graphic file (type QTm)
 <use  "images/labelling_interface.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[41]
+[40]
 File: images/frontend-ss.png Graphic file (type QTm)
 <use  "images/frontend-ss.png" >))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/06-project-evaluation.tex [42]
+20e83/06-project-evaluation.tex [41] [42
+
+]
 Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
@@ -2062,17 +2024,15 @@ Overfull \hbox (3.96773pt too wide) in paragraph at lines 18--40
  [][] 
  []
 
-[43
-
-] [44])
+[43] [44])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/07-discussion.tex [45] [46
 
 ]
 Chapter 7.
-)
+[47])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/08-recommendations.tex [47] [48]
+20e83/08-recommendations.tex [48]
 Chapter 8.
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
@@ -2087,29 +2047,35 @@ Chapter 9.
 20e83/output.bbl [51] [52
 
 ] [53]
-Underfull \hbox (badness 7116) in paragraph at lines 137--143
-[]\EU1/lmtt/m/n/10 Microsoft.  How to evaluate model performance in azure machi
-ne
+Underfull \hbox (badness 10000) in paragraph at lines 137--143
+[]\EU1/OpenSans(0)/m/sc/10 Microsoft.  How to evaluate model performance in azu
+re machine
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 137--143
-\EU1/lmtt/m/n/10 learning.  [][]$[][][][][] [] [] [] [][][][] [] [][][][][][][]
-[][] [] [][][] [] [][][][][][] [] [][][][][] [] [][][][][][][][][][][][][][][][
-][] []
+\EU1/OpenSans(0)/m/sc/10 learning.  [][]$[][][][][] [] [] [] [][][][] [] [][][]
+[][][][][][] [] [][][] [] [][][][][][] [] [][][][][] [] [][][][][][][][][][][][
+][][][][][] []
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 145--151
+[]\EU1/OpenSans(0)/m/sc/10 Microsoft.  Microsoft azure machine learning algorit
+hm cheat sheet.  [][]$[][][][][] [] [] [] [][][][] []
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 145--151
 [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][] [] [][][][][][][][][
 ][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][]$[][]\EU1/lmtt/m/n/10 ,
+[][][][][][][]$[][]\EU1/OpenSans(0)/m/sc/10 ,
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 165--171
-[]\EU1/lmtt/m/n/10 Neo4j.  Understanding neo4j scalability.  [][]$[][][][][] []
- [] [] [][][][][] [] [][][] [] [][][][][][][][][] []
+Underfull \hbox (badness 10000) in paragraph at lines 165--171
+[]\EU1/OpenSans(0)/m/sc/10 Neo4j.  Understanding neo4j scalability.  [][]$[][][
+][][] [] [] [] [][][][][] [] [][][] [] [][][][][][][][][] []
  []
 
 [54])
@@ -2124,12 +2090,6 @@ Appendix A.
 
 ]
 Appendix B.
-
-Overfull \hbox (71.03577pt too wide) in paragraph at lines 9--10
-\EU1/lmtt/m/n/10 refactorings. Methodes als IndicesSelector.run_workers en CoOc
-currenceChecker._calculate_occurrences
- []
-
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/D-user-manual.tex [59] [60
@@ -2170,36 +2130,32 @@ Package natbib Warning: There were undefined citations.
 \Changes@OutFile=\write6
 \openout6 = `output.soc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
 [67] [68]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
 
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/output.aux
 Package cleveref Info: loaded `english' language definitions on input line 21.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 157.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 153.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 153.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 21 ({)
-### bottom level 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
+ ) 
 Here is how much of TeX's memory you used:
- 37873 strings out of 495658
- 710723 string characters out of 6187951
- 1003936 words of memory out of 5000000
- 40277 multiletter control sequences out of 15000+600000
- 11694 words of font info for 86 fonts, out of 8000000 for 9000
+ 37884 strings out of 495658
+ 711060 string characters out of 6187951
+ 1003277 words of memory out of 5000000
+ 40291 multiletter control sequences out of 15000+600000
+ 11662 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,17n,94p,10412b,1963s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,17n,94p,10412b,1973s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107b572577ba7000320e83/output.xdv (78 pages, 1030296 bytes).
+107b572577ba7000320e83/output.xdv (78 pages, 1029008 bytes).
