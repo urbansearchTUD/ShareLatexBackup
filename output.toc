@@ -69,23 +69,24 @@
 \contentsline {subsection}{\numberline {5.4.1}Storing Filtered Documents}{31}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Storing Extracted Data}{31}{subsection.5.4.2}
 \contentsline {subsubsection}{Neo4j Model}{31}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}API}{33}{section.5.5}
+\contentsline {section}{\numberline {5.5}API}{34}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}General Remarks}{34}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Classify Route: /classify}{34}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Data-set Route: /datasets}{34}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Documents Route: /documents}{36}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.3}Data-set Route: /datasets}{35}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Documents Route: /documents}{37}{subsection.5.5.4}
 \contentsline {subsection}{\numberline {5.5.5}Indices Route: /indices}{37}{subsection.5.5.5}
 \contentsline {subsection}{\numberline {5.5.6}Classify Documents Route: /classify\_documents}{37}{subsection.5.5.6}
 \contentsline {section}{\numberline {5.6}Front-End}{38}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Technical Overview}{38}{subsection.5.6.1}
 \contentsline {subsubsection}{Modular Design}{38}{subsection.5.6.1}
-\contentsline {subsubsection}{NodeJS}{38}{subsection.5.6.1}
-\contentsline {subsubsection}{ExpressJS}{38}{subsection.5.6.1}
+\contentsline {subsubsection}{NodeJS}{39}{subsection.5.6.1}
+\contentsline {subsubsection}{ExpressJS}{39}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}Interfaces}{39}{subsection.5.6.2}
 \contentsline {subsubsection}{Interactive Map}{39}{subsection.5.6.2}
-\contentsline {subsubsection}{Document Classification}{41}{figure.caption.34}
-\contentsline {subsubsection}{System Settings}{42}{figure.caption.35}
+\contentsline {subsubsection}{Document Classification}{41}{figure.caption.35}
+\contentsline {subsubsection}{System Settings}{42}{figure.caption.36}
 \contentsline {subsection}{\numberline {5.6.3}Recommendations}{42}{subsection.5.6.3}
+\contentsline {section}{\numberline {5.7}Main Application}{42}{section.5.7}
 \contentsline {chapter}{\numberline {6}Project Evaluation}{43}{chapter.6}
 \contentsline {section}{\numberline {6.1}Evaluation of Requirements}{43}{section.6.1}
 \contentsline {section}{\numberline {6.2}Evaluation of Design goals}{43}{section.6.2}
@@ -110,7 +111,7 @@
 \contentsline {subsection}{\numberline {7.5.2}Impact of Found Relations}{48}{subsection.7.5.2}
 \contentsline {chapter}{\numberline {8}Recommendations}{49}{chapter.8}
 \contentsline {chapter}{\numberline {9}Conclusion}{51}{chapter.9}
-\contentsline {chapter}{Bibliography}{53}{chapter*.60}
+\contentsline {chapter}{Bibliography}{53}{chapter*.62}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{57}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{59}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{59}{section.B.1}

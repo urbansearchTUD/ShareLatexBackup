@@ -74,8 +74,21 @@ Even for these 1600 simple matches, the improvements are already significant, as
 \label{tbl:param-improvement}
 \end{table}
 
-% parameterised optimisation -> benchmark
-% bulk vs single -> single transaction instead of transaction for every statement, benchmark
+Another issue that was encountered during initial testing, is that executing only one query at a time creates and commits a transaction for every query. This is an expensive process. Using the parameterised query from listing \ref{lst:query-with-param} in a single transaction is a 15\% performance gain, as shown in table \ref{tbl:bulk-improvement}. Moreover, it seemed as if performance was fluctuating with a transaction per query. However, we have not bench marked this.
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+    \hline
+    single transaction & 1.07s \\
+    parameterised & 0.85s\\
+    \hline
+\end{tabular}
+\caption{Parameterised versus non-parameterised total execution times}
+\label{tbl:param-improvement}
+\end{table}
+
+The most important issue that we faced, for which only a partial work around was found, is data inconsistency with multiprocessing. As will be explained later in section \ref{sec:main-app}, we use multiprocessing to glue the system together efficiently. However, it turned out that 
+
 % transactional vs multithreaded -> data inconsistencies
 % neo4j python driver issues
 % solution: use neo4j's own multi-threading using UNWIND -> embedded multithreading
