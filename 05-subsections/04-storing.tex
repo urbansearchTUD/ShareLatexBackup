@@ -43,14 +43,37 @@ However, the issue with this is that \texttt{LABELS(node)} returns a list of lab
 
 The full implemented model is given in figure \ref{fig:neo4j-model-full}
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{neo4j-model-full}
     \caption{The Neo4j model as implemented}
     \label{fig:neo4j-model-full}
 \end{figure}
 
-During the first tests of the database functions, it appeared that matching and creating was very slow. Checking the query plans (by means of prepending the very useful \texttt{PROFILE} to the queries) gave no hints however. It turned out that we did not use parameterised queries, where we should have. Because of this, Cypher had to recompile, plan and optimise the queries over and over again, which is clearly unnecessary if only the query parameters change. 
+During the first tests of the database functions, it appeared that matching and creating was very slow. Checking the query plans (by means of prepending the very useful \texttt{PROFILE} to the queries) gave no hints however. It turned out that we did not use parameterised queries, where we should have. Because of this, Cypher had to recompile, plan and optimise the queries over and over again, which is clearly unnecessary if only the query parameters change. To illustrate the effect of this change, consider the list of cities we used, containing over 1600 cities. Matching all of these in a single transaction by name, without parameterising the query, comes down to repeating the following query for every city:
+
+\begin{lstlisting}[language=cypher, caption={Matching cities without parameterising}, label={lst:query-non-param}]
+MATCH (c:City { name: 'Amsterdam' }) RETURN c.name
+\end{lstlisting}
+
+The same approach can be used for a parameterised query, where \texttt{\{name\}} is the parameter:
+\begin{lstlisting}[language=cypher, caption={Matching cities without parameterising}, label={lst:query-with-param}]
+MATCH (c:City { name: {name} }) RETURN c.name
+\end{lstlisting}
+
+Even for these 1600 simple matches, the improvements are already significant, as can be seen in table \ref{tbl:param-improvement}.
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+    \hline
+    non-parameterised & 2.84s \\
+    parameterised & 0.85s\\
+    \hline
+\end{tabular}
+\caption{Parameterised versus non-parameterised total execution times}
+\label{tbl:param-improvement}
+\end{table}
+
 % parameterised optimisation -> benchmark
 % bulk vs single -> single transaction instead of transaction for every statement, benchmark
 % transactional vs multithreaded -> data inconsistencies
