@@ -51,16 +51,18 @@ In section \ref{sec:design-goals} we discussed the design goals for this project
 \subsection{Scalable}
 For scalability the goal was to allow the project to be scalable so that websites from other domains than .nl can be used. Since we used Neo4J for storing relationships and Neo4J is highly scalable, storing the relationships for other domains than .nl should not be a problem. 
 
-\subsection{Pluggable}
-
+\subsection{Plugable}
+The design goal plugable the goal was to make the application able to perform analysis on different data sets without the need of a developer. Whilst this is possible, the documents from other data sets would have to be in the correct format before they can be processed. For small datasets this might not be that much of a problem, but for larger datasets it would become very time-consuming without the help of a developer.
 
 \subsection{Exportable}
+At this moment we have not met the design goal exportable, which was to ensure the numeric data could be exported, for example in CSV format. Since this is not a vital part of the application, this has not yet been included. We are however still working on this. 
 
 \subsection{Fast development}
+Another goal was to have a fast development cycle because of the time constraints. To do this we choose tools, applications and programming languages with which members of our team were already experienced with. Even so, some setbacks occured which caused the cycle to slow down.
 
-\section{Product evaluation?}
-
-
+\section{Product evaluation}
+\todo{after results, check if this is right}
+To conclude the two previous sections; we have a functioning program that consists of most vital components. Whilst the results from the application are not exportable (yet), the other design goals were met. The program provides credible and understandable which can be used to analyse relationships between cities in the Netherlands. It can also be extended for non-Dutch cities and pages. Most of the requirements also passed, but depending on the needs of the end-user, it would not be difficult to extend to program to include the others as well. Even though functionality might be missing this is a useful application for analysing data and as a demo it proves systems like these are worth wile to develop.
 
 \section{Process}
 

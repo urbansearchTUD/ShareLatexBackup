@@ -13,7 +13,7 @@ To be able to interact with the results of the application, it is required to st
 The model used for the graph structure follows the concepts described in section \ref{sec:neo4j-concepts}. It consists of nodes, labels and properties. To distinguish between and to efficiently query for specific (types of) nodes, at least one label is assigned to the node. Below, the labels we used are listed and per label, a description of the nodes they are attached to is given:
 
 \begin{description}
-\item[:City] Nodes labelled as \texttt{:City} represent the cities the application uses. These nodes contain multiple properties: name, population, longitude and latitude. Population is used in the visualisation (see section \ref{sec 5-front-end}) for scaling. Longitude and latitude are used to place the cities on a map and were retrieved through the Google Maps Geocoding API\footnote{\url{https://developers.google.com/maps/documentation/geocoding/start?hl=en_US}}.
+\item[:City] Nodes labelled as \texttt{:City} represent the cities the application uses. These nodes contain multiple properties: name, population, longitude and latitude. Population is used in the visualisation (see section \ref{sec 5-front-end}) for scaling. Longitude and latitude are used to place the cities on a map and were retrieved through the Google Maps Geocoding API\footnote{\url{https://developers.google.com/maps/documentation/geocoding/start?hl=en_US}}. However, this did not work out quite well for duplicate city names. Google picks the coordinates for the city it considers the most important. This was fixed manually. Indeed, this is not a feasible solution, should there be many duplicate city names.
 \item[:Index] Nodes with the \texttt{:Index} label represent documents that are found useful. Every document has this label, in addition to the label representing the category they are classified as. The following basic properties belong to these nodes: file name, offset and length. They point to the exact file location where the page can be downloaded from CommonCrawl. Additionally, the nodes contain a probability property per category. These probabilities come from the classifier and are there for validation purposes.
 \item[Categories] For each category, a label exists to separate a category from the bulk of documents. This way, documents of a specific category can be matched against. This is particularly useful to count, for example, the documents about "Leisure" (and thus labelled \texttt{:Leisure}), that two cities have in common. Since category labels are only applied to nodes that also have the \texttt{:Index} label, they contain no additional properties.
 \end{description}
@@ -27,35 +27,30 @@ MATCH (:City { name: 'Amsterdam })-[:OCCURS_IN]->
 RETURN i.filename
 \end{lstlisting}
 
-Intercity relations are the relations between distinct \texttt{:City} labelled nodes and are called \texttt{:RELATES\_TO}. They represent what the client is actually interested in and have a property for every category, containing the score. Additionally, the sum of the scores is kept in a "total" property. The relations are used for exporting, visualisation and interaction. When populating the relations, the count for every category is needed for all city pairs. Cypher however, has no easy way to count all labels per type. Therefore, the query to achieve the desired counts is slightly more complex than necessary for example in a SQL based query language:
+Intercity relations are the relations between distinct \texttt{:City} labelled nodes and are called \texttt{:RELATES\_TO}. They represent what the client is actually interested in and have a property for every category, containing the score. Additionally, the sum of the individual category scores is kept in a "total" property. The relations are used for exporting, visualisation and interaction. When populating the relations, the count for every category is needed for all city pairs. Cypher however, has no easy way to count all labels per type. Therefore, the query to achieve the desired counts is slightly more complex than necessary for example in a SQL based query language:
 
 \begin{lstlisting}[language=cypher, caption={Counting distinct labels}, label={lst:query-counts}]
-MATCH (:City {{ name: 'Amsterdam }})-[:OCCURS_IN]->
-            (i:Index)<-[:OCCURS_IN]-(b:City)
-        WHERE b.name <> city_a
-        WITH DISTINCT city_a, b, LABELS(i) as labels,
-            COUNT(i) AS labelCount
-        UNWIND labels AS category
-        RETURN city_a, b.name AS city_b, category, SUM(labelCount) AS score
+MATCH (:City { name: 'Amsterdam })-[:OCCURS_IN]->
+            (i:Index)
+      <-[:OCCURS_IN]-(b:City { name: 'Rotterdam')
+WITH DISTINCT LABELS(i) as labels, COUNT(i) AS labelCount
+UNWIND labels AS category
+RETURN category, SUM(labelCount) AS score
 \end{lstlisting}
+
+The query in listing \ref{lst:query-counts} starts with matching all common \texttt{:Index} nodes between Amsterdam and Rotterdam. Then, it collects the labels of the found nodes and counts them.
+However, the issue with this is that \texttt{LABELS(node)} returns a list of labels. The counts (\texttt{labelCount}) therefore do not represent individual labels but groups of labels. The lists are therefore expanded using \texttt{UNWIND} and all counts are collected.\\
+
+The full implemented model is given in figure \ref{fig:neo4j-model-full}
 
 \begin{figure}
     \centering
     \includegraphics[width=0.6\textwidth]{neo4j-model-full}
     \caption{The Neo4j model as implemented}
-    \label{fig:my_label}
+    \label{fig:neo4j-model-full}
 \end{figure}
 
-% relation types
-% properties
-% db_utils
-
-% steden op basis van lijst van klant, coordinaten opgezocht via google api
-% issue: steden met dubbele naam kregen zelfde coordinaten en niet per se de grootste, maar belangrijkste (volgens google)
-% neo4j city node
-% neo4j index node
-% occurrence relation
-% intercity relation
+During the first tests of the database functions, it appeared that matching and creating was very slow. Checking the query plans (by means of prepending the very useful \texttt{PROFILE} to the queries) gave no hints however. It turned out that we did not use parameterised queries, where we should have. Because of this, Cypher had to recompile, plan and optimise the queries over and over again, which is clearly unnecessary if only the query parameters change. 
 % parameterised optimisation -> benchmark
 % bulk vs single -> single transaction instead of transaction for every statement, benchmark
 % transactional vs multithreaded -> data inconsistencies
