@@ -27,6 +27,18 @@ MATCH (:City { name: 'Amsterdam })-[:OCCURS_IN]->
 RETURN i.filename
 \end{lstlisting}
 
+Intercity relations are the relations between distinct \texttt{:City} labelled nodes and are called \texttt{:RELATES\_TO}. They represent what the client is actually interested in and have a property for every category, containing the score. Additionally, the sum of the scores is kept in a "total" property. The relations are used for exporting, visualisation and interaction. When populating the relations, the count for every category is needed for all city pairs. Cypher however, has no easy way to count all labels per type. Therefore, the query to achieve the desired counts is slightly more complex than necessary for example in a SQL based query language:
+
+\begin{lstlisting}[language=cypher, caption={Counting distinct labels}, label={lst:query-counts}]
+MATCH (:City {{ name: 'Amsterdam }})-[:OCCURS_IN]->
+            (i:Index)<-[:OCCURS_IN]-(b:City)
+        WHERE b.name <> city_a
+        WITH DISTINCT city_a, b, LABELS(i) as labels,
+            COUNT(i) AS labelCount
+        UNWIND labels AS category
+        RETURN city_a, b.name AS city_b, category, SUM(labelCount) AS score
+\end{lstlisting}
+
 \begin{figure}
     \centering
     \includegraphics[width=0.6\textwidth]{neo4j-model-full}
