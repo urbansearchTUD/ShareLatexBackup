@@ -1,7 +1,7 @@
 \section{Filtering}\label{sec:5-filtering}
 The next step in the process is filtering documents as explained in section \ref{sec:filtering_docs} and can be seen in figure \ref{fig:overview}. The implementation depends on the pyahocorasick library, which checks the page and tries to match strings within the page. We can supply this class with a list of cities which the Aho-Corasick algorithm will try to match. By default the application will retrieve a list of cities from the database and use this list to find matches in the text.
 
-The implementation seemed straightforward at first, however, it became apparent that the algorithm matched substrings. For example, if a text contains "Amsterdammers" the Aho-Corasick algorithm would match because of the substring "Amsterdam". However, "Old-Amsterdam" is a brand of cheese that does not originate from Amsterdam. To solve this we added an additional check in the co-occurrence filtering which can be seen in listing \ref{lst:substring}.
+The implementation seemed straightforward at first, however, it became apparent that the algorithm matched substrings. For example, if a text contains "Leidende Amsterdammers" the Aho-Corasick algorithm would match because of the substrings "Amsterdam" and "Leiden". However, this should not be a match because "Leidende" is a verb. To solve this we added an additional check in the co-occurrence filtering which can be seen in listing \ref{lst:substring}. The consequences and potential improvements will be discussed in \todo{refer to discussion and recommendations als daar iets geschreven wordt hier over}.
 
 \begin{lstlisting}[language=Python, caption=Additional check to prevent substring matches, label={lst:substring}]
 for end, name in names:

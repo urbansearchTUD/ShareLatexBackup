@@ -100,7 +100,7 @@
 \contentsline {subsubsection}{Influence}{40}{section.7.4}
 \contentsline {chapter}{\numberline {8}Recommendations}{41}{chapter.8}
 \contentsline {chapter}{\numberline {9}Conclusion}{43}{chapter.9}
-\contentsline {chapter}{Bibliography}{45}{chapter*.44}
+\contentsline {chapter}{Bibliography}{45}{chapter*.45}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{49}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{51}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{51}{section.B.1}
