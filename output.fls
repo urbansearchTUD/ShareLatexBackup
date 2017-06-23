@@ -445,12 +445,7 @@ INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba7
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba7000320e83/05-subsections/03-classification.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba7000320e83/05-subsections/04-storing.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba7000320e83/05-subsections/04-storing.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba7000320e83/images/neo4j-model-full.png
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba7000320e83/05-subsections/05-API.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba7000320e83/05-subsections/05-API.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba7000320e83/API-routes/classify.tex

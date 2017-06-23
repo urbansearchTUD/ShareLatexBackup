@@ -77,6 +77,23 @@
     showtabs=false,                  
     tabsize=2
 }
+
+% Cypher query language
+\lstdefinelanguage{cypher} {
+  keywords={start,create,set,delete,foreach,match,%
+    where,with,return,skip,limit,order,by,asc,%
+    ascending,desc,descending},
+  morekeywords = {[2]type,id,length,nodes,rels,%
+    relationships,abs,round,sqrt,sign,head,last,%
+    tail,replace,left,right,substring,lower,upper,%
+    ltrim,rtrim,trim,str,shortestpath,range,count,%
+    sum,min,max,avg,collect,percentile\_cont,%
+    percentile\_disc},
+  sensitive = false,
+  morecomment=[l]{//},
+  morestring=[b]",
+  morestring=[b]'
+}
  
 \lstset{style=mystyle}
 % image of UI?

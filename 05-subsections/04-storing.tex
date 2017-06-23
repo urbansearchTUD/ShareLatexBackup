@@ -10,7 +10,7 @@ In the \texttt{TextDownloader} class, that was already shortly discussed in sect
 To be able to interact with the results of the application, it is required to store extracted relations. The implementation of the storage follows the design of section section \ref{sec:storing-data}, using the graph database Neo4j.
 
 \subsubsection{Neo4j Model}
-The model used for the graph structure follows the concepts described in section \ref{lst:neo4j-concepts}. It consists of nodes, labels and properties. To distinguish between and to efficiently query for specific (types of) nodes, at least one label is assigned to the node. Below, the labels we used are listed and per label, a description of the nodes they are attached to is given:
+The model used for the graph structure follows the concepts described in section \ref{sec:neo4j-concepts}. It consists of nodes, labels and properties. To distinguish between and to efficiently query for specific (types of) nodes, at least one label is assigned to the node. Below, the labels we used are listed and per label, a description of the nodes they are attached to is given:
 
 \begin{description}
 \item[:City] Nodes labelled as \texttt{:City} represent the cities the application uses. These nodes contain multiple properties: name, population, longitude and latitude. Population is used in the visualisation (see section \ref{sec 5-front-end}) for scaling. Longitude and latitude are used to place the cities on a map and were retrieved through the Google Maps Geocoding API\footnote{\url{https://developers.google.com/maps/documentation/geocoding/start?hl=en_US}}.
@@ -18,10 +18,9 @@ The model used for the graph structure follows the concepts described in section
 \item[Categories] For each category, a label exists to separate a category from the bulk of documents. This way, documents of a specific category can be matched against. This is particularly useful to count, for example, the documents about "Leisure" (and thus labelled \texttt{:Leisure}), that two cities have in common. Since category labels are only applied to nodes that also have the \texttt{:Index} label, they contain no additional properties.
 \end{description}
 
-\todo{say somethin about relations}
-The nodes are connected using relations. Cities (\texttt{:City} labelled nodes) occurring in documents (\texttt{:Index} labelled nodes) are connected with a \texttt{:OCCURS_IN} relation. It is mainly used to find documents in which a pair of cities occurs. For example, the query below matches the documents Rotterdam and Amsterdam have in common and returns the file names:
+The nodes are connected using relations. Cities (\texttt{:City} labelled nodes) occurring in documents (\texttt{:Index} labelled nodes) are connected with a \texttt{\:OCCURS_IN} relation. It is mainly used to find documents in which a pair of cities occurs. For example, the query below matches the documents Rotterdam and Amsterdam have in common and returns the file names:
 
-\begin{lstlisting}[language=cypher, caption=Querying documents containing two cities, label={lst:query-occ}]
+\begin{lstlisting}[language=cypher, caption={Querying documents containing two cities}, label={lst:query-occ}]
 MATCH (:City { name: 'Amsterdam })-[:OCCURS_IN]->(i:Index)<-[:OCCURS_IN]-(b:City { name: 'Rotterdam'})
 RETURN i.filename
 \end{lstlisting}

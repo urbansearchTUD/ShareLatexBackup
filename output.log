@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  23 JUN 2017 17:06
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  23 JUN 2017 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1583,15 +1583,11 @@ nput line 16.
 LaTeX Warning: Reference `sec:storage-design' on page 31 undefined on input lin
 e 2.
 
-
-LaTeX Warning: Reference `lst:neo4j-concepts' on page 31 undefined on input lin
-e 13.
-
 [31]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.22 ...) are connected with a \texttt{:OCCURS_IN}
+l.21 ... are connected with a \texttt{\:OCCURS_IN}
                                                    relation. It is mainly us...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1599,7 +1595,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.22 ...) are connected with a \texttt{:OCCURS_IN}
+l.21 ... are connected with a \texttt{\:OCCURS_IN}
                                                    relation. It is mainly us...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1610,65 +1606,25 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.23 
+l.22 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (642.91357pt too wide) in paragraph at lines 22--23
+Overfull \hbox (639.88556pt too wide) in paragraph at lines 21--22
 \EU1/OpenSans(0)/m/sc/10 (\EU1/lmtt/m/n/10 :Index \EU1/OpenSans(0)/m/sc/10 labe
-lled nodes) are connected with a \EU1/lmtt/m/n/10 :OCCURS$[]\OML/cmm/m/it/10 Nr
-elation:Itismainlyusedtofinddocumentsinwhichapairofcitiesoccurs:Forexample; the
-querybelowmatchesthedocumentsRotterdamandAmsterdamhaveincommonandreturnsthefile
-names \OT1/cmr/m/n/10 :$ 
+lled nodes) are connected with a \EU1/lmtt/m/n/10 OCCURS$[]\OML/cmm/m/it/10 Nre
+lation:Itismainlyusedtofinddocumentsinwhichapairofcitiesoccurs:Forexample; theq
+uerybelowmatchesthedocumentsRotterdamandAmsterdamhaveincommonandreturnsthefilen
+ames \OT1/cmr/m/n/10 :$ 
  []
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2013/08/26 1.5b listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2013/08/26 1.5b listings language file
-)
-
-! Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 ...taining two cities, label={lst:query-occ}]
-                                                  
-The following languages weren't loadable:
-    ,cypher$
-This may cause errors in the sequel.
-
-
-! Package Listings Error: language cypher undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 ...taining two cities, label={lst:query-occ}]
-                                                  
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `neo4j-model-full' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31     \includegraphics{neo4j-model-full}
-                                           
-I could not locate the file with any of these extensions:
-.pdf,.eps,.ps,.png,.jpg,.bmp,.pict,.tif,.psd,.mac,.sga,.tga,.gif
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+File: images/neo4j-model-full.png Graphic file (type QTm)
+<use  "images/neo4j-model-full.png" >
+Overfull \hbox (181.14014pt too wide) in paragraph at lines 30--31
+ [][] 
+ []
 
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
@@ -1722,7 +1678,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
 
-[32]
+[32] [33]
 Underfull \hbox (badness 10000) in paragraph at lines 42--75
 
  []
@@ -1834,7 +1790,7 @@ Overfull \hbox (25.00467pt too wide) in paragraph at lines 47--84
 [] 
  []
 
-[33]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 86--109
 
  []
@@ -1920,9 +1876,6 @@ Overfull \hbox (25.00467pt too wide) in paragraph at lines 148--172
  []
 
 
-Underfull \vbox (badness 1194) has occurred while \output is active []
-
-[34]
 Underfull \hbox (badness 10000) in paragraph at lines 175--199
 
  []
@@ -1947,7 +1900,7 @@ Overfull \hbox (25.00467pt too wide) in paragraph at lines 175--199
 [] 
  []
 
-)
+[35])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/API-routes/documents.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--30
@@ -2003,7 +1956,7 @@ Overfull \hbox (25.00467pt too wide) in paragraph at lines 9--32
 
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/API-routes/clasdoc.tex [35]
+20e83/API-routes/clasdoc.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--33
 
  []
@@ -2033,7 +1986,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--33
 
  []
 
-
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 35--61
 
  []
@@ -2065,15 +2018,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--61
 
 ))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-subsections/06-frontend.tex [36]
+20e83/05-subsections/06-frontend.tex [37]
 File: images/frontend-map.png Graphic file (type QTm)
-<use  "images/frontend-map.png" > [37]
+<use  "images/frontend-map.png" > [38]
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
 File: images/frontend-mc.png Graphic file (type QTm)
-<use  "images/frontend-mc.png" > [38]
+<use  "images/frontend-mc.png" > [39]
 File: images/frontend-rel-strength.png Graphic file (type QTm)
 <use  "images/frontend-rel-strength.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
@@ -2084,18 +2037,16 @@ File: images/frontend-mc-rel.png Graphic file (type QTm)
 <use  "images/frontend-mc-rel.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[39]
+[40]
 File: images/labelling_interface.png Graphic file (type QTm)
 <use  "images/labelling_interface.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[40]
+[41]
 File: images/frontend-ss.png Graphic file (type QTm)
 <use  "images/frontend-ss.png" >))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/06-project-evaluation.tex [41] [42
-
-]
+20e83/06-project-evaluation.tex [42]
 Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
@@ -2111,7 +2062,9 @@ Overfull \hbox (3.96773pt too wide) in paragraph at lines 18--40
  [][] 
  []
 
-[43] [44])
+[43
+
+] [44])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/07-discussion.tex [45] [46
 
@@ -2217,36 +2170,36 @@ Package natbib Warning: There were undefined citations.
 \Changes@OutFile=\write6
 \openout6 = `output.soc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
 [67] [68]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
 
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/output.aux
 Package cleveref Info: loaded `english' language definitions on input line 21.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 140.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 157.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 157.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 22 ({)
+### simple group (level 1) entered at line 21 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 37914 strings out of 495658
- 711766 string characters out of 6187951
+ 37873 strings out of 495658
+ 710723 string characters out of 6187951
  1003936 words of memory out of 5000000
- 40302 multiletter control sequences out of 15000+600000
+ 40277 multiletter control sequences out of 15000+600000
  11694 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,17n,94p,10412b,1963s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107b572577ba7000320e83/output.xdv (78 pages, 1030048 bytes).
+107b572577ba7000320e83/output.xdv (78 pages, 1030296 bytes).
