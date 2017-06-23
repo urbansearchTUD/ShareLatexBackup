@@ -1,4 +1,4 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{43}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -72,12 +72,6 @@ Alex~Rudnick et~al.
 \newblock Nlkt.
 \newblock \url{http://www.nltk.org/api/nltk.stem.html}, 2017.
 
-\bibitem[Gaustad and Bouma(2002)]{gaustad2002accurate}
-Tanja Gaustad and Gosse Bouma.
-\newblock Accurate stemming of dutch for text classification.
-\newblock \emph{Language and Computers}, 45\penalty0 (1):\penalty0 104--117,
-  2002.
-
 \bibitem[Gorman and Malecki(2000)]{gorman2000networks}
 Sean~P Gorman and Edward~J Malecki.
 \newblock The networks of the internet: an analysis of provider networks in the
@@ -103,6 +97,11 @@ Software improvement group.
 \newblock better code hub.
 \newblock \url{https://bettercodehub.com/}, 2017.
 
+\bibitem[Inc.()]{BeautifulSoup}
+Fermentas Inc.
+\newblock Beautifulsoup: Beautiful soup documentation.
+\newblock URL \url{https://www.crummy.com/software/BeautifulSoup/bs4/doc/}.
+
 \bibitem[Janc(2015{\natexlab{a}})]{janc2015geography}
 Krzysztof Janc.
 \newblock Geography of hyperlinks—spatial dimensions of local government
@@ -116,17 +115,23 @@ Krzysztof Janc.
 \newblock \emph{Journal of Urban Technology}, 22\penalty0 (4):\penalty0 3--21,
   2015{\natexlab{b}}.
 
+\bibitem[Jouili and Vansteenberghe(2013)]{jouili2013}
+S.~Jouili and V.~Vansteenberghe.
+\newblock An empirical comparison of graph databases.
+\newblock In \emph{2013 International Conference on Social Computing}, pages
+  708--715, Sept 2013.
+\newblock \doi{10.1109/SocialCom.2013.106}.
+
+\bibitem[Kernighan and Pike(1984)]{kernighan1984unix}
+Brian~W Kernighan and Rob Pike.
+\newblock \emph{The Unix programming environment}, volume 270.
+\newblock Prentice-Hall Englewood Cliffs, NJ, 1984.
+
 \bibitem[Lambregts(2008)]{lambregts2008geographies}
 Bart Lambregts.
 \newblock Geographies of knowledge formation in mega-city regions: some
   evidence from the dutch randstad.
 \newblock \emph{Regional Studies}, 42\penalty0 (8):\penalty0 1173--1186, 2008.
-
-\bibitem[learn developers(2017)]{scikit-learn}
-Scikit learn developers.
-\newblock Scikit-learn.
-\newblock \url{http://scikit-learn.org/stable/index.html}, 2017.
-\newblock Accessed: 2017-04-26].
 
 \bibitem[Microsoft(2017{\natexlab{a}})]{EvualteML}
 Microsoft.
@@ -164,17 +169,6 @@ Neo4j.
   }, 2017{\natexlab{b}}.
 \newblock Accessed: 2017-06-19.
 
-\bibitem[Olly~Betts(2017)]{snowball_dutch}
-Richard~Boulton Olly~Betts.
-\newblock Snowball.
-\newblock \url{http://snowball.tartarus.org/algorithms/dutch/stemmer.html},
-  2017.
-
-\bibitem[Porter(1980)]{porter_Stemmer}
-M.F. Porter.
-\newblock Porter.
-\newblock \url{https://tartarus.org/martin/PorterStemmer/}, 1980.
-
 \bibitem[Porter(2000)]{porter2000location}
 Michael~E Porter.
 \newblock Location, competition, and economic development: Local clusters in a
@@ -188,6 +182,12 @@ Tobias Preis, Helen~Susannah Moat, and H~Eugene Stanley.
   trends.
 \newblock \emph{Nature: scientific reports}, 2013.
 
+\bibitem[Ramos et~al.(2003)]{ramos_tfidf}
+Juan Ramos et~al.
+\newblock Using tf-idf to determine word relevance in document queries.
+\newblock In \emph{Proceedings of the first instructional conference on machine
+  learning}, 2003.
+
 \bibitem[Rasool et~al.(2012)Rasool, Tiwari, Singla, and
   Khare]{rasool2012string}
 Akhtar Rasool, Amrita Tiwari, Gunjan Singla, and Nilay Khare.
@@ -198,6 +198,15 @@ Akhtar Rasool, Amrita Tiwari, Gunjan Singla, and Nilay Khare.
 William~John Reilly.
 \newblock \emph{The law of retail gravitation}.
 \newblock WJ Reilly, 1931.
+
+\bibitem[Sebastiani(2002)]{ml_text}
+Fabrizio Sebastiani.
+\newblock Machine learning in automated text categorization.
+\newblock \emph{ACM Comput. Surv.}, 34\penalty0 (1):\penalty0 1--47, March
+  2002.
+\newblock ISSN 0360-0300.
+\newblock \doi{10.1145/505282.505283}.
+\newblock URL \url{http://doi.acm.org/10.1145/505282.505283}.
 
 \bibitem[Short et~al.(1996)Short, Kim, Kuus, and Wells]{short1996dirty}
 John~Rennie Short, Y~Kim, Merje Kuus, and Heather Wells.
@@ -238,6 +247,13 @@ Waldo~R Tobler.
 \newblock \emph{Economic geography}, 46\penalty0 (sup1):\penalty0 234--240,
   1970.
 
+\bibitem[Tong and Koller(2001)]{tong2001support}
+Simon Tong and Daphne Koller.
+\newblock Support vector machine active learning with applications to text
+  classification.
+\newblock \emph{Journal of machine learning research}, 2\penalty0
+  (Nov):\penalty0 45--66, 2001.
+
 \bibitem[T{\"o}rnqvist(1968)]{tornqvist1968flows}
 Gunnar T{\"o}rnqvist.
 \newblock Flows of information and the location of economic activities.
@@ -251,6 +267,18 @@ Frank van Oort, Martijn Burger, and Otto Raspe.
   dutch randstad.
 \newblock \emph{Urban Studies}, 47\penalty0 (4):\penalty0 725--748, 2010.
 
+\bibitem[Vicknair et~al.(2010)Vicknair, Macias, Zhao, Nan, Chen, and
+  Wilkins]{vicknair2010}
+Chad Vicknair, Michael Macias, Zhendong Zhao, Xiaofei Nan, Yixin Chen, and Dawn
+  Wilkins.
+\newblock A comparison of a graph database and a relational database: A data
+  provenance perspective.
+\newblock In \emph{Proceedings of the 48th Annual Southeast Regional
+  Conference}, ACM SE '10, pages 42:1--42:6, New York, NY, USA, 2010. ACM.
+\newblock ISBN 978-1-4503-0064-3.
+\newblock \doi{10.1145/1900008.1900067}.
+\newblock URL \url{http://doi.acm.org/10.1145/1900008.1900067}.
+
 \bibitem[Wu and Brynjolfsson(2014)]{wu2014future}
 Lynn Wu and Erik Brynjolfsson.
 \newblock The future of prediction: How google searches foreshadow housing
@@ -258,10 +286,9 @@ Lynn Wu and Erik Brynjolfsson.
 \newblock In \emph{Economic analysis of the digital economy}, pages 89--118.
   University of Chicago Press, 2014.
 
-\bibitem[Řehůřek(2017)]{Gensim}
-Radim Řehůřek.
-\newblock Gensim.
-\newblock \url{ https://radimrehurek.com/gensim/models/tfidfmodel.html}, 2017.
-\newblock Accessed: 2017-05-17].
+\bibitem[Yang and Pedersen(1997)]{yang1997}
+Yiming Yang and Jan~O Pedersen.
+\newblock A comparative study on feature selection in text categorization.
+\newblock In \emph{Icml}, volume~97, pages 412--420, 1997.
 
 \end{thebibliography}

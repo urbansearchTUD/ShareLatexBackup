@@ -24,101 +24,99 @@
 \contentsline {subsubsection}{Would Like}{8}{figure.caption.7}
 \contentsline {subsection}{\numberline {3.3.4}Design Decisions}{8}{subsection.3.3.4}
 \contentsline {chapter}{\numberline {4}Framework and Tools}{11}{chapter.4}
-\contentsline {subsection}{\numberline {4.0.5}High-level Overview}{11}{subsection.4.0.5}
-\contentsline {section}{\numberline {4.1}Gathering the Data}{11}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Common Crawl}{11}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Other Data Sources}{12}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Gathering the Data}{12}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Common Crawl}{13}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Other Data Sources}{13}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Selecting Relevant Documents}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}Extracting Relations from Documents}{14}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}defining classes}{15}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}preprocess}{15}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}training}{16}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}classifying}{16}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.1}High-level Overview}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Gathering the Data}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Common Crawl}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Other Data Sources}{12}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Filtering Documents}{13}{section.4.3}
+\contentsline {section}{\numberline {4.4}Extracting Relations from Documents}{13}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Defining Categories}{14}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Pre-processing}{14}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Data set}{14}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Modelling}{15}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Remarks}{16}{subsection.4.4.5}
 \contentsline {section}{\numberline {4.5}Storing and Ingesting the Data}{16}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Storing Extracted Categories}{17}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Graph Database or Traditional Database}{17}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.1}Storing Extracted Categories}{16}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Graph Database or Traditional Database}{16}{subsection.4.5.2}
 \contentsline {subsection}{\numberline {4.5.3}Comparing Graph Databases}{17}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Using Neo4j for Storage and Ingestion}{18}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Interacting with the Data}{19}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Query Language}{19}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Query Composer Interface}{19}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Interactive Search}{19}{subsection.4.6.3}
-\contentsline {subsection}{\numberline {4.6.4}Conclusion}{19}{subsection.4.6.4}
-\contentsline {subsection}{\numberline {4.6.5}Visualising the Data}{20}{subsection.4.6.5}
-\contentsline {subsubsection}{Representing the Data Graphically}{20}{subsection.4.6.5}
-\contentsline {subsubsection}{Using Geographical Maps}{20}{subsection.4.6.5}
-\contentsline {subsubsection}{Handling Map Clutter}{20}{subsection.4.6.5}
-\contentsline {chapter}{\numberline {5}Implementation}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}Downloading and parsing indices}{25}{section.5.1}
-\contentsline {section}{\numberline {5.2}Filtering}{26}{section.5.2}
-\contentsline {section}{\numberline {5.3}Classification}{26}{section.5.3}
-\contentsline {section}{\numberline {5.4}Storing the Data}{26}{section.5.4}
-\contentsline {section}{\numberline {5.5}API}{26}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}General Remarks}{26}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Classify Route: /classify}{27}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Data-set Route: /datasets}{27}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Documents Route: /documents}{29}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}Indices Route: /indices}{29}{subsection.5.5.5}
-\contentsline {subsection}{\numberline {5.5.6}Classify Documents Route: /classify\_documents}{30}{subsection.5.5.6}
-\contentsline {section}{\numberline {5.6}Front-End}{30}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Technical Overview}{31}{subsection.5.6.1}
-\contentsline {subsubsection}{Modular Design}{31}{subsection.5.6.1}
-\contentsline {subsubsection}{NodeJS}{31}{subsection.5.6.1}
-\contentsline {subsubsection}{ExpressJS}{31}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Interfaces}{31}{subsection.5.6.2}
-\contentsline {subsubsection}{Interactive Map}{31}{subsection.5.6.2}
-\contentsline {subsubsection}{Classification Interface}{31}{subsection.5.6.2}
-\contentsline {subsubsection}{Settings Interface}{31}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Recommendations}{31}{subsection.5.6.3}
-\contentsline {chapter}{\numberline {6}Project Evaluation}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}Validation and Verification}{33}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Testing the Application}{33}{subsection.6.1.1}
-\contentsline {subsubsection}{Unit Tests}{33}{subsection.6.1.1}
-\contentsline {subsubsection}{Integration Tests}{33}{subsection.6.1.1}
-\contentsline {subsubsection}{System Tests}{34}{subsection.6.1.1}
-\contentsline {subsubsection}{Acceptance Tests}{34}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}SIG}{34}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Evaluating the Classification}{34}{subsection.6.1.3}
-\contentsline {subsubsection}{Accuracy}{34}{subsection.6.1.3}
-\contentsline {subsubsection}{Confusion Matrix}{34}{subsection.6.1.3}
-\contentsline {subsubsection}{Precision, Recall, F1 and UAC}{34}{figure.caption.21}
-\contentsline {subsection}{\numberline {6.1.4}Evaluation of Relation Scores}{35}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Fulfilment of Requirements}{36}{section.6.2}
-\contentsline {section}{\numberline {6.3}Process}{36}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Collaboration Between the Team Members}{36}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Collaboration Between the Team Members and the TU Delft Coach}{37}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Collaboration Between the Team Members and the Client}{37}{subsection.6.3.3}
-\contentsline {chapter}{\numberline {7}Discussion}{39}{chapter.7}
-\contentsline {section}{\numberline {7.1}Answering the research question}{39}{section.7.1}
-\contentsline {section}{\numberline {7.2}influence of the answers}{39}{section.7.2}
-\contentsline {section}{\numberline {7.3}issues faced and remaining}{39}{section.7.3}
-\contentsline {section}{\numberline {7.4}Ethics}{40}{section.7.4}
-\contentsline {subsubsection}{Storage}{40}{section.7.4}
-\contentsline {subsubsection}{Influence}{40}{section.7.4}
-\contentsline {chapter}{\numberline {8}Recommendations}{41}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusion}{43}{chapter.9}
-\contentsline {chapter}{Bibliography}{45}{chapter*.36}
-\contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{49}{appendix.A}
-\contentsline {chapter}{\numberline {B}Sig Feedback}{51}{appendix.B}
-\contentsline {section}{\numberline {B.1}week 5}{51}{section.B.1}
-\contentsline {section}{\numberline {B.2}week 9}{51}{section.B.2}
-\contentsline {chapter}{\numberline {C}User Manual}{53}{appendix.C}
-\contentsline {chapter}{\numberline {D}Developers Manual}{55}{appendix.D}
-\contentsline {chapter}{\numberline {E}Used Libararies}{57}{appendix.E}
-\contentsline {chapter}{\numberline {F}Validation and Verification results}{59}{appendix.F}
-\contentsline {subsection}{\numberline {F.0.1}Testing the Application}{59}{subsection.F.0.1}
-\contentsline {subsubsection}{Unit Tests}{59}{subsection.F.0.1}
-\contentsline {subsubsection}{Integration Tests}{59}{subsection.F.0.1}
-\contentsline {subsubsection}{System Tests}{59}{subsection.F.0.1}
-\contentsline {subsubsection}{Acceptance Tests}{59}{subsection.F.0.1}
-\contentsline {subsection}{\numberline {F.0.2}SIG}{59}{subsection.F.0.2}
-\contentsline {subsubsection}{week 5}{59}{subsection.F.0.2}
-\contentsline {subsection}{\numberline {F.0.3}evaluating the classification}{60}{subsection.F.0.3}
-\contentsline {subsubsection}{Accuracy}{60}{subsection.F.0.3}
-\contentsline {subsubsection}{Confusion Matrix}{60}{subsection.F.0.3}
-\contentsline {subsubsection}{Precision, Recall, F1 and UAC}{60}{subsection.F.0.3}
-\contentsline {subsection}{\numberline {F.0.4}Evaluation of relation scores}{60}{subsection.F.0.4}
+\contentsline {subsection}{\numberline {4.5.4}Using Neo4j for Storage and Ingestion}{17}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Interacting with the Data}{18}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Design for a Query Language}{18}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Design for a Query Composer Interface}{19}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Design for Querying Interactively}{19}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Deciding on the Implementation}{19}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.5}Visualising the Data}{19}{subsection.4.6.5}
+\contentsline {subsubsection}{Representing the Data Graphically}{19}{subsection.4.6.5}
+\contentsline {subsubsection}{Using Geographical Maps}{19}{subsection.4.6.5}
+\contentsline {subsubsection}{Handling Map Clutter}{19}{subsection.4.6.5}
+\contentsline {chapter}{\numberline {5}Implementation}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Downloading and parsing indices}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}Filtering}{28}{section.5.2}
+\contentsline {section}{\numberline {5.3}Classification}{28}{section.5.3}
+\contentsline {section}{\numberline {5.4}Storing the Data}{28}{section.5.4}
+\contentsline {section}{\numberline {5.5}API}{29}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}General Remarks}{29}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Classify Route: /classify}{29}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Data-set Route: /datasets}{30}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Documents Route: /documents}{31}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Indices Route: /indices}{32}{subsection.5.5.5}
+\contentsline {subsection}{\numberline {5.5.6}Classify Documents Route: /classify\_documents}{32}{subsection.5.5.6}
+\contentsline {section}{\numberline {5.6}Front-End}{33}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Technical Overview}{33}{subsection.5.6.1}
+\contentsline {subsubsection}{Modular Design}{33}{subsection.5.6.1}
+\contentsline {subsubsection}{NodeJS}{33}{subsection.5.6.1}
+\contentsline {subsubsection}{ExpressJS}{33}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Interfaces}{33}{subsection.5.6.2}
+\contentsline {subsubsection}{Interactive Map}{33}{subsection.5.6.2}
+\contentsline {subsubsection}{Classification Interface}{33}{subsection.5.6.2}
+\contentsline {subsubsection}{Settings Interface}{33}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Recommendations}{33}{subsection.5.6.3}
+\contentsline {chapter}{\numberline {6}Project Evaluation}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Validation and Verification}{35}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Testing the Application}{35}{subsection.6.1.1}
+\contentsline {subsubsection}{Unit Tests}{35}{subsection.6.1.1}
+\contentsline {subsubsection}{Integration Tests}{35}{subsection.6.1.1}
+\contentsline {subsubsection}{System Tests}{36}{subsection.6.1.1}
+\contentsline {subsubsection}{Acceptance Tests}{36}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}SIG}{36}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Evaluating the Classification}{36}{subsection.6.1.3}
+\contentsline {subsubsection}{Accuracy}{36}{subsection.6.1.3}
+\contentsline {subsubsection}{Confusion Matrix}{36}{subsection.6.1.3}
+\contentsline {subsubsection}{Precision, Recall, F1 and UAC}{36}{figure.caption.26}
+\contentsline {subsection}{\numberline {6.1.4}Evaluation of Relation Scores}{37}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Fulfilment of Requirements}{38}{section.6.2}
+\contentsline {section}{\numberline {6.3}Process}{38}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Collaboration Between the Team Members}{38}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Collaboration Between the Team Members and the TU Delft Coach}{39}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Collaboration Between the Team Members and the Client}{39}{subsection.6.3.3}
+\contentsline {chapter}{\numberline {7}Discussion}{41}{chapter.7}
+\contentsline {section}{\numberline {7.1}Answering the research question}{41}{section.7.1}
+\contentsline {section}{\numberline {7.2}influence of the answers}{41}{section.7.2}
+\contentsline {section}{\numberline {7.3}issues faced and remaining}{41}{section.7.3}
+\contentsline {section}{\numberline {7.4}Ethics}{42}{section.7.4}
+\contentsline {subsubsection}{Storage}{42}{section.7.4}
+\contentsline {subsubsection}{Influence}{42}{section.7.4}
+\contentsline {chapter}{\numberline {8}Recommendations}{43}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{45}{chapter.9}
+\contentsline {chapter}{Bibliography}{47}{chapter*.41}
+\contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{51}{appendix.A}
+\contentsline {chapter}{\numberline {B}Sig Feedback}{53}{appendix.B}
+\contentsline {section}{\numberline {B.1}week 5}{53}{section.B.1}
+\contentsline {section}{\numberline {B.2}week 9}{53}{section.B.2}
+\contentsline {chapter}{\numberline {C}User Manual}{55}{appendix.C}
+\contentsline {chapter}{\numberline {D}Developers Manual}{57}{appendix.D}
+\contentsline {chapter}{\numberline {E}Used Libararies}{59}{appendix.E}
+\contentsline {chapter}{\numberline {F}Validation and Verification results}{61}{appendix.F}
+\contentsline {section}{\numberline {F.1}Testing the Application}{61}{section.F.1}
+\contentsline {subsection}{\numberline {F.1.1}Unit Tests}{61}{subsection.F.1.1}
+\contentsline {subsection}{\numberline {F.1.2}Integration Tests}{61}{subsection.F.1.2}
+\contentsline {subsection}{\numberline {F.1.3}System Tests}{61}{subsection.F.1.3}
+\contentsline {subsection}{\numberline {F.1.4}Acceptance Tests}{61}{subsection.F.1.4}
+\contentsline {section}{\numberline {F.2}SIG}{61}{section.F.2}
+\contentsline {subsection}{\numberline {F.2.1}week 5}{61}{subsection.F.2.1}
+\contentsline {section}{\numberline {F.3}evaluating the classification}{62}{section.F.3}
+\contentsline {subsection}{\numberline {F.3.1}Accuracy}{62}{subsection.F.3.1}
+\contentsline {subsection}{\numberline {F.3.2}Confusion Matrix}{62}{subsection.F.3.2}
+\contentsline {subsection}{\numberline {F.3.3}Precision, Recall, F1 and UAC}{62}{subsection.F.3.3}
+\contentsline {section}{\numberline {F.4}Evaluation of relation scores}{62}{section.F.4}
 \contentsfinish 
