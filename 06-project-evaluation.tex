@@ -66,11 +66,11 @@ To answer this question we came up with several sub-problems. These sub-problems
     
     As for visualising the data, section \ref{sec: 5-frontend} shows 
     \\
-    
+    \todo{}
     b
 \end{itemize}
 
-From these sub-results we can answer the main research question. Open data  can open data be leveraged such that a metric for the strength of relationshipsbetween cities can be defined and visualise
+From these sub-results we can answer the main research question. One way open data can be leveraged such that a metric for the strength of relationships between cities can be defined and visualise by first downloading text data from a storage (in our case documents from CommonCrawl). Each document is checked for containing two or more city names by using the pyahocorasick package and is discarded if it does not meet the check. This selection of documents is then classified according to pre-defined relationships between cities using the svm machine learning algorithm. The documents are stored on the disk and the relations are stored in the visual graph database Neo4J. The strength of each relationships between two cities is then found by counting the number of all documents for each relationship that contain the two city names. This is visualised by NodeJS \todo{?}
 
 \section{Process}
 
