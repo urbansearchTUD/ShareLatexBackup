@@ -17,7 +17,7 @@ To answer this question we came up with several sub-problems. These sub-problems
 \begin{itemize}
     \item How can we filter the available text data to find co-occurrences of cities and discarding text data that does not contain co-occurrences? \\
     
-    As shown in section \ref{sec:5-filtering} the python package pyahocorasick can be used to check the text data and try to match strings within the text data. The algorithm also checks subStrings however, so if that is not wanted the package will have to be extended with a few lines of code. \\
+    As shown in section \ref{sec:5-filtering} the python package pyahocorasick can be used to check the text data and try to match words within the text data. However, the algorithm also checks words that are part of compound words. Therefor, in case that is not wanted, the package will have to be extended to add this extra control. \\
     
     This should reduce the amount of data and thereby potentially speed up the rest of process.
     
@@ -29,13 +29,13 @@ To answer this question we came up with several sub-problems. These sub-problems
     
     \item The next question is how to store the data and determine the strength of the relationships. \\
     
-    a \ref{sec: 5-storing}\\
+    Section \ref{sec: 5-storing} shows that we need storage for the text documents, as well as for extracted relations. The text documents can simply be stored on the disk. For the extracted relations the graph database Neo4j can be used. \\
+    For determining the strength of relationships the classifier is used. We simply count the numbers of documents that have been found for each relation and use those numbers as the strength of the relationships.
     
-    b
     
     \item The last question is how to combine the stored data and present it to a user, this means visualising and/or exporting the data in an accessible way.\\
     
-    As for visualising the data, section \ref{sec: 5-frontend} 
+    As for visualising the data, section \ref{sec: 5-frontend} shows 
     \\
     
     b

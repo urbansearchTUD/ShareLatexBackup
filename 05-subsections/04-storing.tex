@@ -13,13 +13,14 @@ To be able to interact with the results of the application, it is required to st
 The model used for the graph structure follows the concepts described in section \ref{lst:neo4j-concepts}. It consists of nodes, labels and properties. To distinguish between and to efficiently query for specific (types of) nodes, at least one label is assigned to the node. The following labels are used:
 
 \begin{description}
-\item[\texttt{:City}]
-\item[\texttt{:Index}]
+\item[\texttt{:City}] 
+\item[\texttt{:Index}] Nodes with the \texttt{:Index} label represent documents that are found useful. Every document has this label, in addition to the label representing the category they are classified as.
 \item[Categories] For each category, a label exists to separate a category from the bulk of documents. This way, documents of a specific category can be matched against. This is particularly useful to count, for example, the documents about "Leisure" (and thus labelled \texttt{:Leisure}), that two cities have in common.
 \end{description}
 
 % relation types
 % properties
+% db_utils
 
 % steden op basis van lijst van klant, coordinaten opgezocht via google api
 % issue: steden met dubbele naam kregen zelfde coordinaten en niet per se de grootste, maar belangrijkste (volgens google)
