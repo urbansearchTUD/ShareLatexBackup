@@ -3,46 +3,48 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: output.aux
 The style file: tudelft-report.bst
 Database file #1: references.bib
+Warning--I didn't find a database entry for "vicknair2010"
+Warning--I didn't find a database entry for "jouili2013"
 Warning--I didn't find a database entry for "apigee"
-You've used 39 entries,
+You've used 40 entries,
             2773 wiz_defined-function locations,
-            833 strings with 10999 characters,
-and the built_in function-call counts, 16288 in all, are:
-= -- 1501
-> -- 761
-< -- 33
-+ -- 269
-- -- 228
-* -- 1187
-:= -- 2475
-add.period$ -- 131
-call.type$ -- 39
-change.case$ -- 191
+            839 strings with 11164 characters,
+and the built_in function-call counts, 16595 in all, are:
+= -- 1529
+> -- 771
+< -- 34
++ -- 274
+- -- 231
+* -- 1204
+:= -- 2522
+add.period$ -- 135
+call.type$ -- 40
+change.case$ -- 195
 chr.to.int$ -- 37
-cite$ -- 78
-duplicate$ -- 772
-empty$ -- 1465
-format.name$ -- 285
-if$ -- 3457
-int.to.chr$ -- 3
+cite$ -- 80
+duplicate$ -- 787
+empty$ -- 1497
+format.name$ -- 289
+if$ -- 3523
+int.to.chr$ -- 4
 int.to.str$ -- 1
 missing$ -- 29
-newline$ -- 215
-num.names$ -- 156
-pop$ -- 414
+newline$ -- 221
+num.names$ -- 160
+pop$ -- 426
 preamble$ -- 1
-purify$ -- 154
+purify$ -- 157
 quote$ -- 0
-skip$ -- 590
+skip$ -- 599
 stack$ -- 0
-substring$ -- 623
-swap$ -- 81
+substring$ -- 625
+swap$ -- 84
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 419
+type$ -- 430
 warning$ -- 0
-while$ -- 165
+while$ -- 168
 width$ -- 0
-write$ -- 524
-(There was 1 warning)
+write$ -- 538
+(There were 3 warnings)

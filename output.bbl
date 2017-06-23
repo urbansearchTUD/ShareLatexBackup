@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -150,11 +150,19 @@ Hannes M{\"u}hleisen and Christian Bizer.
   corpora.
 \newblock \emph{LDOW}, 937:\penalty0 133--145, 2012.
 
-\bibitem[Neo4j(2017)]{neo4j}
+\bibitem[Neo4j(2017{\natexlab{a}})]{neo4j}
 Neo4j.
 \newblock Neo4j, the world's leading graph database.
-\newblock \url{https://www.neo4j.com}, 2017.
+\newblock \url{https://www.neo4j.com}, 2017{\natexlab{a}}.
 \newblock Accessed: 2017-04-26.
+
+\bibitem[Neo4j(2017{\natexlab{b}})]{neo4jscalable}
+Neo4j.
+\newblock Understanding neo4j scalability.
+\newblock
+  \url{https://neo4j.com/resources/understanding-neo4j-scalability-white-paper/
+  }, 2017{\natexlab{b}}.
+\newblock Accessed: 2017-06-19.
 
 \bibitem[Olly~Betts(2017)]{snowball_dutch}
 Richard~Boulton Olly~Betts.
