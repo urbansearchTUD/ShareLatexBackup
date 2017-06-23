@@ -1,6 +1,20 @@
 \section{Storing the Data}
+In this section, we discuss how the filtered documents are stored and how Neo4j was used for storing extracted relations, following the design described in section \ref{sec:storage-design}. We discuss the storage a
 \subsection{Storing Filtered Documents}
 % mapje met docs, niet gecomprimeerd omdat gzip traag is en we "maar" 1m docs hebben
 \subsection{Storing Extracted Relations}
-% steden op basis
+% steden op basis van lijst van klant, coordinaten opgezocht via google api
+% issue: steden met dubbele naam kregen zelfde coordinaten en niet per se de grootste, maar belangrijkste (volgens google)
+% neo4j city node
+% neo4j index node
+% occurrence relation
+% intercity relation
+% parameterised optimisation -> benchmark
+% bulk vs single -> single transaction instead of transaction for every statement, benchmark
+% transactional vs multithreaded -> data inconsistencies
+% neo4j python driver issues
+% solution: use neo4j's own multi-threading using UNWIND -> embedded multithreading
+% remarks: 
+% try SQL instead of NoSQL to compare results
+% perhaps java instead of python driver to be able to use multithreading
 \todo{mention multithreading neo4j (embedded)}

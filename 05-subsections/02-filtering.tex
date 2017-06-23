@@ -1,6 +1,14 @@
-\section{Filtering}
+\section{Filtering}\label{sec:5-filtering}
 The next step in the process is filtering documents as explained in section \ref{sec:filtering_docs} and can be seen in figure \ref{fig:overview}. The implementation depends on the pyahocorasick library, which checks the page and tries to match strings within the page. We can supply this class with a list of cities, however, by default the application will retrieve a list of cities from the database.
 
-The implementation seemed straightforward at first, however, it became apparent that the algorithm matched substrings. For example, if a text contains "Amsterdammers" than the Aho-Corasick algorithm would match
+The implementation seemed straightforward at first, however, it became apparent that the algorithm matched substrings. For example, if a text contains "Amsterdammers" than the Aho-Corasick algorithm would match because of the substring "Amsterdam". To solve this we added an additional check in the co-occurrence filtering which can be seen in listing \ref{lst:substring}.
 
+\begin{lstlisting}[language=Python, caption=Additional check to prevent substring matches, label={lst:substring}]
+for end, name in names:
+    # Skip words that contain city names (e.g. Amsterdammers)
+    if page[prev_end + 1] in 'abcdefghijklmnopqrstuvwxyz':
+        prev_end, prev_name = end, name
+\end{lstlisting}
+
+Another problem that surfaced during the implementation of the co-occurrence check was the fact that Aho-Corasick uses multi-match. This meant that it matches every occurrence in the text, where we were interested which cities were found in the text. Therefore, the result of the Aho-Corasick was put into a set to solve this problem.
 % ook ff zeggen dat we set moesten gebruiken omdat aho-corasick multimatch doet
