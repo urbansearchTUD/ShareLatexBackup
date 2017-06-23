@@ -1,16 +1,16 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  23 JUN 2017 13:59
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  23 JUN 2017 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/main.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/main.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 2 languages loaded.
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/tudelft-report.cls
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/tudelft-report.cls
 Document Class: tudelft-report 2013/06/22 v1.0 TU Delft thesis class
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
@@ -1146,18 +1146,35 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box67
 \@float@everytoks=\toks46
 \@floatcapt=\box68
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen325
+\extrarowheight=\dimen326
+\NC@list=\toks47
+\extratabsurround=\skip87
+\backup@length=\skip88
+)
+\TX@col@width=\dimen327
+\TX@old@table=\dimen328
+\TX@old@col=\dimen329
+\TX@target=\dimen330
+\TX@delta=\dimen331
+\TX@cols=\count283
+\TX@ftn=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box69
 ) (/usr/share/texlive/texmf-dist/tex/latex/usebib/usebib.sty
 Package: usebib 2012/03/17 v1.0 Reusing bib files
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/references.bib)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/commands.tex)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/output.aux
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/references.bib)
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/commands.tex)
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/output.aux
 LaTeX Font Info:    Try loading font information for T1+OpenSans(0) on input li
 ne 21.
 LaTeX Font Info:    No file T1OpenSans(0).fd. on input line 21.
@@ -1168,30 +1185,30 @@ LaTeX Font Warning: Font shape `T1/OpenSans(0)/m/n' undefined
 )
 \openout1 = `output.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 37.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 38.
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    ... okay on input line 38.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1227,22 +1244,22 @@ LaTeX Font Info:    ... okay on input line 37.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box70
-Package hyperref Info: Link coloring ON on input line 37.
+Package hyperref Info: Link coloring ON on input line 38.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count283
+\c@section@level=\count284
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/output.out)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/output.out)
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/output.out)
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/output.out)
 \@outlinefile=\write4
 \openout4 = `output.out'.
 
@@ -1253,67 +1270,67 @@ LaTeX Info: Redefining \nameref on input line 37.
 .................................................
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 37.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 37.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 37.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 37.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 37.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 37.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 37.
-LaTeX Font Info:    Redeclaring math accent \check on input line 37.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 37.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 37.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 37.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 37.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 38.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 38.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 38.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 38.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 38.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 38.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 38.
+LaTeX Font Info:    Redeclaring math accent \check on input line 38.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 38.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 38.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 38.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 38.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 37.
+(Font)              `operators' in the math version `normal' on input line 38.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/OpenSans(0)/m/n on input line 37.
+(Font)                  OT1/cmr/m/n --> EU1/OpenSans(0)/m/n on input line 38.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 37.
+(Font)              `operators' in the math version `bold' on input line 38.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/OpenSans(0)/m/n on input line 37.
+(Font)                  OT1/cmr/bx/n --> EU1/OpenSans(0)/m/n on input line 38.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/OpenSans(0)/m/n --> EU1/OpenSans(0)/m/n on input li
-ne 37.
+ne 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU1/OpenSans(0)/m/n --> EU1/OpenSans(0)/m/n on input li
-ne 37.
+ne 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/OpenSans(0)/m/it on input line 37.
+(Font)                  OT1/cmr/m/it --> EU1/OpenSans(0)/m/it on input line 38.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/OpenSans(0)/bx/n on input line 37.
+(Font)                  OT1/cmr/bx/n --> EU1/OpenSans(0)/bx/n on input line 38.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 37.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 37.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 38.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/OpenSans(0)/m/n --> EU1/OpenSans(0)/bx/n on input l
-ine 37.
+ine 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU1/OpenSans(0)/m/n --> EU1/OpenSans(0)/bx/n on input l
-ine 37.
+ine 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/OpenSans(0)/bx/it on input line 3
-7.
+8.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 37.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 37.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 38.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
@@ -1321,10 +1338,10 @@ Package caption Info: threeparttable package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count284
+\c@lstlisting=\count285
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/00-frontpage.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/00-frontpage.tex
 
 LaTeX Font Warning: Font shape `EU1/OpenSans(0)/m/sc' undefined
 (Font)              using `EU1/OpenSans(0)/m/n' instead on input line 7.
@@ -1347,10 +1364,10 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 
 ])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/00-title.tex)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/00-preface-and-acknowledgements.tex [2
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/00-title.tex)
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/00-preface-and-acknowledgements.tex [2
 
 ]
 
@@ -1358,8 +1375,8 @@ LaTeX Font Warning: Font shape `EU1/lmss/t/n' undefined
 (Font)              using `EU1/lmss/m/n' instead on input line 1.
 
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/00-summary.tex [3] [4
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/00-summary.tex [3] [4
 
 ]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
@@ -1367,8 +1384,8 @@ ine 5.
 ) [5] [6
 
 ]
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/output.toc
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/output.toc
 Package cleveref Info: loaded `english' language definitions on input line 1.
 [7] [8])
 \tf@toc=\write5
@@ -1377,8 +1394,8 @@ Package cleveref Info: loaded `english' language definitions on input line 1.
 [9] [10
 
 ]
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/01-introduction.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/01-introduction.tex
 Chapter 1.
 
 LaTeX Font Warning: Font shape `EU1/OpenSans-Light(0)/t/n' undefined
@@ -1398,8 +1415,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--10
  []
 
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/02-related-work.tex [1
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/02-related-work.tex [1
 
 ] [2]
 Chapter 2.
@@ -1414,8 +1431,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/03-problem-definition-and-analysis.tex [3
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/03-problem-definition-and-analysis.tex [3
 
 ] [4
 
@@ -1429,18 +1446,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 [5] [6] [7]
 File: images/informationflow.png Graphic file (type QTm)
 <use  "images/informationflow.png" >)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-framework-and-tools.tex [8] [9] [10
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/04-framework-and-tools.tex [8] [9] [10
 
 ]
 Chapter 4.
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/00-overview.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/04-subsections/00-overview.tex
 File: images/System-overview-3.png Graphic file (type QTm)
 <use  "images/System-overview-3.png" >)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/01-gathering.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/04-subsections/01-gathering.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [11]
@@ -1452,12 +1469,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [12] [13])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/02-selecting_relevant_data.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/04-subsections/02-selecting_relevant_data.tex
 File: images/occurences_per_page.jpg Graphic file (type QTm)
 <use  "images/occurences_per_page.jpg" >)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/03-classifying.tex [14]
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/04-subsections/03-classifying.tex [14]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -1487,8 +1504,8 @@ tures are words
  []
 
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/04-storage_and_ingestion.tex [18]
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/04-subsections/04-storage_and_ingestion.tex [18]
 LaTeX Font Info:    Try loading font information for U+ding on input line 21.
 (/usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
@@ -1500,8 +1517,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--37
 [19]
 File: images/neo4model.png Graphic file (type QTm)
 <use  "images/neo4model.png" > [20])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/05-search_engine.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/04-subsections/05-search_engine.tex
 File: images/ql-example.png Graphic file (type QTm)
 <use  "images/ql-example.png" > [21]
 File: images/qi-example.png Graphic file (type QTm)
@@ -1510,13 +1527,13 @@ File: images/i1-example.png Graphic file (type QTm)
 <use  "images/i1-example.png" >
 File: images/i2-example.png Graphic file (type QTm)
 <use  "images/i2-example.png" > [22])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/06-visualising.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/04-subsections/06-visualising.tex
 Underfull \vbox (badness 5756) has occurred while \output is active []
 
 [23])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/09-val-eval.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/04-subsections/09-val-eval.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1540,14 +1557,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
 File: images/UAC.png Graphic file (type QTm)
 <use  "images/UAC.png" >))
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/05-framework-implementation.tex [26] [27] [28
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/05-framework-implementation.tex [26] [27] [28
 
 ]
 Chapter 5.
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/05-subsections/01-download.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/05-subsections/01-download.tex
 File: images/gathering_class.png Graphic file (type QTm)
 <use  "images/gathering_class.png" > (/usr/share/texlive/texmf-dist/tex/latex/l
 istings/lstlang1.sty
@@ -1556,12 +1573,12 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 16.
 [29])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/05-subsections/02-filtering.tex [30])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/05-subsections/03-classification.tex)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/05-subsections/04-storing.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/05-subsections/02-filtering.tex [30])
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/05-subsections/03-classification.tex)
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/05-subsections/04-storing.tex
 
 LaTeX Warning: Reference `sec:storage-design' on page 31 undefined on input lin
 e 2.
@@ -1573,15 +1590,15 @@ e 13.
 LaTeX Font Info:    Font shape `EU1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `EU1/lmtt/b/n' tried instead on input line 16.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/05-subsections/05-API.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/05-subsections/05-API.tex
 
 Package natbib Warning: Citation `apigee' on page 31 undefined on input line 2.
 
 
 [31]
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/API-routes/classify.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/API-routes/classify.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
@@ -1612,7 +1629,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--41
  []
 
 
-Overfull \hbox (0.8301pt too wide) in paragraph at lines 7--41
+Overfull \hbox (2.03008pt too wide) in paragraph at lines 7--41
 [] 
  []
 
@@ -1647,13 +1664,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--75
  []
 
 
-Overfull \hbox (15.10744pt too wide) in paragraph at lines 42--75
+Overfull \hbox (16.30742pt too wide) in paragraph at lines 42--75
 [] 
  []
 
 [32])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/API-routes/datasets.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/API-routes/datasets.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--44
 
  []
@@ -1674,7 +1691,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--44
  []
 
 
-Overfull \hbox (25.01657pt too wide) in paragraph at lines 8--44
+Overfull \hbox (24.9946pt too wide) in paragraph at lines 8--44
 [] 
  []
 
@@ -1689,7 +1706,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--44
  []
 
 
-Overfull \hbox (25.02383pt too wide) in paragraph at lines 8--44
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 8--44
 [] 
  []
 
@@ -1714,7 +1731,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--84
  []
 
 
-Overfull \hbox (25.00375pt too wide) in paragraph at lines 47--84
+Overfull \hbox (25.00555pt too wide) in paragraph at lines 47--84
 [] 
  []
 
@@ -1729,7 +1746,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--84
  []
 
 
-Overfull \hbox (25.02383pt too wide) in paragraph at lines 47--84
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 47--84
 [] 
  []
 
@@ -1754,7 +1771,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--109
  []
 
 
-Overfull \hbox (25.02383pt too wide) in paragraph at lines 86--109
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 86--109
 [] 
  []
 
@@ -1789,7 +1806,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--145
  []
 
 
-Overfull \hbox (25.02383pt too wide) in paragraph at lines 111--145
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 111--145
 [] 
  []
 
@@ -1814,7 +1831,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--172
  []
 
 
-Overfull \hbox (25.02383pt too wide) in paragraph at lines 148--172
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 148--172
 [] 
  []
 
@@ -1839,13 +1856,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--199
  []
 
 
-Overfull \hbox (25.02383pt too wide) in paragraph at lines 175--199
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 175--199
 [] 
  []
 
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/API-routes/documents.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/API-routes/documents.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--30
 
  []
@@ -1866,13 +1883,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--30
  []
 
 
-Overfull \hbox (25.01376pt too wide) in paragraph at lines 8--30
+Overfull \hbox (25.03131pt too wide) in paragraph at lines 8--30
 [] 
  []
 
 [34])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/API-routes/indices.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/API-routes/indices.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--32
 
  []
@@ -1893,13 +1910,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--32
  []
 
 
-Overfull \hbox (25.02383pt too wide) in paragraph at lines 9--32
+Overfull \hbox (25.00526pt too wide) in paragraph at lines 9--32
 [] 
  []
 
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/API-routes/clasdoc.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/API-routes/clasdoc.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--33
 
  []
@@ -1920,7 +1937,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--33
  []
 
 
-Overfull \hbox (0.8301pt too wide) in paragraph at lines 8--33
+Overfull \hbox (2.03008pt too wide) in paragraph at lines 8--33
 [] 
  []
 
@@ -1950,7 +1967,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--61
  []
 
 
-Overfull \hbox (0.8301pt too wide) in paragraph at lines 35--61
+Overfull \hbox (2.03008pt too wide) in paragraph at lines 35--61
 [] 
  []
 
@@ -1960,8 +1977,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--61
  []
 
 [35]))
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/05-subsections/06-frontend.tex [36]
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/05-subsections/06-frontend.tex [36]
 File: images/frontend-map.png Graphic file (type QTm)
 <use  "images/frontend-map.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
@@ -1973,54 +1990,88 @@ File: images/frontend-mc.png Graphic file (type QTm)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[37]
 File: images/frontend-mc-rel.png Graphic file (type QTm)
 <use  "images/frontend-mc-rel.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ))
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/06-project-evaluation.tex [37] [38] [39] [40
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/06-project-evaluation.tex [38] [39] [40
 
 ]
 Chapter 6.
+
+LaTeX Warning: Reference `requirements_pass/fail' on page 41 undefined on input
+ line 12.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 
-Overfull \hbox (281.73145pt too wide) in paragraph at lines 23--45
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 19.
+
+! Undefined control sequence.
+l.34 ...rge datasets           & Pass        & \It
+                                                   is possible to add large ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.35 ...te city names         & Fail        & \The
+                                                   algorithm does not take c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 35--35
+[]|\EU1/OpenSans(0)/m/sc/10 algorithm does not take cities with duplicate
+ []
+
+
+Overfull \hbox (222.29008pt too wide) in paragraph at lines 42--43
+[]|[]| 
+ []
+
+
+Overfull \hbox (104.84663pt too wide) in paragraph at lines 23--45
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[41])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/07-discussion.tex [42] [43] [44
+[41] [42])
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/07-discussion.tex [43] [44
 
 ]
 Chapter 7.
 [45])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/08-recommendations.tex [46]
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/08-recommendations.tex [46]
 Chapter 8.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/09-conclusion.tex [47
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/09-conclusion.tex [47
 
 ] [48
 
 ]
 Chapter 9.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/output.bbl [49] [50
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/output.bbl [49] [50
 
 ] [51]
 Underfull \hbox (badness 10000) in paragraph at lines 137--143
@@ -2055,38 +2106,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--171
  []
 
 [52])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/A_better_code_hub_guidelines.tex [53] [54
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/A_better_code_hub_guidelines.tex [53] [54
 
 ]
 Appendix A.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/B-SIG-analysis.tex [55] [56
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/B-SIG-analysis.tex [55] [56
 
 ]
 Appendix B.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/D-user-manual.tex [57] [58
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/D-user-manual.tex [57] [58
 
 ]
 Appendix C.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/C-dev-manual-with-UML.tex [59] [60
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/C-dev-manual-with-UML.tex [59] [60
 
 ]
 Appendix D.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/E-used-libraries.tex [61] [62
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/E-used-libraries.tex [61] [62
 
 ]
 Appendix E.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/F-validation_verification_results.tex [63] [64
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/F-validation_verification_results.tex [63] [64
 
 ]
 Appendix F.
@@ -2106,32 +2157,32 @@ Package natbib Warning: There were undefined citations.
 \Changes@OutFile=\write6
 \openout6 = `output.soc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
 [65] [66]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/output.aux
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/output.aux
 Package cleveref Info: loaded `english' language definitions on input line 21.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 139.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 139.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 140.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 140.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 139.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
- 37709 strings out of 495658
- 708609 string characters out of 6187951
- 1002281 words of memory out of 5000000
- 40126 multiletter control sequences out of 15000+600000
+ 37793 strings out of 495658
+ 709578 string characters out of 6187951
+ 1003936 words of memory out of 5000000
+ 40205 multiletter control sequences out of 15000+600000
  11670 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,13n,94p,10412b,1963s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,17n,94p,10412b,1963s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107c0b2577ba7000320ea7/output.xdv (76 pages, 986768 bytes).
+107c4b2577ba7000320eac/output.xdv (76 pages, 1005512 bytes).

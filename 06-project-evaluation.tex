@@ -16,31 +16,31 @@ There are however two should haves which failed. Finding correct relations prove
 Since other, more important, tasks took longer to implement than intended we did not make implement functionality to use Delpher to characterise relationships. We did add functionality to visualise the data by using a map. \\
 As expected the would likes did not pass. It is theoretically possible to show all connections of all places on the map at the same time. However, it would result in a completely filled in map because there is a line for each relation so one would not be able to get any useful information from this.
 
-\begin{table}[h]
+\begin{table}[]
 \centering
-\caption{Requirements passed/failed}
-\label{requirements_pass/fail}
-\begin{tabular}{lll}
-Must Haves                     & Pass / Fail & Comment \\
-1 Mining from commoncrawl      & Pass        &         \\
-2 Exporting relations          & Fail        & Due to many delays in other parts, exporting the data was not achievable within the set time for the product. \\
-3 Extracting relations         & Pass        &         \\
-4 Visualisation                & Pass        &         \\
-5 Present statistics           & Pass        &         \\
-                               &             &         \\
-Should Haves                   & Pass / Fail & Comment \\
-1 Hierarchical relations       & Fail        &         \\
-2 Machine learning retrainable & Pass        &         \\
-3 Add large datasets           & Pass        &         \\
-4 Duplicate city names         & Fail        &         \\
-                               &             &         \\
-Could haves                    & Pass / Fail & Comment \\
-1 Use Delpher                  & Fail        &         \\
-2 Visualisation for comparing  & Pass        &         \\
-                               &             &         \\
-Would likes                    & Pass / Fail & Comment \\
-1 Show all connections         & Pass        &         \\
-2 Other than .nl data          & Fail        &        
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{ll m{8cm}}
+Must Haves                     & Pass / Fail & Comment                                                                                                                                                                                                                               \\
+1 Mining from Common Crawl     & Pass        & Data is succesfully gathered from Common Crawl.                                                                                                                                                                                       \\
+2 Exporting relations          & Fail        & Due to many delays in other parts, exporting the data was not achievable within the time set for the product.                                                                                                                         \\
+3 Extracting relations         & Pass        & Relations are succesfully extracted from documents for about \todo{x} \%.                                                                                                                                                            \\
+4 Visualisation                & Pass        & A front-end which shows the data on a map is ready for use.                                                                                                                                                                           \\
+5 Present statistics           & Pass        & The front-end presents statistics with the shown data.                                                                                                                                                                                \\
+                               &             &                                                                                                                                                                                                                                       \\
+Should Haves                   & Pass / Fail & Comment                                                                                                                                                                                                                               \\
+1 Hierarchical relations       & Fail        & Since extracting relations from text documents was more challenging than first thought,\\ hierarchical relations were not included.                                                         \\
+2 Machine learning retrainable & Pass        & It is possible to retrain the machine learning by feeding it a set of labeled documents.                                                                                                                                              \\
+3 Add large datasets           & Pass        & \It is possible to add large datasets, however since it does cause an increase in time needed to run the algorithm,\\ we did not use a large dataset for our demo version.                     \\
+4 Duplicate city names         & Fail        & \The algorithm does not take cities with duplicate names, or names fitting to multiple cities into account,\\ due to time constraints.                                                         \\
+                               &             &                                                                                                                                                                                                                                       \\
+Could haves                    & Pass / Fail & Comment                                                                                                                                                                                                                               \\
+1 Use Delpher                  & Fail        & It is not possible to use data from Delpher unless it is already downloaded and stored.                                                                                                                                               \\
+2 Visualisation for comparing  & Pass        & The front-end includes visualisation for comparing cities and relationships to each other.                                                                                                                                            \\
+                               &             &                                                                                                                                                                                                                                       \\
+Would likes                    & Pass / Fail & Comment                                                                                                                                                                                                                               \\
+1 Show all connections         & Fail        & \begin{tabular}[c]{@{}l@{}}Theoreticly it is possible to do this, but it would result in a map on which relationships can not be \\ differentiated from each other due to the large amount the system was not build for.\end{tabular} \\
+2 Other than .nl data          & Fail        & The classifier is only trained on Dutch domains.                                                                                                                                                                                     
 \end{tabular}
 \end{table}
 

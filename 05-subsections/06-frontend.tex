@@ -22,7 +22,7 @@ easy to extend with custom middleware
 \subsection{Interfaces}
 In this section 
 \subsubsection{Interactive Map}
-The main part of the front-end is the interactive map. The extracted data gets visualised on a (almost) full-screen Google Maps map. On the map we place markers which represent cities and we draw polylines which represent relations between the cities.
+The main part of the front-end is the interactive map. The extracted data gets visualised on a (almost) full-screen Google Maps map. On the map we place markers which represent cities and we draw poly-lines which represent relations between the cities.
 
 \begin{figure}[h]
 \centering
@@ -40,8 +40,10 @@ On the right side of the interface a "Map Controls" card is always shown. This c
 \label{fig:frontend-mc}
 \end{figure}
 
-Figure \ref{fig:frontend-mc} shows the controls for the city entities. The slider shown in the upper part of the card allows to filter cities based on population. All cities that fall in the range of the slider are shown, all other are not visible. Besides displaying and hiding cities based on population size, users can also toggle visibility of cities by clicking on the cities displayed in the list below the slider.\\
-The relations controls are shown in figure ref{fig:frontend-mc-rel}. Here the user can select which relations are considered when calculating the total relation strengths. This is done by clicking the check-boxes next to the relation names. The sliders 
+Cities are indicated by the circles on the map. The circles have an diameter that is calculated based on the population size of the city. Figure \ref{fig:frontend-mc} shows the controls for the city entities. The slider shown in the upper part of the card allows to filter cities based on population. All cities that fall in the range of the slider are shown, all other are not visible. Besides displaying and hiding cities based on population size, users can also toggle visibility of cities by clicking on the cities displayed in the list below the slider.\\
+Relations are shown as poly-lines on the map. The total strength of the relation (which will be discussed below) is used to set an opacity for the relation. A low opacity indicates an strong total strength of the relation and vice versa.
+The relations controls are shown in figure \ref{fig:frontend-mc-rel}. Here the user can select which relations are considered when calculating the total relation strengths. This is done by clicking the check-boxes next to the relation names. The sliders provide a way to filter the relations based on the total relation strength for the category belonging to the slider.\\
+The dropdown shown in the relations control interface provides a way to scale the relation totals. Lets
 
 \begin{figure}[h]
 \centering
