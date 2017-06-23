@@ -4,8 +4,23 @@ In this section, we discuss how the filtered documents are stored and how Neo4j 
 \subsection{Storing Filtered Documents}
 The documents that pass the filtering stage can be stored for several reasons. For example, the classifier can be retrained and might thus label documents differently. To avoid having to download and process all the pages again, it is useful to store the documents on disk. If the disk is small, it is wise to compress the documents. However, compression is a slow process, so if enough disk space is available, storing the documents uncompressed is more feasible.
 
-In the \texttt{TextDownloader} class, that was already shortly discussed in section \ref{sec:5-downloading}, storage to disk is done without compression in all cases. We did this to speed up 
-\subsection{Storing Extracted Relations}
+In the \texttt{TextDownloader} class, that was already shortly discussed in section \ref{sec:5-downloading}, storage to disk is done without compression in all cases. We did this since this project only involves a relatively small data set, e.g. one that can be stored without the need for compression.
+
+\subsection{Storing Extracted Data}
+To be able to interact with the results of the application, it is required to store extracted relations. The implementation of the storage follows the design of section section \ref{sec:storing-data}, using the graph database Neo4j.
+
+\subsubsection{Neo4j Model}
+The model used for the graph structure follows the concepts described in section \ref{lst:neo4j-concepts}. It consists of nodes, labels and properties. To distinguish between and to efficiently query for specific (types of) nodes, at least one label is assigned to the node. The following labels are used:
+
+\begin{description}
+\item[\texttt{:City}]
+\item[\texttt{:Index}]
+\item[Categories] For each category, a label exists to separate a category from the bulk of documents. This way, documents of a specific category can be matched against. This is particularly useful to count, for example, the documents about "Leisure" (and thus labelled \texttt{:Leisure}), that two cities have in common.
+\end{description}
+
+% relation types
+% properties
+
 % steden op basis van lijst van klant, coordinaten opgezocht via google api
 % issue: steden met dubbele naam kregen zelfde coordinaten en niet per se de grootste, maar belangrijkste (volgens google)
 % neo4j city node

@@ -21,7 +21,7 @@
 \BOOKMARK [2][-]{subsection.4.4.4}{Modelling}{section.4.4}% 21
 \BOOKMARK [2][-]{subsection.4.4.5}{Remarks}{section.4.4}% 22
 \BOOKMARK [1][-]{section.4.5}{Storing\040and\040Ingesting\040the\040Data}{chapter.4}% 23
-\BOOKMARK [2][-]{subsection.4.5.1}{Storing\040Extracted\040Categories}{section.4.5}% 24
+\BOOKMARK [2][-]{subsection.4.5.1}{Storing\040Extracted\040Data}{section.4.5}% 24
 \BOOKMARK [2][-]{subsection.4.5.2}{Graph\040Database\040or\040Traditional\040Database}{section.4.5}% 25
 \BOOKMARK [2][-]{subsection.4.5.3}{Comparing\040Graph\040Databases}{section.4.5}% 26
 \BOOKMARK [2][-]{subsection.4.5.4}{Using\040Neo4j\040for\040Storage\040and\040Ingestion}{section.4.5}% 27
@@ -45,7 +45,7 @@
 \BOOKMARK [1][-]{section.5.3}{Classification}{chapter.5}% 45
 \BOOKMARK [1][-]{section.5.4}{Storing\040the\040Data}{chapter.5}% 46
 \BOOKMARK [2][-]{subsection.5.4.1}{Storing\040Filtered\040Documents}{section.5.4}% 47
-\BOOKMARK [2][-]{subsection.5.4.2}{Storing\040Extracted\040Relations}{section.5.4}% 48
+\BOOKMARK [2][-]{subsection.5.4.2}{Storing\040Extracted\040Data}{section.5.4}% 48
 \BOOKMARK [1][-]{section.5.5}{API}{chapter.5}% 49
 \BOOKMARK [2][-]{subsection.5.5.1}{General\040Remarks}{section.5.5}% 50
 \BOOKMARK [2][-]{subsection.5.5.2}{Classify\040Route:\040/classify}{section.5.5}% 51
@@ -70,7 +70,7 @@
 \BOOKMARK [1][-]{section.7.4}{Ethics}{chapter.7}% 70
 \BOOKMARK [0][-]{chapter.8}{Recommendations}{}% 71
 \BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 72
-\BOOKMARK [0][-]{chapter*.45}{Bibliography}{}% 73
+\BOOKMARK [0][-]{chapter*.48}{Bibliography}{}% 73
 \BOOKMARK [0][-]{appendix.A}{Better\040Code\040Hub\040Guidelines}{}% 74
 \BOOKMARK [0][-]{appendix.B}{Sig\040Feedback}{}% 75
 \BOOKMARK [1][-]{section.B.1}{week\0405}{appendix.B}% 76
