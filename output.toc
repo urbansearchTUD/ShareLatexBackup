@@ -62,27 +62,29 @@
 \contentsline {subsubsection}{Precision, Recall, F1 and UAC}{26}{figure.caption.22}
 \contentsline {subsection}{\numberline {4.8.4}Evaluation of Relation Scores}{26}{subsection.4.8.4}
 \contentsline {chapter}{\numberline {5}Implementation}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Downloading and parsing indices}{29}{section.5.1}
+\contentsline {section}{\numberline {5.1}Downloading and Parsing Indices}{29}{section.5.1}
 \contentsline {section}{\numberline {5.2}Filtering}{30}{section.5.2}
-\contentsline {section}{\numberline {5.3}Classification}{30}{section.5.3}
-\contentsline {section}{\numberline {5.4}Storing the Data}{30}{section.5.4}
+\contentsline {section}{\numberline {5.3}Classification}{31}{section.5.3}
+\contentsline {section}{\numberline {5.4}Storing the Data}{31}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Storing Filtered Documents}{31}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Storing Extracted Relations}{31}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}API}{31}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}General Remarks}{31}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Classify Route: /classify}{31}{subsection.5.5.2}
 \contentsline {subsection}{\numberline {5.5.3}Data-set Route: /datasets}{32}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Documents Route: /documents}{33}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.4}Documents Route: /documents}{34}{subsection.5.5.4}
 \contentsline {subsection}{\numberline {5.5.5}Indices Route: /indices}{34}{subsection.5.5.5}
 \contentsline {subsection}{\numberline {5.5.6}Classify Documents Route: /classify\_documents}{34}{subsection.5.5.6}
 \contentsline {section}{\numberline {5.6}Front-End}{35}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Technical Overview}{35}{subsection.5.6.1}
 \contentsline {subsubsection}{Modular Design}{35}{subsection.5.6.1}
-\contentsline {subsubsection}{NodeJS}{35}{subsection.5.6.1}
-\contentsline {subsubsection}{ExpressJS}{35}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Interfaces}{35}{subsection.5.6.2}
-\contentsline {subsubsection}{Interactive Map}{35}{subsection.5.6.2}
-\contentsline {subsubsection}{Classification Interface}{35}{subsection.5.6.2}
-\contentsline {subsubsection}{Settings Interface}{35}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Recommendations}{35}{subsection.5.6.3}
+\contentsline {subsubsection}{NodeJS}{36}{subsection.5.6.1}
+\contentsline {subsubsection}{ExpressJS}{36}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Interfaces}{36}{subsection.5.6.2}
+\contentsline {subsubsection}{Interactive Map}{36}{subsection.5.6.2}
+\contentsline {subsubsection}{Classification Interface}{36}{subsection.5.6.2}
+\contentsline {subsubsection}{Settings Interface}{36}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Recommendations}{36}{subsection.5.6.3}
 \contentsline {chapter}{\numberline {6}Project Evaluation}{37}{chapter.6}
 \contentsline {section}{\numberline {6.1}Fulfilment of Requirements}{37}{section.6.1}
 \contentsline {section}{\numberline {6.2}Process}{38}{section.6.2}

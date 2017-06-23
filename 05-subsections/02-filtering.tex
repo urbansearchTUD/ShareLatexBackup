@@ -1,2 +1,6 @@
 \section{Filtering}
 The next step in the process is filtering documents as explained in section \ref{sec:filtering_docs} and can be seen in figure \ref{fig:overview}. The implementation depends on the pyahocorasick library, which checks the page and tries to match strings within the page. We can supply this class with a list of cities, however, by default the application will retrieve a list of cities from the database.
+
+The implementation seemed straightforward at first, however, it became apparent that the algorithm matched substrings. For example, if a text contains "Amsterdammers" than the Aho-Corasick algorithm would match
+
+% ook ff zeggen dat we set moesten gebruiken omdat aho-corasick multimatch doet
