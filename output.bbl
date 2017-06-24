@@ -1,4 +1,4 @@
-\begin{thebibliography}{43}
+\begin{thebibliography}{44}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -240,6 +240,12 @@ Peter~J Taylor.
 \newblock The interlocking network model.
 \newblock \emph{International handbook of globalization and world cities},
   pages 51--63, 2012.
+
+\bibitem[Thelwall and Stuart(2006)]{thelwall2006web}
+Mike Thelwall and David Stuart.
+\newblock Web crawling ethics revisited: Cost, privacy, and denial of service.
+\newblock \emph{Journal of the American Society for Information Science and
+  Technology}, 57\penalty0 (13):\penalty0 1771--1779, 2006.
 
 \bibitem[Tobler(1970)]{tobler1970computer}
 Waldo~R Tobler.

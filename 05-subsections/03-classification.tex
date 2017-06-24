@@ -1,1 +1,30 @@
 \section{Classification}\label{5-classification}
+This section describes how we developed our interface for classifying documents. To provide a complete overview we will first discuss how classifiers are defined. Then we will discuss how classifiers are created or loaded in the system. Finally we will discuss the interface that accepts documents and returns a prediction about the category or categories associated with the supplied document.
+\subsection{Scikit Pipelines}
+Like we explained in chapter 4 we decided to use the Scikit-Learn library for all our classification logic. A key concept of Scikit is the so called \texttt{Pipeline}. A \texttt{Pipeline} in Scikit is an assembly of intermediate transform steps combined with a final estimator \footnote{\url{http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html}}. The intermediate transforms transform the input data so that the final estimator can perform optimally. In listing \ref{lst:sdgc} we show an example of an \texttt{Pipeline} that we use in the UrbanSearch system. 
+
+\begin{lstlisting}[language=python, caption={SGDC Pipeline}, label={lst:sdgc}]
+sgdc = Pipeline([
+            ('tfidf', TfidfVectorizer(stop_words=sw.words('dutch'))),
+            ('anova', SelectPercentile(f_classif)),
+            ('clf', SGDClassifier(alpha=0.0001,
+                                  average=False,
+                                  class_weight=None,
+                                  epsilon=0.1,
+                                  eta0=0.0,
+                                  fit_intercept=True,
+                                  l1_ratio=0.15,
+                                  learning_rate='optimal',
+                                  loss='log',
+                                  n_iter=5,
+                                  n_jobs=1,
+                                  penalty='l2',
+                                  power_t=0.5,
+                                  random_state=None,
+                                  shuffle=True,
+                                  verbose=0,
+                                  warm_start=False))
+        ])
+\end{lstlisting}
+\subsection{ModelManagers}
+\subsection{ClassifyText Interface}
