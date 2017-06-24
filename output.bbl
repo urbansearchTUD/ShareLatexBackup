@@ -1,300 +1,248 @@
-\begin{thebibliography}{44}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{10}
 
-\bibitem[Aho and Corasick(1975)]{Aho-Corasick}
+\bibitem{Aho-Corasick}
 Alfred~V. Aho and Margaret~J. Corasick.
 \newblock Efficient string matching: An aid to bibliographic search.
-\newblock \emph{Communications of the ACM}, 18\penalty0 (6):\penalty0 333--340,
-  June 1975.
-\newblock ISSN 0001-0782.
-\newblock \doi{10.1145/360825.360855}.
-\newblock URL \url{http://doi.acm.org/10.1145/360825.360855}.
+\newblock {\em Commun. ACM}, 18(6):333--340, June 1975.
 
-\bibitem[Becker et~al.(1995)Becker, Eick, and Wilks]{468391}
+\bibitem{468391}
 R.~A. Becker, S.~G. Eick, and A.~R. Wilks.
 \newblock Visualizing network data.
-\newblock \emph{IEEE Transactions on Visualization and Computer Graphics},
-  1\penalty0 (1):\penalty0 16--28, Mar 1995.
-\newblock ISSN 1077-2626.
-\newblock \doi{10.1109/2945.468391}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  1(1):16--28, Mar 1995.
 
-\bibitem[Brunn et~al.(2010)Brunn, Devriendt, Boulton, Derudder, and
-  Witlox]{brunn2010networks}
+\bibitem{brunn2010networks}
 Stanley~D Brunn, Lomme Devriendt, Andrew Boulton, Ben Derudder, and Frank
   Witlox.
 \newblock Networks of european cities in worlds of global economic and
   environmental change.
-\newblock \emph{Fennia}, 188\penalty0 (1):\penalty0 37--49, 2010.
+\newblock {\em Fennia}, 188(1):37--49, 2010.
 
-\bibitem[Choi et~al.(2006)Choi, Barnett, and CHON]{choi2006comparing}
+\bibitem{choi2006comparing}
 Junho~H Choi, George~A Barnett, and BUM-SOO CHON.
 \newblock Comparing world city networks: a network analysis of internet
   backbone and air transport intercity linkages.
-\newblock \emph{Global Networks}, 6\penalty0 (1):\penalty0 81--99, 2006.
+\newblock {\em Global Networks}, 6(1):81--99, 2006.
 
-\bibitem[Clegg and Barker(1994)]{clegg1994case}
+\bibitem{clegg1994case}
 Dai Clegg and Richard Barker.
-\newblock \emph{Case method fast-track: a RAD approach}.
+\newblock {\em Case method fast-track: a RAD approach}.
 \newblock Addison-Wesley Longman Publishing Co., Inc., 1994.
 
-\bibitem[Crawl(2017)]{commoncrawl}
+\bibitem{commoncrawl}
 Common Crawl.
 \newblock Common crawl.
 \newblock \url{https://commoncrawl.org/}, 2017.
 \newblock Accessed: 2017-04-25.
 
-\bibitem[Derudder and Witlox(2005)]{derudder2005appraisal}
+\bibitem{derudder2005appraisal}
 Ben Derudder and Frank Witlox.
 \newblock An appraisal of the use of airline data in assessing the world city
   network: a research note on data.
-\newblock \emph{Urban Studies}, 42\penalty0 (13):\penalty0 2371--2388, 2005.
+\newblock {\em Urban Studies}, 42(13):2371--2388, 2005.
 
-\bibitem[Devriendt et~al.(2008)Devriendt, Derudder, and
-  Witlox]{devriendt2008cyberplace}
+\bibitem{devriendt2008cyberplace}
 Lomme Devriendt, Ben Derudder, and Frank Witlox.
 \newblock Cyberplace and cyberspace: two approaches to analyzing digital
   intercity linkages.
-\newblock \emph{Journal of Urban Technology}, 15\penalty0 (2):\penalty0 5--32,
-  2008.
+\newblock {\em Journal of Urban Technology}, 15(2):5--32, 2008.
 
-\bibitem[Elasticsearch(2017)]{elasticsearch}
-Elasticsearch.
-\newblock Elasticsearch.
-\newblock \url{https://www.elastic.co/products/elasticsearch}, 2017.
-\newblock Accessed: 2017-04-26.
-
-\bibitem[et~al.(2017)]{nlkt_stemming}
+\bibitem{nlkt_stemming}
 Alex~Rudnick et~al.
 \newblock Nlkt.
 \newblock \url{http://www.nltk.org/api/nltk.stem.html}, 2017.
 
-\bibitem[Gorman and Malecki(2000)]{gorman2000networks}
+\bibitem{gorman2000networks}
 Sean~P Gorman and Edward~J Malecki.
 \newblock The networks of the internet: an analysis of provider networks in the
   usa.
-\newblock \emph{Telecommunications Policy}, 24\penalty0 (2):\penalty0 113--134,
-  2000.
+\newblock {\em Telecommunications Policy}, 24(2):113--134, 2000.
 
-\bibitem[Haerder and Reuter(1983)]{haerder1983principles}
+\bibitem{haerder1983principles}
 Theo Haerder and Andreas Reuter.
 \newblock Principles of transaction-oriented database recovery.
-\newblock \emph{ACM Computing Surveys (CSUR)}, 15\penalty0 (4):\penalty0
-  287--317, 1983.
+\newblock {\em ACM Computing Surveys (CSUR)}, 15(4):287--317, 1983.
 
-\bibitem[Holzschuher and Peinl(2013)]{holzschuher2013performance}
+\bibitem{holzschuher2013performance}
 Florian Holzschuher and Ren{\'e} Peinl.
 \newblock Performance of graph query languages: comparison of cypher, gremlin
   and native access in neo4j.
-\newblock In \emph{Proceedings of the Joint EDBT/ICDT 2013 Workshops}, pages
+\newblock In {\em Proceedings of the Joint EDBT/ICDT 2013 Workshops}, pages
   195--204. ACM, 2013.
 
-\bibitem[improvement group(2017)]{better_code_hub}
+\bibitem{better_code_hub}
 Software improvement group.
 \newblock better code hub.
 \newblock \url{https://bettercodehub.com/}, 2017.
 
-\bibitem[Inc.()]{BeautifulSoup}
+\bibitem{BeautifulSoup}
 Fermentas Inc.
 \newblock Beautifulsoup: Beautiful soup documentation.
-\newblock URL \url{https://www.crummy.com/software/BeautifulSoup/bs4/doc/}.
 
-\bibitem[Janc(2015{\natexlab{a}})]{janc2015geography}
+\bibitem{janc2015geography}
 Krzysztof Janc.
 \newblock Geography of hyperlinks—spatial dimensions of local government
   websites.
-\newblock \emph{European Planning Studies}, 23\penalty0 (5):\penalty0
-  1019--1037, 2015{\natexlab{a}}.
+\newblock {\em European Planning Studies}, 23(5):1019--1037, 2015.
 
-\bibitem[Janc(2015{\natexlab{b}})]{janc2015visibility}
+\bibitem{janc2015visibility}
 Krzysztof Janc.
 \newblock Visibility and connections among cities in digital space.
-\newblock \emph{Journal of Urban Technology}, 22\penalty0 (4):\penalty0 3--21,
-  2015{\natexlab{b}}.
+\newblock {\em Journal of Urban Technology}, 22(4):3--21, 2015.
 
-\bibitem[Jouili and Vansteenberghe(2013)]{jouili2013}
+\bibitem{jouili2013}
 S.~Jouili and V.~Vansteenberghe.
 \newblock An empirical comparison of graph databases.
-\newblock In \emph{2013 International Conference on Social Computing}, pages
+\newblock In {\em 2013 International Conference on Social Computing}, pages
   708--715, Sept 2013.
-\newblock \doi{10.1109/SocialCom.2013.106}.
 
-\bibitem[Kernighan and Pike(1984)]{kernighan1984unix}
+\bibitem{kernighan1984unix}
 Brian~W Kernighan and Rob Pike.
-\newblock \emph{The Unix programming environment}, volume 270.
+\newblock {\em The Unix programming environment}, volume 270.
 \newblock Prentice-Hall Englewood Cliffs, NJ, 1984.
 
-\bibitem[Lambregts(2008)]{lambregts2008geographies}
+\bibitem{lambregts2008geographies}
 Bart Lambregts.
 \newblock Geographies of knowledge formation in mega-city regions: some
   evidence from the dutch randstad.
-\newblock \emph{Regional Studies}, 42\penalty0 (8):\penalty0 1173--1186, 2008.
+\newblock {\em Regional Studies}, 42(8):1173--1186, 2008.
 
-\bibitem[Microsoft(2017{\natexlab{a}})]{EvualteML}
+\bibitem{EvualteML}
 Microsoft.
 \newblock How to evaluate model performance in azure machine learning.
 \newblock
   \url{https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-evaluate-model-performance},
-  2017{\natexlab{a}}.
+  2017.
 \newblock Accessed: 2017-06-21.
 
-\bibitem[Microsoft(2017{\natexlab{b}})]{MLCheatSheet}
+\bibitem{MLCheatSheet}
 Microsoft.
 \newblock Microsoft azure machine learning algorithm cheat sheet.
 \newblock
   \url{https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-choice},
-  2017{\natexlab{b}}.
+  2017.
 \newblock Accessed: 2017-04-28.
 
-\bibitem[M{\"u}hleisen and Bizer(2012)]{muhleisen2012web}
+\bibitem{muhleisen2012web}
 Hannes M{\"u}hleisen and Christian Bizer.
 \newblock Web data commons-extracting structured data from two large web
   corpora.
-\newblock \emph{LDOW}, 937:\penalty0 133--145, 2012.
+\newblock {\em LDOW}, 937:133--145, 2012.
 
-\bibitem[Neo4j(2017{\natexlab{a}})]{neo4j}
+\bibitem{neo4j}
 Neo4j.
 \newblock Neo4j, the world's leading graph database.
-\newblock \url{https://www.neo4j.com}, 2017{\natexlab{a}}.
+\newblock \url{https://www.neo4j.com}.
 \newblock Accessed: 2017-04-26.
 
-\bibitem[Neo4j(2017{\natexlab{b}})]{neo4jscalable}
+\bibitem{neo4jscalable}
 Neo4j.
 \newblock Understanding neo4j scalability.
 \newblock
   \url{https://neo4j.com/resources/understanding-neo4j-scalability-white-paper/
-  }, 2017{\natexlab{b}}.
+  }.
 \newblock Accessed: 2017-06-19.
 
-\bibitem[Porter(2000)]{porter2000location}
-Michael~E Porter.
-\newblock Location, competition, and economic development: Local clusters in a
-  global economy.
-\newblock \emph{Economic development quarterly}, 14\penalty0 (1):\penalty0
-  15--34, 2000.
-
-\bibitem[Preis et~al.(2013)Preis, Moat, and Stanley]{preis2013quantifying}
+\bibitem{preis2013quantifying}
 Tobias Preis, Helen~Susannah Moat, and H~Eugene Stanley.
 \newblock Quantifying trading behavior in financial markets using google
   trends.
-\newblock \emph{Nature: scientific reports}, 2013.
+\newblock {\em Nature: scientific reports}, 2013.
 
-\bibitem[Ramos et~al.(2003)]{ramos_tfidf}
+\bibitem{ramos_tfidf}
 Juan Ramos et~al.
 \newblock Using tf-idf to determine word relevance in document queries.
-\newblock In \emph{Proceedings of the first instructional conference on machine
+\newblock In {\em Proceedings of the first instructional conference on machine
   learning}, 2003.
 
-\bibitem[Rasool et~al.(2012)Rasool, Tiwari, Singla, and
-  Khare]{rasool2012string}
+\bibitem{rasool2012string}
 Akhtar Rasool, Amrita Tiwari, Gunjan Singla, and Nilay Khare.
 \newblock String matching methodologies: A comparative analysis.
-\newblock \emph{REM (Text)}, 234567\penalty0 (11):\penalty0 3, 2012.
+\newblock {\em REM (Text)}, 234567(11):3, 2012.
 
-\bibitem[Reilly(1931)]{reilly1931law}
+\bibitem{reilly1931law}
 William~John Reilly.
-\newblock \emph{The law of retail gravitation}.
+\newblock {\em The law of retail gravitation}.
 \newblock WJ Reilly, 1931.
 
-\bibitem[Sebastiani(2002)]{ml_text}
+\bibitem{ml_text}
 Fabrizio Sebastiani.
 \newblock Machine learning in automated text categorization.
-\newblock \emph{ACM Comput. Surv.}, 34\penalty0 (1):\penalty0 1--47, March
-  2002.
-\newblock ISSN 0360-0300.
-\newblock \doi{10.1145/505282.505283}.
-\newblock URL \url{http://doi.acm.org/10.1145/505282.505283}.
+\newblock {\em ACM Comput. Surv.}, 34(1):1--47, March 2002.
 
-\bibitem[Short et~al.(1996)Short, Kim, Kuus, and Wells]{short1996dirty}
+\bibitem{short1996dirty}
 John~Rennie Short, Y~Kim, Merje Kuus, and Heather Wells.
 \newblock The dirty little secret of world cities research: data problems in
   comparative analysis.
-\newblock \emph{International Journal of Urban and Regional Research},
-  20\penalty0 (4):\penalty0 697--717, 1996.
+\newblock {\em International Journal of Urban and Regional Research},
+  20(4):697--717, 1996.
 
-\bibitem[Singh et~al.(2012)Singh, Subramanya, Pereira, and
-  McCallum]{singh2012wikilinks}
+\bibitem{singh2012wikilinks}
 Sameer Singh, Amarnag Subramanya, Fernando Pereira, and Andrew McCallum.
 \newblock Wikilinks: A large-scale cross-document coreference corpus labeled
   via links to wikipedia.
-\newblock \emph{University of Massachusetts, Amherst, Tech. Rep.
+\newblock {\em University of Massachusetts, Amherst, Tech. Rep.
   UM-CS-2012-015}, 2012.
 
-\bibitem[Smith et~al.(2013)Smith, Saint-Amand, Plamada, Koehn, Callison-Burch,
-  and Lopez]{smith2013dirt}
+\bibitem{smith2013dirt}
 Jason~R Smith, Herve Saint-Amand, Magdalena Plamada, Philipp Koehn, Chris
   Callison-Burch, and Adam Lopez.
 \newblock Dirt cheap web-scale parallel text from the common crawl.
-\newblock In \emph{ACL (1)}, pages 1374--1383, 2013.
+\newblock In {\em ACL (1)}, pages 1374--1383, 2013.
 
-\bibitem[software~improvement group(2017)]{sig}
+\bibitem{sig}
 software~improvement group.
 \newblock Sig.
 \newblock \url{https://www.sig.eu/}, 2017.
 
-\bibitem[Taylor(2012)]{taylor2012interlocking}
+\bibitem{taylor2012interlocking}
 Peter~J Taylor.
 \newblock The interlocking network model.
-\newblock \emph{International handbook of globalization and world cities},
-  pages 51--63, 2012.
+\newblock {\em International handbook of globalization and world cities}, pages
+  51--63, 2012.
 
-\bibitem[Thelwall and Stuart(2006)]{thelwall2006web}
-Mike Thelwall and David Stuart.
-\newblock Web crawling ethics revisited: Cost, privacy, and denial of service.
-\newblock \emph{Journal of the American Society for Information Science and
-  Technology}, 57\penalty0 (13):\penalty0 1771--1779, 2006.
-
-\bibitem[Tobler(1970)]{tobler1970computer}
+\bibitem{tobler1970computer}
 Waldo~R Tobler.
 \newblock A computer movie simulating urban growth in the detroit region.
-\newblock \emph{Economic geography}, 46\penalty0 (sup1):\penalty0 234--240,
-  1970.
+\newblock {\em Economic geography}, 46(sup1):234--240, 1970.
 
-\bibitem[Tong and Koller(2001)]{tong2001support}
+\bibitem{tong2001support}
 Simon Tong and Daphne Koller.
 \newblock Support vector machine active learning with applications to text
   classification.
-\newblock \emph{Journal of machine learning research}, 2\penalty0
-  (Nov):\penalty0 45--66, 2001.
+\newblock {\em Journal of machine learning research}, 2(Nov):45--66, 2001.
 
-\bibitem[T{\"o}rnqvist(1968)]{tornqvist1968flows}
+\bibitem{tornqvist1968flows}
 Gunnar T{\"o}rnqvist.
 \newblock Flows of information and the location of economic activities.
-\newblock \emph{Geografiska Annaler Series B, Human Geography}, 50\penalty0
-  (1):\penalty0 99--107, 1968.
+\newblock {\em Geografiska Annaler. Series B, Human Geography}, 50(1):99--107,
+  1968.
 
-\bibitem[van Oort et~al.(2010)van Oort, Burger, and Raspe]{van2010economic}
+\bibitem{van2010economic}
 Frank van Oort, Martijn Burger, and Otto Raspe.
 \newblock On the economic foundation of the urban network paradigm: Spatial
   integration, functional integration and economic complementarities within the
   dutch randstad.
-\newblock \emph{Urban Studies}, 47\penalty0 (4):\penalty0 725--748, 2010.
+\newblock {\em Urban Studies}, 47(4):725--748, 2010.
 
-\bibitem[Vicknair et~al.(2010)Vicknair, Macias, Zhao, Nan, Chen, and
-  Wilkins]{vicknair2010}
+\bibitem{vicknair2010}
 Chad Vicknair, Michael Macias, Zhendong Zhao, Xiaofei Nan, Yixin Chen, and Dawn
   Wilkins.
 \newblock A comparison of a graph database and a relational database: A data
   provenance perspective.
-\newblock In \emph{Proceedings of the 48th Annual Southeast Regional
+\newblock In {\em Proceedings of the 48th Annual Southeast Regional
   Conference}, ACM SE '10, pages 42:1--42:6, New York, NY, USA, 2010. ACM.
-\newblock ISBN 978-1-4503-0064-3.
-\newblock \doi{10.1145/1900008.1900067}.
-\newblock URL \url{http://doi.acm.org/10.1145/1900008.1900067}.
 
-\bibitem[Wu and Brynjolfsson(2014)]{wu2014future}
+\bibitem{wu2014future}
 Lynn Wu and Erik Brynjolfsson.
 \newblock The future of prediction: How google searches foreshadow housing
   prices and sales.
-\newblock In \emph{Economic analysis of the digital economy}, pages 89--118.
+\newblock In {\em Economic analysis of the digital economy}, pages 89--118.
   University of Chicago Press, 2014.
 
-\bibitem[Yang and Pedersen(1997)]{yang1997}
+\bibitem{yang1997}
 Yiming Yang and Jan~O Pedersen.
 \newblock A comparative study on feature selection in text categorization.
-\newblock In \emph{Icml}, volume~97, pages 412--420, 1997.
+\newblock In {\em Icml}, volume~97, pages 412--420, 1997.
 
 \end{thebibliography}
