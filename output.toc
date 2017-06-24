@@ -98,9 +98,7 @@
 \contentsline {subsection}{\numberline {6.2.6}Fast development}{47}{subsection.6.2.6}
 \contentsline {section}{\numberline {6.3}Product evaluation}{47}{section.6.3}
 \contentsline {section}{\numberline {6.4}Process}{47}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Collaboration Between the Team Members}{47}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Collaboration Between the Team Members and the TU Delft Coach}{47}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Collaboration Between the Team Members and the Client}{47}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.1}Development Process Evaluation}{47}{subsection.6.4.1}
 \contentsline {chapter}{\numberline {7}Discussion}{49}{chapter.7}
 \contentsline {section}{\numberline {7.1}Discussing the research question answers something}{49}{section.7.1}
 \contentsline {section}{\numberline {7.2}Issues Faced During Development}{49}{section.7.2}
@@ -111,7 +109,7 @@
 \contentsline {subsection}{\numberline {7.5.2}Impact of Found Relations}{50}{subsection.7.5.2}
 \contentsline {chapter}{\numberline {8}Recommendations}{51}{chapter.8}
 \contentsline {chapter}{\numberline {9}Conclusion}{53}{chapter.9}
-\contentsline {chapter}{Bibliography}{55}{chapter*.63}
+\contentsline {chapter}{Bibliography}{55}{chapter*.62}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{59}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{61}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{61}{section.B.1}

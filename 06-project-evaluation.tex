@@ -17,16 +17,16 @@ In section \ref{sec:reqs} we declared the requirements for our program. Table \r
 \label{requirements_pass/fail}
 \begin{tabular}{ll m{8cm}}
 \textbf{Must Haves}                     & Pass / Fail & Comment                                                                                                                                                                                                                               \\
-1 Mining from Common Crawl     & Pass        & Data is succesfully gathered from Common Crawl.                                                                                                                                                                                       \\
+1 Mining from Common Crawl     & Pass        & Data is successfully gathered from Common Crawl.                                                                                                                                                                                       \\
 2 Exporting relations          & Fail        & Due to many delays in other parts, exporting the data was not achievable within the time set for the product.                                                                                                                         \\
-3 Extracting relations         & Pass        & Relations are succesfully extracted from documents for about \todo{x} \%.                                                                                                                                                            \\
+3 Extracting relations         & Pass        & Relations are successfully extracted from documents for about \todo{x} \%.                                                                                                                                                            \\
 4 Visualisation                & Pass        & A front-end which shows the data on a map is ready for use.                                                                                                                                                                           \\
 5 Present statistics           & Pass        & The front-end presents statistics with the shown data.                                                                                                                                                                                \\
                                &             &                                                                                                                                                                                                                                       \\
 \textbf{Should Haves}                   & Pass / Fail & Comment                                                                                                                                                                                                                               \\
 1 Hierarchical relations       & Fail        & Since extracting relations from text documents was more challenging than first thought, hierarchical relations were not included.                                                         \\
-2 Machine learning retrainable & Pass        & It is possible to retrain the machine learning by feeding it a set of labeled documents.                                                                                                                                              \\
-3 Add large datasets           & Pass        & It is possible to add large  datasets, however since it does cause an increase in time needed to run the algorithm, we did not use a large dataset for our demo version.                     \\
+2 Machine learning retrainable & Pass        & It is possible to retrain the machine learning by feeding it a set of labelled documents.                                                                                                                                              \\
+3 Add large data sets           & Pass        & It is possible to add large  data sets, however since it does cause an increase in time needed to run the algorithm, we did not use a large data set for our demo version.                     \\
 4 Duplicate city names         & Fail        & The algorithm does not take cities with duplicate names, or names fitting to multiple cities into account, due to time constraints.                                                         \\
                                &             &                                                                                                                                                                                                                                       \\
 \textbf{Could haves}                    & Pass / Fail & Comment                                                                                                                                                                                                                               \\
@@ -34,7 +34,7 @@ In section \ref{sec:reqs} we declared the requirements for our program. Table \r
 2 Visualisation for comparing  & Pass        & The front-end includes visualisation for comparing cities and relationships to each other.                                                                                                                                            \\
                                &             &                                                                                                                                                                                                                                       \\
 \textbf{Would likes}                    & Pass / Fail & Comment                                                                                                                                                                                                                               \\
-1 Show all connections         & Fail        & Theoreticly it is possible to do this, but it would result in a map on which relationships can not be differentiated from each other due to the large amount the system was not build for. \\
+1 Show all connections         & Fail        & Theoretically it is possible to do this, but it would result in a map on which relationships can not be differentiated from each other due to the large amount the system was not build for. \\
 2 Other than .nl data          & Fail        & The classifier is only trained on Dutch domains.                                                                 
 \end{tabular}
 \end{table}
@@ -52,27 +52,20 @@ In section \ref{sec:design-goals} we discussed the design goals for this project
 For scalability the goal was to allow the project to be scalable so that websites from other domains than .nl can be used. Since we used Neo4J for storing relationships and Neo4J is highly scalable, storing the relationships for other domains than .nl should not be a problem. 
 
 \subsection{Plugable}
-The design goal plugable the goal was to make the application able to perform analysis on different data sets without the need of a developer. Whilst this is possible, the documents from other data sets would have to be in the correct format before they can be processed. For small datasets this might not be that much of a problem, but for larger datasets it would become very time-consuming without the help of a developer.
+The design goal plugable the goal was to make the application able to perform analysis on different data sets without the need of a developer. Whilst this is possible, the documents from other data sets would have to be in the correct format before they can be processed. For small data sets this might not be that much of a problem, but for larger data sets it would become very time-consuming without the help of a developer.
 
 \subsection{Exportable}
 At this moment we have not met the design goal exportable, which was to ensure the numeric data could be exported, for example in CSV format. Since this is not a vital part of the application, this has not yet been included. We are however still working on this. 
 
 \subsection{Fast development}
-Another goal was to have a fast development cycle because of the time constraints. To do this we choose tools, applications and programming languages with which members of our team were already experienced with. Even so, some setbacks occured which caused the cycle to slow down.
+Another goal was to have a fast development cycle because of the time constraints. To do this we choose tools, applications and programming languages with which members of our team were already experienced with. Even so, some setbacks occurred which caused the cycle to slow down.
 
 \section{Product evaluation}
 \todo{after results, check if this is right}
 To conclude the two previous sections; we have a functioning program that consists of most vital components. Whilst the results from the application are not exportable (yet), the other design goals were met. The program provides credible and understandable which can be used to analyse relationships between cities in the Netherlands. It can also be extended for non-Dutch cities and pages. Most of the requirements also passed, but depending on the needs of the end-user, it would not be difficult to extend to program to include the others as well. Even though functionality might be missing this is a useful application for analysing data and as a demo it proves systems like these are worth wile to develop.
 
 \section{Process}
+In this section, we evaluate the development process and explain what methods were used and if they were used correctly. Additionally, we discuss the collaboration with the client and coach and within the group.
 
-\subsection{Collaboration Between the Team Members}
-The collaboration between the team members went well. The team members worked in a room in the faculty of architecture from 9-5 each day. Three of the four team members knew each other already. The work was divided even over the team members. 
-
-\subsection{Collaboration Between the Team Members and the TU Delft Coach}
-Each week 9:30 on Monday the team members had a meeting with the TU Delft coach. In the beginning there were some communication issues between the team and the coach but as the process went on communication became better.
-\todo{Claudia absent twice}
-
-\subsection{Collaboration Between the Team Members and the Client}
-The collaboration between the team members and the client was good as well. 
-Weekly meetings helped the team members making the product as good as possible to the clients wishes. 
+\subsection{Development Process Evaluation}
+In order to have a smooth development cycle, we made several agreements in the beginning of the project. All code changes had to be submitted through a pull request and needed to be reviewed before they could be merged into the main code base. This was enforced using the project settings in GitHub, where branch access can be regulated. Furthermore, we used Travis CI\footnote{\url{https://travis-ci.org/}} for continuous integration. Building was automatically triggered by both pull requests and normal pushes. GitHub also provides an option to require status checks to pass before being able to merge. However, we disabled this due to some testing stability issues in the first few weeks of development. We did however agree to only merge when all status checks passed. In all but a few hasty merges we managed to adhere to this agreement.
