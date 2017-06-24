@@ -122,7 +122,8 @@ def probability_per_category(self, text, pre_processor=None):
 \end{lstlisting}
 
 \subsection{Overview}
-
+In figure \ref{fig:classify-uml} we give a concise overview of the classification subsystem. The UrbanSearch API is used to classify documents by loading an instance of the \texttt{ClassifyText} class on startup. Furthermore the API offers the possibility to create new (default) classifiers or to modify existing classifiers.\\
+The \texttt{ClassifyText} object uses an implementation of the \texttt{ModelManager} class to predict categories of documents.
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.6\textwidth]{classify-uml}
