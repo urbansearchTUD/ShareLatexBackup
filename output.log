@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  24 JUN 2017 08:58
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  24 JUN 2017 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2049,13 +2049,13 @@ Overfull \hbox (3.96773pt too wide) in paragraph at lines 18--40
  [][] 
  []
 
-[45] [46])
+[45] [46] [47])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/07-discussion.tex [47] [48
-
-]
+20e83/07-discussion.tex [48]
 Chapter 7.
-[49])
+[49
+
+])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/08-recommendations.tex [50]
 Chapter 8.
@@ -2174,13 +2174,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 37905 strings out of 495658
- 711724 string characters out of 6187951
+ 37906 strings out of 495658
+ 711752 string characters out of 6187951
  1003277 words of memory out of 5000000
- 40309 multiletter control sequences out of 15000+600000
+ 40310 multiletter control sequences out of 15000+600000
  11662 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,17n,94p,10412b,1981s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107b572577ba7000320e83/output.xdv (80 pages, 1092504 bytes).
+107b572577ba7000320e83/output.xdv (80 pages, 1108652 bytes).
