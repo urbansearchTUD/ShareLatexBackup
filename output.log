@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  24 JUN 2017 12:20
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  24 JUN 2017 12:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2176,13 +2176,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 37906 strings out of 495658
- 711752 string characters out of 6187951
+ 37907 strings out of 495658
+ 711780 string characters out of 6187951
  1003277 words of memory out of 5000000
- 40310 multiletter control sequences out of 15000+600000
+ 40311 multiletter control sequences out of 15000+600000
  11662 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,17n,94p,10412b,1981s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107b572577ba7000320e83/output.xdv (80 pages, 1114596 bytes).
+107b572577ba7000320e83/output.xdv (80 pages, 1117480 bytes).
