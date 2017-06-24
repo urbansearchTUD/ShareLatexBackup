@@ -73,24 +73,24 @@
 \contentsline {subsection}{\numberline {5.4.1}Storing Filtered Documents}{33}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Storing Extracted Data}{34}{subsection.5.4.2}
 \contentsline {subsubsection}{Neo4j Model}{34}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}API}{36}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}General Remarks}{36}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Classify Route: /classify}{36}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Data-set Route: /datasets}{37}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Documents Route: /documents}{39}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}Indices Route: /indices}{39}{subsection.5.5.5}
-\contentsline {subsection}{\numberline {5.5.6}Classify Documents Route: /classify\_documents}{39}{subsection.5.5.6}
-\contentsline {section}{\numberline {5.6}Front-End}{40}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Technical Overview}{40}{subsection.5.6.1}
-\contentsline {subsubsection}{Modular Design}{40}{subsection.5.6.1}
-\contentsline {subsubsection}{NodeJS}{41}{subsection.5.6.1}
-\contentsline {subsubsection}{ExpressJS}{41}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Interfaces}{41}{subsection.5.6.2}
-\contentsline {subsubsection}{Interactive Map}{41}{subsection.5.6.2}
-\contentsline {subsubsection}{Document Classification}{44}{figure.caption.35}
-\contentsline {subsubsection}{System Settings}{45}{figure.caption.36}
-\contentsline {subsection}{\numberline {5.6.3}Recommendations}{45}{subsection.5.6.3}
-\contentsline {section}{\numberline {5.7}Main Application}{45}{section.5.7}
+\contentsline {section}{\numberline {5.5}API}{37}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}General Remarks}{37}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Classify Route: /classify}{37}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Data-set Route: /datasets}{38}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Documents Route: /documents}{40}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Indices Route: /indices}{40}{subsection.5.5.5}
+\contentsline {subsection}{\numberline {5.5.6}Classify Documents Route: /classify\_documents}{40}{subsection.5.5.6}
+\contentsline {section}{\numberline {5.6}Front-End}{41}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Technical Overview}{41}{subsection.5.6.1}
+\contentsline {subsubsection}{Modular Design}{41}{subsection.5.6.1}
+\contentsline {subsubsection}{NodeJS}{42}{subsection.5.6.1}
+\contentsline {subsubsection}{ExpressJS}{42}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Interfaces}{42}{subsection.5.6.2}
+\contentsline {subsubsection}{Interactive Map}{42}{subsection.5.6.2}
+\contentsline {subsubsection}{Document Classification}{45}{figure.caption.36}
+\contentsline {subsubsection}{System Settings}{45}{figure.caption.37}
+\contentsline {subsection}{\numberline {5.6.3}Recommendations}{46}{subsection.5.6.3}
+\contentsline {section}{\numberline {5.7}Main Application}{46}{section.5.7}
 \contentsline {chapter}{\numberline {6}Project Evaluation}{47}{chapter.6}
 \contentsline {section}{\numberline {6.1}Evaluation of Requirements}{47}{section.6.1}
 \contentsline {section}{\numberline {6.2}Evaluation of Design Goals}{48}{section.6.2}
@@ -114,7 +114,7 @@
 \contentsline {subsection}{\numberline {7.5.2}Consequences of Extracted Relations}{52}{subsection.7.5.2}
 \contentsline {chapter}{\numberline {8}Recommendations}{53}{chapter.8}
 \contentsline {chapter}{\numberline {9}Conclusion}{55}{chapter.9}
-\contentsline {chapter}{Bibliography}{57}{chapter*.64}
+\contentsline {chapter}{Bibliography}{57}{chapter*.65}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{61}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{63}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{63}{section.B.1}

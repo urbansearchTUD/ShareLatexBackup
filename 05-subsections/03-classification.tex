@@ -1,7 +1,7 @@
 \section{Classification}\label{5-classification}
 This section describes how we developed our interface for classifying documents. To provide a complete overview we will first discuss how classifiers are defined. Then we will discuss how classifiers are created or loaded in the system. Finally we will discuss the interface that accepts documents and returns a prediction about the category or categories associated with the supplied document.
 \subsection{Scikit Pipelines}
-As explained in section \ref{sec:classification-design} we decided to use the Scikit-Learn library for all our classification logic. A key concept of Scikit is the so called \texttt{Pipeline}. A \texttt{Pipeline} in Scikit is an assembly of intermediate transform steps, combined with a final estimator \footnote{\url{http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html}}. The intermediate transforms transform the input data so that the final estimator performs optimally. In listing \ref{lst:sdgc} we show an example of a \texttt{Pipeline} that we use in the system. 
+As explained in section \ref{sec:classification-design} we decided to use the Scikit-Learn library for all our classification logic. A key concept of Scikit is the so called \texttt{Pipeline}. A \texttt{Pipeline} in Scikit is an assembly of intermediate transform steps, combined with a final estimator \footnote{\url{http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html}}. The intermediate transforms transform the input data so that the final estimator performs optimally. In listing \ref{lst:sdgc} we show an example of a \texttt{Pipeline} that we use in the system.\\
 
 \begin{lstlisting}[language=python, caption={SGDC Pipeline}, label={lst:sdgc}]
 sgdc = Pipeline([
@@ -62,7 +62,7 @@ class ModelManager(object):
             return pickle.load(f)
 \end{lstlisting}
 
-The base class can be used to implement specific \texttt{ModelManager}s which define a concrete \texttt{Pipeline} with a final estimator of choice, like the \texttt{MultinomialNB} (Multinomial Naive Bayes) estimator used in listing \ref{lst:mnbmm}.
+The base class can be used to implement specific \texttt{ModelManager}s which define a concrete \texttt{Pipeline} with a final estimator of choice, like the \texttt{MultinomialNB} (Multinomial Naive Bayes) estimator used in listing \ref{lst:mnbmm}.\\
 
 \begin{lstlisting}[language=python, caption={ModelManager using the Multinomial Naive Bayes estimator}, label={lst:mnbmm}]
 class MNBModelManager(ModelManager):
@@ -105,6 +105,7 @@ def predict(self, text, pre_processor=None):
 \end{lstlisting}
 
 
+
 \begin{lstlisting}[language=python, caption={probability\_per\_category method of the ClassifyText class}, label={lst:ct-prob}]
 def probability_per_category(self, text, pre_processor=None):
     """
@@ -121,4 +122,10 @@ def probability_per_category(self, text, pre_processor=None):
 \end{lstlisting}
 
 \subsection{Overview}
-UMLtjjjjj goed verhaal
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\textwidth]{classify-uml}
+\caption{Diagram depicting the interaction between the API and the classification subsystems}
+\label{fig:classify-uml}
+\end{figure}
