@@ -89,16 +89,17 @@
 \contentsline {section}{\numberline {5.7}Main Application}{43}{section.5.7}
 \contentsline {chapter}{\numberline {6}Project Evaluation}{45}{chapter.6}
 \contentsline {section}{\numberline {6.1}Evaluation of Requirements}{45}{section.6.1}
-\contentsline {section}{\numberline {6.2}Evaluation of Design goals}{45}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Credible}{45}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Understandable}{45}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Scalable}{45}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.2}Evaluation of Design Goals}{46}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Credible}{46}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Understandable}{47}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Scalable}{47}{subsection.6.2.3}
 \contentsline {subsection}{\numberline {6.2.4}Plugable}{47}{subsection.6.2.4}
 \contentsline {subsection}{\numberline {6.2.5}Exportable}{47}{subsection.6.2.5}
-\contentsline {subsection}{\numberline {6.2.6}Fast development}{47}{subsection.6.2.6}
-\contentsline {section}{\numberline {6.3}Product evaluation}{47}{section.6.3}
-\contentsline {section}{\numberline {6.4}Process}{47}{section.6.4}
+\contentsline {subsection}{\numberline {6.2.6}Fast Development}{47}{subsection.6.2.6}
+\contentsline {section}{\numberline {6.3}Product Evaluation}{47}{section.6.3}
+\contentsline {section}{\numberline {6.4}Process Evaluation}{47}{section.6.4}
 \contentsline {subsection}{\numberline {6.4.1}Development Process Evaluation}{47}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Communication Evaluation}{48}{subsection.6.4.2}
 \contentsline {chapter}{\numberline {7}Discussion}{49}{chapter.7}
 \contentsline {section}{\numberline {7.1}Discussing the research question answers something}{49}{section.7.1}
 \contentsline {section}{\numberline {7.2}Issues Faced During Development}{49}{section.7.2}

@@ -11,9 +11,9 @@
 \section{Evaluation of Requirements}
 In section \ref{sec:reqs} we declared the requirements for our program. Table \ref{requirements_pass/fail} shows which of these requirements passed or failed and why. Failed requirements are discussed in section \ref{sec:Discussion - Open Issues}. As can be seen most of the requirements passed, but there are also some that failed. Most of the failed requirements are acceptable, but the failed must have is planned to be fixed in the last week of coding. Since this is after the due date for this report this fix can not be included in the report.\\
 
-\begin{table}[]
+\begin{table}[H]
 \centering
-\caption{My caption}
+\caption{Requirements fulfilment}
 \label{requirements_pass/fail}
 \begin{tabular}{ll m{8cm}}
 \textbf{Must Haves}                     & Pass / Fail & Comment                                                                                                                                                                                                                               \\
@@ -39,7 +39,7 @@ In section \ref{sec:reqs} we declared the requirements for our program. Table \r
 \end{tabular}
 \end{table}
 
-\section{Evaluation of Design goals}
+\section{Evaluation of Design Goals}
 In section \ref{sec:design-goals} we discussed the design goals for this project. We came up with seven design goals on which we will reflect.
 
 \subsection{Credible}
@@ -57,14 +57,14 @@ The design goal plugable the goal was to make the application able to perform an
 \subsection{Exportable}
 At this moment we have not met the design goal exportable, which was to ensure the numeric data could be exported, for example in CSV format. Since this is not a vital part of the application, this has not yet been included. We are however still working on this. 
 
-\subsection{Fast development}
+\subsection{Fast Development}
 Another goal was to have a fast development cycle because of the time constraints. To do this we choose tools, applications and programming languages with which members of our team were already experienced with. Even so, some setbacks occurred which caused the cycle to slow down.
 
-\section{Product evaluation}
+\section{Product Evaluation}
 \todo{after results, check if this is right}
 To conclude the two previous sections; we have a functioning program that consists of most vital components. Whilst the results from the application are not exportable (yet), the other design goals were met. The program provides credible and understandable which can be used to analyse relationships between cities in the Netherlands. It can also be extended for non-Dutch cities and pages. Most of the requirements also passed, but depending on the needs of the end-user, it would not be difficult to extend to program to include the others as well. Even though functionality might be missing this is a useful application for analysing data and as a demo it proves systems like these are worth wile to develop.
 
-\section{Process}
+\section{Process Evaluation}
 In this section, we evaluate the development process and explain what methods were used and if they were used correctly. Additionally, we discuss the collaboration with the client and coach and within the group.
 
 \subsection{Development Process Evaluation}
@@ -77,3 +77,8 @@ Travis was also configured to submit coverage reports to Coveralls\footnote{\url
 The product development was managed using the agile development methodology Scrum. Each week was a single sprint. We kept track of the current sprint and the product backlog in Trello\footnote{\url{https://trello.com}}, which helped us to have a clear overview of the product's status. We did however notice that weekly sprints were a bit too short. Usually, a sprint was too full and in the end we noticed that we got somewhat careless about sprints. Moreover, at times, unexpected time consuming issues lead to not finishing the sprint at all. It might therefore be beneficial to extend sprint duration to two weeks to allow for unexpected problems.
 
 The system was initially run on a relatively small virtual private server (4GB RAM, 2 CPUs, 150GB SSD) of one of the group members. With increasing database size, we noticed that we would require more resources, especially RAM. We therefore asked the client to request a server of the TU Delft that we could use for the application. After a few weeks of inefficient (mis)communication, we eventually got access to a 8GB RAM, 4CPUs, 100GB HDD virtual machine. This server meets the minimal requirements for the system, but does not provide enough resources if the data set is extended to more than a million documents. Moreover, the virtualisation is not ideal for the many disk IO the application requires. Therefore, it would have been better to have a physical device at hand.
+
+\subsection{Communication Evaluation}
+Communication with the client went very well throughout the entire project. We could always walk into the office with questions or remarks, or email the client if he was not present. He also complimented us whenever he liked something we achieved, but remained critical in his feedback.
+
+The coach and the group had some teething problems but managed to improve quite satisfactory on this. We received useful feedback on both the reports and design. Moreover, she kept forcing us to keep feasibility of our solutions in mind, to make sure we kept aligned with the time schedule.
