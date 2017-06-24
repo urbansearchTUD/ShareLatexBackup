@@ -10,5 +10,5 @@ for end, name in names:
         prev_end, prev_name = end, name
 \end{lstlisting}
 
-Another problem that surfaced during the implementation of the co-occurrence check was the fact that Aho-Corasick is designed to be multi-matching. This meant that it matches every occurrence of a city in the text, where we were interested which cities were found in the text but not if it was found multiple times. Therefore, the result of the Aho-Corasick algorithm was put into a set to solve this problem.
+Another problem that surfaced during the implementation of the co-occurrence check was the fact that Aho-Corasick is designed to be multi-matching. This means that it matches every occurrence of a city in the text, where we were interested which cities were found in the text but not if it was found multiple times. Therefore, the result of the Aho-Corasick algorithm was put into a set to solve this problem.
 % ook ff zeggen dat we set moesten gebruiken omdat aho-corasick multimatch doet

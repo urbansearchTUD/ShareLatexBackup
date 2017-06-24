@@ -120,6 +120,8 @@
 \newlabel{sec:filtering_docs}{{4.3}{14}{Filtering Documents}{section.4.3}{}}
 \newlabel{sec:filtering_docs@cref}{{[section][3][4]4.3}{14}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.4}Extracting Relations from Documents}{14}{section.4.4}}
+\newlabel{sec:classification-design}{{4.4}{14}{Extracting Relations from Documents}{section.4.4}{}}
+\newlabel{sec:classification-design@cref}{{[section][4][4]4.4}{14}}
 \@writefile{tdo}{\contentsline {todo}{Move (parts) to implementation}{14}{section*.14}}
 \pgfsyspdfmark {pgfid7}{20541712}{11643484}
 \citation{nlkt_stemming}
@@ -263,165 +265,171 @@
 \newlabel{lst:mnbmm@cref}{{[lstlisting][8][5]5.8}{32}}
 \@writefile{lol}{\contentsline {lstlisting}{\numberline {5.8}ModelManager using the Multinomial Naive Bayes estimator}{32}{lstlisting.5.8}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}ClassifyText Interface}{33}{subsection.5.3.3}}
+\newlabel{lst:ct-predict}{{5.9}{33}{Predict method of the ClassifyText class}{lstlisting.5.9}{}}
+\newlabel{lst:ct-predict@cref}{{[lstlisting][9][5]5.9}{33}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.9}Predict method of the ClassifyText class}{33}{lstlisting.5.9}}
+\newlabel{lst:ct-prob}{{5.10}{33}{probability\_per\_category method of the ClassifyText class}{lstlisting.5.10}{}}
+\newlabel{lst:ct-prob@cref}{{[lstlisting][10][5]5.10}{33}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.10}probability\_per\_category method of the ClassifyText class}{33}{lstlisting.5.10}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Overview}{33}{subsection.5.3.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.4}Storing the Data}{33}{section.5.4}}
 \newlabel{sec: 5-storing}{{5.4}{33}{Storing the Data}{section.5.4}{}}
 \newlabel{sec: 5-storing@cref}{{[section][4][5]5.4}{33}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Storing Filtered Documents}{33}{subsection.5.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Storing Extracted Data}{33}{subsection.5.4.2}}
-\@writefile{toc}{\contentsline {subsubsection}{Neo4j Model}{33}{subsection.5.4.2}}
-\newlabel{lst:query-occ}{{5.9}{34}{Querying documents containing two cities}{lstlisting.5.9}{}}
-\newlabel{lst:query-occ@cref}{{[lstlisting][9][5]5.9}{34}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.9}Querying documents containing two cities}{34}{lstlisting.5.9}}
-\newlabel{lst:query-counts}{{5.10}{34}{Counting distinct labels}{lstlisting.5.10}{}}
-\newlabel{lst:query-counts@cref}{{[lstlisting][10][5]5.10}{34}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.10}Counting distinct labels}{34}{lstlisting.5.10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The Neo4j model as implemented\relax }}{34}{figure.caption.28}}
-\newlabel{fig:neo4j-model-full}{{5.2}{34}{The Neo4j model as implemented\relax }{figure.caption.28}{}}
-\newlabel{fig:neo4j-model-full@cref}{{[figure][2][5]5.2}{34}}
-\citation{apigee}
-\newlabel{lst:query-non-param}{{5.11}{35}{Matching cities without parameterising}{lstlisting.5.11}{}}
-\newlabel{lst:query-non-param@cref}{{[lstlisting][11][5]5.11}{35}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.11}Matching cities without parameterising}{35}{lstlisting.5.11}}
-\newlabel{lst:query-with-param}{{5.12}{35}{Matching cities without parameterising}{lstlisting.5.12}{}}
-\newlabel{lst:query-with-param@cref}{{[lstlisting][12][5]5.12}{35}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.12}Matching cities without parameterising}{35}{lstlisting.5.12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Storing Extracted Data}{34}{subsection.5.4.2}}
+\@writefile{toc}{\contentsline {subsubsection}{Neo4j Model}{34}{subsection.5.4.2}}
+\newlabel{lst:query-occ}{{5.11}{34}{Querying documents containing two cities}{lstlisting.5.11}{}}
+\newlabel{lst:query-occ@cref}{{[lstlisting][11][5]5.11}{34}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.11}Querying documents containing two cities}{34}{lstlisting.5.11}}
+\newlabel{lst:query-counts}{{5.12}{34}{Counting distinct labels}{lstlisting.5.12}{}}
+\newlabel{lst:query-counts@cref}{{[lstlisting][12][5]5.12}{34}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.12}Counting distinct labels}{34}{lstlisting.5.12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The Neo4j model as implemented\relax }}{35}{figure.caption.28}}
+\newlabel{fig:neo4j-model-full}{{5.2}{35}{The Neo4j model as implemented\relax }{figure.caption.28}{}}
+\newlabel{fig:neo4j-model-full@cref}{{[figure][2][5]5.2}{35}}
+\newlabel{lst:query-non-param}{{5.13}{35}{Matching cities without parameterising}{lstlisting.5.13}{}}
+\newlabel{lst:query-non-param@cref}{{[lstlisting][13][5]5.13}{35}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.13}Matching cities without parameterising}{35}{lstlisting.5.13}}
+\newlabel{lst:query-with-param}{{5.14}{35}{Matching cities without parameterising}{lstlisting.5.14}{}}
+\newlabel{lst:query-with-param@cref}{{[lstlisting][14][5]5.14}{35}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.14}Matching cities without parameterising}{35}{lstlisting.5.14}}
 \@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Parameterised versus non-parameterised total execution times\relax }}{35}{table.caption.29}}
 \newlabel{tbl:param-improvement}{{5.1}{35}{Parameterised versus non-parameterised total execution times\relax }{table.caption.29}{}}
 \newlabel{tbl:param-improvement@cref}{{[table][1][5]5.1}{35}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Parameterised versus non-parameterised total execution times\relax }}{35}{table.caption.30}}
-\newlabel{tbl:bulk-improvement}{{5.2}{35}{Parameterised versus non-parameterised total execution times\relax }{table.caption.30}{}}
-\newlabel{tbl:bulk-improvement@cref}{{[table][2][5]5.2}{35}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.5}API}{35}{section.5.5}}
-\newlabel{sec: 5-API}{{5.5}{35}{API}{section.5.5}{}}
-\newlabel{sec: 5-API@cref}{{[section][5][5]5.5}{35}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}General Remarks}{35}{subsection.5.5.1}}
+\citation{apigee}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Parameterised versus non-parameterised total execution times\relax }}{36}{table.caption.30}}
+\newlabel{tbl:bulk-improvement}{{5.2}{36}{Parameterised versus non-parameterised total execution times\relax }{table.caption.30}{}}
+\newlabel{tbl:bulk-improvement@cref}{{[table][2][5]5.2}{36}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}API}{36}{section.5.5}}
+\newlabel{sec: 5-API}{{5.5}{36}{API}{section.5.5}{}}
+\newlabel{sec: 5-API@cref}{{[section][5][5]5.5}{36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}General Remarks}{36}{subsection.5.5.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.5.2}Classify Route: /classify}{36}{subsection.5.5.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.3}Data-set Route: /datasets}{36}{subsection.5.5.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.4}Documents Route: /documents}{38}{subsection.5.5.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.5}Indices Route: /indices}{38}{subsection.5.5.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.3}Data-set Route: /datasets}{37}{subsection.5.5.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.4}Documents Route: /documents}{39}{subsection.5.5.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.5}Indices Route: /indices}{39}{subsection.5.5.5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.5.6}Classify Documents Route: /classify\_documents}{39}{subsection.5.5.6}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.6}Front-End}{39}{section.5.6}}
-\newlabel{sec 5-front-end}{{5.6}{39}{Front-End}{section.5.6}{}}
-\newlabel{sec 5-front-end@cref}{{[section][6][5]5.6}{39}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.6}Front-End}{40}{section.5.6}}
+\newlabel{sec 5-front-end}{{5.6}{40}{Front-End}{section.5.6}{}}
+\newlabel{sec 5-front-end@cref}{{[section][6][5]5.6}{40}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.6.1}Technical Overview}{40}{subsection.5.6.1}}
 \@writefile{toc}{\contentsline {subsubsection}{Modular Design}{40}{subsection.5.6.1}}
-\@writefile{toc}{\contentsline {subsubsection}{NodeJS}{40}{subsection.5.6.1}}
-\@writefile{toc}{\contentsline {subsubsection}{ExpressJS}{40}{subsection.5.6.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.2}Interfaces}{40}{subsection.5.6.2}}
+\@writefile{toc}{\contentsline {subsubsection}{NodeJS}{41}{subsection.5.6.1}}
+\@writefile{toc}{\contentsline {subsubsection}{ExpressJS}{41}{subsection.5.6.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.2}Interfaces}{41}{subsection.5.6.2}}
 \@writefile{toc}{\contentsline {subsubsection}{Interactive Map}{41}{subsection.5.6.2}}
 \@writefile{tdo}{\contentsline {todo}{mention threshold for relation total somewhere, including excel graph}{41}{section*.31}}
-\pgfsyspdfmark {pgfid10}{18583795}{44333526}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces View on page-load of the interactive map\relax }}{41}{figure.caption.32}}
-\newlabel{fig:frontend-map}{{5.3}{41}{View on page-load of the interactive map\relax }{figure.caption.32}{}}
-\newlabel{fig:frontend-map@cref}{{[figure][3][5]5.3}{41}}
+\pgfsyspdfmark {pgfid10}{18583795}{23422308}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces View on page-load of the interactive map\relax }}{42}{figure.caption.32}}
+\newlabel{fig:frontend-map}{{5.3}{42}{View on page-load of the interactive map\relax }{figure.caption.32}{}}
+\newlabel{fig:frontend-map@cref}{{[figure][3][5]5.3}{42}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Map Controls for the interactive map - Cities\relax }}{42}{figure.caption.33}}
 \newlabel{fig:frontend-mc}{{5.4}{42}{Map Controls for the interactive map - Cities\relax }{figure.caption.33}{}}
 \newlabel{fig:frontend-mc@cref}{{[figure][4][5]5.4}{42}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Different relation strengths are shown by adjusting opacity\relax }}{42}{figure.caption.34}}
-\newlabel{fig:frontend-rel-strength}{{5.5}{42}{Different relation strengths are shown by adjusting opacity\relax }{figure.caption.34}{}}
-\newlabel{fig:frontend-rel-strength@cref}{{[figure][5][5]5.5}{42}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Map Controls for the interactive map - Relations\relax }}{43}{figure.caption.35}}
-\newlabel{fig:frontend-mc-rel}{{5.6}{43}{Map Controls for the interactive map - Relations\relax }{figure.caption.35}{}}
-\newlabel{fig:frontend-mc-rel@cref}{{[figure][6][5]5.6}{43}}
-\@writefile{toc}{\contentsline {subsubsection}{Document Classification}{43}{figure.caption.35}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces The labelling interface\relax }}{44}{figure.caption.36}}
-\newlabel{fig:frontend-label}{{5.7}{44}{The labelling interface\relax }{figure.caption.36}{}}
-\newlabel{fig:frontend-label@cref}{{[figure][7][5]5.7}{44}}
-\@writefile{toc}{\contentsline {subsubsection}{System Settings}{44}{figure.caption.36}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces The systems settings interface\relax }}{44}{figure.caption.37}}
-\newlabel{fig:frontend-ss}{{5.8}{44}{The systems settings interface\relax }{figure.caption.37}{}}
-\newlabel{fig:frontend-ss@cref}{{[figure][8][5]5.8}{44}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.3}Recommendations}{44}{subsection.5.6.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.7}Main Application}{44}{section.5.7}}
-\newlabel{sec:main-app}{{5.7}{44}{Main Application}{section.5.7}{}}
-\newlabel{sec:main-app@cref}{{[section][7][5]5.7}{44}}
-\@writefile{tdo}{\contentsline {todo}{!}{44}{section*.38}}
-\pgfsyspdfmark {pgfid11}{20541712}{9129791}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Project Evaluation}{45}{chapter.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Different relation strengths are shown by adjusting opacity\relax }}{43}{figure.caption.34}}
+\newlabel{fig:frontend-rel-strength}{{5.5}{43}{Different relation strengths are shown by adjusting opacity\relax }{figure.caption.34}{}}
+\newlabel{fig:frontend-rel-strength@cref}{{[figure][5][5]5.5}{43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Map Controls for the interactive map - Relations\relax }}{44}{figure.caption.35}}
+\newlabel{fig:frontend-mc-rel}{{5.6}{44}{Map Controls for the interactive map - Relations\relax }{figure.caption.35}{}}
+\newlabel{fig:frontend-mc-rel@cref}{{[figure][6][5]5.6}{44}}
+\@writefile{toc}{\contentsline {subsubsection}{Document Classification}{44}{figure.caption.35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces The labelling interface\relax }}{45}{figure.caption.36}}
+\newlabel{fig:frontend-label}{{5.7}{45}{The labelling interface\relax }{figure.caption.36}{}}
+\newlabel{fig:frontend-label@cref}{{[figure][7][5]5.7}{45}}
+\@writefile{toc}{\contentsline {subsubsection}{System Settings}{45}{figure.caption.36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces The systems settings interface\relax }}{45}{figure.caption.37}}
+\newlabel{fig:frontend-ss}{{5.8}{45}{The systems settings interface\relax }{figure.caption.37}{}}
+\newlabel{fig:frontend-ss@cref}{{[figure][8][5]5.8}{45}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.3}Recommendations}{45}{subsection.5.6.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.7}Main Application}{45}{section.5.7}}
+\newlabel{sec:main-app}{{5.7}{45}{Main Application}{section.5.7}{}}
+\newlabel{sec:main-app@cref}{{[section][7][5]5.7}{45}}
+\@writefile{tdo}{\contentsline {todo}{!}{45}{section*.38}}
+\pgfsyspdfmark {pgfid11}{18583795}{9129791}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Project Evaluation}{47}{chapter.6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{tdo}{\contentsline {todo}{intro}{45}{section*.39}}
+\@writefile{tdo}{\contentsline {todo}{intro}{47}{section*.39}}
 \pgfsyspdfmark {pgfid12}{18583795}{28630357}
-\@writefile{tdo}{\contentsline {todo}{Put results in appendix F}{45}{section*.40}}
+\@writefile{tdo}{\contentsline {todo}{Put results in appendix F}{47}{section*.40}}
 \pgfsyspdfmark {pgfid13}{18583795}{26168121}
-\@writefile{tdo}{\contentsline {todo}{write conclusion about results}{45}{section*.41}}
+\@writefile{tdo}{\contentsline {todo}{write conclusion about results}{47}{section*.41}}
 \pgfsyspdfmark {pgfid14}{18583795}{23697406}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Evaluation of Requirements}{45}{section.6.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Requirements fulfilment\relax }}{46}{table.caption.42}}
-\newlabel{requirements_pass/fail}{{6.1}{46}{Requirements fulfilment\relax }{table.caption.42}{}}
-\newlabel{requirements_pass/fail@cref}{{[table][1][6]6.1}{46}}
-\@writefile{tdo}{\contentsline {todo}{x}{46}{section*.43}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Evaluation of Requirements}{47}{section.6.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Requirements fulfilment\relax }}{48}{table.caption.42}}
+\newlabel{requirements_pass/fail}{{6.1}{48}{Requirements fulfilment\relax }{table.caption.42}{}}
+\newlabel{requirements_pass/fail@cref}{{[table][1][6]6.1}{48}}
+\@writefile{tdo}{\contentsline {todo}{x}{48}{section*.43}}
 \pgfsyspdfmark {pgfid15}{27634160}{42967988}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Evaluation of Design Goals}{46}{section.6.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Credible}{46}{subsection.6.2.1}}
-\@writefile{tdo}{\contentsline {todo}{after results}{46}{section*.44}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Evaluation of Design Goals}{48}{section.6.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Credible}{48}{subsection.6.2.1}}
+\@writefile{tdo}{\contentsline {todo}{after results}{48}{section*.44}}
 \pgfsyspdfmark {pgfid16}{20541712}{7196499}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Understandable}{47}{subsection.6.2.2}}
-\@writefile{tdo}{\contentsline {todo}{after results}{47}{section*.45}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Understandable}{49}{subsection.6.2.2}}
+\@writefile{tdo}{\contentsline {todo}{after results}{49}{section*.45}}
 \pgfsyspdfmark {pgfid17}{18583795}{48943901}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}Scalable}{47}{subsection.6.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.4}Plugable}{47}{subsection.6.2.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.5}Exportable}{47}{subsection.6.2.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.6}Fast Development}{47}{subsection.6.2.6}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Product Evaluation}{47}{section.6.3}}
-\@writefile{tdo}{\contentsline {todo}{after results, check if this is right}{47}{section*.46}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}Scalable}{49}{subsection.6.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.4}Plugable}{49}{subsection.6.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.5}Exportable}{49}{subsection.6.2.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.6}Fast Development}{49}{subsection.6.2.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Product Evaluation}{49}{section.6.3}}
+\@writefile{tdo}{\contentsline {todo}{after results, check if this is right}{49}{section*.46}}
 \pgfsyspdfmark {pgfid18}{18583795}{23789938}
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}Process Evaluation}{47}{section.6.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Development Process Evaluation}{47}{subsection.6.4.1}}
-\@writefile{tdo}{\contentsline {todo}{add final test code \#lines, coverage \%, etc.}{48}{section*.47}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Process Evaluation}{49}{section.6.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Development Process Evaluation}{49}{subsection.6.4.1}}
+\@writefile{tdo}{\contentsline {todo}{add final test code \#lines, coverage \%, etc.}{50}{section*.47}}
 \pgfsyspdfmark {pgfid19}{20541712}{40795093}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}Communication Evaluation}{48}{subsection.6.4.2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Discussion}{49}{chapter.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}Communication Evaluation}{50}{subsection.6.4.2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Discussion}{51}{chapter.7}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{tdo}{\contentsline {todo}{rephrase}{49}{section*.48}}
-\pgfsyspdfmark {pgfid20}{18583795}{36883137}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}Discussing the research question answers something}{49}{section.7.1}}
-\@writefile{tdo}{\contentsline {todo}{better title}{49}{section*.49}}
-\pgfsyspdfmark {pgfid21}{18583795}{29782169}
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Issues Faced During Development}{49}{section.7.2}}
-\@writefile{tdo}{\contentsline {todo}{memory problems}{49}{section*.50}}
-\pgfsyspdfmark {pgfid22}{18583795}{25080947}
-\@writefile{tdo}{\contentsline {todo}{multiprocessing}{49}{section*.51}}
-\pgfsyspdfmark {pgfid23}{18583795}{23725681}
-\@writefile{tdo}{\contentsline {todo}{text encoding}{49}{section*.52}}
-\pgfsyspdfmark {pgfid24}{18583795}{22370414}
-\@writefile{tdo}{\contentsline {todo}{python neo4j driver}{49}{section*.53}}
-\pgfsyspdfmark {pgfid25}{18583795}{21015147}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Open Issues}{49}{section.7.3}}
-\newlabel{sec:Discussion - Open Issues}{{7.3}{49}{Open Issues}{section.7.3}{}}
-\newlabel{sec:Discussion - Open Issues@cref}{{[section][3][7]7.3}{49}}
-\@writefile{tdo}{\contentsline {todo}{Discuss choice to filter "Amsterdammers", future version might include this}{49}{section*.54}}
-\pgfsyspdfmark {pgfid26}{18583795}{16236646}
-\@writefile{tdo}{\contentsline {todo}{exporting data}{49}{section*.55}}
-\pgfsyspdfmark {pgfid27}{18583795}{14879619}
-\@writefile{tdo}{\contentsline {todo}{uneven amount of documents/class}{49}{section*.56}}
-\pgfsyspdfmark {pgfid28}{18583795}{13598112}
-\@writefile{tdo}{\contentsline {todo}{language}{49}{section*.57}}
-\pgfsyspdfmark {pgfid29}{18583795}{12316606}
-\@writefile{tdo}{\contentsline {todo}{processing time}{49}{section*.58}}
-\pgfsyspdfmark {pgfid30}{18583795}{10969819}
-\@writefile{tdo}{\contentsline {todo}{neo4j problems}{49}{section*.59}}
-\pgfsyspdfmark {pgfid31}{18583795}{9623032}
-\@writefile{tdo}{\contentsline {todo}{NoSQL vs SQL}{49}{section*.60}}
-\pgfsyspdfmark {pgfid32}{18583795}{8302166}
-\@writefile{tdo}{\contentsline {todo}{more....}{49}{section*.61}}
-\pgfsyspdfmark {pgfid33}{18583795}{7125779}
+\@writefile{tdo}{\contentsline {todo}{rephrase}{51}{section*.48}}
+\pgfsyspdfmark {pgfid20}{18583795}{37020737}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Discussing the research question answers something}{51}{section.7.1}}
+\@writefile{tdo}{\contentsline {todo}{better title}{51}{section*.49}}
+\pgfsyspdfmark {pgfid21}{18583795}{30080405}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Issues Faced During Development}{51}{section.7.2}}
+\@writefile{tdo}{\contentsline {todo}{check if everything is mentioned in ch5. if this is the case: discard this section, mention ch5 in Open Issues}{51}{section*.50}}
+\pgfsyspdfmark {pgfid22}{18583795}{25125188}
+\@writefile{tdo}{\contentsline {todo}{memory problems}{51}{section*.51}}
+\pgfsyspdfmark {pgfid23}{18583795}{22429938}
+\@writefile{tdo}{\contentsline {todo}{multiprocessing}{51}{section*.52}}
+\pgfsyspdfmark {pgfid24}{18583795}{21094328}
+\@writefile{tdo}{\contentsline {todo}{text encoding}{51}{section*.53}}
+\pgfsyspdfmark {pgfid25}{18583795}{19758718}
+\@writefile{tdo}{\contentsline {todo}{python neo4j driver}{51}{section*.54}}
+\pgfsyspdfmark {pgfid26}{18583795}{18423109}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Open Issues}{51}{section.7.3}}
+\newlabel{sec:Discussion - Open Issues}{{7.3}{51}{Open Issues}{section.7.3}{}}
+\newlabel{sec:Discussion - Open Issues@cref}{{[section][3][7]7.3}{51}}
+\@writefile{tdo}{\contentsline {todo}{Discuss choice to filter "Amsterdammers", future version might include this}{51}{section*.55}}
+\pgfsyspdfmark {pgfid27}{18583795}{13785587}
+\@writefile{tdo}{\contentsline {todo}{exporting data}{51}{section*.56}}
+\pgfsyspdfmark {pgfid28}{18583795}{12448218}
+\@writefile{tdo}{\contentsline {todo}{uneven amount of documents/class}{51}{section*.57}}
+\pgfsyspdfmark {pgfid29}{18583795}{11186368}
+\@writefile{tdo}{\contentsline {todo}{language}{51}{section*.58}}
+\pgfsyspdfmark {pgfid30}{18583795}{9924518}
+\@writefile{tdo}{\contentsline {todo}{processing time}{51}{section*.59}}
+\pgfsyspdfmark {pgfid31}{18583795}{8597389}
+\@writefile{tdo}{\contentsline {todo}{neo4j problems}{51}{section*.60}}
+\pgfsyspdfmark {pgfid32}{18583795}{7270259}
+\@writefile{tdo}{\contentsline {todo}{NoSQL vs SQL}{51}{section*.61}}
 \citation{thelwall2006web}
-\@writefile{toc}{\contentsline {section}{\numberline {7.4}Classification}{50}{section.7.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.5}Ethics}{50}{section.7.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.1}Storage of Data}{50}{subsection.7.5.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.2}Consequences of Extracted Relations}{50}{subsection.7.5.2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Recommendations}{51}{chapter.8}}
+\pgfsyspdfmark {pgfid33}{20541712}{50360340}
+\@writefile{tdo}{\contentsline {todo}{more....}{52}{section*.62}}
+\pgfsyspdfmark {pgfid34}{20541712}{49224404}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Classification}{52}{section.7.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.5}Ethics}{52}{section.7.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.1}Storage of Data}{52}{subsection.7.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.2}Consequences of Extracted Relations}{52}{subsection.7.5.2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Recommendations}{53}{chapter.8}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{tdo}{\contentsline {todo}{extend}{51}{section*.62}}
-\pgfsyspdfmark {pgfid34}{18583795}{31798805}
-\@writefile{tdo}{\contentsline {todo}{ Make recommendations for future version, for extending the back-end and front-end Try to mention the requirements here}{51}{section*.63}}
-\pgfsyspdfmark {pgfid35}{18583795}{30164533}
+\@writefile{tdo}{\contentsline {todo}{ Make recommendations for future version, for extending the back-end and front-end Try to mention the requirements here}{53}{section*.63}}
+\pgfsyspdfmark {pgfid35}{18583795}{36771316}
 \bibdata{references}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusion}{53}{chapter.9}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusion}{55}{chapter.9}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibcite{Aho-Corasick}{{1}{1975}{{Aho and Corasick}}{{}}}
@@ -444,7 +452,7 @@
 \bibcite{jouili2013}{{18}{2013}{{Jouili and Vansteenberghe}}{{}}}
 \bibcite{kernighan1984unix}{{19}{1984}{{Kernighan and Pike}}{{}}}
 \bibcite{lambregts2008geographies}{{20}{2008}{{Lambregts}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{55}{chapter*.64}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{57}{chapter*.64}}
 \bibcite{EvualteML}{{21}{2017{}}{{Microsoft}}{{}}}
 \bibcite{MLCheatSheet}{{22}{2017{}}{{Microsoft}}{{}}}
 \bibcite{muhleisen2012web}{{23}{2012}{{M{\"u}hleisen and Bizer}}{{}}}
@@ -470,44 +478,44 @@
 \bibcite{wu2014future}{{43}{2014}{{Wu and Brynjolfsson}}{{}}}
 \bibcite{yang1997}{{44}{1997}{{Yang and Pedersen}}{{}}}
 \citation{better_code_hub}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{59}{appendix.A}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{61}{appendix.A}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{bch_guidelines}{{A}{59}{Better Code Hub Guidelines}{appendix.A}{}}
-\newlabel{bch_guidelines@cref}{{[appendix][1][2147483647]A}{59}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {B}Sig Feedback}{61}{appendix.B}}
+\newlabel{bch_guidelines}{{A}{61}{Better Code Hub Guidelines}{appendix.A}{}}
+\newlabel{bch_guidelines@cref}{{[appendix][1][2147483647]A}{61}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}Sig Feedback}{63}{appendix.B}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{sig_fb}{{B}{61}{Sig Feedback}{appendix.B}{}}
-\newlabel{sig_fb@cref}{{[appendix][2][2147483647]B}{61}}
-\@writefile{toc}{\contentsline {section}{\numberline {B.1}week 5}{61}{section.B.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {B.2}week 9}{61}{section.B.2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {C}User Manual}{63}{appendix.C}}
+\newlabel{sig_fb}{{B}{63}{Sig Feedback}{appendix.B}{}}
+\newlabel{sig_fb@cref}{{[appendix][2][2147483647]B}{63}}
+\@writefile{toc}{\contentsline {section}{\numberline {B.1}week 5}{63}{section.B.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {B.2}week 9}{63}{section.B.2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {C}User Manual}{65}{appendix.C}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {D}Developers Manual}{65}{appendix.D}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {D}Developers Manual}{67}{appendix.D}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {E}Used Libararies}{67}{appendix.E}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {E}Used Libararies}{69}{appendix.E}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \citation{sig}
 \citation{better_code_hub}
-\@writefile{toc}{\contentsline {chapter}{\numberline {F}Validation and Verification results}{69}{appendix.F}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {F}Validation and Verification results}{71}{appendix.F}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {F.1}Testing the Application}{69}{section.F.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {F.1.1}Unit Tests}{69}{subsection.F.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {F.1.2}Integration Tests}{69}{subsection.F.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {F.1.3}System Tests}{69}{subsection.F.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {F.1.4}Acceptance Tests}{69}{subsection.F.1.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {F.2}SIG}{69}{section.F.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {F.2.1}week 5}{69}{subsection.F.2.1}}
-\@writefile{tdo}{\contentsline {todo}{fixed this?}{69}{section*.65}}
+\@writefile{toc}{\contentsline {section}{\numberline {F.1}Testing the Application}{71}{section.F.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F.1.1}Unit Tests}{71}{subsection.F.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F.1.2}Integration Tests}{71}{subsection.F.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F.1.3}System Tests}{71}{subsection.F.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F.1.4}Acceptance Tests}{71}{subsection.F.1.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {F.2}SIG}{71}{section.F.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F.2.1}week 5}{71}{subsection.F.2.1}}
+\@writefile{tdo}{\contentsline {todo}{fixed this?}{71}{section*.65}}
 \pgfsyspdfmark {pgfid36}{18583795}{8872544}
-\@writefile{toc}{\contentsline {section}{\numberline {F.3}evaluating the classification}{70}{section.F.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {F.3.1}Accuracy}{70}{subsection.F.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {F.3.2}Confusion Matrix}{70}{subsection.F.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {F.3.3}Precision, Recall, F1 and UAC}{70}{subsection.F.3.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {F.4}Evaluation of relation scores}{70}{section.F.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {F.3}evaluating the classification}{72}{section.F.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F.3.1}Accuracy}{72}{subsection.F.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F.3.2}Confusion Matrix}{72}{subsection.F.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F.3.3}Precision, Recall, F1 and UAC}{72}{subsection.F.3.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {F.4}Evaluation of relation scores}{72}{section.F.4}}
 \ttl@finishall
