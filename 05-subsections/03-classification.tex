@@ -6,7 +6,7 @@ Like we explained in chapter 4 we decided to use the Scikit-Learn library for al
 \begin{lstlisting}[language=python, caption={SGDC Pipeline}, label={lst:sdgc}]
 sgdc = Pipeline([
             ('tfidf', TfidfVectorizer(stop_words=sw.words('dutch'))),
-            ('anova', SelectPercentile(f_classif)),
+            ('select', SelectPercentile(f_classif)),
             ('clf', SGDClassifier(alpha=0.0001,
                                   average=False,
                                   class_weight=None,
@@ -26,5 +26,8 @@ sgdc = Pipeline([
                                   warm_start=False))
         ])
 \end{lstlisting}
+This \texttt{Pipeline} consists of three parts. The "tfidf"-part transforms a text in to a matrix of words with associated TF-IDF scores (which are calculated first using the trainig set). The "select"-part selects the best 10 percent of features that were returned by the previous transform, in our case the \texttt{TfidfVectorizer} transform. For this particular \texttt{Pipline} this means that 10 percent of the features with the highest TF-IDF score are returned. Finally the "clf"-part is the final estimator. For this \texttt{Pipeline} it is a SVM that uses SGD training.\\
+After defining the pipeline it can be used to train the classifier. This is done by inputting a set of input with corresponding expected outputs. When the classifier is trained it can be used to estimate new unseen inputs. 
 \subsection{ModelManagers}
+
 \subsection{ClassifyText Interface}
