@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  24 JUN 2017 14:53
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  24 JUN 2017 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1580,14 +1580,21 @@ nput line 16.
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/05-subsections/02-filtering.tex [30])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-subsections/03-classification.tex)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-subsections/04-storing.tex
+20e83/05-subsections/03-classification.tex
+Overfull \hbox (29.79243pt too wide) in paragraph at lines 32--33
+\EU1/OpenSans(0)/m/sc/10 To provide an easy way to work with Scikit \EU1/lmtt/m
+/n/10 Pipeline\EU1/OpenSans(0)/m/sc/10 s we implemented an utility class called
+ \EU1/lmtt/m/n/10 ModelManager\EU1/OpenSans(0)/m/sc/10 .
+ []
 
-LaTeX Warning: Reference `sec:storage-design' on page 31 undefined on input lin
+[31])
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
+20e83/05-subsections/04-storing.tex [32]
+
+LaTeX Warning: Reference `sec:storage-design' on page 33 undefined on input lin
 e 2.
 
-[31] [32]
+[33]
 Overfull \hbox (25.99944pt too wide) in paragraph at lines 30--31
 []\EU1/OpenSans(0)/m/sc/10 Intercity relations are the relations between distin
 ct \EU1/lmtt/m/n/10 :City \EU1/OpenSans(0)/m/sc/10 labelled nodes and are calle
@@ -1600,16 +1607,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
  []
 
 File: images/neo4j-model-full.png Graphic file (type QTm)
-<use  "images/neo4j-model-full.png" > [33])
+<use  "images/neo4j-model-full.png" > [34])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/05-subsections/05-API.tex
 
-Package natbib Warning: Citation `apigee' on page 34 undefined on input line 2.
+Package natbib Warning: Citation `apigee' on page 35 undefined on input line 2.
 
 
 
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/API-routes/classify.tex [34]
+20e83/API-routes/classify.tex [35]
 Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
@@ -1721,7 +1728,7 @@ Overfull \hbox (25.00526pt too wide) in paragraph at lines 8--44
 [] 
  []
 
-[35]
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 47--84
 
  []
@@ -1821,7 +1828,7 @@ Overfull \hbox (25.00526pt too wide) in paragraph at lines 111--145
 [] 
  []
 
-[36]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 148--172
 
  []
@@ -1925,7 +1932,7 @@ Overfull \hbox (25.00526pt too wide) in paragraph at lines 9--32
 [] 
  []
 
-[37])
+[38])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/API-routes/clasdoc.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--33
@@ -1989,7 +1996,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--61
 
 ))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-subsections/06-frontend.tex [38] [39]
+20e83/05-subsections/06-frontend.tex [39] [40]
 File: images/frontend-map.png Graphic file (type QTm)
 <use  "images/frontend-map.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
@@ -2000,29 +2007,27 @@ File: images/frontend-mc.png Graphic file (type QTm)
 <use  "images/frontend-mc.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[40]
+[41]
 File: images/frontend-rel-strength.png Graphic file (type QTm)
 <use  "images/frontend-rel-strength.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-[41]
+[42]
 File: images/frontend-mc-rel.png Graphic file (type QTm)
 <use  "images/frontend-mc-rel.png" >
 File: images/labelling_interface.png Graphic file (type QTm)
 <use  "images/labelling_interface.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[42]
+[43]
 File: images/frontend-ss.png Graphic file (type QTm)
 <use  "images/frontend-ss.png" >)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/05-subsections/07-main-program.tex))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/06-project-evaluation.tex [43] [44
-
-]
+20e83/06-project-evaluation.tex [44]
 Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
@@ -2042,7 +2047,9 @@ Overfull \hbox (3.96773pt too wide) in paragraph at lines 18--40
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[45]
+[45
+
+]
 Underfull \vbox (badness 1237) has occurred while \output is active []
 
 [46] [47])
@@ -2170,13 +2177,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 37942 strings out of 495658
- 712296 string characters out of 6187951
+ 37964 strings out of 495658
+ 712576 string characters out of 6187951
  1059352 words of memory out of 5000000
- 40346 multiletter control sequences out of 15000+600000
+ 40368 multiletter control sequences out of 15000+600000
  11662 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,17n,94p,10412b,1981s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107b572577ba7000320e83/output.xdv (80 pages, 1163260 bytes).
+107b572577ba7000320e83/output.xdv (80 pages, 1200052 bytes).

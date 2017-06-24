@@ -29,5 +29,62 @@ sgdc = Pipeline([
 This \texttt{Pipeline} consists of three parts. The "tfidf"-part transforms a text in to a matrix of words with associated TF-IDF scores (which are calculated first using the trainig set). The "select"-part selects the best 10 percent of features that were returned by the previous transform, in our case the \texttt{TfidfVectorizer} transform. For this particular \texttt{Pipline} this means that 10 percent of the features with the highest TF-IDF score are returned. Finally the "clf"-part is the final estimator. For this \texttt{Pipeline} it is a SVM that uses SGD training.\\
 After defining the pipeline it can be used to train the classifier. This is done by inputting a set of input with corresponding expected outputs. When the classifier is trained it can be used to estimate new unseen inputs. 
 \subsection{ModelManagers}
+To provide an easy way to work with Scikit \texttt{Pipeline}s we implemented an utility class called \texttt{ModelManager}. The \texttt{ModelManager} is an super class that should be used to implement algorithm specific \texttt{Pipeline}s, while providing easy to use interfaces for loading, saving, training and predicting. Listing \ref{lst:modman} shows a snipit of the \texttt{ModelManager} base class.
+
+\begin{lstlisting}[language=python, caption={ModelManager base class}, label={lst:modman}]
+class ModelManager(object):
+    """
+    ModelManager base class.
+    Should only be used to load saved models from disk.
+    If a filename is passed this file will be used to load a pickeled
+    classifier from that location on disk.
+    """
+
+    def __init__(self, filename=None):
+        super(ModelManager, self).__init__()
+        self.x_train = []
+        self.y_train = []
+        self.x_validate = []
+        self.y_validate = []
+        self.x_test = []
+        self.y_test = []
+
+        self.clf = self.load(filename) if filename else None
+
+    def load(self, filename):
+        """
+        Load the classifier from the supplied file
+
+        :param filename: the file containing the pickeled classifier instance
+        :return: a scikit classifier object
+        """
+        with open(os.path.join(MODELS_DIRECTORY, filename), 'rb') as f:
+            return pickle.load(f)
+\end{lstlisting}
+
+The base class can be used to implement specific ModelManagers which define a concrete \texttt{Pipeline} with a final estimator of choice, like the \texttt{MultinomialNB} (Multinomial Naive Bayes) estimator used in listing \ref{lst:mnbmm}.
+
+\begin{lstlisting}[language=python, caption={ModelManager using the Multinomial Naive Bayes estimator}, label={lst:mnbmm}]
+class MNBModelManager(ModelManager):
+    """
+    An implementation of the ModelManager base class which uses a Multinomial Naive Bayes classifier as its default classifier.
+    """
+
+    def __init__(self, filename=None):
+        super().__init__(filename)
+
+        if not filename:
+            self.clf = Pipeline([
+                ('tfidf', TfidfVectorizer(stop_words=sw.words('dutch'))),
+                ('anova', SelectPercentile(f_classif)),
+                ('clf', MultinomialNB())
+            ])
+\end{lstlisting}
+
+The \texttt{MNBModelManager} leverages all the load, save, predict and train functionality of the base class.\\
+The base class can further be used to load saved classifiers from disk. This is done by providing the \texttt{ModelManager} class with a file name on initialisation. If the file is found the classifier is loaded from disk and ready to be used
 
 \subsection{ClassifyText Interface}
+
+\subsection{Overview}
+UMLtjjjjj goed verhaal
