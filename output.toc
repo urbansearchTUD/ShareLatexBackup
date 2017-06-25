@@ -116,9 +116,9 @@
 \contentsline {subsection}{\numberline {7.3.6}Main Application}{53}{subsection.7.3.6}
 \contentsline {section}{\numberline {7.4}Classification}{53}{section.7.4}
 \contentsline {subsection}{\numberline {7.4.1}Data Set}{53}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Threshold}{53}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Ambiguity of Document Subject}{53}{subsection.7.4.3}
-\contentsline {section}{\numberline {7.5}Ethics}{53}{section.7.5}
+\contentsline {subsection}{\numberline {7.4.2}Threshold}{54}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Ambiguity of Document Subject}{54}{subsection.7.4.3}
+\contentsline {section}{\numberline {7.5}Ethics}{54}{section.7.5}
 \contentsline {subsection}{\numberline {7.5.1}Storage of Data}{54}{subsection.7.5.1}
 \contentsline {subsection}{\numberline {7.5.2}Consequences of Extracted Relations}{54}{subsection.7.5.2}
 \contentsline {chapter}{\numberline {8}Recommendations}{55}{chapter.8}
@@ -133,14 +133,16 @@
 \contentsline {subsection}{\numberline {8.1.8}Building a Command Line Interface}{56}{subsection.8.1.8}
 \contentsline {section}{\numberline {8.2}Extending the Front-End}{56}{section.8.2}
 \contentsline {chapter}{\numberline {9}Conclusion}{57}{chapter.9}
-\contentsline {chapter}{Bibliography}{59}{chapter*.63}
+\contentsline {chapter}{Bibliography}{59}{chapter*.62}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{63}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{65}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{65}{section.B.1}
 \contentsline {section}{\numberline {B.2}week 9}{65}{section.B.2}
 \contentsline {chapter}{\numberline {C}User Manual}{67}{appendix.C}
 \contentsline {chapter}{\numberline {D}Developers Manual}{69}{appendix.D}
-\contentsline {chapter}{\numberline {E}Used Libararies}{71}{appendix.E}
+\contentsline {chapter}{\numberline {E}Used Libraries}{71}{appendix.E}
+\contentsline {section}{\numberline {E.1}Libraries Used in the Back-End}{71}{section.E.1}
+\contentsline {section}{\numberline {E.2}Libraries Used in the Front-End}{71}{section.E.2}
 \contentsline {chapter}{\numberline {F}Validation and Verification results}{73}{appendix.F}
 \contentsline {section}{\numberline {F.1}Testing the Application}{73}{section.F.1}
 \contentsline {subsection}{\numberline {F.1.1}Unit Tests}{73}{subsection.F.1.1}
