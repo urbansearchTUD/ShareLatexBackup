@@ -1,64 +1,19 @@
 \chapter{Conclusion}
 In the past few months we worked towards building an application to find relationships between cities by using data from online sources.  \\
 
-% \todo{ Start with "In the past few months we blah" and shortly mention the chapters
-%  Mention the project goal and how well it is met, without duplicating the 
-%  evaluation chapter}
-
 First, in section \ref{sec:related work} we discovered that the related work currently present is either very limited or questionable. Next, in section \ref{sec:problem-definition-analysis} we identified the requirements for a solution to the problem and discuss issues that might arise. Afterwards in sections \ref{sec:framework-and-tools} and \ref{sec:framework-implementation} we described a framework that satisfies the requirements and tackles the issues and the implementation of this framework. In section \ref{sec:project-evaluation} we discussed the fulfilment of the requirements and the design goals, and evaluated the process. Next, in section \ref{sec:discussion} we discussed the the issues we are still facing, the results of the classification, and the ethical issues our project might induce. And last, in section \ref{sec:recommendations} we make recommendations for future projects on this subject. \\
 
-As explained in section \ref{sec:project-evaluation} all of the design goals except the exporting of data were met. Whilst there are still some issues, the most important requirements also passed.  %When looking at the subproblems in section 3.2, filtering was discussed in, classification in, storing data in ? and data visualisation % export in ?. We can now reflect on the problem definition from 3.1: "How can open data be leveraged such that a metric for the strength of relationships between cities can be defined and visualised?"  
+As explained in section \ref{sec:project-evaluation} all of the design goals except the exporting of data were met. Whilst there are still some issues, the most important requirements also passed. When looking at the sub problems in section \ref{sec:3-problem-analysis}, filtering was discussed in \ref{sec:5-filtering}, classification in \ref{5-classification}, storing data in \ref{sec: 5-storing} and data visualisation \& export in \ref{sec 5-front-end}. We can now reflect on the problem definition from \ref{sec:3-problem-definition}: "How can open data be leveraged such that a metric for the strength of relationships between cities can be defined and visualised?" \\
+
+To which the answer is: One way open data can be leveraged such that a metric for the strength of relationships between cities can be defined and visualise by first downloading text data from a storage (in our case documents from CommonCrawl). Each document is checked for containing two or more city names by using the pyahocorasick package and is discarded if it does not meet the check. This selection of documents is then classified according to pre-defined relationships between cities using the svm machine learning algorithm. The documents are stored on the disk and the relations are stored in the visual graph database Neo4J. The strength of each relationships between two cities is then found by counting the number of all documents for each relationship that contain the two city names. This is visualised by NodeJS. \\
 
 
-
-research questions \\
 
 %final conclusion
-
+\todo{finisher}
+With this, we believe we the application can be an asset to the research field of ... will finish this later
 
 % With this setup we should be able to make a well tested, functioning system that meets the requirements of our clients. Furthermore, using this system will enable us to answer the question "how can the strength of relationships between cities be extracted and visualised from open data?" 
 
 % \todo{\todo{new stuff}}
 
-
-
-
-% \section{Answering the research question}
-
-
-% As mentioned in section \ref{sec:problem-definition-analysis}, the main problem was the following:
-% \begin{quote} 
-% \centering 
-% \textit{How can open data be leveraged such that a metric for the strength of relationships between cities can be defined and visualised?}
-% \end{quote}
-
-% To answer this question we came up with several sub-problems. These sub-problems, together with their answer and the reason for their importance are the following:
-% \begin{itemize}
-%     \item How can we filter the available text data to find co-occurrences of cities and discarding text data that does not contain co-occurrences? \\
-    
-%     As shown in section \ref{sec:5-filtering} the python package pyahocorasick can be used to check the text data and try to match words within the text data. However, the algorithm also checks words that are part of compound words. Therefor, in case that is not wanted, the package will have to be extended to add this extra control. \\
-    
-%     This should reduce the amount of data and thereby potentially speed up the rest of process.
-    
-%     \item The sub-problem that arises after filtering is how to determine what relationships can be extracted from the text-data, this will be referred to as the classification of the text-data. \\
-    
-%     In section \ref{5-classification} ... \todo{}
-    
-%     This requires a method that reliably and efficiently processes the text-data and can be tuned to the clients wishes, meaning that the classification should output what the client desires. 
-    
-%     \item The next question is how to store the data and determine the strength of the relationships. \\
-    
-%     Section \ref{sec: 5-storing} shows that we need storage for the text documents, as well as for extracted relations. The text documents can simply be stored on the disk. For the extracted relations the graph database Neo4j can be used. \\
-%     For determining the strength of relationships the classifier is used. We simply count the numbers of documents that have been found for each relation and use those numbers as the strength of the relationships. \\
-    
-%     Storage of documents is important for when the classifier is improved upon so that not everything will have to be downloaded again before it can be classified again. Determining the strength of the relations is important for the research done based on this.
-    
-%     \item The last question is how to combine the stored data and present it to a user, this means visualising and/or exporting the data in an accessible way.\\
-    
-%     As for visualising the data, section \ref{sec: 5-frontend} shows 
-%     \\
-%     \todo{}
-%     b
-% \end{itemize}
-
-% From these sub-results we can answer the main research question. One way open data can be leveraged such that a metric for the strength of relationships between cities can be defined and visualise by first downloading text data from a storage (in our case documents from CommonCrawl). Each document is checked for containing two or more city names by using the pyahocorasick package and is discarded if it does not meet the check. This selection of documents is then classified according to pre-defined relationships between cities using the svm machine learning algorithm. The documents are stored on the disk and the relations are stored in the visual graph database Neo4J. The strength of each relationships between two cities is then found by counting the number of all documents for each relationship that contain the two city names. This is visualised by NodeJS \todo{?}

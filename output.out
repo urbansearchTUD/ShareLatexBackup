@@ -43,10 +43,10 @@
 \BOOKMARK [1][-]{section.5.1}{Downloading\040and\040Parsing\040Indices}{chapter.5}% 43
 \BOOKMARK [1][-]{section.5.2}{Filtering\040the\040Data}{chapter.5}% 44
 \BOOKMARK [1][-]{section.5.3}{Classification}{chapter.5}% 45
-\BOOKMARK [2][-]{subsection.5.3.1}{Scikit\040Pipelines}{section.5.3}% 46
-\BOOKMARK [2][-]{subsection.5.3.2}{ModelManagers}{section.5.3}% 47
-\BOOKMARK [2][-]{subsection.5.3.3}{ClassifyText\040Interface}{section.5.3}% 48
-\BOOKMARK [2][-]{subsection.5.3.4}{Overview}{section.5.3}% 49
+\BOOKMARK [2][-]{subsection.5.3.1}{Overview}{section.5.3}% 46
+\BOOKMARK [2][-]{subsection.5.3.2}{Scikit\040Pipelines}{section.5.3}% 47
+\BOOKMARK [2][-]{subsection.5.3.3}{ModelManagers}{section.5.3}% 48
+\BOOKMARK [2][-]{subsection.5.3.4}{ClassifyText\040Interface}{section.5.3}% 49
 \BOOKMARK [1][-]{section.5.4}{Storing\040the\040Data}{chapter.5}% 50
 \BOOKMARK [2][-]{subsection.5.4.1}{Storing\040Filtered\040Documents}{section.5.4}% 51
 \BOOKMARK [2][-]{subsection.5.4.2}{Storing\040Extracted\040Data}{section.5.4}% 52

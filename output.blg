@@ -3,47 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: output.aux
 The style file: tudelft-report.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "apigee"
 Warning--empty year in BeautifulSoup
-You've used 44 entries,
+You've used 45 entries,
             2773 wiz_defined-function locations,
-            871 strings with 12190 characters,
-and the built_in function-call counts, 19338 in all, are:
-= -- 1795
-> -- 912
-< -- 42
-+ -- 320
-- -- 273
-* -- 1434
-:= -- 2909
-add.period$ -- 153
-call.type$ -- 44
-change.case$ -- 219
-chr.to.int$ -- 41
-cite$ -- 89
-duplicate$ -- 924
-empty$ -- 1711
-format.name$ -- 344
-if$ -- 4131
+            874 strings with 12264 characters,
+and the built_in function-call counts, 19621 in all, are:
+= -- 1818
+> -- 922
+< -- 43
++ -- 324
+- -- 276
+* -- 1447
+:= -- 2951
+add.period$ -- 155
+call.type$ -- 45
+change.case$ -- 223
+chr.to.int$ -- 42
+cite$ -- 91
+duplicate$ -- 939
+empty$ -- 1743
+format.name$ -- 348
+if$ -- 4192
 int.to.chr$ -- 4
 int.to.str$ -- 1
 missing$ -- 37
-newline$ -- 246
-num.names$ -- 176
-pop$ -- 467
+newline$ -- 250
+num.names$ -- 180
+pop$ -- 480
 preamble$ -- 1
-purify$ -- 178
+purify$ -- 181
 quote$ -- 0
-skip$ -- 713
+skip$ -- 727
 stack$ -- 0
-substring$ -- 774
-swap$ -- 124
+substring$ -- 776
+swap$ -- 125
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 469
+type$ -- 480
 warning$ -- 1
-while$ -- 192
+while$ -- 195
 width$ -- 0
-write$ -- 605
-(There were 2 warnings)
+write$ -- 615
+(There was 1 warning)
