@@ -1,4 +1,4 @@
-\chapter{Recommendations}
+\chapter{Recommendations}\label{sec:recommendations}
 In this chapter, we will give some pointers for both the back-end and the front-end as to how the system can be extended and improved.
 %For future improvements on this project one might decide upon two ways to do this. The first is to look at the requirements which have not yet been fulfilled and fulfil those. Depending on the needs of the user one might want to implement different things. For extending the application to international places one would want to use data from top-level domains other than .nl. However others might be interested in finding different relations, for which one would need to have other training data.
 %If one has more time it might be interesting to instead of using a classification algorithm, to choose a clustering algorithm. \todo{extend}
@@ -13,14 +13,14 @@ In this section, we present several recommendations to improve the back-end.
 \todo{@Gijs - Language, domains, other sources, etc.}
 
 \subsection{Improving Document Filtering}
-\todo{@Piet}
-Other than the required co-occurrence of cities, there is little noise cancelling in documents. Some documents contain lists of cities and are cancelled out as explained in section \ref{sec:filtering_docs}. However, there might be more intuitive ways for better document filtering. One could for example discard the contents of specific HTML elements, such as forms and input fields. Moreover, some kind of domain blacklist could be constructed to filter out entire (sub)domains that are known to contain mostly false-positives. For example, the client mentioned that many pages of Airbnb were reviews from people of all over the country, but represent no relation between these locations. Another way to extend the document filtering is to have some way to allow for
+Other than the required co-occurrence of cities, there is little noise cancelling in documents. Some documents contain lists of cities and are cancelled out as explained in section \ref{sec:filtering_docs}. However, there might be more intuitive ways for better document filtering. One could for example discard the contents of specific HTML elements, such as forms and input fields. Moreover, some kind of domain blacklist could be constructed to filter out entire (sub)domains that are known to contain mostly false-positives. For example, the client mentioned that many pages of Airbnb were reviews from people of all over the country, but represent no relation between these locations. Another way to extend the document filtering is to have some way to allow for city aliases. By doing so, more documents will pass the filtering stage so more relations can be extracted.
 
 \subsection{Constructing More Advanced Classifiers}
 \todo{@Piet - Consult with Marko}
 
 \subsection{Upgrading the Server}
 \todo{@Piet}
+As discussed in section \ref{sec:Discussion - Open Issues}, many open issues are due to the server at hand.
 
 \subsection{Building a Command Line Interface}
 \todo{@Gijs - Configuration on demand, starting single components of the app, extracting statistics, etc.}
