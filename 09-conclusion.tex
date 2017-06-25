@@ -7,21 +7,10 @@ In the past few months we worked towards building an application to find relatio
 
 First, in section \ref{sec:related work} we discovered that the related work currently present is either very limited or questionable. Next, in section \ref{sec:problem-definition-analysis} we identified the requirements for a solution to the problem and discuss issues that might arise. Afterwards in sections \ref{sec:framework-and-tools} and \ref{sec:framework-implementation} we described a framework that satisfies the requirements and tackles the issues and the implementation of this framework. In section \ref{sec:project-evaluation} we discussed the fulfilment of the requirements and the design goals, and evaluated the process. Next, in section \ref{sec:discussion} we discussed the the issues we are still facing, the results of the classification, and the ethical issues our project might induce. And last, in section \ref{sec:recommendations} we make recommendations for future projects on this subject. \\
 
-research questions
+evaluation \\
 
-%irst, in section \ref{sec:related work} we discussed related work. We saw that there are many methods that try to estimate the flows between cities. However, all of these approaches turned out to be either very limited or questionable. Some other approaches that use digital content for estimating these relations looked promising but are small scale. Web data contains many relations that were overlooked by the methods. An example is the method where researchers looked at the different locations where businesses are located.
+research questions \\
 
-%cond, in section \ref{sec:problem-definition-analysis} we identified the requirements for a solution to the problem and discuss issues that might arise. The used the MoSCoW model to describe the importance of the different requirements. The most important must haves we found are being able to input place names, displaying a map with the connection data and being able to extract this data.
-
-%hird, in section \ref{sec:framework-and-tools} we described a framework that satisfies the requirements and tackles the issues. We decided to start by using data from Common Crawl, although we kept in mind we might later extend this to other data sources such as Delpher. After selecting relevant data (data which contains 2 or more city names) we store the data with Neo4j. We then use a classifier to group the data. The categories we used were defined by the client.  To visualise this data we use the graph Neo4j provides.
-
-%ourth: implementation of this framework \ref{sec:framework-implementation}
-%ifth: evaluation of the implementation (results) \ref{sec:project-evaluation}
-%ixth: discussing the evaluation \ref{sec:discussion}
-%eventh: future recommendations \ref{sec:recommendations}
-
-% Finally, we discussed how to verify and validate the (intermediary) results from the system. The code is tested using four common types of testing: unit testing, integration testing, system testing and acceptance testing. All types serve a different purpose and together should indicate how well the system performs. Additionally, the code is sent to the Software Improvement Group for quality analysis.
-% \\
 
 % With this setup we should be able to make a well tested, functioning system that meets the requirements of our clients. Furthermore, using this system will enable us to answer the question "how can the strength of relationships between cities be extracted and visualised from open data?" 
 
