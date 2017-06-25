@@ -69,7 +69,7 @@
 \contentsline {subsection}{\numberline {5.3.2}ModelManagers}{32}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}ClassifyText Interface}{33}{subsection.5.3.3}
 \contentsline {subsection}{\numberline {5.3.4}Overview}{33}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Storing the Data}{33}{section.5.4}
+\contentsline {section}{\numberline {5.4}Storing the Data}{34}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Storing Filtered Documents}{34}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Storing Extracted Data}{34}{subsection.5.4.2}
 \contentsline {subsubsection}{Neo4j Model}{34}{subsection.5.4.2}
@@ -110,10 +110,11 @@
 \contentsline {section}{\numberline {7.3}Open Issues}{51}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Downloading and Parsing Indices}{52}{subsection.7.3.1}
 \contentsline {subsection}{\numberline {7.3.2}Filtering the Data}{52}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Storing the Data}{52}{subsection.7.3.3}
 \contentsline {section}{\numberline {7.4}Classification}{52}{section.7.4}
 \contentsline {section}{\numberline {7.5}Ethics}{52}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Storage of Data}{52}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}Consequences of Extracted Relations}{52}{subsection.7.5.2}
+\contentsline {subsection}{\numberline {7.5.1}Storage of Data}{53}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Consequences of Extracted Relations}{53}{subsection.7.5.2}
 \contentsline {chapter}{\numberline {8}Recommendations}{55}{chapter.8}
 \contentsline {chapter}{\numberline {9}Conclusion}{57}{chapter.9}
 \contentsline {chapter}{Bibliography}{59}{chapter*.66}

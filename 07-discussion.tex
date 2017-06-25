@@ -26,8 +26,13 @@ The downloading part of the system is arguably the easiest of all. Indeed, the i
 
 Another significant improvement is to use SSD instead of HDD storage, to speed up both reading and writing of files.
 
+A final issue is that Web developers can choose which character set they use for the page content. We were struggling to find a fast and correct way to determine the encoding of the page and then convert it accordingly to a general encoding. Eventually, we decided to stick to UTF-8 for every document and ignore characters that cannot be encoded in UTF-8. However, ISO 8859-1 (also known as latin-1) is widely used in the Netherlands for special characters.
+
 \subsection{Filtering the Data}
-Filtering the downloaded documents went quite well overall, as explained in section \ref{sec:5-filtering}. However, we did leave out some important aspects. Most importantly, we had no means of checking on city aliases (like 's-Gravenhage is for Den Haag and Domstad for Utrecht). Additionally, we did not check whether 
+Filtering the downloaded documents went quite well overall, as explained in section \ref{sec:5-filtering}. However, we did leave out some important aspects. Most importantly, we had no means of checking on city aliases (like 's-Gravenhage is for Den Haag and Domstad for Utrecht). Additionally, we did not check for complex occurrences of cities, such as "Amsterdammers", people from Amsterdam. We decided to do this due to some large cities that are identical to or contained in commonly used words. An example of this is the city Leiden, which translates directly to the verb "to lead". However, filtering every complex occurrence out is a too aggressive kind of filtering, resulting in discarding otherwise useful documents.
+
+\subsection{Storing the Data}
+Storing the data efficiently turned out to be slightly harder than expected due to the many issues we faced. The issues that were overcome are discussed in section \ref{sec: 5-storing}. There are some that have been left open. 
 
 \todo{Discuss choice to filter "Amsterdammers", future version might include this}
 \todo{exporting data}

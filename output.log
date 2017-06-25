@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  25 JUN 2017 09:34
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  25 JUN 2017 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1624,14 +1624,14 @@ File: images/classify-uml.png Graphic file (type QTm)
 <use  "images/classify-uml.png" >)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/05-subsections/04-storing.tex
+Underfull \vbox (badness 4279) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[33]
 
-
-LaTeX Warning: Reference `sec:storage-design' on page 33 undefined on input lin
+LaTeX Warning: Reference `sec:storage-design' on page 34 undefined on input lin
 e 2.
 
-[33] [34]
+[34]
 Overfull \hbox (25.99944pt too wide) in paragraph at lines 30--31
 []\EU1/OpenSans(0)/m/sc/10 Intercity relations are the relations between distin
 ct \EU1/lmtt/m/n/10 :City \EU1/OpenSans(0)/m/sc/10 labelled nodes and are calle
@@ -1644,10 +1644,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
  []
 
 File: images/neo4j-model-full.png Graphic file (type QTm)
-<use  "images/neo4j-model-full.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[35])
+<use  "images/neo4j-model-full.png" > [35])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/05-subsections/05-API.tex [36]
 
@@ -2101,23 +2098,23 @@ Underfull \vbox (badness 1237) has occurred while \output is active []
 Chapter 7.
 [51
 
-])
+] [52])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/08-recommendations.tex [52]
+20e83/08-recommendations.tex [53] [54
+
+]
 Chapter 8.
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/09-conclusion.tex [53
-
-] [54
+20e83/09-conclusion.tex [55] [56
 
 ]
 Chapter 9.
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/output.bbl [55] [56
+20e83/output.bbl [57] [58
 
-] [57]
+] [59]
 Underfull \hbox (badness 10000) in paragraph at lines 137--143
 []\EU1/OpenSans(0)/m/sc/10 Microsoft.  How to evaluate model performance in azu
 re machine
@@ -2149,44 +2146,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--171
 ][][] [] [] [] [][][][][] [] [][][] [] [][][][][][][][][] []
  []
 
-[58])
+[60])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/A_better_code_hub_guidelines.tex [59] [60
+20e83/A_better_code_hub_guidelines.tex [61] [62
 
 ]
 Appendix A.
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/B-SIG-analysis.tex [61] [62
+20e83/B-SIG-analysis.tex [63] [64
 
 ]
 Appendix B.
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/D-user-manual.tex [63] [64
+20e83/D-user-manual.tex [65] [66
 
 ]
 Appendix C.
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/C-dev-manual-with-UML.tex [65] [66
+20e83/C-dev-manual-with-UML.tex [67] [68
 
 ]
 Appendix D.
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/E-used-libraries.tex [67] [68
+20e83/E-used-libraries.tex [69] [70
 
 ]
 Appendix E.
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/F-validation_verification_results.tex [69] [70
+20e83/F-validation_verification_results.tex [71] [72
 
 ]
 Appendix F.
 
-LaTeX Warning: Reference `app:val_ver_results' on page 71 undefined on input li
+LaTeX Warning: Reference `app:val_ver_results' on page 73 undefined on input li
 ne 1.
 
 
@@ -2202,7 +2199,7 @@ Package natbib Warning: There were undefined citations.
 \openout6 = `output.soc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
-[71] [72]
+[73] [74]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
 
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
@@ -2220,13 +2217,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 37982 strings out of 495658
- 712894 string characters out of 6187951
+ 37987 strings out of 495658
+ 713016 string characters out of 6187951
  1058352 words of memory out of 5000000
- 40385 multiletter control sequences out of 15000+600000
+ 40390 multiletter control sequences out of 15000+600000
  11662 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,17n,94p,10412b,1857s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107b572577ba7000320e83/output.xdv (82 pages, 1238156 bytes).
+107b572577ba7000320e83/output.xdv (84 pages, 1266628 bytes).
