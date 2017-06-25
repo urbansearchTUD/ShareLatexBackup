@@ -38,7 +38,8 @@ Besides, we did not manage to get the database speed that we expected to reach. 
 
 \subsection{System API}
 The most prominent issue with the system API is the lack of authentication and authorisation. This can lead to serious security issues, since anyone can send requests to the API and make the system execute operations. User authentication and authorisation can be added easily\footnote{\url{https://realpython.com/blog/python/token-based-authentication-with-flask/}} but was left out unfortunately due to time constraints.\\
-Another issue that is left for the API is that the API does not provide all the functionality that may be wanted in the (near) future. Again this is because of time constraints, which forced us to implement only the routes that were needed for the minimum viable product.\\
+Another issue that is left for the API is that the API does not provide all the functionality that may be wanted in the (near) future. Again this is because of time constraints, which forced us to implement only the routes that were needed for the minimum viable product.
+
 \subsection{Front-End}
 The main issue in the front end is that settings interface is not connected yet to the API. This means, although we do have the setup for the interface, that submitting a setting from the interface does not trigger a call to the API.\\
 Furthermore we have small styling issues. For example relations that have a really small total score are almost invisible when visualised on the map. Fixing this would be done by adjusting the scaling function, which takes the total relations score and scales it to an number between 0 and 1 relative to the maximum total relation score (scaling now is done by applying the square root function to $total\_score/max\_total\_score$).\\
@@ -50,9 +51,6 @@ One last issue is the styling of the loaded document in the classification inter
 \caption{Example of barely readable text in a \texttt{<pre>} tag}
 \label{fig:ugly-pre}
 \end{figure}
-
-
-
 
 \subsection{Main Application}
 Combining all components of the system into a full-fledged main application went fine overall. However, a few features were left out that in fact should have been present. For example, there is no decent way for invoking the application via the command line. The code has to be adjusted depending on what part of the system should be started. Moreover, not every part of the system is configurable and we have no progress indication if the system is running. However, we believe these features can be easily added in future versions. It was therefore not our top priority to include them.
@@ -72,11 +70,11 @@ Combining all components of the system into a full-fledged main application went
 % which we could not get to work. Also mention the state of the document 
 % classification
 \section{Classification} \label{sec:discuss-classifier}
-% Describe issues faced during implementation/development
-%Discuss open issues 
+In this section we will discuss some of the issues that we faced while implementing the classification subsystem. 
 \subsection{Data Set}
-\subsection{Parameter Optimisation}
-\subsection{Empirical Tests of Classifiers}
+\subsection{Threshold}
+\subsection{Ambiguity of Document Subject}
+
 
 \section{Ethics}
 In this section some of the ethical issues with respect to the developed product are discussed. First, possible issues with storing web data are discussed. Next, we discuss the potential consequences of extracted relations.

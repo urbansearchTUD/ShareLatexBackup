@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  25 JUN 2017 19:28
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  25 JUN 2017 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2081,20 +2081,12 @@ Underfull \vbox (badness 1237) has occurred while \output is active []
 Chapter 7.
 [51
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
-
- []
-
-[52]
+] [52]
 File: images/frontend-ugly-pre.png Graphic file (type QTm)
 <use  "images/frontend-ugly-pre.png" > [53])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/08-recommendations.tex [54]
 Chapter 8.
-
-Underfull \vbox (badness 2384) has occurred while \output is active []
-
 [55
 
 ])
@@ -2227,13 +2219,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
  ) 
 Here is how much of TeX's memory you used:
- 38012 strings out of 495658
- 713404 string characters out of 6187951
- 1087415 words of memory out of 5000000
- 40415 multiletter control sequences out of 15000+600000
+ 38010 strings out of 495658
+ 713348 string characters out of 6187951
+ 1097415 words of memory out of 5000000
+ 40413 multiletter control sequences out of 15000+600000
  11670 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,17n,94p,10412b,1857s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107b572577ba7000320e83/output.xdv (84 pages, 1364548 bytes).
+107b572577ba7000320e83/output.xdv (84 pages, 1369504 bytes).

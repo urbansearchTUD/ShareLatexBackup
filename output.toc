@@ -66,7 +66,7 @@
 \contentsline {section}{\numberline {5.2}Filtering the Data}{30}{section.5.2}
 \contentsline {section}{\numberline {5.3}Classification}{31}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Overview}{31}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Scikit Pipelines}{32}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}Scikit Pipelines}{31}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}ModelManagers}{32}{subsection.5.3.3}
 \contentsline {subsection}{\numberline {5.3.4}ClassifyText Interface}{33}{subsection.5.3.4}
 \contentsline {section}{\numberline {5.4}Storing the Data}{34}{section.5.4}
@@ -87,8 +87,8 @@
 \contentsline {subsubsection}{ExpressJS}{42}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}Interfaces}{42}{subsection.5.6.2}
 \contentsline {subsubsection}{Interactive Map}{42}{subsection.5.6.2}
-\contentsline {subsubsection}{Document Classification}{45}{figure.caption.35}
-\contentsline {subsubsection}{System Settings}{45}{figure.caption.36}
+\contentsline {subsubsection}{Document Classification}{45}{figure.caption.34}
+\contentsline {subsubsection}{System Settings}{45}{figure.caption.35}
 \contentsline {subsection}{\numberline {5.6.3}Recommendations}{46}{subsection.5.6.3}
 \contentsline {section}{\numberline {5.7}Main Application}{46}{section.5.7}
 \contentsline {chapter}{\numberline {6}Project Evaluation}{47}{chapter.6}
@@ -116,8 +116,8 @@
 \contentsline {subsection}{\numberline {7.3.6}Main Application}{53}{subsection.7.3.6}
 \contentsline {section}{\numberline {7.4}Classification}{53}{section.7.4}
 \contentsline {subsection}{\numberline {7.4.1}Data Set}{53}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Parameter Optimisation}{53}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Empirical Tests of Classifiers}{53}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.2}Threshold}{53}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Ambiguity of Document Subject}{53}{subsection.7.4.3}
 \contentsline {section}{\numberline {7.5}Ethics}{53}{section.7.5}
 \contentsline {subsection}{\numberline {7.5.1}Storage of Data}{54}{subsection.7.5.1}
 \contentsline {subsection}{\numberline {7.5.2}Consequences of Extracted Relations}{54}{subsection.7.5.2}
@@ -133,7 +133,7 @@
 \contentsline {subsection}{\numberline {8.1.8}Building a Command Line Interface}{56}{subsection.8.1.8}
 \contentsline {section}{\numberline {8.2}Extending the Front-End}{56}{section.8.2}
 \contentsline {chapter}{\numberline {9}Conclusion}{57}{chapter.9}
-\contentsline {chapter}{Bibliography}{59}{chapter*.65}
+\contentsline {chapter}{Bibliography}{59}{chapter*.63}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{63}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{65}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{65}{section.B.1}

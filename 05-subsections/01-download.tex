@@ -1,6 +1,6 @@
 \section{Downloading and Parsing Indices}\label{sec:5-downloading}
 
-As can be seen in figure \ref{fig:overview}, the first step of the process is to download data from Common Crawl. This requires functions that will parse the Common Crawl indices and gather the data that corresponds to these indices. 
+As can be seen in figure \ref{fig:overview}, the first step of the process is to download data from Common Crawl. This requires functions that will parse the Common Crawl indices and gather the data that correspond to these indices. 
 
 \begin{figure}[H]
 \centering
@@ -9,9 +9,9 @@ As can be seen in figure \ref{fig:overview}, the first step of the process is to
 \label{fig:gathering_class}
 \end{figure}
 
-The parsing of indices and downloading of the data depends on the \texttt{IndicesSelector} and \texttt{PageDownloader} class, methods from these classes are called by the \texttt{TextDownloader}, as can be seen in figure \ref{fig:gathering_class}. The classes contain workers, these workers can be run  using the \texttt{run\_workers()} method which will utilise Python multiprocessing\footnote{\url{https://docs.python.org/3.5/library/multiprocessing.html}} to run workers in parallel. Running these workers in parallel speeds up the downloading of partial WARC files and parsing of Common Crawl indices.
+The parsing of indices and downloading of the data depends on the \texttt{IndicesSelector} and \texttt{PageDownloader} class, methods from these classes are called by the \texttt{TextDownloader}, as can be seen in figure \ref{fig:gathering_class}. The classes contain workers, these workers can be run  using the \texttt{run\_workers()} method. This method utilises the Python multiprocessing\footnote{\url{https://docs.python.org/3.5/library/multiprocessing.html}} library to run workers in parallel. Parallelising these workers speeds up the downloading of partial WARC files and parsing of Common Crawl indices.
 
-The first step in parsing the Common Crawl indices is filtering out the indices that have a HTTP Status Code \footnote{\url{https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html}} other than 200, as only these indices with these HTTP Status Code would be useful. 
+The first step in parsing the Common Crawl indices is to filter out the indices that have a HTTP Status Code \footnote{\url{https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html}} other than 200, as only indices with this HTTP Status Code are be useful. 
 
 \begin{lstlisting}[language=Python, caption=Initial implementation, label={lst:initial}]
 def _useful_responsecode(self, index):
@@ -28,7 +28,7 @@ def _clean_indices(self, indices):
     indices.remove(index)
 \end{lstlisting}
 
-At first a simple implementation was used as can be seen in listing \ref{lst:initial}. However, a remove operation on a list in Python has a time complexity of $O(n)$, the implementation of \texttt{clean\_indices()} loops over all indices and removes it if it has status code other than 200, which means that this function has a complexity of $O(n^2)$. To improve this, a regular expression to search the string for the status before parsing to JSON is used. This way, the list will never contain any indices with a HTTP Status Code other than 200 this is because the function will be called in a list-comprehension (see listing \ref{lst:comprehension}). This resulted in a speedup of about 5.6 times compared to the $O(n^2)$ method.
+At first, a simple implementation was used as can be seen in listing \ref{lst:initial}. However, removing an element from a Python list is a time complexity of $O(n)$ operation. Since the implementation of \texttt{clean\_indices()} loops over all indices and removes it if it has status code other than 200, this function has a complexity of $O(n^2)$. To improve on this, a regular expression to search the string for the status before parsing to JSON is used. This way, the list will never contain any indices with a HTTP Status Code other than 200. This is because the function will be called in a list-comprehension (see listing \ref{lst:comprehension}). This adjustment resulted in a speedup of about 5.6 times compared to the $O(n^2)$ method.
 
 
 \begin{lstlisting}[language=Python, caption=Regex solution]
@@ -48,7 +48,7 @@ with gzip.GzipFile(filename) as gz_obj:
 \end{lstlisting}
 
 
-While parsing the index the memory footprint of the indices is also reduced, with use of the method from listing \ref{lst:memory}. Parsing every key of the index to JSON means the resulting JSON dictionary is 480 bytes, where the size of the stripped index is 288 bytes. The size of the objects is determined using the Python built-in \texttt{sys.getsizeof()} method. 
+While parsing the index, the memory footprint of the indices is also reduced with use of the method from listing \ref{lst:memory}. Parsing every key of the index to JSON means the resulting JSON dictionary is 480 bytes, where the size of the stripped index is 288 bytes. The size of the objects is determined using the Python built-in \texttt{sys.getsizeof()} method. 
 
 \begin{lstlisting}[language=Python, caption=Reducing memory footprint, label={lst:memory}]
 def _remove_keys(json_dict):

@@ -87,8 +87,8 @@
 \BOOKMARK [2][-]{subsection.7.3.6}{Main\040Application}{section.7.3}% 87
 \BOOKMARK [1][-]{section.7.4}{Classification}{chapter.7}% 88
 \BOOKMARK [2][-]{subsection.7.4.1}{Data\040Set}{section.7.4}% 89
-\BOOKMARK [2][-]{subsection.7.4.2}{Parameter\040Optimisation}{section.7.4}% 90
-\BOOKMARK [2][-]{subsection.7.4.3}{Empirical\040Tests\040of\040Classifiers}{section.7.4}% 91
+\BOOKMARK [2][-]{subsection.7.4.2}{Threshold}{section.7.4}% 90
+\BOOKMARK [2][-]{subsection.7.4.3}{Ambiguity\040of\040Document\040Subject}{section.7.4}% 91
 \BOOKMARK [1][-]{section.7.5}{Ethics}{chapter.7}% 92
 \BOOKMARK [2][-]{subsection.7.5.1}{Storage\040of\040Data}{section.7.5}% 93
 \BOOKMARK [2][-]{subsection.7.5.2}{Consequences\040of\040Extracted\040Relations}{section.7.5}% 94
@@ -104,7 +104,7 @@
 \BOOKMARK [2][-]{subsection.8.1.8}{Building\040a\040Command\040Line\040Interface}{section.8.1}% 104
 \BOOKMARK [1][-]{section.8.2}{Extending\040the\040Front-End}{chapter.8}% 105
 \BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 106
-\BOOKMARK [0][-]{chapter*.65}{Bibliography}{}% 107
+\BOOKMARK [0][-]{chapter*.63}{Bibliography}{}% 107
 \BOOKMARK [0][-]{appendix.A}{Better\040Code\040Hub\040Guidelines}{}% 108
 \BOOKMARK [0][-]{appendix.B}{Sig\040Feedback}{}% 109
 \BOOKMARK [1][-]{section.B.1}{week\0405}{appendix.B}% 110
