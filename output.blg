@@ -4,45 +4,45 @@ The top-level auxiliary file: output.aux
 The style file: tudelft-report.bst
 Database file #1: references.bib
 Warning--empty year in BeautifulSoup
-You've used 45 entries,
+You've used 46 entries,
             2773 wiz_defined-function locations,
-            874 strings with 12264 characters,
-and the built_in function-call counts, 19621 in all, are:
-= -- 1818
-> -- 922
-< -- 43
-+ -- 324
-- -- 276
-* -- 1447
-:= -- 2951
-add.period$ -- 155
-call.type$ -- 45
-change.case$ -- 223
-chr.to.int$ -- 42
-cite$ -- 91
-duplicate$ -- 939
-empty$ -- 1743
-format.name$ -- 348
-if$ -- 4192
+            879 strings with 12363 characters,
+and the built_in function-call counts, 19977 in all, are:
+= -- 1851
+> -- 942
+< -- 44
++ -- 331
+- -- 282
+* -- 1465
+:= -- 3007
+add.period$ -- 159
+call.type$ -- 46
+change.case$ -- 227
+chr.to.int$ -- 43
+cite$ -- 93
+duplicate$ -- 954
+empty$ -- 1775
+format.name$ -- 356
+if$ -- 4270
 int.to.chr$ -- 4
 int.to.str$ -- 1
 missing$ -- 37
-newline$ -- 250
-num.names$ -- 180
-pop$ -- 480
+newline$ -- 256
+num.names$ -- 184
+pop$ -- 492
 preamble$ -- 1
-purify$ -- 181
+purify$ -- 184
 quote$ -- 0
-skip$ -- 727
+skip$ -- 741
 stack$ -- 0
-substring$ -- 776
-swap$ -- 125
+substring$ -- 778
+swap$ -- 126
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 480
+type$ -- 491
 warning$ -- 1
-while$ -- 195
+while$ -- 198
 width$ -- 0
-write$ -- 615
+write$ -- 629
 (There was 1 warning)

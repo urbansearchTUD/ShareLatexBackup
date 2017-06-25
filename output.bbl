@@ -1,4 +1,4 @@
-\begin{thebibliography}{45}
+\begin{thebibliography}{46}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -126,6 +126,12 @@ S.~Jouili and V.~Vansteenberghe.
 Brian~W Kernighan and Rob Pike.
 \newblock \emph{The Unix programming environment}, volume 270.
 \newblock Prentice-Hall Englewood Cliffs, NJ, 1984.
+
+\bibitem[Krekel et~al.(2004-2017)]{pytest}
+Holger Krekel et~al.
+\newblock pytest.
+\newblock \url{https://docs.pytest.org/en/latest/}, 2004-2017.
+\newblock Accessed: 2017-06-25.
 
 \bibitem[Lambregts(2008)]{lambregts2008geographies}
 Bart Lambregts.
