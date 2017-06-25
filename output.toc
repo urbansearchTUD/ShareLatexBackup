@@ -117,7 +117,7 @@
 \contentsline {section}{\numberline {7.4}Classification}{53}{section.7.4}
 \contentsline {section}{\numberline {7.5}Ethics}{53}{section.7.5}
 \contentsline {subsection}{\numberline {7.5.1}Storage of Data}{53}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}Consequences of Extracted Relations}{53}{subsection.7.5.2}
+\contentsline {subsection}{\numberline {7.5.2}Consequences of Extracted Relations}{54}{subsection.7.5.2}
 \contentsline {chapter}{\numberline {8}Recommendations}{55}{chapter.8}
 \contentsline {section}{\numberline {8.1}Extending the Back-End}{55}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.1}Extending the Data Set}{55}{subsection.8.1.1}
