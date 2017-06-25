@@ -30,4 +30,13 @@ As discussed in section \ref{sec:Discussion - Open Issues}, multiple open issues
 The delivered application provides an API and a visual interface, however, there is no command-line interface yet. If a user knows how to program Python it would be possible to call functions using the Python interpreter, but this is far from ideal. A future version could have a CLI (Command-Line Interface) that makes calling parts of the system fairly straightforward. For example, this would enable a user to call just the filtering subsystem or just the classification functionality on one or more documents. Next to that, the user could also change and run a separate configuration locally to experiment with parts of the application without changing the configuration of the application running on a server.
 
 \section{Extending the Front-End}
-\todo{@Marko}
+An improvement in the front end that could add great value to the system, would be an interface that lets users manipulate classifiers and data sets. The interface should allow user first of all to select which classifier is used as the default classifier for the system. Besides that allowing a user to adjust parameters of the classifier in the interface and subsequently running accuracy tests that get displayed clearly, would add a lot of flexibility and value to the system.\\
+Furthermore viewing and editing the data set associated to an classifier and/or category would allow for validation by human users of the system and for quick adjustments if for example a document would be added to a wrong category by accident.\\
+Finally we would recommend to look for better solutions of displaying relations on the map. Now if we show many cities and relations the map basically becomes a incomprehensible clutter of lines, as show in figure \ref{fig:incomp-map}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{incomp-map}
+\caption{Example of map clutter}
+\label{fig:incomp-map}
+\end{figure}

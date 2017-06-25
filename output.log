@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  25 JUN 2017 20:52
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  25 JUN 2017 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1187,6 +1187,18 @@ LaTeX Font Warning: Font shape `T1/OpenSans(0)/m/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 21.
 
 )
+Runaway argument?
+{{4.8.4}{27}{Evaluation of Relation Scores 
+! File ended while scanning use of \@newl@bel.
+<inserted text> 
+                \par 
+l.39 \begin{document}
+                     
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 \openout1 = `output.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -1388,17 +1400,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 ]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 5.
+
+Package natbib Warning: Citation `porter2000location' on page v undefined on in
+put line 10.
+
+
+Package natbib Warning: Citation `neo4j' on page v undefined on input line 10.
+
+
+Package natbib Warning: Citation `elasticsearch' on page v undefined on input l
+ine 10.
+
 ) [5] [6
 
 ]
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
-20ea2/output.toc
-Package cleveref Info: loaded `english' language definitions on input line 1.
-[7] [8])
+20ea2/output.toc)
 \tf@toc=\write5
 \openout5 = `output.toc'.
 
-[9] [10
+[7] [8
 
 ]
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
@@ -1409,6 +1430,14 @@ LaTeX Font Warning: Font shape `EU1/OpenSans-Light(0)/t/n' undefined
 (Font)              using `EU1/OpenSans-Light(0)/m/n' instead on input line 1.
 
 
+Package natbib Warning: Citation `short1996dirty' on page 1 undefined on input 
+line 2.
+
+
+Package natbib Warning: Citation `derudder2005appraisal' on page 1 undefined on
+ input line 2.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
@@ -1416,7 +1445,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 5.
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
+)
+
+Package natbib Warning: Citation `preis2013quantifying' on page 1 undefined on 
+input line 5.
+
+
+Package natbib Warning: Citation `wu2014future' on page 1 undefined on input li
+ne 5.
+
+)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/02-related-work.tex [1
 
@@ -1425,9 +1463,49 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ]
 Chapter 2.
 
+Package natbib Warning: Citation `tornqvist1968flows' on page 3 undefined on in
+put line 2.
+
+
+Package natbib Warning: Citation `taylor2012interlocking' on page 3 undefined o
+n input line 3.
+
+
+Package natbib Warning: Citation `lambregts2008geographies' on page 3 undefined
+ on input line 3.
+
+
+Package natbib Warning: Citation `devriendt2008cyberplace' on page 3 undefined 
+on input line 7.
+
+
+Package natbib Warning: Citation `choi2006comparing' on page 3 undefined on inp
+ut line 7.
+
+
+Package natbib Warning: Citation `gorman2000networks' on page 3 undefined on in
+put line 7.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
+
+
+Package natbib Warning: Citation `devriendt2008cyberplace' on page 3 undefined 
+on input line 9.
+
+
+Package natbib Warning: Citation `janc2015visibility' on page 3 undefined on in
+put line 9.
+
+
+Package natbib Warning: Citation `janc2015geography' on page 3 undefined on inp
+ut line 9.
+
+
+Package natbib Warning: Citation `brunn2010networks' on page 3 undefined on inp
+ut line 9.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
@@ -1445,9 +1523,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[5] [6] [7]
+[5]
+
+Package natbib Warning: Citation `clegg1994case' on page 6 undefined on input l
+ine 28.
+
+[6] [7]
 File: images/informationflow.png Graphic file (type QTm)
-<use  "images/informationflow.png" >)
+<use  "images/informationflow.png" >
+
+LaTeX Warning: Reference `sec:validation_protocol' on page 8 undefined on input
+ line 136.
+
+)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/04-framework-and-tools.tex [8] [9] [10
 
@@ -1463,6 +1551,23 @@ File: images/System-overview-3.png Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [11]
+
+Package natbib Warning: Citation `commoncrawl' on page 12 undefined on input li
+ne 5.
+
+
+Package natbib Warning: Citation `smith2013dirt' on page 12 undefined on input 
+line 5.
+
+
+Package natbib Warning: Citation `muhleisen2012web' on page 12 undefined on inp
+ut line 5.
+
+
+Package natbib Warning: Citation `singh2012wikilinks' on page 12 undefined on i
+nput line 5.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -1478,6 +1583,18 @@ nput line 16.
 [13])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/04-subsections/02-selecting_relevant_data.tex
+
+Package natbib Warning: Citation `rasool2012string' on page 14 undefined on inp
+ut line 3.
+
+
+Package natbib Warning: Citation `Aho-Corasick' on page 14 undefined on input l
+ine 3.
+
+
+Package natbib Warning: Citation `kernighan1984unix' on page 14 undefined on in
+put line 3.
+
 File: images/occurences_per_page.jpg Graphic file (type QTm)
 <use  "images/occurences_per_page.jpg" >)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
@@ -1487,6 +1604,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 [15]
+
+Package natbib Warning: Citation `nlkt_stemming' on page 16 undefined on input 
+line 25.
+
+
+Package natbib Warning: Citation `BeautifulSoup' on page 16 undefined on input 
+line 25.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
@@ -1507,15 +1633,53 @@ Underfull \vbox (badness 8056) has occurred while \output is active []
 
 [16]
 File: images/labelling_interface.png Graphic file (type QTm)
-<use  "images/labelling_interface.png" > [17]
+<use  "images/labelling_interface.png" >
+
+Package natbib Warning: Citation `MLCheatSheet' on page 17 undefined on input l
+ine 61.
+
+[17]
+
+Package natbib Warning: Citation `ramos_tfidf' on page 18 undefined on input li
+ne 79.
+
+
+Package natbib Warning: Citation `ml_text' on page 18 undefined on input line 8
+3.
+
+
+Package natbib Warning: Citation `ml_text' on page 18 undefined on input line 8
+3.
+
+
+Package natbib Warning: Citation `yang1997' on page 18 undefined on input line 
+83.
+
+
 Overfull \hbox (2.5349pt too wide) in paragraph at lines 83--84
 []\EU1/OpenSans(0)/m/sc/10 Since we are working with text documents and our fea
 tures are words
  []
 
+
+Package natbib Warning: Citation `MLCheatSheet' on page 18 undefined on input l
+ine 86.
+
+
+Package natbib Warning: Citation `ml_text' on page 18 undefined on input line 8
+6.
+
+
+Package natbib Warning: Citation `tong2001support' on page 18 undefined on inpu
+t line 86.
+
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/04-subsections/04-storage_and_ingestion.tex [18]
+
+Package natbib Warning: Citation `vicknair2010' on page 19 undefined on input l
+ine 12.
+
 LaTeX Font Info:    Try loading font information for U+ding on input line 21.
 (/usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
@@ -1524,7 +1688,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--37
 
  []
 
-[19] [20]
+[19]
+
+Package natbib Warning: Citation `neo4j' on page 20 undefined on input line 41.
+
+
+
+Package natbib Warning: Citation `haerder1983principles' on page 20 undefined o
+n input line 41.
+
+
+Package natbib Warning: Citation `neo4jscalable' on page 20 undefined on input 
+line 41.
+
+
+Package natbib Warning: Citation `holzschuher2013performance' on page 20 undefi
+ned on input line 41.
+
+
+Package natbib Warning: Citation `jouili2013' on page 20 undefined on input lin
+e 41.
+
+[20]
 File: images/neo4model.png Graphic file (type QTm)
 <use  "images/neo4model.png" >)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
@@ -1541,9 +1726,27 @@ File: images/i1-example.png Graphic file (type QTm)
 File: images/i2-example.png Graphic file (type QTm)
 <use  "images/i2-example.png" > [22])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
-20ea2/04-subsections/06-visualising.tex [23])
+20ea2/04-subsections/06-visualising.tex
+
+Package natbib Warning: Citation `468391' on page 23 undefined on input line 16
+.
+
+
+Package natbib Warning: Citation `468391' on page 23 undefined on input line 17
+.
+
+[23]
+
+Package natbib Warning: Citation `468391' on page 24 undefined on input line 20
+.
+
+)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/04-subsections/09-val-eval.tex
+
+Package natbib Warning: Citation `sig' on page 24 undefined on input line 3.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1552,6 +1755,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
+
+
+Package natbib Warning: Citation `sig' on page 25 undefined on input line 21.
+
+
+Package natbib Warning: Citation `better_code_hub' on page 25 undefined on inpu
+t line 21.
+
+
+LaTeX Warning: Reference `bch_guidelines' on page 25 undefined on input line 21
+.
+
+
+Package natbib Warning: Citation `EvualteML' on page 25 undefined on input line
+ 24.
 
 [25]
 File: images/confusion_matrix.png Graphic file (type QTm)
@@ -1566,7 +1784,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
  []
 
 File: images/UAC.png Graphic file (type QTm)
-<use  "images/UAC.png" > [26]))
+<use  "images/UAC.png" > [26]
+
+Package natbib Warning: Citation `tobler1970computer' on page 27 undefined on i
+nput line 59.
+
+
+Package natbib Warning: Citation `reilly1931law' on page 27 undefined on input 
+line 59.
+
+
+Package natbib Warning: Citation `van2010economic' on page 27 undefined on inpu
+t line 59.
+
+))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/05-framework-implementation.tex [27] [28
 
@@ -1576,18 +1807,50 @@ Chapter 5.
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/05-subsections/01-download.tex
 File: images/gathering_class.png Graphic file (type QTm)
-<use  "images/gathering_class.png" > [29])
+<use  "images/gathering_class.png" >
+
+LaTeX Warning: Reference `fig:gathering_class' on page 29 undefined on input li
+ne 12.
+
+[29]
+
+LaTeX Warning: Reference `lst:initial' on page 30 undefined on input line 31.
+
+
+LaTeX Warning: Reference `lst:comprehension' on page 30 undefined on input line
+ 31.
+
+
+LaTeX Warning: Reference `lst:memory' on page 30 undefined on input line 51.
+
+)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
-20ea2/05-subsections/02-filtering.tex [30])
+20ea2/05-subsections/02-filtering.tex
+
+LaTeX Warning: Reference `lst:substring' on page 30 undefined on input line 4.
+
+[30])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/05-subsections/03-classification.tex
+
+LaTeX Warning: Reference `fig:classify-uml' on page 31 undefined on input line 
+5.
+
 File: images/classify-uml.png Graphic file (type QTm)
 <use  "images/classify-uml.png" >
+
+LaTeX Warning: Reference `lst:sdgc' on page 31 undefined on input line 16.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 [31]
+
+LaTeX Warning: Reference `lst:modman' on page 32 undefined on input line 45.
+
+
 Overfull \hbox (26.2791pt too wide) in paragraph at lines 45--46
 \EU1/OpenSans(0)/m/sc/10 To provide an easy way to work with Scikit \EU1/lmtt/m
 /n/10 Pipeline\EU1/OpenSans(0)/m/sc/10 s, we implemented a utility class called
@@ -1595,6 +1858,10 @@ Overfull \hbox (26.2791pt too wide) in paragraph at lines 45--46
  []
 
 [32]
+
+LaTeX Warning: Reference `lst:mnbmm' on page 33 undefined on input line 78.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
@@ -1603,6 +1870,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
+
+
+LaTeX Warning: Reference `lst:ct-predict' on page 33 undefined on input line 10
+4.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
@@ -1617,6 +1888,10 @@ LaTeX Warning: Reference `sec:storage-design' on page 34 undefined on input lin
 e 2.
 
 
+LaTeX Warning: Reference `sec:5-downloading' on page 34 undefined on input line
+ 7.
+
+
 LaTeX Warning: Reference `sec 5-front-end' on page 34 undefined on input line 1
 6.
 
@@ -1628,17 +1903,46 @@ d \EU1/lmtt/m/n/10 :RELATES_TO\EU1/OpenSans(0)/m/sc/10 .
  []
 
 
+LaTeX Warning: Reference `lst:query-counts' on page 35 undefined on input line 
+41.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
  []
+
+
+LaTeX Warning: Reference `fig:neo4j-model-full' on page 35 undefined on input l
+ine 44.
 
 File: images/neo4j-model-full.png Graphic file (type QTm)
 <use  "images/neo4j-model-full.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[35])
+[35]
+
+LaTeX Warning: Reference `tbl:param-improvement' on page 36 undefined on input 
+line 64.
+
+
+LaTeX Warning: Reference `lst:query-with-param' on page 36 undefined on input l
+ine 77.
+
+
+LaTeX Warning: Reference `tbl:bulk-improvement' on page 36 undefined on input l
+ine 77.
+
+
+LaTeX Warning: Reference `sec:main-app' on page 36 undefined on input line 90.
+
+)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/05-subsections/05-API.tex [36]
+
+Package natbib Warning: Citation `apigee' on page 37 undefined on input line 2.
+
+
+
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/API-routes/classify.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--41
@@ -2033,19 +2337,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 [42]
 File: images/frontend-mc.png Graphic file (type QTm)
 <use  "images/frontend-mc.png" >
+
+LaTeX Warning: Reference `fig:frontend-mc' on page 43 undefined on input line 4
+4.
+
+
+LaTeX Warning: Reference `fig:frontend-rel-strength' on page 43 undefined on in
+put line 45.
+
 File: images/frontend-rel-strength.png Graphic file (type QTm)
 <use  "images/frontend-rel-strength.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [43]
+
+LaTeX Warning: Reference `fig:frontend-mc-rel' on page 44 undefined on input li
+ne 54.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 File: images/frontend-mc-rel.png Graphic file (type QTm)
 <use  "images/frontend-mc-rel.png" > [44]
+
+LaTeX Warning: Reference `fig:frontend-label' on page 45 undefined on input lin
+e 66.
+
 File: images/labelling_interface.png Graphic file (type QTm)
 <use  "images/labelling_interface.png" >
+
+LaTeX Warning: Reference `fig:frontend-ss' on page 45 undefined on input line 7
+6.
+
 File: images/frontend-ss.png Graphic file (type QTm)
 <use  "images/frontend-ss.png" >)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
@@ -2056,6 +2381,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/06-project-evaluation.tex [46]
 Chapter 6.
+
+LaTeX Warning: Reference `requirements_pass/fail' on page 47 undefined on input
+ line 12.
+
+
+LaTeX Warning: Reference `sec:Discussion - Open Issues' on page 47 undefined on
+ input line 12.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
@@ -2083,24 +2416,64 @@ Underfull \vbox (badness 1237) has occurred while \output is active []
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/07-discussion.tex [50]
 Chapter 7.
+
+LaTeX Warning: Reference `sec:discuss-classifier' on page 51 undefined on input
+ line 21.
+
 [51
 
-] [52]
+]
+
+LaTeX Warning: Reference `sec:5-filtering' on page 52 undefined on input line 3
+2.
+
+
+LaTeX Warning: Reference `sec: 5-storing' on page 52 undefined on input line 35
+.
+
+
+LaTeX Warning: Reference `fig:ugly-pre' on page 52 undefined on input line 46.
+
+[52]
 File: images/frontend-ugly-pre.png Graphic file (type QTm)
 <use  "images/frontend-ugly-pre.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-[53])
+
+LaTeX Warning: Reference `sec:5-front-end' on page 53 undefined on input line 7
+6.
+
+[53]
+
+Package natbib Warning: Citation `thelwall2006web' on page 54 undefined on inpu
+t line 91.
+
+)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/08-recommendations.tex [54]
 Chapter 8.
 [55
 
-])
+]
+
+LaTeX Warning: Reference `sec:Discussion - Open Issues' on page 56 undefined on
+ input line 27.
+
+
+LaTeX Warning: Reference `fig:incomp-map' on page 56 undefined on input line 35
+.
+
+File: images/incomp-map.png Graphic file (type QTm)
+<use  "images/incomp-map.png" >)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
-20ea2/09-conclusion.tex [56]
+20ea2/09-conclusion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[56] [57] [58
+
+]
 Chapter 9.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -2108,12 +2481,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
+LaTeX Warning: Reference `sec:framework-implementation' on page 59 undefined on
+ input line 4.
+
+
+LaTeX Warning: Reference `sec:project-evaluation' on page 59 undefined on input
+ line 4.
+
+
+LaTeX Warning: Reference `sec:discussion' on page 59 undefined on input line 4.
+
+
+
+LaTeX Warning: Reference `sec:recommendations' on page 59 undefined on input li
+ne 4.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
 
-LaTeX Warning: Reference `sec 5-front-end' on page 57 undefined on input line 6
+LaTeX Warning: Reference `sec:project-evaluation' on page 59 undefined on input
+ line 6.
+
+
+LaTeX Warning: Reference `sec:5-filtering' on page 59 undefined on input line 6
+.
+
+
+LaTeX Warning: Reference `5-classification' on page 59 undefined on input line 
+6.
+
+
+LaTeX Warning: Reference `sec: 5-storing' on page 59 undefined on input line 6.
+
+
+
+LaTeX Warning: Reference `sec 5-front-end' on page 59 undefined on input line 6
 .
 
 
@@ -2128,48 +2533,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
-20ea2/output.bbl [57
+20ea2/output.bbl [59] [60
 
-] [58
+]
 
-] [59]
-Underfull \hbox (badness 10000) in paragraph at lines 137--143
-[]\EU1/OpenSans(0)/m/sc/10 Microsoft.  How to evaluate model performance in azu
-re machine
- []
+Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--143
-\EU1/OpenSans(0)/m/sc/10 learning.  [][]$[][][][][] [] [] [] [][][][] [] [][][]
-[][][][][][] [] [][][] [] [][][][][][] [] [][][][][] [] [][][][][][][][][][][][
-][][][][][] []
- []
-
-
-Underfull \hbox (badness 1264) in paragraph at lines 145--151
-[]\EU1/OpenSans(0)/m/sc/10 Microsoft.  Microsoft azure machine learning algorit
-hm cheat sheet.  [][]$[][][][][] [] [] [] [][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--151
-[][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][] [] [][][][][][][][][
-][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][]$[][]\EU1/OpenSans(0)/m/sc/10 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--175
-[]\EU1/OpenSans(0)/m/sc/10 Neo4j.  Understanding neo4j scalability.  [][]$[][][
-][][] [] [] [] [][][][][] [] [][][] [] [][][][][][][][][] []
- []
-
-[60])
+)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/A_better_code_hub_guidelines.tex [61] [62
 
 ]
 Appendix A.
+
+Package natbib Warning: Citation `better_code_hub' on page 63 undefined on inpu
+t line 3.
+
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107bb92577ba70003
 20ea2/B-SIG-analysis.tex [63] [64
@@ -2203,11 +2582,24 @@ LaTeX Warning: Reference `app:val_ver_results' on page 73 undefined on input li
 ne 1.
 
 
+Package natbib Warning: Citation `sig' on page 73 undefined on input line 3.
+
+
+Package natbib Warning: Citation `better_code_hub' on page 73 undefined on inpu
+t line 17.
+
+
+LaTeX Warning: Reference `sig_fb' on page 73 undefined on input line 17.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
 )
+
+Package natbib Warning: There were undefined citations.
+
 \Changes@OutFile=\write6
 \openout6 = `output.soc'.
 
@@ -2229,16 +2621,19 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
  ) 
 Here is how much of TeX's memory you used:
- 38014 strings out of 495658
- 713412 string characters out of 6187951
- 1097415 words of memory out of 5000000
- 40417 multiletter control sequences out of 15000+600000
+ 37897 strings out of 495658
+ 710794 string characters out of 6187951
+ 1096415 words of memory out of 5000000
+ 40299 multiletter control sequences out of 15000+600000
  11670 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,17n,94p,10412b,1857s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107bb92577ba7000320ea2/output.xdv (84 pages, 1393836 bytes).
+107bb92577ba7000320ea2/output.xdv (82 pages, 1071564 bytes).

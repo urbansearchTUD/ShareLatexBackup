@@ -81,7 +81,7 @@ We use our trained classifier to estimate the probabilities of a document belong
 To decide the optimal threshold we would need to manually examine results of multiple runs to decide on the ideal value for the threshold. Unfortunately we did not have the time to do this, which means we had to decide on the threshold rather arbitrarily.
 
 \subsection{Ambiguity of Document Subject}
-
+An issue flowing from the issue with deciding on a solid threshold is that of it leads to documents being classified ambiguously. The fact that we do not have a solid threshold which we can rely on means documents may get added to categories they do not belong to, or that documents get assigned to one category, for example shopping, while they also should be tagged with the category of "transportation" for example.
 
 \section{Ethics}
 In this section some of the ethical issues with respect to the developed product are discussed. First, possible issues with storing web data are discussed. Next, we discuss the potential consequences of extracted relations.

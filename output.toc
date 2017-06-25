@@ -131,8 +131,8 @@
 \contentsline {subsection}{\numberline {8.1.4}Upgrading the Server}{56}{subsection.8.1.4}
 \contentsline {subsection}{\numberline {8.1.5}Building a Command Line Interface}{56}{subsection.8.1.5}
 \contentsline {section}{\numberline {8.2}Extending the Front-End}{56}{section.8.2}
-\contentsline {chapter}{\numberline {9}Conclusion}{57}{chapter.9}
-\contentsline {chapter}{Bibliography}{59}{chapter*.63}
+\contentsline {chapter}{\numberline {9}Conclusion}{59}{chapter.9}
+\contentsline {chapter}{Bibliography}{61}{chapter*.63}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{63}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{65}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{65}{section.B.1}
@@ -156,3 +156,4 @@
 \contentsline {subsection}{\numberline {F.3.3}Precision, Recall, F1 and UAC}{74}{subsection.F.3.3}
 \contentsline {section}{\numberline {F.4}Evaluation of relation scores}{74}{section.F.4}
 \contentsfinish 
+
