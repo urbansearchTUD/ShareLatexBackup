@@ -120,14 +120,14 @@
 \contentsline {subsection}{\numberline {7.5.2}Consequences of Extracted Relations}{53}{subsection.7.5.2}
 \contentsline {chapter}{\numberline {8}Recommendations}{55}{chapter.8}
 \contentsline {section}{\numberline {8.1}Extending the Back-End}{55}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Improving Document Analysis}{55}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Constructing More Advanced Classifiers}{55}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Upgrading the Server}{55}{subsection.8.1.3}
-\contentsline {subsection}{\numberline {8.1.4}Extending the Data Set}{55}{subsection.8.1.4}
-\contentsline {subsection}{\numberline {8.1.5}Building a Command Line Interface}{55}{subsection.8.1.5}
-\contentsline {section}{\numberline {8.2}Extending the Front-End}{55}{section.8.2}
+\contentsline {subsection}{\numberline {8.1.1}Extending the Data Set}{55}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Improving Document Filtering}{55}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Constructing More Advanced Classifiers}{55}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Upgrading the Server}{55}{subsection.8.1.4}
+\contentsline {subsection}{\numberline {8.1.5}Building a Command Line Interface}{56}{subsection.8.1.5}
+\contentsline {section}{\numberline {8.2}Extending the Front-End}{56}{section.8.2}
 \contentsline {chapter}{\numberline {9}Conclusion}{57}{chapter.9}
-\contentsline {chapter}{Bibliography}{59}{chapter*.65}
+\contentsline {chapter}{Bibliography}{59}{chapter*.66}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{63}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{65}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{65}{section.B.1}

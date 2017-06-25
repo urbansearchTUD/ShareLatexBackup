@@ -7,16 +7,23 @@ In this chapter, we will give some pointers for both the back-end and the front-
  Try to mention the requirements here}
  
 \section{Extending the Back-End}
-In this ss
-\subsection{Improving Document Analysis}
+In this section, we present several recommendations to improve the back-end.
+
+\subsection{Extending the Data Set}
+\todo{@Gijs - Language, domains, other sources, etc.}
+
+\subsection{Improving Document Filtering}
 \todo{@Piet}
+Other than the required co-occurrence of cities, there is little noise cancelling in documents. Some documents contain lists of cities and are cancelled out as explained in section \ref{sec:filtering_docs}. However, there might be more intuitive ways for better document filtering. One could for example discard the contents of specific HTML elements, such as forms and input fields. Moreover, some kind of domain blacklist could be constructed to filter out entire (sub)domains that are known to contain mostly false-positives. For example, the client mentioned that many pages of Airbnb were reviews from people of all over the country, but represent no relation between these locations. Another way to extend the document filtering is to have some way to allow for
 
 \subsection{Constructing More Advanced Classifiers}
 \todo{@Piet - Consult with Marko}
+
 \subsection{Upgrading the Server}
 \todo{@Piet}
-\subsection{Extending the Data Set}
-\todo{@Gijs - Language, domains, other sources, etc.}
+
 \subsection{Building a Command Line Interface}
 \todo{@Gijs - Configuration on demand, starting single components of the app, extracting statistics, etc.}
+
 \section{Extending the Front-End}
+\todo{@Marko}
