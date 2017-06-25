@@ -34,15 +34,25 @@ Filtering the downloaded documents went quite well overall, as explained in sect
 \subsection{Storing the Data}
 Storing the data efficiently turned out to be slightly harder than expected due to the many issues we faced. The issues that were overcome are discussed in section \ref{sec: 5-storing}. There are some that have been left open. The most structural issue is that after all, a graph database is a bit overkill for our purposes. We traverse nodes with only a maximum depth of two (for documents in which both city A and city B occur). Such traversals are not complex and might even perform better in a SQL database with foreign keys.
 
-Besides, we did not manage to get the database speed that we expected to reach. This could have to do with the fact that we use the HTTP transactional endpoint instead of the internal API, which is only available for the Java programming language. Perhaps it would have been better to write the database code in 
-\todo{Discuss choice to filter "Amsterdammers", future version might include this}
-\todo{exporting data}
-\todo{uneven amount of documents/class}
-\todo{language}
-\todo{processing time}
-\todo{neo4j problems}
-\todo{NoSQL vs SQL}
-\todo{more....}
+Besides, we did not manage to get the database speed that we expected to reach. This could have to do with the fact that we use the HTTP transactional endpoint instead of the internal API, which is only available for the Java programming language. Perhaps it would have been better to write the database code in Java instead of in Python to use this internal API. It probably has also to do with the fact that we do not have a physical server with a modern SSD at hand to run the database on. This would increase reading and writing speeds significantly.
+
+\subsection{System API}
+\todo{@Marko}
+\subsection{Front-End}
+\todo{@Marko}
+
+\subsection{Main Application}
+Combining all components of the system into a full-fledged main application went fine overall. However, a few features were left out that in fact should have been present. For example, there is no decent way for invoking the application via the command line. The code has to be adjusted depending on what part of the system should be started. Moreover, not every part of the system is configurable. However, we believe these features can be easily added in future versions. It was therefore not our top priority to include them.
+
+
+% \todo{Discuss choice to filter "Amsterdammers", future version might include this}
+% \todo{exporting data}
+% \todo{uneven amount of documents/class}
+% \todo{language}
+% \todo{processing time}
+% \todo{neo4j problems}
+% \todo{NoSQL vs SQL}
+% \todo{more....}
 
 % describe issues faced during implementation, as well as issues that are still 
 % open. Main thing here is to discuss the Neo4j python driver with multiprocessing,
