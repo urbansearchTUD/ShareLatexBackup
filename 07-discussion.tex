@@ -42,12 +42,12 @@ Another issue that is left for the API is that the API does not provide all the 
 \subsection{Front-End}
 The main issue in the front end is that settings interface is not connected yet to the API. This means, although we do have the setup for the interface, that submitting a setting from the interface does not trigger a call to the API.\\
 Furthermore we have small styling issues. For example relations that have a really small total score are almost invisible when visualised on the map. Fixing this would be done by adjusting the scaling function, which takes the total relations score and scales it to an number between 0 and 1 relative to the maximum total relation score (scaling now is done by applying the square root function to $total\_score/max\_total\_score$).\\
-One last issue is the styling of the loaded document in the classification interface. To display the document we load it into a HTML \texttt{<pre>} tag. The HTML \texttt{<pre>} tag displays text like it was formatted, other HTML tags skip white space and line breaks. Since we parse HTML pages to plain text we end up with documents that have a lot of white space and line breaks, which leads to ...., an example is show in figure \ref{fig:ugly-pre}. This can be fixed by pre-processing the do documents before they get loaded into the \texttt{<pre>} tag. This will not harm the validity of the data set since we do not alter any meaningful content.
+One last issue is the styling of the loaded document in the classification interface. To display the document we load it into a HTML \texttt{<pre>} tag. The \texttt{<pre>} tag displays text like it was formatted, other HTML tags skip white space and line breaks. Since we parse HTML pages to plain text we end up with documents that have a lot of white space and line breaks. This leads to barely readable text, an example is show in figure \ref{fig:ugly-pre}. This can be fixed by pre-processing the do documents before they get loaded into the \texttt{<pre>} tag. This will not harm the validity of the data set since we do not alter any meaningful content.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.6\textwidth]{frontend-ugly-pre}
-\caption{Example of an undesired result obtained with Google Custom Search}
+\caption{Example of barely readable text in a \texttt{<pre>} tag}
 \label{fig:ugly-pre}
 \end{figure}
 
@@ -74,6 +74,9 @@ Combining all components of the system into a full-fledged main application went
 \section{Classification} \label{sec:discuss-classifier}
 % Describe issues faced during implementation/development
 %Discuss open issues 
+\subsection{Data Set}
+\subsection{Parameter Optimisation}
+\subsection{Empirical Tests of Classifiers}
 
 \section{Ethics}
 In this section some of the ethical issues with respect to the developed product are discussed. First, possible issues with storing web data are discussed. Next, we discuss the potential consequences of extracted relations.

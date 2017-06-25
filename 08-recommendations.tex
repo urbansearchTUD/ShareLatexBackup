@@ -12,11 +12,15 @@ In this section, we present several recommendations to improve the back-end.
 \subsection{Extending the Data Set}
 \todo{@Gijs - Language, domains, other sources, etc.}
 
+
 \subsection{Improving Document Filtering}
 Other than the required co-occurrence of cities, there is little noise cancelling in documents. Some documents contain lists of cities and are cancelled out as explained in section \ref{sec:filtering_docs}. However, there might be more intuitive ways for better document filtering. One could for example discard the contents of specific HTML elements, such as forms and input fields. Moreover, some kind of domain blacklist could be constructed to filter out entire (sub)domains that are known to contain mostly false-positives. For example, the client mentioned that many pages of Airbnb were reviews from people of all over the country, but represent no relation between these locations. Another way to extend the document filtering is to have some way to allow for city aliases. By doing so, more documents will pass the filtering stage so more relations can be extracted.
 
 \subsection{Constructing More Advanced Classifiers}
 \todo{@Piet - Consult with Marko}
+\subsection{Data Set}
+\subsection{Parameter Optimisation}
+\subsection{Empirical Tests of Classifiers}
 
 \subsection{Upgrading the Server}
 \todo{@Piet}
