@@ -1,16 +1,16 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  25 JUN 2017 16:27
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  25 JUN 2017 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/main.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/main.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 2 languages loaded.
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/tudelft-report.cls
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/tudelft-report.cls
 Document Class: tudelft-report 2013/06/22 v1.0 TU Delft thesis class
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
@@ -1173,12 +1173,12 @@ Package: threeparttable 2003/06/13  v 3.0
 ) (/usr/share/texlive/texmf-dist/tex/latex/usebib/usebib.sty
 Package: usebib 2012/03/17 v1.0 Reusing bib files
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/references.bib)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/commands.tex)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/output.aux
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/references.bib)
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/commands.tex)
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/output.aux
 LaTeX Font Info:    Try loading font information for T1+OpenSans(0) on input li
 ne 21.
 LaTeX Font Info:    No file T1OpenSans(0).fd. on input line 21.
@@ -1260,10 +1260,10 @@ LaTeX Info: Redefining \ref on input line 39.
 LaTeX Info: Redefining \pageref on input line 39.
 LaTeX Info: Redefining \nameref on input line 39.
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/output.out)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/output.out)
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/output.out)
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/output.out)
 \@outlinefile=\write4
 \openout4 = `output.out'.
 
@@ -1344,8 +1344,8 @@ Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count286
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/00-frontpage.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/00-frontpage.tex
 
 LaTeX Font Warning: Font shape `EU1/OpenSans(0)/m/sc' undefined
 (Font)              using `EU1/OpenSans(0)/m/n' instead on input line 7.
@@ -1368,8 +1368,8 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 
 ])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/00-preface-and-acknowledgements.tex [2
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/00-preface-and-acknowledgements.tex [2
 
 ]
 
@@ -1382,8 +1382,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/00-summary.tex [3] [4
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/00-summary.tex [3] [4
 
 ]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
@@ -1391,8 +1391,8 @@ ine 5.
 ) [5] [6
 
 ]
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/output.toc
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/output.toc
 Package cleveref Info: loaded `english' language definitions on input line 1.
 [7] [8])
 \tf@toc=\write5
@@ -1401,8 +1401,8 @@ Package cleveref Info: loaded `english' language definitions on input line 1.
 [9] [10
 
 ]
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/01-introduction.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/01-introduction.tex
 Chapter 1.
 
 LaTeX Font Warning: Font shape `EU1/OpenSans-Light(0)/t/n' undefined
@@ -1417,8 +1417,8 @@ LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 5.
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/02-related-work.tex [1
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/02-related-work.tex [1
 
 ] [2
 
@@ -1435,8 +1435,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/03-problem-definition-and-analysis.tex [3] [4
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/03-problem-definition-and-analysis.tex [3] [4
 
 ]
 Chapter 3.
@@ -1448,18 +1448,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 [5] [6] [7]
 File: images/informationflow.png Graphic file (type QTm)
 <use  "images/informationflow.png" >)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/04-framework-and-tools.tex [8] [9] [10
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/04-framework-and-tools.tex [8] [9] [10
 
 ]
 Chapter 4.
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/04-subsections/00-overview.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/04-subsections/00-overview.tex
 File: images/System-overview-3.png Graphic file (type QTm)
 <use  "images/System-overview-3.png" >)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/04-subsections/01-gathering.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/04-subsections/01-gathering.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [11]
@@ -1476,12 +1476,12 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 16.
 [13])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/04-subsections/02-selecting_relevant_data.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/04-subsections/02-selecting_relevant_data.tex
 File: images/occurences_per_page.jpg Graphic file (type QTm)
 <use  "images/occurences_per_page.jpg" >)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/04-subsections/03-classifying.tex [14]
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/04-subsections/03-classifying.tex [14]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -1514,8 +1514,8 @@ tures are words
  []
 
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/04-subsections/04-storage_and_ingestion.tex [18]
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/04-subsections/04-storage_and_ingestion.tex [18]
 LaTeX Font Info:    Try loading font information for U+ding on input line 21.
 (/usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
@@ -1527,8 +1527,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--37
 [19] [20]
 File: images/neo4model.png Graphic file (type QTm)
 <use  "images/neo4model.png" >)
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/04-subsections/05-search_engine.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/04-subsections/05-search_engine.tex
 Underfull \vbox (badness 1668) has occurred while \output is active []
 
 [21]
@@ -1540,10 +1540,10 @@ File: images/i1-example.png Graphic file (type QTm)
 <use  "images/i1-example.png" >
 File: images/i2-example.png Graphic file (type QTm)
 <use  "images/i2-example.png" > [22])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/04-subsections/06-visualising.tex [23])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/04-subsections/09-val-eval.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/04-subsections/06-visualising.tex [23])
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/04-subsections/09-val-eval.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1567,20 +1567,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
 File: images/UAC.png Graphic file (type QTm)
 <use  "images/UAC.png" > [26]))
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-framework-implementation.tex [27] [28
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/05-framework-implementation.tex [27] [28
 
 ]
 Chapter 5.
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-subsections/01-download.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/05-subsections/01-download.tex
 File: images/gathering_class.png Graphic file (type QTm)
 <use  "images/gathering_class.png" > [29])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-subsections/02-filtering.tex [30])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-subsections/03-classification.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/05-subsections/02-filtering.tex [30])
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/05-subsections/03-classification.tex
 File: images/classify-uml.png Graphic file (type QTm)
 <use  "images/classify-uml.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
@@ -1610,8 +1610,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
  []
 
 [33])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-subsections/04-storing.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/05-subsections/04-storing.tex
 
 LaTeX Warning: Reference `sec:storage-design' on page 34 undefined on input lin
 e 2.
@@ -1633,10 +1633,10 @@ File: images/neo4j-model-full.png Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [35])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-subsections/05-API.tex [36]
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/API-routes/classify.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/05-subsections/05-API.tex [36]
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/API-routes/classify.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--41
 
  []
@@ -1707,8 +1707,8 @@ Overfull \hbox (16.30742pt too wide) in paragraph at lines 42--75
  []
 
 [37])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/API-routes/datasets.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/API-routes/datasets.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--44
 
  []
@@ -1902,8 +1902,8 @@ Overfull \hbox (25.00526pt too wide) in paragraph at lines 175--199
 Underfull \vbox (badness 1852) has occurred while \output is active []
 
 [39])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/API-routes/documents.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/API-routes/documents.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--30
 
  []
@@ -1929,8 +1929,8 @@ Overfull \hbox (25.03131pt too wide) in paragraph at lines 8--30
  []
 
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/API-routes/indices.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/API-routes/indices.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--32
 
  []
@@ -1956,8 +1956,8 @@ Overfull \hbox (25.00526pt too wide) in paragraph at lines 9--32
  []
 
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/API-routes/clasdoc.tex
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/API-routes/clasdoc.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--33
 
  []
@@ -2018,11 +2018,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--61
  []
 
 ))
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-subsections/06-frontend.tex [41]
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/05-subsections/06-frontend.tex [41]
 File: images/frontend-map.png Graphic file (type QTm)
 <use  "images/frontend-map.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
@@ -2034,7 +2034,7 @@ File: images/frontend-rel-strength.png Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
@@ -2047,10 +2047,10 @@ File: images/frontend-ss.png Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [45])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/05-subsections/07-main-program.tex))
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/06-project-evaluation.tex [46]
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/05-subsections/07-main-program.tex))
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/06-project-evaluation.tex [46]
 Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
@@ -2076,20 +2076,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1237) has occurred while \output is active []
 
 [48] [49])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/07-discussion.tex [50]
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/07-discussion.tex [50]
 Chapter 7.
 [51
 
 ] [52])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/08-recommendations.tex [53] [54
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/08-recommendations.tex [53] [54
 
 ]
 Chapter 8.
 [55])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/09-conclusion.tex [56]
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/09-conclusion.tex [56]
 Chapter 9.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -2112,8 +2112,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/output.bbl [57
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/output.bbl [57
 
 ] [58
 
@@ -2150,38 +2150,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--175
  []
 
 [60])
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/A_better_code_hub_guidelines.tex [61] [62
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/A_better_code_hub_guidelines.tex [61] [62
 
 ]
 Appendix A.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/B-SIG-analysis.tex [63] [64
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/B-SIG-analysis.tex [63] [64
 
 ]
 Appendix B.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/D-user-manual.tex [65] [66
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/D-user-manual.tex [65] [66
 
 ]
 Appendix C.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/C-dev-manual-with-UML.tex [67] [68
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/C-dev-manual-with-UML.tex [67] [68
 
 ]
 Appendix D.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/E-used-libraries.tex [69] [70
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/E-used-libraries.tex [69] [70
 
 ]
 Appendix E.
 )
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/F-validation_verification_results.tex [71] [72
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/F-validation_verification_results.tex [71] [72
 
 ]
 Appendix F.
@@ -2202,8 +2202,8 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
 [73] [74]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
 
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
-20e83/output.aux
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
+20ea7/output.aux
 Package cleveref Info: loaded `english' language definitions on input line 21.
 )
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 157.
@@ -2226,4 +2226,4 @@ Here is how much of TeX's memory you used:
  63i,17n,94p,10412b,1857s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107b572577ba7000320e83/output.xdv (84 pages, 1339884 bytes).
+107c0b2577ba7000320ea7/output.xdv (84 pages, 1339604 bytes).
