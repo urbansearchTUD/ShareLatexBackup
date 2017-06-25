@@ -2,44 +2,37 @@
 For the project, we used quite some open-source libraries. Some of them are Python libraries, others server utilities. The libraries have been split in back-end and front-end and are listed below.
 
 \section{Libraries Used in the Back-End}
-For the back-end, we used the following libraries:
+For the back-end, we used the libraries listed below. They can all be installed via \texttt{pip}. The links they can be found at are constructed by substituting "<package>" in the following URL:\\ \url{https://pypi.python.org/pypi/<package>}
 
 \begin{description}
-    \item[beautifulsoup4]
-    \item[flask]
-    \item[neo4j-driver]
-    \item[nltk]
-    \item[pyahocorasick]
-    \item[pytest]
-    \item[pytest-cov]
-    \item[PyYAML]
-    \item[requests]
-    \item[scikit-learn]
-    \item[testfixtures]
+    \item[beautifulsoup4] Used for HTML processing
+    \item[flask] Used for the API
+    \item[neo4j-driver] Used to connect to the Neo4j database via Python
+    \item[nltk] Used to process textual documents
+    \item[pyahocorasick] Used to find co-occurrences within text
+    \item[pytest] Used for testing the application
+    \item[pytest-cov] Used to be able to see lines that have been covered in tests
+    \item[PyYAML] Used for system configuration
+    \item[requests] Used to connect to Common Crawl
+    \item[scikit-learn] Used for the classifier
+    \item[testfixtures] Used for (complex) test setup/teardown
 \end{description}
 
 \section{Libraries Used in the Front-End}
-For the front-end, we used the following libraries:
+For the front-end, we used the libraries listed below, which can all be installed through \texttt{npm}. The links they can be found at are constructed by substituting "<package>" in the following URL:\\ \url{https://www.npmjs.com/package/<package>}. 
 
 \begin{description}
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-nunjucks": "^3.0.0",
-    "gulp-rename": "^1.2.2",
-    "mocha": "^3.4.2",
-    "nodemon": "^1.11.0",
-    "rimraf": "^2.6.1",
-    "uglifyjs-webpack-plugin": "^0.4.3",
-    "webpack": "^2.6.1"
-    \item[beautifulsoup4]
-    \item[flask]
-    \item[neo4j-driver]
-    \item[nltk]
-    \item[pyahocorasick]
-    \item[pytest]
-    \item[pytest-cov]
-    \item[PyYAML]
-    \item[requests]
-    \item[scikit-learn]
-    \item[testfixtures]
+    \item[gulp] Used for creating tasks
+    \item[gulp-concat] Used to concat JavaScript, CSS and HTML files
+    \item[gulp-nunjucks] Used for pre-compiling HTML templates
+    \item[gulp-rename]  Used for renaming concatenated files
+    \item[mocha] Used for testing the application
+    \item[nodemon] Used as a development server
+    \item[rimraf] Used for cleaning up before a new build
+    \item[uglifyjs-webpack-plugin] Used to make scripts unreadable by end users
+    \item[webpack] Bundles JavaScript files into a single file
+    \item[express] Provides routing functionality for NodeJS applications
+    \item[nouislider] Provides JavaScript and styling for sliders
+    \item[nunjucks] Provides a HTML templating system for dynamic HTML
+    \item[watch-object] Used for observer-like functionality for controlling visibility of map objects
 \end{description}
