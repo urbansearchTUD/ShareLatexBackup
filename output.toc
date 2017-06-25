@@ -112,7 +112,7 @@
 \contentsline {subsection}{\numberline {7.3.2}Filtering the Data}{52}{subsection.7.3.2}
 \contentsline {subsection}{\numberline {7.3.3}Storing the Data}{52}{subsection.7.3.3}
 \contentsline {subsection}{\numberline {7.3.4}System API}{52}{subsection.7.3.4}
-\contentsline {subsection}{\numberline {7.3.5}Front-End}{52}{subsection.7.3.5}
+\contentsline {subsection}{\numberline {7.3.5}Front-End}{53}{subsection.7.3.5}
 \contentsline {subsection}{\numberline {7.3.6}Main Application}{53}{subsection.7.3.6}
 \contentsline {section}{\numberline {7.4}Classification}{53}{section.7.4}
 \contentsline {section}{\numberline {7.5}Ethics}{53}{section.7.5}
@@ -127,7 +127,7 @@
 \contentsline {subsection}{\numberline {8.1.5}Building a Command Line Interface}{56}{subsection.8.1.5}
 \contentsline {section}{\numberline {8.2}Extending the Front-End}{56}{section.8.2}
 \contentsline {chapter}{\numberline {9}Conclusion}{57}{chapter.9}
-\contentsline {chapter}{Bibliography}{59}{chapter*.66}
+\contentsline {chapter}{Bibliography}{59}{chapter*.65}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{63}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{65}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{65}{section.B.1}

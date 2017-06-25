@@ -37,10 +37,11 @@ Storing the data efficiently turned out to be slightly harder than expected due 
 Besides, we did not manage to get the database speed that we expected to reach. This could have to do with the fact that we use the HTTP transactional endpoint instead of the internal API, which is only available for the Java programming language. Perhaps it would have been better to write the database code in Java instead of in Python to use this internal API. It probably has also to do with the fact that we do not have a physical server with a modern SSD at hand to run the database on. This would increase reading and writing speeds significantly.
 
 \subsection{System API}
-\todo{@Marko}
-The most prominent issue with the system API is the lack of authentication and authorisation. This can lead to serious security issues, since anyone can send requests to the API and make the system execute operations. 
+The most prominent issue with the system API is the lack of authentication and authorisation. This can lead to serious security issues, since anyone can send requests to the API and make the system execute operations. User authentication and authorisation can be added easily\footnote{\url{https://realpython.com/blog/python/token-based-authentication-with-flask/}} but was left out unfortunately due to time constraints.\\
+Another issue that is left for the API is that the API does not provide all the functionality that may be wantend in the (near) future. Again this is because of time constraints, which forced us to implement only the routes that were needed for the minimum viable product.\\
 \subsection{Front-End}
 \todo{@Marko}
+
 
 \subsection{Main Application}
 Combining all components of the system into a full-fledged main application went fine overall. However, a few features were left out that in fact should have been present. For example, there is no decent way for invoking the application via the command line. The code has to be adjusted depending on what part of the system should be started. Moreover, not every part of the system is configurable and we have no progress indication if the system is running. However, we believe these features can be easily added in future versions. It was therefore not our top priority to include them.
