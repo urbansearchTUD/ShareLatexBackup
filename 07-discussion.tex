@@ -32,8 +32,9 @@ A final issue is that Web developers can choose which character set they use for
 Filtering the downloaded documents went quite well overall, as explained in section \ref{sec:5-filtering}. However, we did leave out some important aspects. Most importantly, we had no means of checking on city aliases (like 's-Gravenhage is for Den Haag and Domstad for Utrecht). Additionally, we did not check for complex occurrences of cities, such as "Amsterdammers", people from Amsterdam. We decided to do this due to some large cities that are identical to or contained in commonly used words. An example of this is the city Leiden, which translates directly to the verb "to lead". However, filtering every complex occurrence out is a too aggressive kind of filtering, resulting in discarding otherwise useful documents.
 
 \subsection{Storing the Data}
-Storing the data efficiently turned out to be slightly harder than expected due to the many issues we faced. The issues that were overcome are discussed in section \ref{sec: 5-storing}. There are some that have been left open. 
+Storing the data efficiently turned out to be slightly harder than expected due to the many issues we faced. The issues that were overcome are discussed in section \ref{sec: 5-storing}. There are some that have been left open. The most structural issue is that after all, a graph database is a bit overkill for our purposes. We traverse nodes with only a maximum depth of two (for documents in which both city A and city B occur). Such traversals are not complex and might even perform better in a SQL database with foreign keys.
 
+Besides, we did not manage to get the database speed that we expected to reach. This could have to do with the fact that we use the HTTP transactional endpoint instead of the internal API, which is only available for the Java programming language. Perhaps it would have been better to write the database code in 
 \todo{Discuss choice to filter "Amsterdammers", future version might include this}
 \todo{exporting data}
 \todo{uneven amount of documents/class}
