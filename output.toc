@@ -33,10 +33,10 @@
 \contentsline {subsection}{\numberline {4.4.1}Defining Categories}{15}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Pre-processing}{16}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}Data set}{16}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Modelling}{16}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.4}Modelling}{17}{subsection.4.4.4}
 \contentsline {subsection}{\numberline {4.4.5}Remarks}{18}{subsection.4.4.5}
 \contentsline {section}{\numberline {4.5}Storing and Ingesting the Data}{18}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Storing Extracted Data}{18}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Storing Extracted Data}{19}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}Graph Database or Traditional Database}{19}{subsection.4.5.2}
 \contentsline {subsection}{\numberline {4.5.3}Comparing Graph Databases}{19}{subsection.4.5.3}
 \contentsline {subsection}{\numberline {4.5.4}Using Neo4j for Storage and Ingestion}{20}{subsection.4.5.4}
@@ -113,7 +113,7 @@
 \contentsline {subsection}{\numberline {7.3.3}Storing the Data}{52}{subsection.7.3.3}
 \contentsline {subsection}{\numberline {7.3.4}System API}{52}{subsection.7.3.4}
 \contentsline {subsection}{\numberline {7.3.5}Front-End}{52}{subsection.7.3.5}
-\contentsline {subsection}{\numberline {7.3.6}Main Application}{52}{subsection.7.3.6}
+\contentsline {subsection}{\numberline {7.3.6}Main Application}{53}{subsection.7.3.6}
 \contentsline {section}{\numberline {7.4}Classification}{53}{section.7.4}
 \contentsline {section}{\numberline {7.5}Ethics}{53}{section.7.5}
 \contentsline {subsection}{\numberline {7.5.1}Storage of Data}{53}{subsection.7.5.1}

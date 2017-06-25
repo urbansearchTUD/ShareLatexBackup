@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  25 JUN 2017 14:57
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  25 JUN 2017 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1510,15 +1510,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
 File: images/useless_page.png Graphic file (type QTm)
 <use  "images/useless_page.png" >
+Underfull \vbox (badness 8056) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[16]
 File: images/labelling_interface.png Graphic file (type QTm)
-<use  "images/labelling_interface.png" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16] [17]
+<use  "images/labelling_interface.png" > [17]
 Overfull \hbox (2.5349pt too wide) in paragraph at lines 85--86
 []\EU1/OpenSans(0)/m/sc/10 Since we are working with text documents and our fea
 tures are words
@@ -2129,7 +2125,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
@@ -2251,4 +2247,4 @@ Here is how much of TeX's memory you used:
  63i,17n,94p,10412b,1857s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107b572577ba7000320e83/output.xdv (84 pages, 1322408 bytes).
+107b572577ba7000320e83/output.xdv (84 pages, 1327124 bytes).
