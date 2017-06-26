@@ -15,15 +15,13 @@ We chose NodeJS as the backbone of our front-end server. The fact that NodeJS is
 \replace{Another interesting feature of NodeJS}{not a feature!} are tools like Webpack and Gulp. Webpack\footnote{\url{https://webpack.js.org/concepts/}} is a module bundler for NodeJS that provides us with the ideal infrastructure for modular development. It allows us to bundle JavaScript code in different files, containing only the required code for a specific page. Gulp\footnote{\url{http://gulpjs.com/}} is a task runner for NodeJS that allows for tasks such as compiling HTML templates that can later be used in the front-end. Another example of a Gulp task is bundling the CSS of all the modules to one file.
 \subsubsection{ExpressJS}
 
-community standard
-easy setup
-easy to extend with custom middleware
+To handle the routing of incoming requests in the front end we use ExpressJS\footnote{\url{https://expressjs.com/}}. ExpressJS is a minimal NodeJS web framework that can be set up and extended easily. With over 10 million downloads per month it can be considered a community standard that has proven its grounds. Besides that it allows for easy and clean routing using its \texttt{Routing} module and custom middelware can be added easily per route or for the whole app.
 
 \subsection{Interfaces}
-In this section 
+In this section we will provide an overview of the different interfaces that we 
+
 \subsubsection{Interactive Map}
-\todo{mention threshold for relation total somewhere, including excel graph}
-The main part of the front-end is the interactive map. The extracted data gets visualised on a (almost) full-screen Google Maps map. On the map we place markers which represent cities and we draw poly-lines which represent relations between the cities.
+The main part of the front-end is the interactive map. The extracted data gets visualised on a (almost) full-screen Google Maps map. On the map we place markers which represent cities and we draw poly-lines which represent relations between the cities. Only cities that have more than 500 documents in total associated with them are displayed on the map. This way we keep the front end performance up to par and we prevent unnecessary map clutter.
 
 \begin{figure}[H]
 \centering
