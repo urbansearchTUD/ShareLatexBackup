@@ -1,4 +1,4 @@
-\section{API}\label{sec: 5-API}
+\section{System API}\label{sec: 5-API}
 To provide an easy way of interacting and controling the system we decided to develop a web API. With this API the different parts that compose the complete UrbanSearch system are easily accessible. During the development of the API we have tried to adhere to best-practices and community standards as described in \cite{apigee}. Appendix \ref{sec: API-appendix} contains a detailed description of the available API routes and their functionality.
 
 \subsection{General Remarks}
@@ -6,6 +6,7 @@ To provide an easy way of interacting and controling the system we decided to de
 All routes in the API start with the "/api/v1" prefix. The routes below will be referred to without this prefix to keep the text concise. The API always returns a 200 status code, the response body also contains a status code which indicates if a request was handled successfully.
 
 \subsection{Flask}
-To be able to 
+The UrbanSearch back end is written completely in the Python programming language. To be able to accept HTTP requests that leverage the system we needed a framework that works efficient with Python code. For this we chose Flask\footnote{\url{http://flask.pocoo.org/}}, a Python microframework that lets us handle incoming requests making use of the functionalities of the UrbanSearch system.\\
+The easy setup and good documentation, combined with the small size and efficiency of Flask made us decide to use Flask as our web framework.
 
 \subsection{Blueprints}

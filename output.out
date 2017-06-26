@@ -17,7 +17,7 @@
 \BOOKMARK [1][-]{section.4.4}{Extracting\040Relations\040from\040Documents}{chapter.4}% 17
 \BOOKMARK [2][-]{subsection.4.4.1}{Defining\040Categories}{section.4.4}% 18
 \BOOKMARK [2][-]{subsection.4.4.2}{Pre-processing}{section.4.4}% 19
-\BOOKMARK [2][-]{subsection.4.4.3}{Data\040set}{section.4.4}% 20
+\BOOKMARK [2][-]{subsection.4.4.3}{Data\040Set}{section.4.4}% 20
 \BOOKMARK [2][-]{subsection.4.4.4}{Modelling}{section.4.4}% 21
 \BOOKMARK [2][-]{subsection.4.4.5}{Remarks}{section.4.4}% 22
 \BOOKMARK [1][-]{section.4.5}{Storing\040and\040Ingesting\040the\040Data}{chapter.4}% 23
@@ -45,7 +45,7 @@
 \BOOKMARK [1][-]{section.5.4}{Storing\040the\040Data}{chapter.5}% 45
 \BOOKMARK [2][-]{subsection.5.4.1}{Storing\040Filtered\040Documents}{section.5.4}% 46
 \BOOKMARK [2][-]{subsection.5.4.2}{Storing\040Extracted\040Data}{section.5.4}% 47
-\BOOKMARK [1][-]{section.5.5}{API}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.5}{System\040API}{chapter.5}% 48
 \BOOKMARK [2][-]{subsection.5.5.1}{General\040Remarks}{section.5.5}% 49
 \BOOKMARK [2][-]{subsection.5.5.2}{Flask}{section.5.5}% 50
 \BOOKMARK [2][-]{subsection.5.5.3}{Blueprints}{section.5.5}% 51
@@ -95,7 +95,7 @@
 \BOOKMARK [2][-]{subsection.8.1.5}{Building\040a\040Command\040Line\040Interface}{section.8.1}% 95
 \BOOKMARK [1][-]{section.8.2}{Extending\040the\040Front-End}{chapter.8}% 96
 \BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 97
-\BOOKMARK [0][-]{chapter*.44}{Bibliography}{}% 98
+\BOOKMARK [0][-]{chapter*.42}{Bibliography}{}% 98
 \BOOKMARK [0][-]{appendix.A}{Better\040Code\040Hub\040Guidelines}{}% 99
 \BOOKMARK [0][-]{appendix.B}{Sig\040Feedback}{}% 100
 \BOOKMARK [1][-]{section.B.1}{week\0405}{appendix.B}% 101
