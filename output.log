@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 15:29
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1414,6 +1414,12 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ]
 Chapter 2.
+
+Overfull \hbox (4.4826pt too wide) in paragraph at lines 2--3
+\EU1/OpenSans(0)/m/sc/10 Since the 1960’s the economy modernised rapidly. Conce
+ntration of jobs increased and the amount
+ []
+
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/03-problem-definition-and-analysis.tex [3] [4
@@ -1614,27 +1620,27 @@ File: images/frontend-ss.png Graphic file (type QTm)
 <use  "images/frontend-ss.png" >)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/05-subsections/07-main-program.tex [38]
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 []|\EU1/lmtt/m/n/10 classify_documents_from_indices(pworkers,
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 27--27
+Underfull \hbox (badness 1019) in paragraph at lines 26--26
 []|\EU1/lmtt/m/n/10 classify_indices_to_db(pworkers, cworkers,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
 []|\EU1/lmtt/m/n/10 classify_textfiles_to_db(num_cworkers,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
 []|\EU1/lmtt/m/n/10 create_ic_relations_to_db(num_workers,
  []
 
 
-Overfull \hbox (31.11317pt too wide) in paragraph at lines 21--34
+Overfull \hbox (31.11317pt too wide) in paragraph at lines 20--33
  [][] 
  []
 
@@ -1676,25 +1682,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
 File: images/precision-recall.png Graphic file (type QTm)
 <use  "images/precision-recall.png" >
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 65.
 File: images/UAC.png Graphic file (type QTm)
 <use  "images/UAC.png" > [43]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 87--87
+Underfull \hbox (badness 3930) in paragraph at lines 86--86
 []|\EU1/OpenSans(0)/m/sc/10 Data is successfully gathered from Common
  []
 
 
-Overfull \hbox (3.96773pt too wide) in paragraph at lines 85--107
+Overfull \hbox (3.96773pt too wide) in paragraph at lines 84--106
  [][] 
  []
 
-[44] [45] [46])
+[44] [45] [46]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 140.
+)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/07-discussion.tex [47] [48
 
@@ -1727,26 +1734,6 @@ File: images/incomp-map.png Graphic file (type QTm)
 
 ]
 Chapter 9.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107b572577ba70003
 20e83/output.bbl [57] [58
@@ -2241,13 +2228,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 38138 strings out of 495658
- 715063 string characters out of 6187951
+ 38136 strings out of 495658
+ 715009 string characters out of 6187951
  1100158 words of memory out of 5000000
- 40527 multiletter control sequences out of 15000+600000
+ 40525 multiletter control sequences out of 15000+600000
  11670 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,13n,94p,10412b,1856s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107b572577ba7000320e83/output.xdv (88 pages, 1402904 bytes).
+107b572577ba7000320e83/output.xdv (88 pages, 1398092 bytes).

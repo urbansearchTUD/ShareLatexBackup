@@ -60,9 +60,8 @@ The \textbf{F1 Score} uses both precision and consideration. It is computed by u
 \label{fig:prec-rec}
 \end{figure}
 
-The \textbf{Receiver Operating Characteristic (ROC) curve} and the corresponding \textbf{Area Under the Curve (AUC) value} can be used to inspect the true positive rate (Recall) vs. the false positive rate $\frac{FP}{FP + TN}$. To do this, the possibilities pages are correctly classified are needed. For each threshold on these probabilities for the classifier, the true positive rate and the false positive rate are calculated and are plotted in a graph, which results in something like \ref{fig:UAC}. The closer the ROC curve is to the upper left corner, the better the classifier's performance is. When close to the diagonal of the plot, the classifier tends to make predictions close to random guessing. The UAC value is the are under the ROC curve.
+The \textbf{Receiver Operating Characteristic (ROC) curve} and the corresponding \textbf{Area Under the Curve (AUC) value} can be used to inspect the true positive rate (Recall) vs. the false positive rate $\frac{FP}{FP + TN}$. To do this, the possibilities pages are correctly classified are needed. For each threshold on these probabilities for the classifier, the true positive rate and the false positive rate are calculated and are plotted in a graph, which results in something like \ref{fig:UAC}. The closer the ROC curve is to the upper left corner, the better the classifier's performance is. When close to the diagonal of the plot, the classifier tends to make predictions close to random guessing. The UAC value is the are under the ROC curve. The ROC curves for our categories can be seen in appendix \ref{app:ROC-curves}. The low smoothness is due to the low sample amount, nevertheless they show good results as the curves are near the upper elft corner.
 
-\todo{calculate ROC values and accuracy values?}
 
 \begin{figure}[ht]
 \centering
@@ -110,8 +109,7 @@ In section \ref{sec:reqs} we declared the requirements for our program. Table \r
 In section \ref{sec:design-goals} we discussed the design goals for this project. We came up with seven design goals on which we will reflect.
 
 \subsection{Credible}
-As can be seen for the classification in section \ref{sec:classification-validation} the classification seems to be pretty good except for the recall value from collaboration and the precision value from leisure. This is most likely due to the low amount of samples. Also when looking at the average the results seem credible.
-\todo{add something about ROC values?}
+As can be seen for the classification in section \ref{sec:classification-validation} the classification seems to be pretty good except for the recall value from collaboration and the precision value from leisure. This is most likely due to the low amount of samples. This good results can also be seen in appendix \ref{app:ROC-curves}, which shows the curves mostly to the upper left corners of the graph.
 
 \subsection{Understandable}
 From the acceptance tests \ref{sec:acceptance-testing} we resulted that the visualisation as presented in \ref{sec:5-front-end} we devised that the visualisation looks good and is easy understandable.
