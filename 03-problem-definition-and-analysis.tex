@@ -19,7 +19,7 @@ Filtering for this problem means searching through the available text data to fi
 The sub-problem that arises after filtering is how to determine what relationships can be extracted from the text-data, which will be referred to as the classification of the text-data. This requires a method that reliably and efficiently processes the text-data and can be tuned to the clients wishes.
 
 \subsubsection{Storing Data}
-Next, when the classification sub-problem is addressed the need arises to store the data and determine the strength of the relationships. 
+Next, the need arises to store the data and determine the strength of the relationships. This means choosing an organised data storage solution to store the results, for example a relational database.
 
 \subsubsection{Data Visualisation \& Export}
 When these three sub-problems have been successfully solved the last sub-problem that is left is how to combine the stored data and present it to a user, this means visualising and/or exporting the data in an accessible way.
@@ -44,22 +44,22 @@ As a user:
 \subsection{Design Goals} \label{sec:design-goals}
 The high-level design goals for this project have been provided by the client. These serve as a guideline to determine the priority label of the specific requirements as defined in section \ref{sec:reqs}. The design goals are listed below, ordered by priority. 
 
-\subsubsection{credible} The results of the project will be used in research on intercity relations. Therefore, the results must be reliable and verifiable. This means that the application should produce the same results given the same input and it should be possible to manually access the input to verify the output of the application.
-\subsubsection{understandable} The results of the application should be visually understandable, in order to make it easy for the client to deduce conclusions. 
-\subsubsection{scalable} During the project a TU Delft server will be used with a limited amount of resources. Therefore only .nl pages will be used as input to limit the amount of data storage and processing power needed. However, allowing for investigating other domains would greatly help the client in a later stadium, which means that the system would have to be scalable where possible. For example, using a dedicated database which can be spread across clusters.
-\subsubsection{plugable} It might be interesting for the user to let the application perform analysis on different data sets without the need of a developer. So if possible within the time constraints the application should be able to use any form of textual input data.
-\subsubsection{exportable} Besides making the results available visually, all the relevant numeric data should also be exportable, for example in CSV format, so the client is able to process the data beyond the system.
-\subsubsection{fast development} Because of the time constraints of the project we need a fast development cycle. As a result of that, choices regarding tools, applications and programming languages are to be made with the time constraint taken into account.
+\subsubsection{Credible} The results of the project will be used in research on intercity relations. Therefore, the results must be reliable and verifiable. This means that the application should produce the same results given the same input and it should be possible to manually access the input to verify the output of the application.
+\subsubsection{Understandable} The results of the application should be visually understandable, in order to make it easy for the client to deduce conclusions. 
+\subsubsection{Scalable} During the project a TU Delft server will be used with a limited amount of resources. Therefore only .nl pages will be used as input to limit the amount of data storage and processing power needed. However, allowing for investigating other domains would greatly help the client in a later stadium, which means that the system will have to be scalable where possible. For example, using a dedicated database which can be spread across clusters.
+\subsubsection{Plugable} It might be interesting for the user to let the application perform analysis on different data sets without the need of a developer. So if possible within the time constraints the application should be able to use any form of textual input data.
+\subsubsection{Exportable} Besides making the results available visually, all the relevant numeric data should also be exportable, for example in CSV format, so the client is able to process the data beyond the system.
+\subsubsection{Fast Development} Because of the time constraints of the project we need a fast development cycle. As a result of that, choices regarding tools, applications and programming languages are to be made with the time constraint taken into account.
 
 
 \subsection{Product Requirements}\label{sec:reqs}
-As mentioned in the introduction of section \ref{sec:reqs-analysis} we will be using the MoSCoW method prioritisation technique. Four levels of priority are defined: must have, should have, could have and would have (also known as would like). We also differentiate between functional and non-functional requirements. 
+As mentioned in the introduction of section \ref{sec:reqs-analysis} we will be using the MoSCoW prioritisation technique. Four levels of priority are defined: must have, should have, could have and would like. We also differentiate between functional and non-functional requirements. 
 
 \subsubsection{Must Have}
-Requirements labelled as must have are key to the minimal performance of the application. If they are not met, the application can be considered a failure.
+Requirements labelled as must have are key to the minimal viable product. If they are not met, the application can be considered a failure.
 
 \begin{enumerate}
-    \item Data that is of relevance for the UrbanSearch project, should be mined from the Common Crawl web corpus (see section\ref{sec:commoncrawl}) and stored for further processing/access.
+    \item Data that is of relevance for the UrbanSearch project should be mined from the Common Crawl web corpus (see section\ref{sec:commoncrawl}) and stored for further processing and/or access.
     \item There has to be a way to export the relations between cities.
     \item A machine learning algorithm should analyse and label the collected data to extract different types of relations that are important for intercity relations.
     \item A front-end should be built for the project. This front-end should visualise basic relations and statistics and can be used for presentations and educational purposes.
@@ -84,8 +84,8 @@ Requirements labelled as must have are key to the minimal performance of the app
 \begin{enumerate}
     \item Relations between cities should be accessible hierarchically. This means that there is the possibility to explore a relation and, provided that this relation has sub-types associated with it, the relation can be expanded in the different sub-types of the relation.
     \item It should be possible to retrain the machine-learning algorithm on demand by feeding it a set of labelled documents.
-    \item It should be possible to add large data sets, e.g. with more than 1 million documents, on which the system can perform its data mining routines. This way a data set can be created that contains potentially interesting information for intercity relations.
-    \item The application should be able to deal with the fact that the same city can have different names in different languages/dialects. It should still be able to extract and group relevant data correctly (e.g. 'The Hague' and 'Den Haag' should be viewed as the same city).
+    \item It should be possible to add large data sets, e.g. with more than one million documents, on which the system can perform its data mining routines. This way a data set can be created that contains potentially interesting information for intercity relations.
+    \item The application should be able to deal with the fact that the same city can have different names in different languages and/or dialects. It should still be able to extract and group relevant data correctly (e.g. 'The Hague' and 'Den Haag' should be viewed as the same city).
 \end{enumerate}
 \iffalse
 \begin{enumerate}
@@ -106,7 +106,7 @@ Requirements labelled as must have are key to the minimal performance of the app
 Requirements labelled as "could have" are useful and should be included in the system if time and resources permit.
 
 \begin{enumerate}
-    \item The system should use Delpher (see also section \ref{sec:delpher}), a collection of over 60 million digitalised newspaper articles, books and magazines in the Netherlands, of age ranging from the seventeenth century to now, to characterise relationships between a region and cities outside that region. For example, the local newspaper of the province Gelderland writing about the city of Alkmaar. These relationships are either simple or complex information flows. A newspaper mentioning a city is considered a simple information flow, whereas multiple cities mentioned in a single document is a complex information flow. Both simple and complex flows reside on the basic properties of the document, such as the publication date. An illustration of this is given in figure \ref{fig:infoflow}.
+    \item The system should use Delpher (see also section \ref{sec:delpher}); a collection of over 60 million digitalised newspaper articles, books and magazines in the Netherlands, of age ranging from the seventeenth century to now, to characterise relationships between a region and cities outside that region. For example, the local newspaper of the province Gelderland writing about the city of Alkmaar. These relationships are either simple or complex information flows. A newspaper mentioning a city is considered a simple information flow, whereas multiple cities mentioned in a single document is a complex information flow. Both simple and complex flows reside on the basic properties of the document, such as the publication date. An illustration of this is given in figure \ref{fig:infoflow}.
     \item The relations that are extracted from the data by the machine learning algorithm have to be visualised in a way that makes it easy to compare the different relations for the end user. For example, a split-screen comparison in the user interface or an export of graphs comparing selected relations.
 \end{enumerate}
 \begin{figure}

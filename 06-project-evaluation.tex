@@ -25,22 +25,17 @@ An example is the testing of the interactive map which visualises the relations 
 SIG \cite{sig}, short for Software Improvement Group, is an organisation that analyses code of software projects. SIG tries to give insights about the quality of the analysed code. SIG has an online tool, Better Code Hub, which rates code based on the criteria that can be found in appendix \ref{bch_guidelines}. It is a convenient tool, which we used during the project to verify the quality of our code was up to par.
 
 \subsubsection{week 5}
-The first feedback from SIG was in the fifth week of development. While we scored 10 out of 10 on Better Code Hub, we scored 4 out of 5 in the review we got back from SIG. The main issue with our code 
-
-
-
-
-
-Before uploading on BetterCodeHub our code passed all checks. For SIG it had a score from four out of five stars which means our code is above average maintainable. The last star was missed because the code is above average complex. This means that some of the functionality of some methods should be split into separate methods.
+The first feedback from SIG was in the fifth week of development. While we scored 10 out of 10 on Better Code Hub, we scored 4 out of 5 in the review we got back from SIG. The main issue with our code was that some functions were too complex (too long, too many branches or too many input parameters). Still they rated our code as above average maintainable.
 
 \subsubsection{week 9}
-Since the upload date for SIG is the same date as the due date of the final report we can not present the second SIG review. Instead we will present the results from BetterCodeHub, run on the last day before the due date of the report. This time there were two issues which resulted in a score of 8 out of 10. The first was with keeping unit interfaces small, which resulted from a method with too many parameters. However since the different parameters are not part of a same object we did not take time better spent elsewhere to refactor this. The other issue was with coupling architecture components loosely, which resulted from our workers being used for different parts of the application.
+Since the deadline of the final upload to SIG is the same as for this report, we unfortunately can not present these results. Instead we will present the results we got from Better Code Hub, ran on the due date of this report. This time there were two issues which resulted in a score of 8 out of 10. The issue was that we did not keeping unit interfaces small. Meaning we had methods that take too many input parameters. The other issue was with coupling architecture components loosely, which is the result of our workers being used in multiple parts of the application.
 
 \subsection{Evaluating the Classification}
-There are several ways to evaluate machine learning algorithms. We will base our evaluation of the classifier on the guidelines of the Microsoft Azure Machine Learning evaluation model \cite{EvualteML}. According to the page binary classification can be evaluated with the following metrics: Accuracy, Precision, Recall, F1 and AUC. Note that we will use a one vs the rest strategy, meaning all classes will be separately evaluated.
+There are several ways to evaluate machine learning algorithms. We will base our evaluation of the classifier on the guidelines of the Microsoft Azure Machine Learning evaluation model \cite{EvualteML}. These guidelines state that binary classification can be evaluated with the following metrics: Accuracy, Precision, Recall, F1 and AUC. Note that we will use a one vs the rest strategy, meaning the result will be evaluated per category.
 
 \subsubsection{Accuracy}\label{sec:mean-accuracy}
-Accuracy is the proportion of correctly classified instances. This however a poor indication of how well the classifier works. For instance if you have a test set of 100 websites, of which 90\% belongs to Category A. Than if the classifier simply predicts all websites to belong to category A the accuracy would be 90\%. It would seem the classifier performs well, but it actually fails to classify the other 10\% of the websites correctly. On average, our classifier had an accuracy of 80\%.
+Accuracy is the proportion of correctly classified instances. This however is a poor indication of how well a classifier works. For instance, if you have a test set of 100 websites, of which 90\% belongs to Category A. Than if the classifier simply predicts all websites to belong to category A the accuracy will be 90\%. It would seem the classifier performs well, but it actually fails to classify the other 10\% of the websites correctly.\\ 
+To calculate the mean accuracy of our classifier we implemented an API route that splits our complete data set in random training and test samples. The training sample contains 75\% of the complete data set and the test sample contains the remaining 25\%. After issuing multiple calls to the API we came 
 
 \subsubsection{Confusion Matrix}
 A page can only either belong to class A (positive), or not belong to class A (negative). If a page is predicted by the classifier correctly it is called true positive (TP) or true negative (TN). If the classifier predicts the page incorrectly it results in a false positive (FP) or false negative (FN). This can be seen in the confusion matrix in figure \ref{fig:confusion_matrix}. 
