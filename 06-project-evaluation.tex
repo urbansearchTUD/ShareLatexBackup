@@ -31,7 +31,7 @@ Since the upload date for SIG is the same date as the due date of the final repo
 \subsection{Evaluating the Classification}
 There are several ways to evaluate machine learning algorithms. We will base our evaluation of the classifier on the guidelines of the Microsoft Azure Machine Learning evaluation model \cite{EvualteML}. According to the page binary classification can be evaluated with the following metrics: Accuracy, Precision, Recall, F1 and AUC. Note that we will use a one vs the rest strategy, meaning all classes will be separately evaluated.
 
-\subsubsection{Accuracy}
+\subsubsection{Accuracy}\label{sec:mean-accuracy}
 Accuracy is the proportion of correctly classified instances. This however a poor indication of how well the classifier works. For instance if you have a test set of 100 websites, of which 90\% belongs to Category A. Than if the classifier simply predicts all websites to belong to category A the accuracy would be 90\%. It would seem the classifier performs well, but it actually fails to classify the other 10\% of the websites correctly. On average, our classifier had an accuracy of 80 \%.
 
 \subsubsection{Confusion Matrix}

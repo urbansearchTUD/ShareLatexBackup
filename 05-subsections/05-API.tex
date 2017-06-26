@@ -10,3 +10,30 @@ The UrbanSearch back end is written completely in the Python programming languag
 The easy setup and good documentation, combined with the small size and efficiency of Flask made us decide to use Flask as our web framework.
 
 \subsection{Blueprints}
+To keep our API modular we use the concept of \texttt{Blueprint}s\footnote{\url{http://flask.pocoo.org/docs/0.12/blueprints/}}. \texttt{Blueprint}s in flask are modules that implement functionality which later can be registered to an application. This way we can keep parts of the API separated and relatively simple. After a \texttt{Blueprint} is initialised routes can be assigned to it. An example of \texttt{Blueprint} is shown in listing \ref{lst:blueprint}.\\
+
+\begin{lstlisting}[language=python, caption={Example code of a Blueprint used in the UrbanSearch system}, label={lst:blueprint}]
+predict_api = Blueprint('predict_api', __name__)
+ct = ClassifyText()
+
+
+@predict_api.route('/', methods=['POST'], strict_slashes=False)
+@predict_api.route('/predict', methods=['POST'], strict_slashes=False)
+@is_json
+def predict():
+    """
+    API route for predicting the category of the supplied text.
+    The request should have type set to application/json and the provided JSON
+    should have a text attribute containing the text for which we want to
+    predict the category.
+    """
+    try:
+        prediction = ct.predict(request.json['document'])
+
+        return jsonify(category=str(prediction[0]),
+                       status=200)
+    except Exception as e:
+        return jsonify(error=True,
+                       status=500,
+                       message='Getting the prediction failed')
+\end{lstlisting}
