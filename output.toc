@@ -78,70 +78,70 @@
 \contentsline {subsubsection}{Document Classification}{41}{figure.caption.30}
 \contentsline {subsubsection}{System Settings}{41}{figure.caption.31}
 \contentsline {section}{\numberline {5.7}Main Application}{42}{section.5.7}
-\contentsline {chapter}{\numberline {6}Project Evaluation}{43}{chapter.6}
-\contentsline {section}{\numberline {6.1}Validation and Verification}{43}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Testing the Application}{43}{subsection.6.1.1}
-\contentsline {subsubsection}{Unit Testing}{43}{subsection.6.1.1}
-\contentsline {subsubsection}{Integration Testing}{43}{subsection.6.1.1}
-\contentsline {subsubsection}{System Testing}{44}{subsection.6.1.1}
-\contentsline {subsubsection}{Acceptance Testing}{44}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}SIG}{44}{subsection.6.1.2}
-\contentsline {subsubsection}{week 5}{44}{subsection.6.1.2}
-\contentsline {subsubsection}{week 9}{44}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Evaluating the Classification}{44}{subsection.6.1.3}
-\contentsline {subsubsection}{Accuracy}{44}{subsection.6.1.3}
-\contentsline {subsubsection}{Confusion Matrix}{45}{subsection.6.1.3}
-\contentsline {subsubsection}{Precision, Recall, F1 and UAC}{45}{figure.caption.33}
-\contentsline {subsection}{\numberline {6.1.4}Evaluation of Relation Scores}{46}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Evaluation of Requirements}{46}{section.6.2}
-\contentsline {section}{\numberline {6.3}Evaluation of Design Goals}{47}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Credible}{47}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Understandable}{48}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Scalable}{48}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Plugable}{48}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}Exportable}{48}{subsection.6.3.5}
-\contentsline {subsection}{\numberline {6.3.6}Fast Development}{48}{subsection.6.3.6}
-\contentsline {section}{\numberline {6.4}Product Evaluation}{48}{section.6.4}
-\contentsline {section}{\numberline {6.5}Process Evaluation}{48}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Development Process Evaluation}{48}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Communication Evaluation}{49}{subsection.6.5.2}
-\contentsline {chapter}{\numberline {7}Discussion}{51}{chapter.7}
-\contentsline {section}{\numberline {7.1}Discussing the research question answers something}{51}{section.7.1}
-\contentsline {section}{\numberline {7.2}Issues Faced During Development}{51}{section.7.2}
-\contentsline {section}{\numberline {7.3}Open Issues}{51}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Downloading and Parsing Indices}{52}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Filtering the Data}{52}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Storing the Data}{52}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}System API}{52}{subsection.7.3.4}
-\contentsline {subsection}{\numberline {7.3.5}Front-End}{53}{subsection.7.3.5}
-\contentsline {subsection}{\numberline {7.3.6}Main Application}{53}{subsection.7.3.6}
-\contentsline {section}{\numberline {7.4}Classification}{53}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Data Set}{53}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Threshold}{54}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Ambiguity of Document Subject}{54}{subsection.7.4.3}
-\contentsline {section}{\numberline {7.5}Ethics}{54}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Storage of Data}{54}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}Consequences of Extracted Relations}{54}{subsection.7.5.2}
-\contentsline {chapter}{\numberline {8}Recommendations}{55}{chapter.8}
-\contentsline {section}{\numberline {8.1}Extending the Back-End}{55}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Extending the Data Set}{55}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Improving Document Filtering}{55}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Constructing More Advanced Classifiers}{55}{subsection.8.1.3}
-\contentsline {subsubsection}{Data Set}{56}{subsection.8.1.3}
-\contentsline {subsubsection}{Parameter Optimisation}{56}{subsection.8.1.3}
-\contentsline {subsubsection}{Empirical Tests of Classifiers}{56}{subsection.8.1.3}
-\contentsline {subsection}{\numberline {8.1.4}Upgrading the Server}{56}{subsection.8.1.4}
-\contentsline {subsection}{\numberline {8.1.5}Building a Command Line Interface}{56}{subsection.8.1.5}
-\contentsline {section}{\numberline {8.2}Extending the Front-End}{56}{section.8.2}
-\contentsline {chapter}{\numberline {9}Conclusion}{59}{chapter.9}
-\contentsline {chapter}{Bibliography}{61}{chapter*.54}
-\contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{65}{appendix.A}
-\contentsline {chapter}{\numberline {B}Sig Feedback}{67}{appendix.B}
-\contentsline {section}{\numberline {B.1}week 5}{67}{section.B.1}
-\contentsline {section}{\numberline {B.2}week 9}{67}{section.B.2}
-\contentsline {chapter}{\numberline {C}User Manual}{69}{appendix.C}
-\contentsline {chapter}{\numberline {D}Developers Manual}{71}{appendix.D}
-\contentsline {chapter}{\numberline {E}Used Libraries}{73}{appendix.E}
-\contentsline {section}{\numberline {E.1}Libraries Used in the Back-End}{73}{section.E.1}
-\contentsline {section}{\numberline {E.2}Libraries Used in the Front-End}{73}{section.E.2}
+\contentsline {chapter}{\numberline {6}Project Evaluation}{45}{chapter.6}
+\contentsline {section}{\numberline {6.1}Validation and Verification}{45}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Testing the Application}{45}{subsection.6.1.1}
+\contentsline {subsubsection}{Unit Testing}{45}{subsection.6.1.1}
+\contentsline {subsubsection}{Integration Testing}{45}{subsection.6.1.1}
+\contentsline {subsubsection}{System Testing}{46}{subsection.6.1.1}
+\contentsline {subsubsection}{Acceptance Testing}{46}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}SIG}{46}{subsection.6.1.2}
+\contentsline {subsubsection}{week 5}{46}{subsection.6.1.2}
+\contentsline {subsubsection}{week 9}{46}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Evaluating the Classification}{46}{subsection.6.1.3}
+\contentsline {subsubsection}{Accuracy}{46}{subsection.6.1.3}
+\contentsline {subsubsection}{Confusion Matrix}{47}{subsection.6.1.3}
+\contentsline {subsubsection}{Precision, Recall, F1 and UAC}{47}{figure.caption.35}
+\contentsline {subsection}{\numberline {6.1.4}Evaluation of Relation Scores}{48}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Evaluation of Requirements}{48}{section.6.2}
+\contentsline {section}{\numberline {6.3}Evaluation of Design Goals}{49}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Credible}{49}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Understandable}{50}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Scalable}{50}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Plugable}{50}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Exportable}{50}{subsection.6.3.5}
+\contentsline {subsection}{\numberline {6.3.6}Fast Development}{50}{subsection.6.3.6}
+\contentsline {section}{\numberline {6.4}Product Evaluation}{50}{section.6.4}
+\contentsline {section}{\numberline {6.5}Process Evaluation}{50}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Development Process Evaluation}{50}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Communication Evaluation}{51}{subsection.6.5.2}
+\contentsline {chapter}{\numberline {7}Discussion}{53}{chapter.7}
+\contentsline {section}{\numberline {7.1}Discussing the research question answers something}{53}{section.7.1}
+\contentsline {section}{\numberline {7.2}Issues Faced During Development}{53}{section.7.2}
+\contentsline {section}{\numberline {7.3}Open Issues}{53}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Downloading and Parsing Indices}{54}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Filtering the Data}{54}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Storing the Data}{54}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}System API}{54}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Front-End}{55}{subsection.7.3.5}
+\contentsline {subsection}{\numberline {7.3.6}Main Application}{55}{subsection.7.3.6}
+\contentsline {section}{\numberline {7.4}Classification}{55}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Data Set}{55}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Threshold}{56}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Ambiguity of Document Subject}{56}{subsection.7.4.3}
+\contentsline {section}{\numberline {7.5}Ethics}{56}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Storage of Data}{56}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Consequences of Extracted Relations}{56}{subsection.7.5.2}
+\contentsline {chapter}{\numberline {8}Recommendations}{57}{chapter.8}
+\contentsline {section}{\numberline {8.1}Extending the Back-End}{57}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Extending the Data Set}{57}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Improving Document Filtering}{57}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Constructing More Advanced Classifiers}{57}{subsection.8.1.3}
+\contentsline {subsubsection}{Data Set}{58}{subsection.8.1.3}
+\contentsline {subsubsection}{Parameter Optimisation}{58}{subsection.8.1.3}
+\contentsline {subsubsection}{Empirical Tests of Classifiers}{58}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Upgrading the Server}{58}{subsection.8.1.4}
+\contentsline {subsection}{\numberline {8.1.5}Building a Command Line Interface}{58}{subsection.8.1.5}
+\contentsline {section}{\numberline {8.2}Extending the Front-End}{58}{section.8.2}
+\contentsline {chapter}{\numberline {9}Conclusion}{61}{chapter.9}
+\contentsline {chapter}{Bibliography}{63}{chapter*.56}
+\contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{67}{appendix.A}
+\contentsline {chapter}{\numberline {B}Sig Feedback}{69}{appendix.B}
+\contentsline {section}{\numberline {B.1}week 5}{69}{section.B.1}
+\contentsline {section}{\numberline {B.2}week 9}{69}{section.B.2}
+\contentsline {chapter}{\numberline {C}User Manual}{71}{appendix.C}
+\contentsline {chapter}{\numberline {D}Developers Manual}{73}{appendix.D}
+\contentsline {chapter}{\numberline {E}Used Libraries}{75}{appendix.E}
+\contentsline {section}{\numberline {E.1}Libraries Used in the Back-End}{75}{section.E.1}
+\contentsline {section}{\numberline {E.2}Libraries Used in the Front-End}{75}{section.E.2}
 \contentsfinish 

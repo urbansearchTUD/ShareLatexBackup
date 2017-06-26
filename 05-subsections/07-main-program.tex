@@ -1,2 +1,37 @@
 \section{Main Application} \label{sec:main-app}
-To couple all functions of the system we made created a main. The main Python file is contains functions which in turn calls all the appropriate functions of th
+To couple all functions of the system we made created a main. The main Python file is contains functions which in turn calls all the appropriate functions of the subsystems, thereby providing the functionality that is desired. For example, the \texttt{classify\_textfiles\_to\_db} function (see listing \ref{lst:main-ex}, which combines filtering, classification and storing data while making use of Python multiprocessing to divide and speed up the execution.
+
+\begin{lstlisting}[language=Python, caption=Header of a function in main.py, label={lst:main-ex}]
+def classify_textfiles_to_db(num_cworkers, directory, threshold, to_db=False):
+    """ Run workers to classify all documents and output to database.
+    Database must be online, all the textfiles from the specified directory
+    will be parsed using the number of workers specified.
+    :num_cworkers: Number of consuming workers, classifying indices from the
+    queue.
+    :directory: Path to directory containing textfiles
+    :to_db: Output results to database specified in config, True or False
+    """
+\end{lstlisting}
+
+All of the available functions in main can be seen in the \todo{table/figure} below. These functions can be called using the API or by adjusting the function that will be called in the \texttt{\_\_name\_\_ == "\_\_main\_\_"}\footnote{\url{https://docs.python.org/3.5/library/__main__.html}} part of main.py, which is the piece of code that will be executed first when executing main.py.
+
+
+\begin{table}[H]
+\centering
+
+\label{main-functions}
+\begin{tabular}{m{8cm} p{8cm}}
+\textbf{Name}                     & Description  \\\hline
+\texttt{download\_indices\_for\_url(url)} & Download all indices for a given url and return as string. \\\hline
+
+\texttt{classify\_documents\_from\_indices(pworkers, cworkers, directory, threshold)} & Run workers to classify all documents and only log results, no output to database.\\\hline
+
+\texttt{classify\_indices\_to\_db(pworkers, cworkers, directory, threshold)} & Run workers to classify all documents from a file/directory with indices and output to database.\\\hline
+
+\texttt{classify\_textfiles\_to\_db(num\_cworkers, directory, threshold, to\_db=True)} & Run workers to classify all all textfiles and output to database.\\\hline
+
+\texttt{create\_ic\_relations\_to\_db(num\_workers, to\_db=True)} & Creates intercity relations and stores them in the database if desired. \\\hline 
+
+\end{tabular}
+\caption{Functions available in main}
+\end{table}
