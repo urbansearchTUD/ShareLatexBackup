@@ -1,155 +1,44 @@
-\documentclass[10pt,a4paper,twoside]{tudelft-report}
-\usepackage[noabbrev]{cleveref}
-\crefname{lstlisting}{listing}{listings}
-\Crefname{lstlisting}{Listing}{Listings}
-\usepackage{todonotes}
-\presetkeys{todonotes}{inline, noline}{}
-\usepackage{subcaption}
-\usepackage{enumitem}
-\usepackage{listings}
-\usepackage{lstautogobble}
-\usepackage{hhline}
-\usepackage{proof}
-\usepackage{natbib}
-\usepackage{changes}
-\usepackage{wrapfig}
-\usepackage{url}
-\usepackage{verbatim}
-\usepackage{bbding}
-\usepackage{booktabs}
-\usepackage{float}
-\usepackage{tabularx}
-\usepackage{threeparttable}
-\usepackage{usebib} % Use data defined in the bib file.
-\usepackage[justification=centering]{caption}
-\bibinput{references}
-
-\graphicspath{{images/}}
-
-% \usepackage{todonotes}
-\input{commands}
-
-\usefont{T1}{cmr}{m}{n}
-
-\definecolor{commentgray}{RGB}{169,173,178}
-\definecolor{stringblue}{RGB}{2,48,96}
-\definecolor{keywordred}{RGB}{213,60,76}
-\definecolor{codedefault}{RGB}{36,41,46}
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
 
 \begin{document}
 
-% Related Work
-% Problem Analysis ("4 main parts")
-%       Sub problem identification
-% Requirement Analysis
-% Framework and Tools
-% Conclusion
-% \input{00-frontpage}
-% \input{00-abstract}
-% \newpage
-% \tableofcontents
-% \newpage
-% \input{01-introduction}
-% \input{02-related-work}  
-% \input{03-requirement-analysis}
-% \input{04-framework-and-tools}
-% \input{05-code-quality}
-% \input{06-validation}
-% \input{07-process}
-% \input{08-implementation}
-% \input{09-conclusion}
+\titlespacing{\section}{0pt}{\baselineskip}{0pt}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
+\titlespacing{\subsubsection}{0pt}{0pt}{0pt}
+\fontsize{11pt}{12pt}
+\noindent
 
-\frontmatter
+\noindent
+\subsection*{General Information}
 
-\lstdefinestyle{mystyle}{
-    commentstyle=\color{commentgray},
-    keywordstyle=\color{keywordred},
-    numberstyle=\tiny\color{codedefault},
-    stringstyle=\color{stringblue},
-    breaklines=true,
-    captionpos=b,
-    frame=none,
-    keepspaces=true,
-    autogobble=true,
-    numbers=left,
-    basicstyle=\footnotesize\tudcffamily,
-    numberstyle=\tudcffamily,
-    numbersep=5pt,
-    xleftmargin=10pt,
-    showstringspaces=false
-}
+\noindent\textbf{Project title:} UrbanSearch\\
+\textbf{Client's organisation:} OTB, Delft University of Technology\\
+\textbf{Final presentation} July 7th, 2017\\
+\textbf{Description:} Design a system to extract intercity relations from open data
 
-% Cypher query language
-\lstdefinelanguage{cypher} {
-  keywords={start,create,set,delete,foreach,match,%
-    where,with,return,skip,limit,order,by,asc,%
-    ascending,desc,descending},
-  morekeywords = {[2]type,id,length,nodes,rels,%
-    relationships,abs,round,sqrt,sign,head,last,%
-    tail,replace,left,right,substring,lower,upper,%
-    ltrim,rtrim,trim,str,shortestpath,range,count,%
-    sum,min,max,avg,collect,percentile\_cont,%
-    percentile\_disc},
-  sensitive = false,
-  morecomment=[l]{//},
-  morestring=[b]",
-  morestring=[b]'
-}
- 
-\lstset{style=mystyle}
-% image of UI?
-\input{00-frontpage}
-% Academic people like this, bit of 
-\input{00-preface-and-acknowledgements}
-% Instead of abstract, add a single page summary
-\input{00-summary}
+\subsection*{Description}
 
-\tableofcontents
+\subsection*{Members of the Project Team}
+\begin{description}
+\item[Piet van Agtmaal] Mostly interested in back-end design, databases and server management, Piet's focus was on designing, implementing and optimising the Neo4j model and configuring the server for production.
+\item[Tom Brunner]
+\end{description}
 
-\mainmatter
+\subsection*{Client:}
+Evert Meijers, Research for the Built Environment, TU Delft
 
-% Three parts: background, methodology and structure
-\input{01-introduction}
-% % ~10 references at least, pick from Antoine's work
-\input{02-related-work}
-% subsections:
-% 3.1 problem definition
-% 3.2 problem analysis
-% 3.3 requirement analysis (with design goals, requirements and minimal viable product)
-\input{03-problem-definition-and-analysis}
-% same as research report, but add section "evaluation strategies"
-\input{04-framework-and-tools}
-% Describe how we used the selected tools to actually build the framework
-% Also describe the modules we designed, including code snippets and UML stuff
-% Make sure to split back-end and front-end here, but discuss how they are linked
-\input{05-framework-implementation}
-% evaluate the product, and see whether we have at least the minimum viable product
-% using the requirements and design goals (possibly in a table)
-% make sure to add lots and lots of figures, tables and benchmarks here
-% also add SIG stuff and talk about SCRUM
-% mention tests
-\input{06-project-evaluation}
-% evaluation protocol results
-% describe issues faced during implementation, as well as issues that are still 
-% open. Main thing here is to discuss the Neo4j python driver with multiprocessing,
-% which we could not get to work. Also mention the state of the document 
-% classification
-% DONT FORGET a subsection on ethical issues!
-\input{07-discussion}
-% Make recommendations for future version, for extending the back-end and front-end
-% Try to mention the requirements here
-\input{08-recommendations}
-% Start with "In the past few months we blah" and shortly mention the chapters
-% Mention the project goal and how well it is met, without duplicating the 
-% evaluation chapter
-\input{09-conclusion}
+\subsection*{Coach:}
+Claudia Hauff, Web Information Systems Group, TU Delft
 
-\bibliography{references}{}
+\subsection*{Contact:}
+\noindent Piet van Agtmaal, \href{mailto:P.J.C.vanAgtmaal@student.tudelft.nl}{P.J.C.vanAgtmaal@student.tudelft.nl}\\
+Tom Brunner, \href{mailto:T.S.Brunner@student.tudelft.nl}{T.S.Brunner@student.tudelft.nl}\\
+Marko Mali\v{s}, \href{mailto:M.Malis@student.tudelft.nl}{M.Malis@student.tudelft.nl}\\
+Gijs Reichert, \href{mailto:G.M.W.Reichert@student.tudelft.nl}{G.M.W.Reichert@student.tudelft.nl}\\
 
-\appendix
-\input{A_better_code_hub_guidelines}
-\input{B-SIG-analysis}
-\input{D-user-manual}
-\input{C-dev-manual-with-UML}
-\input{E-used-libraries}
+\noindent The final report for this project can be found at: \url{http://repository.tudelft.nl}.
+
 \end{document}
