@@ -1,12 +1,11 @@
 \section{Extracting Relations from Documents}\label{sec:classification-design}
-\todo{Move (parts) to implementation}
 Now that a selection of documents has been made, we can make an attempt to identify the relations between cities based on these documents. Since labelling every document by hand is not feasible, an automated approach is desirable. 
-One way to automate this process is by identifying intercity relations using machine learning. Machine learning algorithms can be roughly divided into two distinct groups: (1) supervised and (2) unsupervised algorithms. Supervised algorithms expect \colorbox{red}{an input set and a corresponding output set} \colorbox{green}{manually categorised training data and the set of categories}, with which a model is trained to predict unseen instances of the problem. Unsupervised algorithms identify clusters of entities, such as documents or pictures, based on similarities in the feature set corresponding to said entity.
+One way to automate this process is by identifying intercity relations using machine learning. Machine learning algorithms can be roughly divided into two distinct groups: (1) supervised and (2) unsupervised algorithms. Supervised algorithms expect an input set and a corresponding expected output set, with which a model is trained to predict unseen instances of the problem. Unsupervised algorithms identify clusters of entities, such as documents or pictures, based on similarities in the feature set corresponding to said entity.
 
-We decided to go with the supervised approach, mostly due to the fact that the training and tweaking of supervised algorithms can be done faster compared to unsupervised algorithms. This stems from the fact that we do not need the complete data-set to start training a supervised model, while for the unsupervised case the complete set is needed. A good quality training set is required for the supervised algorithm, which might be difficult to find. However, we think finding such a data set is doable within the time constraints.
+We decided to go with the supervised approach, mostly due to the fact that the training and tweaking of supervised algorithms can be done faster compared to unsupervised algorithms. This stems from the fact that we do not need the complete data set to start training a supervised model, while for the unsupervised case the complete set is needed. A good quality training set is required for the supervised algorithm, which might be difficult to find. However, we think finding such a data set is doable within the time constraints.
 
 \subsection{Defining Categories}
-Our choice of using classification has naturally lead to the need for categories we want to identify within the collected documents. Together with our clients we identified the following categories which are useful to identify from the collected documents. For each category, a fictional article title is given to illustrate what an article in that category would be about.\\
+Our choice of using classification has naturally led to the need for categories to be identified within the collected documents. Together with our client, we identified the following categories which are useful to identify from the collected documents. For each category, a fictional article title is given to illustrate what an article in that category would be about.\\
 
 \begin{enumerate}
     \item Collaboration - TU Delft builds software for hospital in Leiden
@@ -22,7 +21,7 @@ Our choice of using classification has naturally lead to the need for categories
 These categories represent topics that are of interest for our clients. They relate to research that is being done by them and to relations that were deemed important in previous research on intercity relations. The category \textit{other} is there to make the classification exhaustive, i.e. relevant documents can always be labelled.
 
 \subsection{Pre-processing}
-For pre-processing the documents, there are a number of tools available. We used NLTK \cite{nlkt_stemming} for removing stopwords and \colorbox{green}{we use} regular expressions for removing unwanted characters. The HTML parsing is done using BeautifulSoup\cite{BeautifulSoup}.
+For pre-processing the documents, there are a number of tools available. We used NLTK \cite{nlkt_stemming} for removing stop words and we use regular expressions for removing unwanted characters. The HTML parsing is done using BeautifulSoup\cite{BeautifulSoup}.
 
 \begin{description}
 \item[\textbf{Stop words}]
@@ -30,16 +29,16 @@ Removing all common words (the, a, an etc) and symbols ('.', ',', '!', etc). For
 \item[\textbf{Unwanted characters}]
 To strip unwanted characters we have defined a regular expression that identifies unwanted characters (punctuation marks, years, etc.) Matching characters are removed from the document. 
 \item[\textbf{HTML}]
-Since we are dealing with HTML pages which we are parsing to plain text documents, we need to strip the HTML so that only the plain text remains. Using BeautifulSoup we strip unwanted tags (script, style, link, etc.) and parse the rest of the page to plain text.
+Since we are dealing with HTML pages that are parsed to plain text documents, we need to strip the HTML so that only the plain text remains. Using BeautifulSoup we strip unwanted tags (script, style, link, etc.) and parse the rest of the page to plain text.
 \end{description}
 
 \subsection{Data Set}\label{sec: data-set-research}
-Before we can start labelling the collected document, we need to collect labelled data that can be used as training data for the classifier. To collect this data we have considered several options.\\
+Before we can start labelling the collected document, labelled data have to be collected that can be used as training data for the classifier. To collect this data we considered several options.\\
 
-The first option is to query for documents from news(paper) sites. Since the documents are categorised by professionals, we assumed these document would be labelled correctly. This method could thus provide us with a reliable training set.
+The first option is to query for documents from news(paper) sites. Since the documents are categorised by professionals, we assume these document are labelled correctly. This method could thus provide us with a reliable training set.
 Unfortunately, the categories that we identified with our client do not match typical newspaper categories, so this approach was not suitable for us.\\
 
-Another approach is to use Google Custom Search to obtain results from Google, using the categories the client provided us with as keywords. The main disadvantage of this approach is lack of control over the files that get added into the data set. This way documents that get returned by the query are not analysed on desirable content but are added immediately. An example of a page that is returned for the query "woonwerkverkeer"(commuting) is given below. This page, although it does contain information about commuting, contains more useless information, like the side-menu, than useful information.\\
+Another approach is to use Google Custom Search to obtain results from Google, using the categories the client provided us with as keywords. The main disadvantage of this approach is lack of control over the files that get added into the data set. This way documents that get returned by the query are not analysed on desirable content but are added immediately. An example of a page that is returned for the query "woonwerkverkeer"(commuting) is given below. This page, although it does contain information about commuting, contains more useless information, like the navigation bar, than useful information.
 
 \begin{figure}[H]
 \centering
@@ -48,9 +47,7 @@ Another approach is to use Google Custom Search to obtain results from Google, u
 \label{fig:useless_page}
 \end{figure}
 
-We found the open data repository of the "Centraal Bureau voor de Statistieken" (CBS) to be a source of quality documents that could be used as training data for the classifier. The articles in the repository can be queried using taxonomy tags with which the articles are tagged. Since these articles are tagged by professionals we may assume that these tags are valid.\\
-The only downside of the CBS data is that it is a limited source of documents. Which means we will have to find addiotional sources for training data in the future.
-
+We found the open data repository of the "Centraal Bureau voor de Statistiek" (CBS) to be a source of quality documents that could be used as training data for the classifier. The articles in the repository can be queried using taxonomy tags with which the articles are tagged. Since these articles are tagged by professionals we may assume that these tags are valid. The only downside of the CBS data is that it is a limited source of documents. Which means we will have to find additional sources for training data in the future.
 
 \subsection{Modelling}
 When considering classification, there are a plethora of algorithms available. When choosing the right algorithm for a problem, several factors should be taken into account\cite{MLCheatSheet}. These are:
@@ -60,11 +57,10 @@ When considering classification, there are a plethora of algorithms available. W
         \item[\textbf{Linearity}] Some problems can be solved by splitting classes using a straight line. For other problems this approach is not feasible.
         \item[\textbf{Number of Parameters}] Adjustable parameters increase the flexibility of the algorithms. This is a trade-off between training time and accuracy.
         \item[\textbf{Number of Features}] A large number of features can make some algorithms slow. Extracting features from text-data often results in a huge feature set (65000+ in our case).
-        \item[\textbf{Special Cases}] Some learning algorithms make particular assumptions about the data or the results (eg. rank prediction, count prediction). This way we can increase desirable properties like accuracy of the prediction or improved training times. 
+        \item[\textbf{Special Cases}] Some learning algorithms make particular assumptions about the data or the results (e.g. rank prediction, count prediction). This way we can increase desirable properties like accuracy of the prediction or improved training times. 
     \end{description}
 
-Keeping all these properties in mind we construct a setup that fits our purposes best.
-Below we have stated our approach of how we reached the setup we think is best suited for our goals.
+Keeping all these properties in mind, we construct a setup that fits our purposes best.
 
 %Lots of machine learning algorithms make use of linearity. Linear classification algorithms assume that classes can be separated by a straight line (or its higher-dimensional analog).  These include logistic regression and support vector machines (as implemented in Azure Machine Learning). Linear regression algorithms assume that data trends follow a straight line. These assumptions aren't bad for some problems, but on others they bring accuracy down. Despite their dangers, linear algorithms are very popular as a first line of attack. They tend to be algorithmically simple and fast to train.
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{47}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -72,12 +72,6 @@ Lomme Devriendt, Ben Derudder, and Frank Witlox.
   intercity linkages.
 \newblock \emph{Journal of Urban Technology}, 15\penalty0 (2):\penalty0 5--32,
   2008.
-
-\bibitem[Elasticsearch(2017)]{elasticsearch}
-Elasticsearch.
-\newblock Elasticsearch.
-\newblock \url{https://www.elastic.co/products/elasticsearch}, 2017.
-\newblock Accessed: 2017-04-26.
 
 \bibitem[et~al.(2017)]{nlkt_stemming}
 Alex~Rudnick et~al.
@@ -196,13 +190,6 @@ Neo4j.
   \url{https://neo4j.com/resources/understanding-neo4j-scalability-white-paper/
   }, 2017{\natexlab{b}}.
 \newblock Accessed: 2017-06-19.
-
-\bibitem[Porter(2000)]{porter2000location}
-Michael~E Porter.
-\newblock Location, competition, and economic development: Local clusters in a
-  global economy.
-\newblock \emph{Economic development quarterly}, 14\penalty0 (1):\penalty0
-  15--34, 2000.
 
 \bibitem[Preis et~al.(2013)Preis, Moat, and Stanley]{preis2013quantifying}
 Tobias Preis, Helen~Susannah Moat, and H~Eugene Stanley.

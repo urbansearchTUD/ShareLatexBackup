@@ -66,8 +66,8 @@ All of these features are meant to provide the user with means for constructing 
 \subsubsection{Document Classification}
 The document classification interface is designed to provide an easy way of extending our data-set which is used to train and test our classifier.\\
 As stated in \ref{sec: data-set-research} we looked at several options of collecting training data.\\
-We decided to provide our clients with a document classification, because out of the considered options we found this was the best way. This way, we have total control of the documents that are added to the data set. The documents are labelled by experts in the field of the built environment so we may assume these documents will represent the labelled categories well. \\
-The interface loads documents that we have deemed relevant while analysing the available CommonCrawl pages. The user can select one or multiple categories which the user feels best relate to the document, after which the document will be saved to the training set(s) corresponding to the selected category/categories. If no category is selected, the document is discarded from the training set. If the user finds the document to be irrelevant the document can also be discarded immediately. An example of the interface with a document belonging in the "collaboration" category is shown in figure \ref{fig:frontend-label}).
+We decided to provide our clients with a document classification interface, because  we found this was the best way to extend the training data set. This way, we have total control of the documents that are added to the data set. The documents are labelled by experts in the field of the built environment so we may assume these documents will represent the labelled categories well. \\
+The interface loads documents that we have deemed relevant while analysing the available Common Crawl pages. The user can select one or multiple categories which the user feels best relate to the document, after which the document will be saved to the training set(s) corresponding to the selected category/categories. If no category is selected, the document is discarded from the training set. If the user finds the document to be irrelevant the document can also be discarded immediately. An example of the interface with a document belonging in the "collaboration" category is shown in figure \ref{fig:frontend-label}).
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{labelling_interface}
@@ -77,7 +77,7 @@ The interface loads documents that we have deemed relevant while analysing the a
 
 \subsubsection{System Settings}
 
-Both the back end and the front end of the UrbanSearch system share and depend on some default settings. To keep the system configurable, even for an user that is not a developer, we have implemented a system settings interface (figure \ref{fig:frontend-ss}). The interface can be extended with more settings as the user likes. This is achieved by the loose coupling of the front end and the API that was mentioned before.
+Both the back end and the front end of the UrbanSearch system share and depend on some default settings. To keep the system configurable, even for an user that is not a developer, we have implemented a system settings interface (figure \ref{fig:frontend-ss}). The interface can be extended with more settings easily if the need arises. This is achieved by the loose coupling of the front end and the API that was mentioned before. Open issues regarding the settings interface will be discussed in \ref{sec:disc-front-end}.
 
 
 \begin{figure}[H]

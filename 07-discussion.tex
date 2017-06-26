@@ -26,7 +26,7 @@ The most prominent issue with the system API is the lack of authentication and a
 
 Another issue that is left for the API is that it does not provide all the functionality that may be wanted in the (near) future. Again this is because of time constraints, which forced us to implement only the routes that were needed for the minimum viable product.
 
-\subsection{Front-End}
+\subsection{Front-End} \label{sec:disc-front-end}
 The main issue in the front end is that settings interface is not connected yet to the API. This means, although we do have the setup for the interface, that submitting a setting from the interface does not trigger a call to the API.
 
 Furthermore, we have small styling issues. For example, relations that have a really small total score are almost invisible when visualised on the map. Fixing this would be done by adjusting the scaling function, which takes the total relations score and scales it to an number between 0 and 1 relative to the maximum total relation score. Scaling now is done by taking the square root of $total\_score/max\_total\_score$.
