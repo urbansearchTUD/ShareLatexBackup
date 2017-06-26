@@ -74,7 +74,7 @@ Even for these 1600 simple matches, the improvements are already significant, as
 \label{tbl:param-improvement}
 \end{table}
 
-Another issue that was encountered during initial testing, is that executing only one query at a time creates and commits a transaction for every query. This is an expensive process. Using the parameterised query from listing \ref{lst:query-with-param} in a single transaction is a 15\% performance gain, as shown in table \ref{tbl:bulk-improvement}. Moreover, it seemed as if performance was fluctuating with a transaction per query. However, we have not bench marked this.
+Another issue that was encountered during initial testing, is that executing only one query at a time creates and commits a transaction for every query. This is an expensive process. Using the parameterised query from listing \ref{lst:query-with-param} in a single transaction is a 15\% performance gain, as shown in table \ref{tbl:bulk-improvement}. Moreover, it seemed as if performance was fluctuating with a transaction per query. However, we have not benchmarked this.
 \begin{table}[H]
 \centering
 \begin{tabular}{|c|c|}

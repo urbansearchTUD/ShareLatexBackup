@@ -91,7 +91,7 @@
 \contentsline {subsection}{\numberline {6.1.3}Evaluating the Classification}{44}{subsection.6.1.3}
 \contentsline {subsubsection}{Accuracy}{44}{subsection.6.1.3}
 \contentsline {subsubsection}{Confusion Matrix}{45}{subsection.6.1.3}
-\contentsline {subsubsection}{Precision, Recall, F1 and UAC}{45}{figure.caption.34}
+\contentsline {subsubsection}{Precision, Recall, F1 and UAC}{45}{figure.caption.33}
 \contentsline {subsection}{\numberline {6.1.4}Evaluation of Relation Scores}{46}{subsection.6.1.4}
 \contentsline {section}{\numberline {6.2}Evaluation of Requirements}{46}{section.6.2}
 \contentsline {section}{\numberline {6.3}Evaluation of Design Goals}{47}{section.6.3}
@@ -126,7 +126,7 @@
 \contentsline {section}{\numberline {8.1}Extending the Back-End}{55}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.1}Extending the Data Set}{55}{subsection.8.1.1}
 \contentsline {subsection}{\numberline {8.1.2}Improving Document Filtering}{55}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Constructing More Advanced Classifiers}{56}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.3}Constructing More Advanced Classifiers}{55}{subsection.8.1.3}
 \contentsline {subsubsection}{Data Set}{56}{subsection.8.1.3}
 \contentsline {subsubsection}{Parameter Optimisation}{56}{subsection.8.1.3}
 \contentsline {subsubsection}{Empirical Tests of Classifiers}{56}{subsection.8.1.3}
@@ -134,7 +134,7 @@
 \contentsline {subsection}{\numberline {8.1.5}Building a Command Line Interface}{56}{subsection.8.1.5}
 \contentsline {section}{\numberline {8.2}Extending the Front-End}{56}{section.8.2}
 \contentsline {chapter}{\numberline {9}Conclusion}{59}{chapter.9}
-\contentsline {chapter}{Bibliography}{61}{chapter*.55}
+\contentsline {chapter}{Bibliography}{61}{chapter*.54}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{65}{appendix.A}
 \contentsline {chapter}{\numberline {B}Sig Feedback}{67}{appendix.B}
 \contentsline {section}{\numberline {B.1}week 5}{67}{section.B.1}
