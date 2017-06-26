@@ -10,18 +10,20 @@ Besides the fact that this approach increases readability, maintainability and e
 Modular development means writing self-contained elements of a web page, consisting of HTML, CSS and JavaScript. The components can be reused easily throughout the entire page and can be initialised with different sets of data to alter their appearance or functionality.\\
 We also used the concept of container and presentational components\footnote{\url{https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0}}. The idea behind this is that container components are concerned with the application logic. Presentational components on the other hand, are concerned with how elements looks, e.g. the styling and appearance of elements.\\
 We believe that this approach will result in readable, maintainable and extensible code, which will allow for future proof code.
+
 \subsubsection{NodeJS}
 We chose NodeJS as the backbone of our front-end server. The fact that NodeJS is easy to setup and has a lot of modules that are quickly accessible through NPM\footnote{\url{https://www.npmjs.com}} was one of the main reasons for selecting NodeJS. Having a server running in a matter of minutes is a big advantage for a short project.\\
 Another advantage of using NodeJS is the availability of tools like Webpack and Gulp. Webpack\footnote{\url{https://webpack.js.org/concepts/}} is a module bundler for NodeJS that provides us with the ideal infrastructure for modular development. It allows us to bundle JavaScript code in different files, containing only the required code for a specific page. Gulp\footnote{\url{http://gulpjs.com/}} is a task runner for NodeJS that allows for tasks such as compiling HTML templates that can later be used in the front-end. Another example of a Gulp task is bundling the CSS of all the modules to one file.
+
 \subsubsection{ExpressJS}
 
-To handle the routing of incoming requests in the front end we use ExpressJS\footnote{\url{https://expressjs.com/}}. ExpressJS is a minimal NodeJS web framework that can be set up and extended easily. With over 10 million downloads per month it can be considered a community standard that has proven its grounds. Besides that it allows for easy and clean routing using its \texttt{Routing} module and custom middelware can be added easily per route or for the whole app.
+To handle the routing of incoming requests in the front end we use ExpressJS\footnote{\url{https://expressjs.com/}}. ExpressJS is a minimal NodeJS web framework that can be set up and extended easily. With over 10 million downloads per month it can be considered a community standard. It allows for easy and clean routing using the \texttt{Routing} module, next to that, custom middelware can be added easily per route or for the whole app.
 
 \subsection{Interfaces}
-In this section we will provide an overview of the different interfaces that we implemented. We will start with the main interface, the interactive map that shows the extracted relations, after that we will discuss the document classification interface. Finally we will talk about the system settings interface that we implemented.
+In this section we will provide an overview of the different interfaces that we implemented. We will start with the main interface, the interactive map that shows the extracted relations. Next, we will discuss the document classification interface. Finally we will present the system settings interface that we implemented.
 
 \subsubsection{Interactive Map}
-The main part of the front-end is the interactive map. The extracted data gets visualised on a (almost) full-screen Google Maps map. On the map we place markers which represent cities and we draw poly-lines which represent relations between the cities. Only cities that have more than 500 documents in total associated with them are displayed on the map. This way we keep the front end performance up to par and we prevent unnecessary map clutter.
+The main part of the front-end is the interactive map. The extracted data is visualised on a (almost) full-screen Google Maps map. On the map we place markers which represent cities and we draw poly-lines which represent relations between the cities. Only cities that have more than 500 documents in total associated with them are displayed on the map. This way we keep the front end performance up while preventing unnecessary map clutter.
 
 \begin{figure}[H]
 \centering
@@ -30,7 +32,7 @@ The main part of the front-end is the interactive map. The extracted data gets v
 \label{fig:frontend-map}
 \end{figure}
 
-On the right side of the interface a "Map Controls" card is always shown. This card lets users manipulate the data shown on the map. Since we have two main entities of interest (cities and relations) that are shown on the map, the controls offer an intuitive way to control these.\\
+On the right side of the interface a "Map Controls" card is always shown. This card makes it possible for users to manipulate the data shown on the map. Since we have two main entities of interest (cities and relations) that are shown on the map, the controls offer an intuitive way to control these.\\
 
 \begin{figure}[H]
 \centering
@@ -39,8 +41,8 @@ On the right side of the interface a "Map Controls" card is always shown. This c
 \label{fig:frontend-mc}
 \end{figure}
 
-Cities are indicated by the circles on the map. The circles have an diameter that is calculated based on the population size of the city. Figure \ref{fig:frontend-mc} shows the controls for the city entities. The slider shown in the upper part of the card allows to filter cities based on population. All cities that fall in the range of the slider are shown, all other are not visible. Besides displaying and hiding cities based on population size, users can also toggle visibility of cities by clicking on the cities displayed in the list below the slider.\\
-Relations are shown as poly-lines on the map. The total strength of the relation (which will be discussed below) is used to set an opacity for the relation, like show in figure \ref{fig:frontend-rel-strength}. A low opacity indicates an strong total strength of the relation and vice versa.
+Cities are indicated by the circles on the map. The circles have a diameter that is calculated based on the population size of the city. Figure \ref{fig:frontend-mc} shows the controls for the city entities. The slider shown in the upper part of the card allows filtering of cities based on population. All cities that are within the range of the slider are shown, all cities not within this range will be invisible. Besides displaying and hiding cities based on population size, users can also toggle visibility of cities by clicking on the cities displayed in the list below the slider.\\
+Relations are shown as poly-lines on the map. The total strength of the relation (which will be discussed below) is used to set an opacity for the relation, as shown in figure \ref{fig:frontend-rel-strength}. A low opacity indicates a strong total strength of the relation and vice versa.
 
 \begin{figure}[H]
 \centering
@@ -49,7 +51,7 @@ Relations are shown as poly-lines on the map. The total strength of the relation
 \label{fig:frontend-rel-strength}
 \end{figure}
 
-The relations controls are shown in figure \ref{fig:frontend-mc-rel}. Here the user can select which relations are considered when calculating the total relation strengths. This is done by clicking the check-boxes next to the relation names. The sliders provide a way to filter the relations based on the total relation strength for the category belonging to the slider.\\
+The relations controls are shown in figure \ref{fig:frontend-mc-rel}. Here the user can select which relations are considered when calculating the total relation strengths. This is done by clicking the check-boxes next to the name of the relations. The sliders provide a way to filter the relations based on the total relation strength of that particular relation.\\
 
 \begin{figure}[H]
 \centering
@@ -58,12 +60,13 @@ The relations controls are shown in figure \ref{fig:frontend-mc-rel}. Here the u
 \label{fig:frontend-mc-rel}
 \end{figure}
 
-The drop-down shown in the relations control interface provides a way to scale the relation totals. Lets say for example that we do not want the absolute count of occurrences as a measure for total relation strength but that we want it scaled relative to the population size of two cities. This can be done by selecting the right option in the drop-down.\\
-All of these features are meant to provide the user with means for constructing a visualisation that uncovers patterns which are not (easily) seen when looking at raw data.
+The drop-down shown in the relations control interface provides a way to scale the relation totals. For example, if we do not want the absolute count of occurrences as a measure for total relation strength but we want it to be scaled relative to the population size of two cities. This can be done by selecting the right option in the drop-down.\\
+All of these features are meant to provide the user with means for constructing a visualisation that uncovers patterns which are not (easily) visible when looking at exported numerical data.
+
 \subsubsection{Document Classification}
-The document classification interface is meant as an easy way of extending our data-set which is used to train and test our classifier.\\
+The document classification interface is designed to provide an easy way of extending our data-set which is used to train and test our classifier.\\
 As stated in \ref{sec: data-set-research} we looked at several options of collecting training data.\\
-After considering all the options we decided to provide our clients with a document classification. This way, we have total control of the documents that are added to the data set. The documents are labelled by experts in the field of the built environment so we may assume these documents will represent the labelled categories well. \\
+We decided to provide our clients with a document classification, because out of the considered options we found this was the best way. This way, we have total control of the documents that are added to the data set. The documents are labelled by experts in the field of the built environment so we may assume these documents will represent the labelled categories well. \\
 The interface loads documents that we have deemed relevant while analysing the available CommonCrawl pages. The user can select one or multiple categories which the user feels best relate to the document, after which the document will be saved to the training set(s) corresponding to the selected category/categories. If no category is selected, the document is discarded from the training set. If the user finds the document to be irrelevant the document can also be discarded immediately. An example of the interface with a document belonging in the "collaboration" category is shown in figure \ref{fig:frontend-label}).
 \begin{figure}[H]
 \centering

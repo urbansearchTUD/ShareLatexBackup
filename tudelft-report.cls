@@ -6,6 +6,7 @@
 
 \LoadClass{book}
 
+\RequirePackage[dvipsnames]{xcolor}
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{geometry}

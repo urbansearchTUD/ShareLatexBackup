@@ -7,5 +7,5 @@ As explained in section \ref{sec:project-evaluation} all of the design goals exc
 
 To which the answer is: One way open data can be leveraged such that a metric for the strength of relationships between cities can be defined and visualise is by first downloading text data from a storage (in our case documents from CommonCrawl). Each document is then checked for containing two or more city names by using the Pyahocorasick package and is discarded if it does not meet the check. This selection of documents is classified according to predefined relationships between cities using the SVM machine learning algorithm. The documents are stored on the disk and the relations are stored in the visual graph database Neo4J. The strength of each relationships between two cities is then found by counting the number of all documents for each relationship that contain the two city names. This is visualised by NodeJS. \\
 
-With this, we believe we have proven the application can be an asset to the research on factors leading to economic growth and we hope this will give our clients a tool to help with their further research. 
+With this, we believe we have proven the application can be an asset to the research on intercity relations and we hope this will give our clients a tool to help with their further research. 
 
