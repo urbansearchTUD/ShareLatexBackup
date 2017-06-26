@@ -111,28 +111,29 @@ In section \ref{sec:reqs} we declared the requirements for our program. Table \r
 In section \ref{sec:design-goals} we discussed the design goals for this project. We came up with seven design goals on which we will reflect.
 
 \subsection{Credible}
-As stated in section \ref{sec:classification-validation} the classification seems to be pretty accurate except for the recall score for collaboration and the precision value for leisure. This is most likely due to the limited amount of training data. These positive results can also be seen in appendix \ref{app:ROC-curves}, which shows the curves mostly to the upper left corners of the graph.
+As stated in section \ref{sec:classification-validation} the classification seems to be pretty accurate except for the recall score for collaboration and the precision value for leisure. This is most likely due to the limited amount of training data. These positive results can also be seen in appendix \ref{app:ROC-curves}.
 
 \subsection{Understandable}
-From the acceptance tests \ref{sec:acceptance-testing} we resulted that the visualisation as presented in \ref{sec:5-front-end} we devised that the visualisation looks good and is easy understandable.
+Together with the client we concluded the visualisation as presented in \ref{sec:5-front-end} meets their requirements.\\
+Although their still remain issues with the visualisation, which are discussed in \ref{sec:recommendations}, especially when visualising many relations.
 
 \subsection{Scalable}
-For scalability the goal was to allow the project to be scalable so that websites from other domains than .nl can be used. Since we used Neo4J for storing relationships and Neo4J is highly scalable, storing the relationships for other domains than .nl should not be a problem. 
+The main goal concerning scalability was to allow the system to process pages from domains other than ".nl". Since we used Neo4J for storing relationships, which is highly scalable, storing the relationships for domains other than ".nl" should not be a problem. The main issue here is that of processing other languages than Dutch.
 
-\subsection{Plugable}
+\subsection{Plugable Data}
 The design goal plugable the goal was to make the application able to perform analysis on different data sets without the need of a developer. Whilst this is possible, the documents from other data sets would have to be in the correct format before they can be processed. For small data sets this might not be that much of a problem, but for larger data sets it would become very time-consuming without the help of a developer.
 
 \subsection{Exportable}
-At this moment we have not met the design goal exportable, which was to ensure the numeric data could be exported, for example in CSV format. Since this is not a vital part of the application, this has not yet been included. We are however still working on this. 
+At this moment we have not met the design goal exportable, which was to ensure the numeric data could be exported, for example in CSV format. Since this is not a vital part of the application, this has not yet been included. We are however working on this and expect it to be done in the final week of development. 
 
 \subsection{Fast Development}
-Another goal was to have a fast development cycle because of the time constraints. To do this we choose tools, applications and programming languages with which members of our team were already experienced with. Even so, some setbacks occurred which caused the cycle to slow down.
+Another goal was to have a fast development cycle because of the time constraints. To do this we choose tools, applications and programming languages with which members of our team were already familiar. Even so, some setbacks occurred which caused the cycle to slow down.
 
 \section{Product Evaluation}
-To conclude the two previous sections; we have a functioning program that consists of most vital components. Whilst the results from the application are not exportable (yet), the other design goals were met. The program provides credible and understandable which can be used to analyse relationships between cities in the Netherlands. It can also be extended for non-Dutch cities and pages. Most of the requirements also passed, but depending on the needs of the end-user, it would not be difficult to extend to program to include the others as well. Even though functionality might be missing this is a useful application for analysing data and as a demo it proves systems like these are worth wile to develop.
+To conclude the two previous sections; we have a functioning program that consists of most vital components. Whilst the results from the application are not exportable (yet), the other design goals were met. The program provides credible and understandable data which can be used to analyse relationships between cities in the Netherlands.
 
 \section{Process Evaluation}
-In this section, we evaluate the development process and explain what methods were used and if they were used correctly. Additionally, we discuss the collaboration with the client and coach and within the group.
+In this section, we evaluate the development process, explain what methods were used and if they were used correctly. Additionally, we discuss the collaboration with the client, the coach and within the group.
 
 \subsection{Development Process Evaluation}
 In order to have a smooth development cycle, we made several agreements in the beginning of the project. All code changes had to be submitted through a pull request and needed to be reviewed before they could be merged into the main code base. This was enforced using the project settings in GitHub, where branch access can be regulated. We believe that this approach has helped us greatly to write good quality code and to make sure everyone knew what was going on.

@@ -95,7 +95,7 @@
 \contentsline {subsection}{\numberline {6.3.1}Credible}{41}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Understandable}{42}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Scalable}{42}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Plugable}{42}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.4}Plugable Data}{42}{subsection.6.3.4}
 \contentsline {subsection}{\numberline {6.3.5}Exportable}{42}{subsection.6.3.5}
 \contentsline {subsection}{\numberline {6.3.6}Fast Development}{42}{subsection.6.3.6}
 \contentsline {section}{\numberline {6.4}Product Evaluation}{42}{section.6.4}
