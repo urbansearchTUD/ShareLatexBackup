@@ -35,10 +35,10 @@ There are several ways to evaluate machine learning algorithms. We will base our
 
 \subsubsection{Accuracy}\label{sec:mean-accuracy}
 Accuracy is the proportion of correctly classified instances. This however is a poor indication of how well a classifier works. For instance, if you have a test set of 100 websites, of which 90\% belongs to Category A. Than if the classifier simply predicts all websites to belong to category A the accuracy will be 90\%. It would seem the classifier performs well, but it actually fails to classify the other 10\% of the websites correctly.\\ 
-To calculate the mean accuracy of our classifier we implemented an API route that splits our complete data set in random training and test samples. The training sample contains 75\% of the complete data set and the test sample contains the remaining 25\%. After issuing multiple calls to the API we came 
+To calculate the mean accuracy of our classifier we implemented an API route that splits our complete data set in random training and test samples. The training sample contains 75\% of the complete data set and the test sample contains the remaining 25\%. After issuing multiple calls to the API we calculated a mean accuracy of 79.64\% for our current classifier. 
 
 \subsubsection{Confusion Matrix}
-A page can only either belong to class A (positive), or not belong to class A (negative). If a page is predicted by the classifier correctly it is called true positive (TP) or true negative (TN). If the classifier predicts the page incorrectly it results in a false positive (FP) or false negative (FN). This can be seen in the confusion matrix in figure \ref{fig:confusion_matrix}. 
+A page can belong to class A (positive), or not belong to class A (negative). If a page is labelled by the classifier with the correct class it is called a true positive (TP) or a true negative (TN). If the classifier labels the page incorrectly it results in a false positive (FP) or false negative (FN). This concept is visually depicted in figure \ref{fig:confusion_matrix}. 
 
 \begin{figure}[ht]
 \centering
@@ -48,13 +48,12 @@ A page can only either belong to class A (positive), or not belong to class A (n
 \end{figure}
 \footnotetext{\url{https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-evaluate-model-performance}}
 
-
 \subsubsection{Precision, Recall, F1 and UAC}\label{sec:classification-validation}
 The \textbf{precision} of the classifier is the proportion of positives that are classified correctly: $\frac{TP}{TP+FP}$. This is used for questions such as "Out of the pages that were classified as category A, how many were classified correctly?".\\
 
 the \textbf{recall} of the classifier is used to answer the question "What percentage of the pages that fit category A were classified correctly?". In other words: $\frac{TP}{TP+FN}$.
 
-The \textbf{F1 Score} uses both precision and recall. It is computed by using the following formula: $F1 = 2\cdot \frac{precision \cdot recall}{precision + recall}$. The F1 score summarised evaluation in a single number, but for evaluation it is better to use recall and precision to understand the behaviour of the classifier. \\
+The \textbf{F1 Score} uses both precision and recall. It is computed by using the following formula: $F1 = 2\cdot \frac{precision \cdot recall}{precision + recall}$. The F1 score summarises evaluation in a single number. But to get an better understanding of the behaviour of the classifier considering recall and precision on their own is recommended. The reason for this is that the F1 score gives no information on what is the cause for the loss of accuracy, while the scores for precision and recall give us a better insight.\\
 
 \begin{figure}[ht]
 \centering
@@ -63,7 +62,7 @@ The \textbf{F1 Score} uses both precision and recall. It is computed by using th
 \label{fig:prec-rec}
 \end{figure}
 
-The \textbf{Receiver Operating Characteristic (ROC) curve} and the corresponding \textbf{Area Under the Curve (AUC) value} can be used to inspect the true positive rate (Recall) vs. the false positive rate $\frac{FP}{FP + TN}$. To do this, the possibilities pages are correctly classified are needed. For each threshold on these probabilities for the classifier, the true positive rate and the false positive rate are calculated and are plotted in a graph, which results in something like \ref{fig:UAC}. The closer the ROC curve is to the upper left corner, the better the classifier's performance is. When close to the diagonal of the plot, the classifier tends to make predictions close to random guessing. The UAC value is the are under the ROC curve. The ROC curves for our categories can be seen in appendix \ref{app:ROC-curves}. The low smoothness is due to the low sample amount, nevertheless they show good results as the curves are near the upper elft corner.
+The \textbf{Receiver Operating Characteristic (ROC) curve} and the corresponding \textbf{Area Under the Curve (AUC) value} can be used to inspect the true positive rate (Recall) vs. the false positive rate $\frac{FP}{FP + TN}$. To do this, we need the probabilities that pages are classified correctly. For each threshold on these probabilities for the classifier, the true positive rate and the false positive rate are calculated and are plotted in a graph, which results in something like \ref{fig:UAC}. The closer the ROC curve is to the upper left corner, the better the classifier's performance is. When close to the diagonal of the plot, the classifier tends to make predictions close to random guessing. The UAC value is the are under the ROC curve. The ROC curves for our categories can be seen in appendix \ref{app:ROC-curves}. The low smoothness is due to the low sample amount, nevertheless they show good results as the curves are near the upper elft corner.
 
 
 \begin{figure}[ht]
