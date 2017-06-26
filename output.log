@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 20:59
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1641,37 +1641,53 @@ Overfull \hbox (31.11317pt too wide) in paragraph at lines 20--33
 20ea7/06-project-evaluation.tex [36]
 Chapter 6.
 
-LaTeX Warning: Reference `' on page 37 undefined on input line 12.
+LaTeX Warning: Reference `cov-report' on page 37 undefined on input line 12.
+
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 14.
+
+! LaTeX Error: File `coverage-report' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...hics[width=0.5\textwidth]{coverage-report}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.eps,.ps,.png,.jpg,.bmp,.pict,.tif,.psd,.mac,.sga,.tga,.gif
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [37
 
-]
+] [38]
 File: images/confusion_matrix.png Graphic file (type QTm)
 <use  "images/confusion_matrix.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 File: images/precision-recall.png Graphic file (type QTm)
-<use  "images/precision-recall.png" >
+<use  "images/precision-recall.png" > [39]
 File: images/UAC.png Graphic file (type QTm)
-<use  "images/UAC.png" > [39]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+<use  "images/UAC.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 88--88
+Underfull \hbox (badness 3930) in paragraph at lines 96--96
 []|\EU1/OpenSans(0)/m/sc/10 Data is successfully gathered from Common
  []
 
 
-Overfull \hbox (3.96773pt too wide) in paragraph at lines 86--108
+Overfull \hbox (3.96773pt too wide) in paragraph at lines 94--116
  [][] 
  []
 
@@ -2194,13 +2210,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 38078 strings out of 495658
- 713570 string characters out of 6187951
- 1099137 words of memory out of 5000000
- 40470 multiletter control sequences out of 15000+600000
+ 38130 strings out of 495658
+ 714708 string characters out of 6187951
+ 1100172 words of memory out of 5000000
+ 40513 multiletter control sequences out of 15000+600000
  11670 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,13n,94p,10412b,1856s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107c0b2577ba7000320ea7/output.xdv (71 pages, 1363472 bytes).
+107c0b2577ba7000320ea7/output.xdv (71 pages, 1366088 bytes).

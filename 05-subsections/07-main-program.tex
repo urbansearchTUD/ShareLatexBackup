@@ -13,7 +13,7 @@ def classify_textfiles_to_db(num_cworkers, directory, threshold, to_db=False):
     """
 \end{lstlisting}
 
-The most important functions in main are listed in table \ref{tbl:main-functions}. These functions can be called using the API or by adjusting the function that iscalled in the \texttt{\_\_name\_\_ == "\_\_main\_\_"}\footnote{\url{https://docs.python.org/3.5/library/__main__.html}} part of this file.
+The most important functions in main are listed in table \ref{tbl:main-functions}. These functions can be called using the API or by adjusting the function that is called in the \texttt{\_\_name\_\_ == "\_\_main\_\_"}\footnote{\url{https://docs.python.org/3.5/library/__main__.html}} part of this file.
 
 \begin{table}[H]
 \centering
@@ -25,9 +25,9 @@ The most important functions in main are listed in table \ref{tbl:main-functions
 
 \texttt{classify\_indices\_to\_db(pworkers, cworkers, directory, threshold)} & Run workers to classify all documents from a file/directory with indices and output to database.\\\hline
 
-\texttt{classify\_textfiles\_to\_db(num\_cworkers, directory, threshold, to\_db=True)} & Run workers to classify all all textfiles and output to database.\\\hline
+\texttt{classify\_textfiles\_to\_db(num\_cworkers, directory, threshold, to\_db=True)} & Run workers to classify all textfiles and output to database.\\\hline
 
-\texttt{create\_ic\_relations\_to\_db(num\_workers, to\_db=True)} & Creates intercity relations and stores them in the database if desired. \\\hline 
+\texttt{create\_ic\_relations\_to\_db(num\_workers, to\_db=True)} & Create intercity relations and store them in the database if desired. \\\hline 
 
 \end{tabular}
 \caption{Functions available in main}
