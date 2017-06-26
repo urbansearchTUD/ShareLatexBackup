@@ -3,34 +3,32 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: output.aux
 The style file: tudelft-report.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "bch_guidelines"
-Warning--empty year in BeautifulSoup
 You've used 47 entries,
             2773 wiz_defined-function locations,
-            887 strings with 12552 characters,
-and the built_in function-call counts, 20838 in all, are:
-= -- 1939
+            886 strings with 12538 characters,
+and the built_in function-call counts, 20839 in all, are:
+= -- 1940
 > -- 983
 < -- 46
 + -- 344
 - -- 294
 * -- 1533
-:= -- 3120
+:= -- 3121
 add.period$ -- 162
 call.type$ -- 47
 change.case$ -- 234
 chr.to.int$ -- 44
-cite$ -- 95
+cite$ -- 94
 duplicate$ -- 1000
 empty$ -- 1841
 format.name$ -- 371
-if$ -- 4469
+if$ -- 4470
 int.to.chr$ -- 4
 int.to.str$ -- 1
 missing$ -- 39
 newline$ -- 260
 num.names$ -- 188
-pop$ -- 505
+pop$ -- 504
 preamble$ -- 1
 purify$ -- 190
 quote$ -- 0
@@ -42,8 +40,7 @@ text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 502
-warning$ -- 1
+warning$ -- 0
 while$ -- 207
 width$ -- 0
-write$ -- 642
-(There were 2 warnings)
+write$ -- 643

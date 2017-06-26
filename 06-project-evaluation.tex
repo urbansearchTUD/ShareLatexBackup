@@ -1,13 +1,14 @@
 \chapter{Project Evaluation}\label{sec:project-evaluation}
-In this chapter we will first discuss the testing of the system, including automatic testing, acceptance testing evaluating the classifier and evaluating the end results. Afterwards we will evaluate the fulfilment of the requirements. Next we evaluate the fulfilment of the design goals. Then we give the product evaluation and we finnish with the process evaluation.
+In this chapter we will first discuss the testing of the system, including automated testing, acceptance testing, evaluating the classifier and evaluating the final results. Afterwards we will evaluate the fulfilment of the requirements. Next we evaluate the fulfilment of the design goals. Then we give the product evaluation and we finish with the process evaluation.
 
 \section{Validation and Verification}
 In this section, we first describe how the system is tested and how we verify the quality of the code with SIG \cite{sig}. Afterwards we define a protocol with which the results of the system can be evaluated for correctness. We will first evaluate the results of the classification, and then the relation scores. These are related in the sense that a relation score is calculated by the number of occurrences in labelled documents, so the correctness of labelling affects the correctness of relation scores.\\
 
 \subsection{Testing the Application}
-We will test the program using four different testing methods. As framework we will use pytest\cite{pytest} which is integrated in python. The first is unit testing, which tests the separate components individually. Next comes integration testing, to see how well different components work together. Afterwards we use system testing for testing the different system components. Lastly, acceptance testing is used for testing how well the clients think the program works.
+We will test the program using four different testing methods. The first is unit testing, which tests the separate components individually. Next comes integration testing, to see how well different components work together. Afterwards we use system testing for testing the different system components. Lastly, acceptance testing is used to verify the clients requirements. The testing framework that we used is pytest\cite{pytest}, which is part of Python.
 
 \subsubsection{Unit Testing}
+\todo{make iets zinnigs hiero}
 Unit testing is done by writing automatic tests and making sure they pass every time the tests are executed. Unit tests test each method of a function separately, checking that the method does what it is supposed to do. If the method would need information from outside the class that information is mocked. This means that instead of using that other class, a fake object is made which returns a fake value. This ensures the tests will never fail due to changes in other classes. We achieved a test coverage of 85\%.
 
 \subsubsection{Integration Testing}
@@ -20,7 +21,7 @@ We also used system testing. System testing provides a more complete test of the
 Last we used acceptance testing. This is testing done to see if the software does what the clients are expecting it to do. These tests are therefore also executed by the clients manually. Afterwards they can say what worked, what did not work, what was missing and what could be improved. This can for example be used to test if the visualisation looks good to the client.\\
 
 \subsection{SIG}
-SIG \cite{sig}, short for software improvement development group, is an organisation that analyses the code of projects to give insights in the quality of how the code is written. A high score means the code is highly maintainable and is kept simple. SIG includes Better Code Hub \cite{bch_guidelines} which checks our code according to 10 guidelines as can be seen in appendix \ref{A_better_code_hub_guidelines}. The great thing about Better Code Hub is that it can be run at anytime. We can check Better Code Hub whenever, whilst for SIG we have to send in our code and wait for feedback. 
+SIG \cite{sig}, short for software improvement development group, is an organisation that analyses the code of projects to give insights in the quality of how the code is written. A high score means the code is highly maintainable and is kept simple. SIG includes Better Code Hub \cite{better_code_hub} which checks our code according to 10 guidelines as can be seen in appendix \ref{bch_guidelines}. The great thing about Better Code Hub is that it can be run at anytime. We can check Better Code Hub whenever, whilst for SIG we have to send in our code and wait for feedback. 
 
 \subsubsection{week 5}
 The first feedback from SIG was in the fifth week of development. Before uploading on BetterCodeHub our code passed all checks. For SIG it had a score from four out of five stars which means our code is above average maintainable. The last star was missed because the code is above average complex. This means that some of the functionality of some methods should be split into separate methods.
