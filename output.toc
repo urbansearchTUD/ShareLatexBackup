@@ -25,30 +25,30 @@
 \contentsline {subsection}{\numberline {3.3.4}Design Decisions}{6}{subsection.3.3.4}
 \contentsline {chapter}{\numberline {4}Framework and Tools}{8}{chapter.4}
 \contentsline {section}{\numberline {4.1}High-level Overview}{8}{section.4.1}
-\contentsline {section}{\numberline {4.2}Gathering the Data}{9}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Common Crawl}{10}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Other Data Sources}{11}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Filtering Documents}{11}{section.4.3}
-\contentsline {section}{\numberline {4.4}Extracting Relations from Documents}{12}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Defining Categories}{12}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Pre-processing}{13}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Data Set}{13}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Modelling}{14}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Remarks}{15}{subsection.4.4.5}
-\contentsline {section}{\numberline {4.5}Storing and Ingesting the Data}{15}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Storing Extracted Data}{15}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Graph Database or Traditional Database}{15}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Comparing Graph Databases}{16}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Using Neo4j for Storage and Ingestion}{17}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Interacting with the Data}{18}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Design for a Query Language}{18}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Design for a Query Composer Interface}{19}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Design for Querying Interactively}{20}{subsection.4.6.3}
-\contentsline {subsection}{\numberline {4.6.4}Deciding on the Implementation}{20}{subsection.4.6.4}
-\contentsline {section}{\numberline {4.7}Visualising the Data}{21}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Representing the Data Graphically}{21}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Using Geographical Maps}{21}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}Handling Map Clutter}{21}{subsection.4.7.3}
+\contentsline {section}{\numberline {4.2}Gathering the Data}{8}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Common Crawl}{8}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Other Data Sources}{9}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Filtering Documents}{10}{section.4.3}
+\contentsline {section}{\numberline {4.4}Extracting Relations from Documents}{11}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Defining Categories}{11}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Pre-processing}{12}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Data Set}{12}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Modelling}{13}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Remarks}{14}{subsection.4.4.5}
+\contentsline {section}{\numberline {4.5}Storing and Ingesting the Data}{14}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Storing Extracted Data}{14}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Graph Database or Traditional Database}{14}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Comparing Graph Databases}{15}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Using Neo4j for Storage and Ingestion}{15}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Interacting with the Data}{17}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Design for a Query Language}{17}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Design for a Query Composer Interface}{17}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Design for Querying Interactively}{18}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Deciding on the Implementation}{18}{subsection.4.6.4}
+\contentsline {section}{\numberline {4.7}Visualising the Data}{19}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Representing the Data Graphically}{19}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Using Geographical Maps}{19}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Handling Map Clutter}{19}{subsection.4.7.3}
 \contentsline {chapter}{\numberline {5}Implementation}{22}{chapter.5}
 \contentsline {section}{\numberline {5.1}Downloading and Parsing Indices}{22}{section.5.1}
 \contentsline {section}{\numberline {5.2}Filtering the Data}{23}{section.5.2}
@@ -79,17 +79,17 @@
 \contentsline {section}{\numberline {6.1}Validation and Verification}{37}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Testing the Application}{37}{subsection.6.1.1}
 \contentsline {subsubsection}{Unit Testing}{37}{subsection.6.1.1}
-\contentsline {subsubsection}{Integration Testing}{37}{section*.27}
-\contentsline {subsubsection}{System Testing}{38}{section*.27}
-\contentsline {subsubsection}{Acceptance Testing}{38}{section*.27}
+\contentsline {subsubsection}{Integration Testing}{37}{subsection.6.1.1}
+\contentsline {subsubsection}{System Testing}{37}{subsection.6.1.1}
+\contentsline {subsubsection}{Acceptance Testing}{38}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}SIG}{38}{subsection.6.1.2}
 \contentsline {subsubsection}{week 5}{38}{subsection.6.1.2}
 \contentsline {subsubsection}{week 9}{38}{subsection.6.1.2}
 \contentsline {subsection}{\numberline {6.1.3}Evaluating the Classification}{38}{subsection.6.1.3}
 \contentsline {subsubsection}{Accuracy}{38}{subsection.6.1.3}
-\contentsline {subsubsection}{Confusion Matrix}{39}{subsection.6.1.3}
-\contentsline {subsubsection}{Precision, Recall, F1 and UAC}{39}{figure.caption.28}
-\contentsline {subsection}{\numberline {6.1.4}Evaluation of Relation Scores}{40}{subsection.6.1.4}
+\contentsline {subsubsection}{Confusion Matrix}{38}{subsection.6.1.3}
+\contentsline {subsubsection}{Precision, Recall, F1 and UAC}{39}{figure.caption.27}
+\contentsline {subsection}{\numberline {6.1.4}Evaluation of Relation Scores}{39}{subsection.6.1.4}
 \contentsline {section}{\numberline {6.2}Evaluation of Requirements}{40}{section.6.2}
 \contentsline {section}{\numberline {6.3}Evaluation of Design Goals}{41}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Credible}{41}{subsection.6.3.1}
@@ -129,7 +129,7 @@
 \contentsline {subsection}{\numberline {8.1.5}Building a Command Line Interface}{49}{subsection.8.1.5}
 \contentsline {section}{\numberline {8.2}Extending the Front-End}{49}{section.8.2}
 \contentsline {chapter}{\numberline {9}Conclusion}{51}{chapter.9}
-\contentsline {chapter}{Bibliography}{52}{chapter*.35}
+\contentsline {chapter}{Bibliography}{52}{chapter*.34}
 \contentsline {chapter}{\numberline {A}Better Code Hub Guidelines}{55}{appendix.A}
 \setcounter {tocdepth}{0}
 \contentsline {chapter}{\numberline {B}SIG Feedback}{56}{appendix.B}

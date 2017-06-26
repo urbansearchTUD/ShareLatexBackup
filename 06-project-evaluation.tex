@@ -5,30 +5,33 @@ In this chapter we will first discuss the testing of the system, evaluation of t
 In this section, we first describe how we tested the system by means of automated and manual testing. Next we discuss how we tried to ensure code quality by following guidelines set up by SIG\cite{sig}. Finally we will evaluate classification results and the validity of the relation scores that were assigned to relations between cities.
 
 \subsection{Testing the Application}
-We will test the program using four different testing methods. The first is unit testing, which tests the individual functions in our code. Next we consider integration testing. This tells us
-
-
-to see how well different components work together. Afterwards we use system testing for testing the different system components. Lastly, acceptance testing is used to verify the clients requirements. The testing framework that we used is pytest\cite{pytest}, which is part of Python.
+We will test the program using four different testing methods. The first is unit testing, which tests the individual functions in our code. Next we consider integration testing. This tells us if different system components interact like we expect them to. Finally acceptance testing is used to verify the clients requirements. The testing framework that we used is pytest\cite{pytest}, which is part of Python.
 
 \subsubsection{Unit Testing}
-Unit testing is a type of sotware testing by which individual units of code are tested for correctness. These are automated tests that should pass every time a change is made which does not include 
-\todo{make iets zinnigs hiero}
-Unit tests test each method of a function separately, checking that the method does what it is supposed to do. If the method would need information from outside the class that information is mocked. This means that instead of using that other class, a fake object is made which returns a fake value. This ensures the tests will never fail due to changes in other classes. We achieved a test coverage of 85\%.
+Unit testing is the process of testing individual units of code for correctness. If a unit of code depends on other parts of the system, mocks can be used to mimic this dependency. This way we can test the functionality of all the individual components of the system, without having to rely on correctness, or even the presence, of units of code the tested unit depends on.\\
+In figure \ref{} a coverage report can be found, which summarises the percentage of the code that is covered by the implemented unit tests.
 
 \subsubsection{Integration Testing}
-Integration testing uses automated tests which test how well different components of the system work together. This is done more or less the same as unit testing, however whilst you would mock methods from other classes in unit testing, with integration testing you do not. It is assumed that the separate modules are unit tested, therefor if an error occurs it is because something is wrong with the interaction between the modules and not with the modules themselves. 
+Integration testing uses automated tests which test how well different components of the system work together. Do to time constraints we did not implement any integration tests. 
 
 \subsubsection{System Testing}
 We also used system testing. System testing provides a more complete test of the entire system. This means it is useful to detect faults in the overall system, but less easy to determine where these faults may be located. System testing is done manually, which means the tests can not be easily repeated when the system changes whilst with other testing techniques this is possible.
 
 \subsubsection{Acceptance Testing}\label{sec:acceptance-testing}
-Last we used acceptance testing. These tests verify if the software does what the client expects it to do. The tests are therefore executed by the client manually. After the tests the client can say what worked, what did not work, what was missing and what could be improved. This can for example be used to test if the visualisation looks good to the client.\\
+Finally we used acceptance testing to verify if the software does what the client expects it to do. The tests are therefore executed by the client manually. These tests are derived from the system requirements which can be found in \ref{sec:reqs}.\\
+An example is the testing of the interactive map which visualises the relations between cities.
 
 \subsection{SIG}
 SIG \cite{sig}, short for Software Improvement Group, is an organisation that analyses code of software projects. SIG tries to give insights about the quality of the analysed code. SIG has an online tool, Better Code Hub, which rates code based on the criteria that can be found in appendix \ref{bch_guidelines}. It is a convenient tool, which we used during the project to verify the quality of our code was up to par.
 
 \subsubsection{week 5}
-The first feedback from SIG was in the fifth week of development. Before uploading on BetterCodeHub our code passed all checks. For SIG it had a score from four out of five stars which means our code is above average maintainable. The last star was missed because the code is above average complex. This means that some of the functionality of some methods should be split into separate methods.
+The first feedback from SIG was in the fifth week of development. While we scored 10 out of 10 on Better Code Hub, we scored 4 out of 5 in the review we got back from SIG. The main issue with our code 
+
+
+
+
+
+Before uploading on BetterCodeHub our code passed all checks. For SIG it had a score from four out of five stars which means our code is above average maintainable. The last star was missed because the code is above average complex. This means that some of the functionality of some methods should be split into separate methods.
 
 \subsubsection{week 9}
 Since the upload date for SIG is the same date as the due date of the final report we can not present the second SIG review. Instead we will present the results from BetterCodeHub, run on the last day before the due date of the report. This time there were two issues which resulted in a score of 8 out of 10. The first was with keeping unit interfaces small, which resulted from a method with too many parameters. However since the different parameters are not part of a same object we did not take time better spent elsewhere to refactor this. The other issue was with coupling architecture components loosely, which resulted from our workers being used for different parts of the application.

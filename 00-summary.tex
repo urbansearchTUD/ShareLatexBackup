@@ -1,18 +1,10 @@
 \chapter*{Summary}
-
 This project is intended to design and implement a system that is able to quantify and visualise intercity relations, using open data. 
 
 According to their web site\footnote{\url{https://otb.tudelft.nl}}, ”OTB seeks to make a visible contribution to society by addressing societal challenges in the field of the built environment”. However, with the growing amount of information available online, they have the need for IT solutions to support their research. This project was intended to design and implement a system that is able to quantify and visualise intercity relations, using the information from open data. Since there is a lot of data freely available, the challenge was to accurately delimit the boundaries of the project and then convert the information from within these boundaries to something the researchers could work with. Moreover, we had to focus on both a full-fledged back-end and front-end. 
 
+The back-end consists of four main parts: (1) data gathering and processing, (2) data filtering, (3) document classifying and (4) data storage. Data is gathered from the freely available corpus Common Crawl. The cleaned textual data is then passed to the filtering component, which checks the text for co-occurring cities. If either too few or too many co-occurrences are found, the document is filtered out. Then, the document is passed to the classifier, which determines to which of a predefined set of categories the document belongs to. Finally, the document is stored in a graph database, along with the resulting category and probabilities retrieved from the classifier. After this, relations are drawn between cities and documents they occur in. Finally, the relations to
 
+The front-end is a Web application to allow the client to interactively browse the results and to be able to see patterns in visualised data, which are otherwise hard to extract from raw numbers.
 
 The client was happy to see that we were able to deliver a viable product. However, some work has to be done before the product can fully satisfy the client’s needs. For this, recommendations have been made, in order to provide future developers with pointers to continue on the application.
-
-
-
-
-
-
-Although we did manage to satisfy most of the requirements that were .. together with our client at the beginning of the project, we do feel their is room for improvements. These 
-
-

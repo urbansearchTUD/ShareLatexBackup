@@ -1,5 +1,5 @@
 \chapter{Problem Definition and Analysis}\label{sec:problem-definition-analysis}
-In this section first the problem definition will be introduced. Next, the analysis of this problem will be discussed. Next, the requirements following from this analysis and the wishes of the client are presented. Last, a few design decisions are presented that followed from the problem analysis and requirements.
+In this section first the problem definition will be introduced. Next, the analysis of this problem will be discussed. After that, the requirements following from this analysis and the wishes of the client are presented. Last, a few design decisions are presented that followed from the problem analysis and requirements.
 
 \section{Problem Definition}\label{sec:3-problem-definition}
 As discussed in the previous sections the hypothesis the client proposed is if a semantic association of cities can give insight in the actual relationships and strengths between cities. This hypothesis introduces the problem how software could be used to find and analyse these semantic associations. This lead to the following problem definition:\\
@@ -10,13 +10,13 @@ As discussed in the previous sections the hypothesis the client proposed is if a
 \end{quote}
 
 \section{Problem Analysis}\label{sec:3-problem-analysis}
-The problem can be divided into four sub-problems that need to be addressed to solve the problem. These are Filtering, Classification, Storing Data and  Data Visualisation \& Export. 
+The problem can be divided into four sub-problems that need to be addressed. These are Filtering, Classification, Storing Data and  Data Visualisation \& Export. 
 
 \subsubsection{Filtering}
-The first sub-problem is filtering, which means searching through the available text data to find co-occurrences of cities and discarding text data that does not contain co-occurrences. This should reduce the amount of data and thereby potentially speed up the rest of process.
+Filtering for this problem means searching through the available text data to find co-occurrences of cities and discarding text data that does not contain co-occurrences. This should reduce the amount of data and thereby potentially speed up the rest of process.
 
 \subsubsection{Classification}
-The sub-problem that arises after filtering is how to determine what relationships can be extracted from the text-data, this will be referred to as the classification of the text-data. This requires a method that reliably and efficiently processes the text-data and can be tuned to the clients wishes, meaning that the classification should output what the client desires. 
+The sub-problem that arises after filtering is how to determine what relationships can be extracted from the text-data, which will be referred to as the classification of the text-data. This requires a method that reliably and efficiently processes the text-data and can be tuned to the clients wishes.
 
 \subsubsection{Storing Data}
 Next, when the classification sub-problem is addressed the need arises to store the data and determine the strength of the relationships. 
