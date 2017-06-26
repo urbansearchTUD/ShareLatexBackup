@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -27,6 +27,12 @@ James Bergstra and Yoshua Bengio.
 \newblock Random search for hyper-parameter optimization.
 \newblock \emph{Journal of Machine Learning Research}, 13\penalty0
   (Feb):\penalty0 281--305, 2012.
+
+\bibitem[Bottou(2010)]{bottou2010large}
+L{\'e}on Bottou.
+\newblock Large-scale machine learning with stochastic gradient descent.
+\newblock In \emph{Proceedings of COMPSTAT'2010}, pages 177--186. Springer,
+  2010.
 
 \bibitem[Brunn et~al.(2010)Brunn, Devriendt, Boulton, Derudder, and
   Witlox]{brunn2010networks}
