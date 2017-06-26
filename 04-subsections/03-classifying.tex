@@ -33,7 +33,7 @@ To strip unwanted characters we have defined a regular expression that identifie
 Since we are dealing with HTML pages which we are parsing to plain text documents, we need to strip the HTML so that only the plain text remains. Using BeautifulSoup we strip unwanted tags (script, style, link, etc.) and parse the rest of the page to plain text.
 \end{description}
 
-\subsection{Data Set}
+\subsection{Data Set}\label{sec: data-set-research}
 Before we can start labelling the collected document, we need to collect labelled data that can be used as training data for the classifier. To collect this data we have considered several options.\\
 
 The first option is to query for documents from news(paper) sites. Since the documents are categorised by professionals, we assumed these document would be labelled correctly. This method could thus provide us with a reliable training set.
@@ -48,7 +48,7 @@ Another approach is to use Google Custom Search to obtain results from Google, u
 \label{fig:useless_page}
 \end{figure}
 
-\todo{add something about CBS}
+We found the open data repository of the "Centraal Bureau voor de Statistieken" (CBS) to be a source of quality documents that could be used as training data for the classifier. The 
 
 
 \subsection{Modelling}

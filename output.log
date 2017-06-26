@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 13:28
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1630,9 +1630,6 @@ File: images/frontend-mc-rel.png Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [36]
-
-LaTeX Warning: Reference `' on page 37 undefined on input line 65.
-
 File: images/labelling_interface.png Graphic file (type QTm)
 <use  "images/labelling_interface.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1729,7 +1726,7 @@ Chapter 7.
 [49]
 File: images/frontend-ugly-pre.png Graphic file (type QTm)
 <use  "images/frontend-ugly-pre.png" > [50]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
@@ -2252,13 +2249,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 38028 strings out of 495658
- 713109 string characters out of 6187951
+ 38027 strings out of 495658
+ 713106 string characters out of 6187951
  1097633 words of memory out of 5000000
- 40435 multiletter control sequences out of 15000+600000
+ 40434 multiletter control sequences out of 15000+600000
  11670 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,13n,94p,10412b,1894s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107b572577ba7000320e83/output.xdv (86 pages, 1389484 bytes).
+107b572577ba7000320e83/output.xdv (86 pages, 1386620 bytes).
