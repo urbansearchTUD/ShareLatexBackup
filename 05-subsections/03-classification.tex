@@ -1,5 +1,5 @@
 \section{Classification}\label{5-classification}
-This section describes how we developed our interface for classifying documents. First, we will first give a short of the classification part of the application. Next, we discuss how classifiers are defined. Then we will discuss how classifiers are created or loaded in the application. Finally we will discuss the interface that accepts documents and returns a prediction of the category or categories associated with the supplied document.
+This section describes how we developed our interface for classifying documents. First, we will first give a short overview of the classification part of the application. Next, we discuss how classifiers are defined. Then we will discuss how classifiers are created or loaded in the application. Finally we will discuss the interface that accepts documents and returns a prediction of the category or categories associated with the supplied document.
 
 \subsection{Overview}
 In figure \ref{fig:classify-uml} we give a concise overview of the classification subsystem. The UrbanSearch API is used to classify documents by loading an instance of the \texttt{ClassifyText} class on startup. Furthermore the API offers the possibility to create new (default) classifiers or to modify existing classifiers.\\
@@ -7,7 +7,7 @@ The \texttt{ClassifyText} object uses an implementation of the \texttt{ModelMana
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.6\textwidth]{classify-uml}
-\caption{Diagram depicting the interaction between the API and the classification subsystems}
+\caption{UML Diagram depicting the interaction between the API and the classification subsystems}
 \label{fig:classify-uml}
 \end{figure}
 
@@ -38,7 +38,7 @@ sgdc = Pipeline([
                                   warm_start=False))
         ])
 \end{lstlisting}
-This \texttt{Pipeline} consists of three parts. The "tfidf"-part transforms a text into a matrix of words with corresponding TF-IDF scores (which are calculated first using the training set). The "select"-part selects the top 10 percent of features which were returned by the previous transform, in our case the \texttt{TfidfVectorizer} transform. For this particular \texttt{Pipeline} this means that 10 percent of the features with the highest TF-IDF score are returned. Finally, the "clf"-part is the final estimator. For this \texttt{Pipeline} it is a SVM (see \ref{sec:classification-design}) that uses tochastic gradient descent (SGD) training \cite{bottou2010large}. Gradient descent tries to find the minimum of a cost function by traversing the function in the opposite way of the descent and does this step by step. SGD takes random (stochastic) steps which works more efficient when dealing with large data sets.
+This \texttt{Pipeline} consists of three parts. The "tfidf"-part transforms a text into a matrix of words with corresponding TF-IDF scores (which are calculated first using the training set). The "select"-part selects the top ten percent of features which were returned by the previous transform, in our case the \texttt{TfidfVectorizer} transform. For this particular \texttt{Pipeline} this means that 10 percent of the features with the highest TF-IDF score are returned. Finally, the "clf"-part is the final estimator. For this \texttt{Pipeline} it is an SVM (see \ref{sec:classification-design}) that uses stochastic gradient descent (SGD) training \cite{bottou2010large}. Gradient descent tries to find the minimum of a cost function by traversing the function in the opposite way of the descent and does this step by step. SGD takes random (stochastic) steps which works more efficient when dealing with large data sets.
 The fully defined pipeline can now be used to train the classifier. This is done by inputting a set of data with corresponding expected outputs.
 
 \subsection{ModelManagers}
@@ -99,7 +99,7 @@ The \texttt{MNBModelManager} inherits all the load, save, predict and train func
 The base class can be used to load saved classifiers from disk. This is done by providing the \texttt{ModelManager} class with a file name on initialisation. If the file is found, the classifier is loaded from disk and ready to be used.
 
 \subsection{ClassifyText Interface}
-Most of the time we do not want to be busy creating and training classifiers, we want to classify documents. To provide an interface that can be used easily to input documents and get back predictions of which category a document belongs to, we implemented the \texttt{ClassifyText} class. The class loads a default classifier that should be available in the provided directory. After the class is initialised, the \texttt{predict} and \texttt{probability\_per\_category} methods can be used to predict categories for given documents.\\
+Most of the time we do not want to be busy creating and training classifiers; we want to classify documents. To provide an interface that can be used easily to input documents and get back predictions of which category a document belongs to, we implemented the \texttt{ClassifyText} class. The class loads a default classifier that should be available in the provided directory. After the class is initialised, the \texttt{predict} and \texttt{probability\_per\_category} methods can be used to predict categories for given documents.\\
 
 The predict method, which is shown in listing \ref{lst:ct-predict}, takes a document as input and returns a prediction of the category which the inputted document best matches.\\
 

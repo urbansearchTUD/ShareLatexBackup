@@ -1,5 +1,5 @@
 \section{Main Application} \label{sec:main-app}
-To couple all functions of the system, we created a main module. This file contains functions that call all the appropriate functions of the subsystems, thereby providing the functionality that is desired. For example, the \texttt{classify\_textfiles\_to\_db} function (see listing \ref{lst:main-ex}, which combines filtering, classification and storing data while making use of multiprocessing to divide and speed up the execution.
+To couple all functions of the system, we created a main module. This file contains functions that call all the appropriate functions of the subsystems, thereby providing the functionality that is desired. For example, the \texttt{classify\_textfiles\_to\_db} function (see listing \ref{lst:main-ex}), which combines filtering, classification and storing data while making use of multiprocessing to divide and speed up the execution.
 
 \begin{lstlisting}[language=Python, caption=Header of a function in main.py, label={lst:main-ex}]
 def classify_textfiles_to_db(num_cworkers, directory, threshold, to_db=False):

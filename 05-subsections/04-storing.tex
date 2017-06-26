@@ -21,16 +21,16 @@ The model used for the graph structure follows the concepts described in section
 The nodes are connected using relations. Cities (\texttt{:City} labelled nodes) occurring in documents (\texttt{:Index} labelled nodes) are connected with a \texttt{:OCCURS\_IN} relation. It is mainly used to find documents in which a pair of cities occurs. For example, the query below matches the documents Rotterdam and Amsterdam have in common and returns the file names:
 
 \begin{lstlisting}[language=cypher, caption={Querying documents containing two cities}, label={lst:query-occ}]
-MATCH (:City { name: 'Amsterdam })-[:OCCURS_IN]->
+MATCH (:City { name: 'Amsterdam' })-[:OCCURS_IN]->
     (i:Index)
         <-[:OCCURS_IN]-(b:City { name: 'Rotterdam'})
 RETURN i.filename
 \end{lstlisting}
 
-Intercity relations are the relations between distinct \texttt{:City} labelled nodes and are called \texttt{:RELATES\_TO}. They represent what the client is actually interested in and have a property for every category, containing the score. Additionally, the sum of the individual category scores is kept in a "total" property. The relations are used for exporting, visualisation and interaction. When populating the relations, the count for every category is needed for all city pairs. Cypher however, has no easy way to count all labels per type. Therefore, the query to achieve the desired counts is slightly more complex than necessary for example in a SQL based query language:
+Intercity relations are the relations between distinct \texttt{:City} labelled nodes and are called \texttt{:RELATES\_TO}. They represent what the client is actually interested in and have a property for every category, containing the score. Additionally, the sum of the individual category scores is kept in a "total" property. The relations are used for exporting, visualisation and interaction. When populating the relations, the count for every category is needed for all city pairs. Cypher, however, has no easy way to count all labels per type. Therefore, the query to achieve the desired counts is slightly more complex than necessary for example in a SQL based query language:
 
 \begin{lstlisting}[language=cypher, caption={Counting distinct labels}, label={lst:query-counts}]
-MATCH (:City { name: 'Amsterdam })-[:OCCURS_IN]->
+MATCH (:City { name: 'Amsterdam' })-[:OCCURS_IN]->
             (i:Index)
       <-[:OCCURS_IN]-(b:City { name: 'Rotterdam')
 WITH DISTINCT LABELS(i) as labels, COUNT(i) AS labelCount

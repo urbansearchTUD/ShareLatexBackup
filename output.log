@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 19:52
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1510,13 +1510,13 @@ File: images/neo4model.png Graphic file (type QTm)
 File: images/ql-example.png Graphic file (type QTm)
 <use  "images/ql-example.png" >
 File: images/qi-example.png Graphic file (type QTm)
-<use  "images/qi-example.png" >
+<use  "images/qi-example.png" > [17]
 File: images/i1-example.png Graphic file (type QTm)
-<use  "images/i1-example.png" > [17]
+<use  "images/i1-example.png" >
 File: images/i2-example.png Graphic file (type QTm)
-<use  "images/i2-example.png" >)
+<use  "images/i2-example.png" > [18])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/04-subsections/06-visualising.tex [18]))
+20ea7/04-subsections/06-visualising.tex))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/05-framework-implementation.tex [19] [20] [21]
 Chapter 5.
@@ -1583,10 +1583,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
 [30])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/05-subsections/06-frontend.tex [31]
+20ea7/05-subsections/06-frontend.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+
+ []
+
+[31]
 File: images/frontend-map.png Graphic file (type QTm)
 <use  "images/frontend-map.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
@@ -1594,7 +1599,7 @@ File: images/frontend-mc.png Graphic file (type QTm)
 <use  "images/frontend-mc.png" > [32]
 File: images/frontend-rel-strength.png Graphic file (type QTm)
 <use  "images/frontend-rel-strength.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
@@ -1670,10 +1675,7 @@ Overfull \hbox (3.96773pt too wide) in paragraph at lines 86--108
  [][] 
  []
 
-[40] [41] [42]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 142.
-)
+[40] [41] [42])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/07-discussion.tex [43]
 Chapter 7.
@@ -2192,13 +2194,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 38106 strings out of 495658
- 714427 string characters out of 6187951
- 1100137 words of memory out of 5000000
- 40498 multiletter control sequences out of 15000+600000
+ 38078 strings out of 495658
+ 713570 string characters out of 6187951
+ 1099137 words of memory out of 5000000
+ 40470 multiletter control sequences out of 15000+600000
  11670 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,13n,94p,10412b,1856s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107c0b2577ba7000320ea7/output.xdv (71 pages, 1375100 bytes).
+107c0b2577ba7000320ea7/output.xdv (71 pages, 1363472 bytes).

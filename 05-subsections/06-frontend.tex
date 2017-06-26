@@ -9,7 +9,6 @@ Dealing with huge amounts of data and displaying this data in a way that makes t
 Besides the fact that this approach increases readability, maintainability and extensibility it is also a best practice in the front-end realm\footnote{\url{https://developers.google.com/web/fundamentals/}}.\\
 Modular development means writing self-contained elements of a web page, consisting of HTML, CSS and JavaScript. The components can be reused easily throughout the entire page and can be initialised with different sets of data to alter their appearance or functionality.\\
 We also used the concept of container and presentational components\footnote{\url{https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0}}. The idea behind this is that container components are concerned with the application logic. Presentational components on the other hand, are concerned with how elements looks, e.g. the styling and appearance of elements.\\
-We believe that this approach will result in readable, maintainable and extensible code, which will allow for future proof code.
 
 \subsubsection{NodeJS}
 We chose NodeJS as the backbone of our front-end server. The fact that NodeJS is easy to setup and has a lot of modules that are quickly accessible through NPM\footnote{\url{https://www.npmjs.com}} was one of the main reasons for selecting NodeJS. Having a server running in a matter of minutes is a big advantage for a short project.\\
@@ -17,13 +16,13 @@ Another advantage of using NodeJS is the availability of tools like Webpack and 
 
 \subsubsection{ExpressJS}
 
-To handle the routing of incoming requests in the front end we use ExpressJS\footnote{\url{https://expressjs.com/}}. ExpressJS is a minimal NodeJS web framework that can be set up and extended easily. With over 10 million downloads per month it can be considered a community standard. It allows for easy and clean routing using the \texttt{Routing} module, next to that, custom middelware can be added easily per route or for the whole app.
+To handle the routing of incoming requests in the front end we use ExpressJS\footnote{\url{https://expressjs.com/}}. ExpressJS is a minimal NodeJS web framework that can be set up and extended easily. With over ten million downloads per month it can be considered a community standard. It allows for easy and clean routing using the \texttt{Routing} module, and next to that, custom middelware can be added easily per route or for the whole app.
 
-\subsection{Interfaces}
+\subsection{User Interfaces}
 In this section we will provide an overview of the different interfaces that we implemented. We will start with the main interface, the interactive map that shows the extracted relations. Next, we will discuss the document classification interface. Finally we will present the system settings interface that we implemented.
 
 \subsubsection{Interactive Map}
-The main part of the front-end is the interactive map. The extracted data is visualised on a (almost) full-screen Google Maps map. On the map we place markers which represent cities and we draw poly-lines which represent relations between the cities. Only cities that have more than 500 documents in total associated with them are displayed on the map. This way we keep the front end performance up while preventing unnecessary map clutter.
+The main part of the front-end is the interactive map. The extracted data is visualised on a (n almost) full-screen Google Maps map. On the map we place markers which represent cities and we draw poly-lines which represent relations between the cities. Only cities that have more than 500 documents in total associated with them are displayed on the map. This way we keep the front end performance up while preventing unnecessary map clutter.
 
 \begin{figure}[H]
 \centering
@@ -67,7 +66,7 @@ All of these features are meant to provide the user with means for constructing 
 The document classification interface is designed to provide an easy way of extending our data-set which is used to train and test our classifier.\\
 As stated in \ref{sec: data-set-research} we looked at several options of collecting training data.\\
 We decided to provide our clients with a document classification interface, because  we found this was the best way to extend the training data set. This way, we have total control of the documents that are added to the data set. The documents are labelled by experts in the field of the built environment so we may assume these documents will represent the labelled categories well. \\
-The interface loads documents that we have deemed relevant while analysing the available Common Crawl pages. The user can select one or multiple categories which the user feels best relate to the document, after which the document will be saved to the training set(s) corresponding to the selected category/categories. If no category is selected, the document is discarded from the training set. If the user finds the document to be irrelevant the document can also be discarded immediately. An example of the interface with a document belonging in the "collaboration" category is shown in figure \ref{fig:frontend-label}).
+The interface loads documents that we have deemed relevant while analysing the available Common Crawl pages. The user can select one or multiple categories which the user feels best relate to the document, after which the document will be saved to the training set(s) corresponding to the selected category or categories. If no category is selected, the document is discarded from the training set. If the user finds the document to be irrelevant the document can also be discarded immediately. An example of the interface with a document belonging in the "collaboration" category is shown in figure \ref{fig:frontend-label}).
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{labelling_interface}
@@ -77,7 +76,7 @@ The interface loads documents that we have deemed relevant while analysing the a
 
 \subsubsection{System Settings}
 
-Both the back end and the front end of the UrbanSearch system share and depend on some default settings. To keep the system configurable, even for an user that is not a developer, we have implemented a system settings interface (figure \ref{fig:frontend-ss}). The interface can be extended with more settings easily if the need arises. This is achieved by the loose coupling of the front end and the API that was mentioned before. Open issues regarding the settings interface will be discussed in \ref{sec:disc-front-end}.
+Both the back-end and the front-end of the UrbanSearch system share and depend on some default settings. To keep the system configurable, even for a user that is not a developer, we have implemented a system settings interface (figure \ref{fig:frontend-ss}). The interface can be extended with more settings easily if the need arises. This is achieved by the loose coupling of the front-end and the API that was mentioned before. Open issues regarding the settings interface will be discussed in \ref{sec:disc-front-end}.
 
 
 \begin{figure}[H]
