@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 21:23
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1640,75 +1640,57 @@ Overfull \hbox (31.11317pt too wide) in paragraph at lines 20--33
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
 20ea7/06-project-evaluation.tex [36]
 Chapter 6.
-
-LaTeX Warning: Reference `cov-report' on page 37 undefined on input line 12.
-
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 14.
-
-! LaTeX Error: File `coverage-report' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 ...hics[width=0.5\textwidth]{coverage-report}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.eps,.ps,.png,.jpg,.bmp,.pict,.tif,.psd,.mac,.sga,.tga,.gif
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[37
+File: images/cov-report.jpg Graphic file (type QTm)
+<use  "images/cov-report.jpg" > [37
 
 ] [38]
 File: images/confusion_matrix.png Graphic file (type QTm)
 <use  "images/confusion_matrix.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 File: images/precision-recall.png Graphic file (type QTm)
 <use  "images/precision-recall.png" > [39]
 File: images/UAC.png Graphic file (type QTm)
-<use  "images/UAC.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+<use  "images/UAC.png" > [40]
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 96--96
+Underfull \hbox (badness 3930) in paragraph at lines 95--95
 []|\EU1/OpenSans(0)/m/sc/10 Data is successfully gathered from Common
  []
 
 
-Overfull \hbox (3.96773pt too wide) in paragraph at lines 94--116
+Overfull \hbox (3.96773pt too wide) in paragraph at lines 93--115
  [][] 
  []
 
-[40] [41] [42])
+[41] [42] [43])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/07-discussion.tex [43]
+20ea7/07-discussion.tex [44]
 Chapter 7.
-[44
+[45
 
 ]
 File: images/frontend-ugly-pre.png Graphic file (type QTm)
-<use  "images/frontend-ugly-pre.png" > [45]
+<use  "images/frontend-ugly-pre.png" > [46]
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-[46])
+[47])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/08-recommendations.tex [47]
+20ea7/08-recommendations.tex [48]
 Chapter 8.
-[48
+[49
 
 ]
 Overfull \hbox (20.6173pt too wide) in paragraph at lines 23--25
@@ -1716,17 +1698,17 @@ Overfull \hbox (20.6173pt too wide) in paragraph at lines 23--25
 mplement more algorithm specific \EU1/lmtt/m/n/10 ModelManagers
  []
 
-[49]
+[50]
 File: images/incomp-map.png Graphic file (type QTm)
 <use  "images/incomp-map.png" >)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/09-conclusion.tex [50]
+20ea7/09-conclusion.tex [51]
 Chapter 9.
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/output.bbl [51
+20ea7/output.bbl [52
 
-] [52
+] [53
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 155--161
@@ -1760,19 +1742,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--193
 ][][] [] [] [] [][][][][] [] [][][] [] [][][][][][][][][] []
  []
 
-[53])
+[54])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/A_better_code_hub_guidelines.tex [54]
+20ea7/A_better_code_hub_guidelines.tex [55]
 Appendix A.
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/B-SIG-analysis.tex [55
+20ea7/B-SIG-analysis.tex [56
 
 ]
 Appendix B.
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/F-ROC.tex [56
+20ea7/F-ROC.tex [57
 
 ]
 Appendix C.
@@ -1795,9 +1777,9 @@ LaTeX Warning: Float too large for page by 0.35283pt on input line 17.
 
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/C-API.tex [57
+20ea7/C-API.tex [58
 
-] [58]
+] [59]
 Appendix D.
 
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
@@ -1871,7 +1853,7 @@ Overfull \hbox (16.30742pt too wide) in paragraph at lines 42--75
 [] 
  []
 
-[59
+[60
 
 ])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
@@ -1980,7 +1962,7 @@ Overfull \hbox (25.00526pt too wide) in paragraph at lines 86--109
 [] 
  []
 
-[60]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 111--145
 
  []
@@ -2067,7 +2049,7 @@ Overfull \hbox (25.00526pt too wide) in paragraph at lines 175--199
 
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/API-routes/documents.tex [61]
+20ea7/API-routes/documents.tex [62]
 Underfull \hbox (badness 10000) in paragraph at lines 8--30
 
  []
@@ -2151,7 +2133,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--33
 
  []
 
-[62]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 35--61
 
  []
@@ -2183,16 +2165,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--61
 
 ))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
-20ea7/E-used-libraries.tex [63]
+20ea7/E-used-libraries.tex [64]
 Appendix E.
-[64
+[65
 
 ])
 \Changes@OutFile=\write6
 \openout6 = `output.soc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
-[65]
+[66]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
 
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba70003
@@ -2204,19 +2186,16 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 158.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 38130 strings out of 495658
- 714708 string characters out of 6187951
+ 38083 strings out of 495658
+ 713711 string characters out of 6187951
  1100172 words of memory out of 5000000
- 40513 multiletter control sequences out of 15000+600000
+ 40474 multiletter control sequences out of 15000+600000
  11670 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,13n,94p,10412b,1856s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107c0b2577ba7000320ea7/output.xdv (71 pages, 1366088 bytes).
+107c0b2577ba7000320ea7/output.xdv (72 pages, 1365124 bytes).

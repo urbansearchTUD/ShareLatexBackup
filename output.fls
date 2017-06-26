@@ -452,6 +452,7 @@ INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/05-subsections/07-main-program.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/06-project-evaluation.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/06-project-evaluation.tex
+INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/images/cov-report.jpg
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c0b2577ba7000320ea7/images/confusion_matrix.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
