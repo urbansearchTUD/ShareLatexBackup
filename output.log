@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  25 JUN 2017 22:48
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1392,11 +1392,13 @@ ine 5.
 
 ]
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
-20eac/output.toc)
+20eac/output.toc
+Package cleveref Info: loaded `english' language definitions on input line 1.
+[7] [8])
 \tf@toc=\write5
 \openout5 = `output.toc'.
 
-[7] [8
+[9] [10
 
 ]
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
@@ -1539,48 +1541,19 @@ File: images/i1-example.png Graphic file (type QTm)
 File: images/i2-example.png Graphic file (type QTm)
 <use  "images/i2-example.png" > [22])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
-20eac/04-subsections/06-visualising.tex [23])
+20eac/04-subsections/06-visualising.tex [23]))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
-20eac/04-subsections/09-val-eval.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-LaTeX Warning: Reference `A_better_code_hub_guidelines' on page 25 undefined on
- input line 21.
-
-[25]
-File: images/confusion_matrix.png Graphic file (type QTm)
-<use  "images/confusion_matrix.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-File: images/UAC.png Graphic file (type QTm)
-<use  "images/UAC.png" >))
-(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
-20eac/05-framework-implementation.tex [27] [28]
+20eac/05-framework-implementation.tex [24]
 Chapter 5.
 
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
 20eac/05-subsections/01-download.tex
 File: images/gathering_class.png Graphic file (type QTm)
-<use  "images/gathering_class.png" > [29
+<use  "images/gathering_class.png" > [25
 
 ])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
-20eac/05-subsections/02-filtering.tex [30])
+20eac/05-subsections/02-filtering.tex [26])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
 20eac/05-subsections/03-classification.tex
 File: images/classify-uml.png Graphic file (type QTm)
@@ -1589,14 +1562,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-[31]
+[27]
 Overfull \hbox (26.2791pt too wide) in paragraph at lines 45--46
 \EU1/OpenSans(0)/m/sc/10 To provide an easy way to work with Scikit \EU1/lmtt/m
 /n/10 Pipeline\EU1/OpenSans(0)/m/sc/10 s, we implemented a utility class called
  \EU1/lmtt/m/n/10 ModelManager\EU1/OpenSans(0)/m/sc/10 .
  []
 
-[32]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
@@ -1611,18 +1584,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-[33])
+[29])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
 20eac/05-subsections/04-storing.tex
 
-LaTeX Warning: Reference `sec:storage-design' on page 34 undefined on input lin
+LaTeX Warning: Reference `sec:storage-design' on page 30 undefined on input lin
 e 2.
 
 
-LaTeX Warning: Reference `sec 5-front-end' on page 34 undefined on input line 1
+LaTeX Warning: Reference `sec 5-front-end' on page 30 undefined on input line 1
 6.
 
-[34]
+[30]
 Overfull \hbox (25.99944pt too wide) in paragraph at lines 30--31
 []\EU1/OpenSans(0)/m/sc/10 Intercity relations are the relations between distin
 ct \EU1/lmtt/m/n/10 :City \EU1/OpenSans(0)/m/sc/10 labelled nodes and are calle
@@ -1638,9 +1611,9 @@ File: images/neo4j-model-full.png Graphic file (type QTm)
 <use  "images/neo4j-model-full.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[35])
+[31])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
-20eac/05-subsections/05-API.tex [36]
+20eac/05-subsections/05-API.tex [32]
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
 20eac/API-routes/classify.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--41
@@ -1712,7 +1685,7 @@ Overfull \hbox (16.30742pt too wide) in paragraph at lines 42--75
 [] 
  []
 
-[37])
+[33])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
 20eac/API-routes/datasets.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--44
@@ -1819,7 +1792,7 @@ Overfull \hbox (25.00526pt too wide) in paragraph at lines 86--109
 [] 
  []
 
-[38]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 111--145
 
  []
@@ -1907,7 +1880,7 @@ Overfull \hbox (25.00526pt too wide) in paragraph at lines 175--199
 
 Underfull \vbox (badness 1852) has occurred while \output is active []
 
-[39])
+[35])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
 20eac/API-routes/documents.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--30
@@ -1993,7 +1966,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--33
 
  []
 
-[40]
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 35--61
 
  []
@@ -2025,27 +1998,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--61
 
 ))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
-20eac/05-subsections/06-frontend.tex [41]
+20eac/05-subsections/06-frontend.tex [37]
 File: images/frontend-map.png Graphic file (type QTm)
 <use  "images/frontend-map.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-[42]
+[38]
 File: images/frontend-mc.png Graphic file (type QTm)
 <use  "images/frontend-mc.png" >
 File: images/frontend-rel-strength.png Graphic file (type QTm)
 <use  "images/frontend-rel-strength.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[43]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 File: images/frontend-mc-rel.png Graphic file (type QTm)
-<use  "images/frontend-mc-rel.png" > [44]
+<use  "images/frontend-mc-rel.png" > [40]
 File: images/labelling_interface.png Graphic file (type QTm)
 <use  "images/labelling_interface.png" >
 File: images/frontend-ss.png Graphic file (type QTm)
@@ -2054,37 +2027,63 @@ File: images/frontend-ss.png Graphic file (type QTm)
 20eac/05-subsections/07-main-program.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[45]))
+[41]))
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
-20eac/06-project-evaluation.tex [46]
+20eac/06-project-evaluation.tex [42]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+[43
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 20--21
+LaTeX Warning: Reference `A_better_code_hub_guidelines' on page 44 undefined on
+ input line 23.
+
+[44]
+File: images/confusion_matrix.png Graphic file (type QTm)
+<use  "images/confusion_matrix.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+File: images/precision-recall.png Graphic file (type QTm)
+<use  "images/precision-recall.png" >
+File: images/UAC.png Graphic file (type QTm)
+<use  "images/UAC.png" > [45]
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 87--88
 []|\EU1/OpenSans(0)/m/sc/10 Data is successfully gathered from Common
  []
 
 
-Overfull \hbox (3.96773pt too wide) in paragraph at lines 18--40
+Overfull \hbox (3.96773pt too wide) in paragraph at lines 85--107
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[47
-
-] [48] [49])
+[46] [47] [48])
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
-20eac/07-discussion.tex [50]
-Chapter 7.
-[51
+20eac/07-discussion.tex [49] [50
 
-] [52]
+]
+Chapter 7.
+[51] [52]
 File: images/frontend-ugly-pre.png Graphic file (type QTm)
 <use  "images/frontend-ugly-pre.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
@@ -2198,28 +2197,35 @@ Appendix D.
 ]
 Appendix E.
 [73])
+\Changes@OutFile=\write6
+\openout6 = `output.soc'.
 
-! LaTeX Error: File `F-validation_verification_results.tex' not found.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+[74]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+(/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
+20eac/output.aux
+Package cleveref Info: loaded `english' language definitions on input line 21.
+)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 155.
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.155 \input{F-validation_verification_results}
-                                               ^^M
-*** (cannot \read from terminal in nonstop modes)
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
- 
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
+ ) 
 Here is how much of TeX's memory you used:
- 37973 strings out of 495658
- 712188 string characters out of 6187951
- 1096456 words of memory out of 5000000
- 40380 multiletter control sequences out of 15000+600000
+ 38011 strings out of 495658
+ 712914 string characters out of 6187951
+ 1097455 words of memory out of 5000000
+ 40418 multiletter control sequences out of 15000+600000
  11670 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,13n,94p,10412b,1857s stack positions out of 5000i,500n,10000p,200000b,80000s
+
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107c4b2577ba7000320eac/output.xdv (81 pages, 1137348 bytes).
+107c4b2577ba7000320eac/output.xdv (84 pages, 1356028 bytes).
