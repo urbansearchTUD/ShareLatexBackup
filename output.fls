@@ -433,6 +433,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba7000320eac/images/precision-recall.png
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba7000320eac/images/UAC.png
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba7000320eac/05-framework-implementation.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba7000320eac/05-framework-implementation.tex
@@ -491,3 +492,5 @@ INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba7
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba7000320eac/C-dev-manual-with-UML.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba7000320eac/E-used-libraries.tex
 INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba7000320eac/E-used-libraries.tex
+OUTPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba7000320eac/output.soc
+INPUT /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba7000320eac/output.aux

@@ -51,6 +51,13 @@ the \textbf{recall} of the classifier is used to answer the question "What perce
 
 The \textbf{F1 Score} uses both precision and consideration. It is computed by using the following formula: $F1 = 2\cdot \frac{precision \cdot recall}{precision + recall}$. The F1 score summarised evaluation in a single number, but for evaluation it is better to use recall and precision to understand the behaviour of the classifier. \\
 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.5\textwidth]{precision-recall}
+\caption{Precision Recall and F1 table}
+\label{fig:prec-rec}
+\end{figure}
+
 The \textbf{Receiver Operating Characteristic (ROC) curve} and the corresponding \textbf{Area Under the Curve (AUC) value} can be used to inspect the true positive rate (Recall) vs. the false positive rate $\frac{FP}{FP + TN}$. To do this, the possibilities pages are correctly classified are needed. For each threshold on these probabilities for the classifier, the true positive rate and the false positive rate are calculated and are plotted in a graph, which results in something like \ref{fig:UAC}. The closer the ROC curve is to the upper left corner, the better the classifier's performance is. When close to the diagonal of the plot, the classifier tends to make predictions close to random guessing. The UAC value is the are under the ROC curve.
 
 \begin{figure}[ht]
