@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{47}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -84,6 +84,12 @@ Theo Haerder and Andreas Reuter.
 \newblock Principles of transaction-oriented database recovery.
 \newblock \emph{ACM Computing Surveys (CSUR)}, 15\penalty0 (4):\penalty0
   287--317, 1983.
+
+\bibitem[He{\ss} et~al.(2008)He{\ss}, Dopichaj, and Maa{\ss}]{hess2008multi}
+Andreas He{\ss}, Philipp Dopichaj, and Christian Maa{\ss}.
+\newblock Multi-value classification of very short texts.
+\newblock \emph{KI 2008: Advances in Artificial Intelligence}, pages 70--77,
+  2008.
 
 \bibitem[Holzschuher and Peinl(2013)]{holzschuher2013performance}
 Florian Holzschuher and Ren{\'e} Peinl.

@@ -5,45 +5,45 @@ The style file: tudelft-report.bst
 Database file #1: references.bib
 Warning--I didn't find a database entry for "bch_guidelines"
 Warning--empty year in BeautifulSoup
-You've used 46 entries,
+You've used 47 entries,
             2773 wiz_defined-function locations,
-            880 strings with 12377 characters,
-and the built_in function-call counts, 19977 in all, are:
-= -- 1851
-> -- 942
-< -- 44
-+ -- 331
-- -- 282
-* -- 1465
-:= -- 3007
-add.period$ -- 159
-call.type$ -- 46
-change.case$ -- 227
-chr.to.int$ -- 43
-cite$ -- 93
-duplicate$ -- 954
-empty$ -- 1775
-format.name$ -- 356
-if$ -- 4270
+            886 strings with 12556 characters,
+and the built_in function-call counts, 20536 in all, are:
+= -- 1904
+> -- 972
+< -- 45
++ -- 341
+- -- 291
+* -- 1508
+:= -- 3087
+add.period$ -- 162
+call.type$ -- 47
+change.case$ -- 233
+chr.to.int$ -- 44
+cite$ -- 95
+duplicate$ -- 982
+empty$ -- 1818
+format.name$ -- 366
+if$ -- 4393
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 37
-newline$ -- 256
-num.names$ -- 184
-pop$ -- 492
+missing$ -- 38
+newline$ -- 261
+num.names$ -- 188
+pop$ -- 504
 preamble$ -- 1
-purify$ -- 184
+purify$ -- 189
 quote$ -- 0
-skip$ -- 741
+skip$ -- 765
 stack$ -- 0
-substring$ -- 778
-swap$ -- 126
-text.length$ -- 9
+substring$ -- 804
+swap$ -- 134
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 491
+type$ -- 502
 warning$ -- 1
-while$ -- 198
+while$ -- 204
 width$ -- 0
-write$ -- 629
+write$ -- 642
 (There were 2 warnings)
