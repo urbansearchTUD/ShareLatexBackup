@@ -13,15 +13,13 @@ def classify_textfiles_to_db(num_cworkers, directory, threshold, to_db=False):
     """
 \end{lstlisting}
 
-All of the available functions in main can be seen in the \todo{table/figure} below. These functions can be called using the API or by adjusting the function that will be called in the \texttt{\_\_name\_\_ == "\_\_main\_\_"}\footnote{\url{https://docs.python.org/3.5/library/__main__.html}} part of main.py, which is the piece of code that will be executed first when executing main.py.
+The most important functions in main are listed in table \ref{tbl:main-functions} below. These functions can be called using the API or by adjusting the function that will be called in the \texttt{\_\_name\_\_ == "\_\_main\_\_"}\footnote{\url{https://docs.python.org/3.5/library/__main__.html}} part of main.py, which is the piece of code that will be executed first when executing main.py.
 
 
 \begin{table}[H]
 \centering
-
-\label{main-functions}
-\begin{tabular}{m{8cm} p{8cm}}
-\textbf{Name}                     & Description  \\\hline
+\begin{tabular}{m{8cm} m{8cm}}
+\textbf{Name}                     & \textbf{Description} \\\hline
 \texttt{download\_indices\_for\_url(url)} & Download all indices for a given url and return as string. \\\hline
 
 \texttt{classify\_documents\_from\_indices(pworkers, cworkers, directory, threshold)} & Run workers to classify all documents and only log results, no output to database.\\\hline
@@ -34,4 +32,5 @@ All of the available functions in main can be seen in the \todo{table/figure} be
 
 \end{tabular}
 \caption{Functions available in main}
+\label{tbl:main-functions}
 \end{table}

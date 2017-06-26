@@ -17,8 +17,10 @@ The input data is now limited to dutch documents only. This limits the amount of
 Other than the required co-occurrence of cities, there is little noise cancelling in documents. Some documents contain lists of cities and are cancelled out as explained in section \ref{sec:filtering_docs}. However, there might be more intuitive ways for better document filtering. One could for example discard the contents of specific HTML elements, such as forms and input fields. Moreover, some kind of domain blacklist could be constructed to filter out entire (sub)domains that are known to contain mostly false-positives. For example, the client mentioned that many pages of Airbnb were reviews from people of all over the country, but represent no relation between these locations. Another way to extend the document filtering is to have some way to allow for city aliases. By doing so, more documents will pass the filtering stage so more relations can be extracted.
 
 \subsection{Constructing More Advanced Classifiers}
-While our classifier achieves a reasonable mean accuracy of 75%\-80%\ref{sec:} 
+While our classifier achieves a reasonable mean accuracy of 75\%\-80\% \ref{sec:mean-accuracy}, these results can be improved further to reach a even higher mean accuracy. Below we will explain what we see as potential improvements to the classifier.
+
 \subsubsection{Data Set}
+Our first recommendation is to keep expanding the data set. This will lead to a more accurate classifier. The classification interface can be used for this task. This way 
 \subsubsection{Parameter Optimisation}
 \subsubsection{Empirical Tests of Classifiers}
 
