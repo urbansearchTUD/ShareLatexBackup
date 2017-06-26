@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 09:59
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  26 JUN 2017 10:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1376,11 +1376,6 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 LaTeX Font Warning: Font shape `EU1/lmss/t/n' undefined
 (Font)              using `EU1/lmss/m/n' instead on input line 1.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
 )
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
 20eac/00-summary.tex [3] [4
@@ -1441,7 +1436,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 ]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
@@ -2104,30 +2099,30 @@ LaTeX Warning: Reference `A_better_code_hub_guidelines' on page 46 undefined on
 [46]
 File: images/confusion_matrix.png Graphic file (type QTm)
 <use  "images/confusion_matrix.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 File: images/precision-recall.png Graphic file (type QTm)
-<use  "images/precision-recall.png" >
+<use  "images/precision-recall.png" > [47]
 File: images/UAC.png Graphic file (type QTm)
-<use  "images/UAC.png" > [47]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+<use  "images/UAC.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 87--87
+Underfull \hbox (badness 3930) in paragraph at lines 92--92
 []|\EU1/OpenSans(0)/m/sc/10 Data is successfully gathered from Common
  []
 
 
-Overfull \hbox (3.96773pt too wide) in paragraph at lines 85--107
+Overfull \hbox (3.96773pt too wide) in paragraph at lines 90--112
  [][] 
  []
 
@@ -2155,13 +2150,15 @@ LaTeX Warning: Reference `sec:mean-accuracy' on page 57 undefined on input line
 [57
 
 ]
+Overfull \hbox (20.6173pt too wide) in paragraph at lines 27--29
+\EU1/OpenSans(0)/m/sc/10 Besides these two options it would be a good idea to i
+mplement more algorithm specific \EU1/lmtt/m/n/10 ModelManagers
+ []
+
 File: images/incomp-map.png Graphic file (type QTm)
 <use  "images/incomp-map.png" >)
 (/var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59107c4b2577ba70003
-20eac/09-conclusion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[58] [59] [60
+20eac/09-conclusion.tex [58] [59] [60
 
 ]
 Chapter 9.
@@ -2277,13 +2274,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 38023 strings out of 495658
- 713120 string characters out of 6187951
+ 38025 strings out of 495658
+ 713176 string characters out of 6187951
  1096456 words of memory out of 5000000
- 40430 multiletter control sequences out of 15000+600000
+ 40432 multiletter control sequences out of 15000+600000
  11670 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,13n,94p,10412b,1857s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/591474f353bd4966000c0fa8-59
-107c4b2577ba7000320eac/output.xdv (86 pages, 1387192 bytes).
+107c4b2577ba7000320eac/output.xdv (86 pages, 1395120 bytes).

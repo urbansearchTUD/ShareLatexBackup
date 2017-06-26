@@ -20,9 +20,12 @@ Other than the required co-occurrence of cities, there is little noise cancellin
 While our classifier achieves a reasonable mean accuracy of 75\%\-80\% \ref{sec:mean-accuracy}, these results can be improved further to reach a even higher mean accuracy. Below we will explain what we see as potential improvements to the classifier.
 
 \subsubsection{Data Set}
-Our first recommendation is to keep expanding the data set. This will lead to a more accurate classifier. The classification interface can be used for this task. This way 
+Our first recommendation is to keep expanding the data set. This will lead to a more accurate classifier. The classification interface can be used for this task. This way the data set can keep getting expanded over time.
 \subsubsection{Parameter Optimisation}
+The estimator algorithm that we use in our Scikit \texttt{Pipeline} takes a number of parameters that effect the outcomes we get back from the classifier. These parameters can be tuned as described in \footnote{\url{http://scikit-learn.org/stable/modules/grid_search.html}}. These parameters, so called hyper-parameters, .....
 \subsubsection{Empirical Tests of Classifiers}
+Besides these two options it would be a good idea to implement more algorithm specific \texttt{ModelManagers} and to compare the results of these different classifiers on our data set. This way we could make sure we always select the most accurate classifier when running the classification over our downloaded documents.\\
+Another improvement concerning the classifier would be to try out binary classif
 
 \subsection{Upgrading the Server}
 \todo{@Piet}
