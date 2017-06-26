@@ -33,12 +33,12 @@ Since we are dealing with HTML pages that are parsed to plain text documents, we
 \end{description}
 
 \subsection{Data Set}\label{sec: data-set-research}
-Before we can start labelling the collected document, labelled data have to be collected that can be used as training data for the classifier. To collect this data we considered several options.\\
+Before we can start labelling the collected document, labelled data has to be collected that can be used as training data for the classifier. To collect this data we considered several options.\\
 
 The first option is to query for documents from news(paper) sites. Since the documents are categorised by professionals, we assume these document are labelled correctly. This method could thus provide us with a reliable training set.
 Unfortunately, the categories that we identified with our client do not match typical newspaper categories, so this approach was not suitable for us.\\
 
-Another approach is to use Google Custom Search to obtain results from Google, using the categories the client provided us with as keywords. The main disadvantage of this approach is lack of control over the files that get added into the data set. This way documents that get returned by the query are not analysed on desirable content but are added immediately. An example of a page that is returned for the query "woonwerkverkeer"(commuting) is given below. This page, although it does contain information about commuting, contains more useless information, like the navigation bar, than useful information.
+Another approach is to use Google Custom Search to obtain results from Google, using the categories the client provided us with as keywords. The main disadvantage of this approach is lack of control over the files that get added into the data set. This way documents that get returned by the query are not analysed on desirable content but are added immediately. An example of a page that is returned for the query "woonwerkverkeer" (commuting) is given below. This page, although it does contain information about commuting, contains more useless information than useful information.
 
 \begin{figure}[H]
 \centering
@@ -47,14 +47,14 @@ Another approach is to use Google Custom Search to obtain results from Google, u
 \label{fig:useless_page}
 \end{figure}
 
-We found the open data repository of the "Centraal Bureau voor de Statistiek" (CBS) to be a source of quality documents that could be used as training data for the classifier. The articles in the repository can be queried using taxonomy tags with which the articles are tagged. Since these articles are tagged by professionals we may assume that these tags are valid. The only downside of the CBS data is that it is a limited source of documents. Which means we will have to find additional sources for training data in the future.
+We found the open data repository of the "Centraal Bureau voor de Statistiek" (CBS) to be a source of quality documents that could be used as training data for the classifier. The articles in the repository can be queried using taxonomy tags with which the articles are tagged. Since these articles are tagged by professionals we may assume that these tags are valid. The only downside of the CBS data is that it is a limited source of documents, which means we will have to find additional sources for training data in the future.
 
 \subsection{Modelling}
 When considering classification, there are a plethora of algorithms available. When choosing the right algorithm for a problem, several factors should be taken into account\cite{MLCheatSheet}. These are:
     \begin{description}
         \item[\textbf{Accuracy}] How well the algorithm separates the documents.
         \item[\textbf{Training Time}] How long it takes to train the algorithm.
-        \item[\textbf{Linearity}] Some problems can be solved by splitting classes using a straight line. For other problems this approach is not feasible.
+        \item[\textbf{Linearity}] Some problems can be solved by splitting classes along a straight line in two. For other problems this approach is not feasible.
         \item[\textbf{Number of Parameters}] Adjustable parameters increase the flexibility of the algorithms. This is a trade-off between training time and accuracy.
         \item[\textbf{Number of Features}] A large number of features can make some algorithms slow. Extracting features from text-data often results in a huge feature set (65000+ in our case).
         \item[\textbf{Special Cases}] Some learning algorithms make particular assumptions about the data or the results (e.g. rank prediction, count prediction). This way we can increase desirable properties like accuracy of the prediction or improved training times. 
@@ -71,10 +71,10 @@ The words alone do not provide us a very useful input to the system. That is why
 Using TF-IDF our features become words with weights associated to them.
 
 \item[\textbf{Dimensionality Reduction}]
-Since we are working with text documents and our features are words with TF-IDF weights we can assume that our feature set will be very large (65000+). The total number of features determines how fast we can train our model and has implications regarding over-fitting \cite{ml_text}. To reduce the number of features we considered different techniques from \cite{ml_text}. Since we have no time to test all the techniques, we decided to select the top ten percent of our features (based on the TF-IDF weights). In \cite{yang1997} it is stated that a dimensionality reduction with a factor ten using this approach does not lead to a loss in accuracy when classifying text documents. To provide an easy way to add different types of dimensionality reduction techniques later, we will keep the code for defining new Scikit pipelines, which are the basic construct used for creating our classifiers, easily extendable.
+Since we are working with text documents and our features are words with TF-IDF weights we can assume that our feature set will be very large (65000+). The total number of features determines how fast we can train our model and has implications regarding over-fitting \cite{ml_text}. To reduce the number of features we considered different techniques from Sebastiani (2002)\cite{ml_text}. Since we have no time to test all the techniques, we decided to select the top ten percent of our features (based on the TF-IDF weights). In Yang (1997) \cite{yang1997} it is stated that a dimensionality reduction with a factor ten using this approach does not lead to a loss in accuracy when classifying text documents. 
 
 \item[\textbf{Classification}]
-Even after applying dimensionality reduction which we discussed in the previous section, we are left with a lot of features (6500+). Thus, we need an algorithm that works well with a feature rich problem. From \cite{MLCheatSheet} we know Support Vector Machines(SVM) is a algorithm that works well with feature rich problems. Also \cite{ml_text} claims SVM is one of the best techniques when considering text classification. This, combined with the fact that Scikit offers an easy to use implementation of SVM, has lead us to use SVM as our classification algorithm. The concept of a SVM is that of a hyper-plane that divides two distinct sets, while trying to maximise the margin between these sets \cite{tong2001support}.
+Even after applying dimensionality reduction we are left with a lot of features (6500+). Thus, we need an algorithm that works well with a feature rich problem. From the Microsoft machine learning cheatsheet\cite{MLCheatSheet} we know Support Vector Machines(SVM) is an algorithm that works well with feature rich problems. Also Sebastiani (2002)\cite{ml_text} claims SVM is one of the best techniques when considering text classification. This, combined with the fact that Scikit offers an easy to use implementation of SVM, has lead us to use SVM as our classification algorithm. The concept of an SVM is that of a hyper-plane that divides two distinct sets, while trying to maximise the margin between these sets \cite{tong2001support}.
 \end{description}
 
 \subsection{Remarks}
