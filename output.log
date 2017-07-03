@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  3 JUL 2017 07:57
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  3 JUL 2017 08:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1421,27 +1421,12 @@ Overfull \hbox (21.33871pt too wide) in paragraph at lines 5--6
 n use the url ”http://citynetworks.bk.tudelft.nl/”
  []
 
-! Misplaced alignment tab character &.
-l.20 - access the website &
-                            what do you see \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+[1
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-)
+])
 (/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba70003
-20eac/output.bbl [1
-
-
-]
+20eac/output.bbl [2]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
@@ -1450,7 +1435,7 @@ Package natbib Warning: Empty `thebibliography' environment on input line 8.
 \openout6 = `output.soc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
-[2
+[3
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
@@ -1467,13 +1452,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 37126 strings out of 495658
- 691062 string characters out of 6187951
- 897171 words of memory out of 5000000
- 39697 multiletter control sequences out of 15000+600000
+ 37127 strings out of 495658
+ 691080 string characters out of 6187951
+ 900172 words of memory out of 5000000
+ 39698 multiletter control sequences out of 15000+600000
  6776 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,11n,94p,10412b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59
-107c4b2577ba7000320eac/output.xdv (4 pages, 21476 bytes).
+107c4b2577ba7000320eac/output.xdv (5 pages, 32988 bytes).

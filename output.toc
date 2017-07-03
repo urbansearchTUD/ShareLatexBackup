@@ -6,8 +6,7 @@
 \contentsline {subsubsection}{Selecting Relations}{1}{subsection.1.0.2}
 \contentsline {subsubsection}{Exporting Data}{1}{subsection.1.0.2}
 \contentsline {subsection}{\numberline {1.0.3}The Map}{1}{subsection.1.0.3}
-\contentsline {subsubsection}{Zooming}{1}{subsection.1.0.3}
-\contentsline {subsubsection}{Clicking on cities}{1}{subsection.1.0.3}
 \contentsline {subsubsection}{Clicking on relations}{1}{subsection.1.0.3}
-\contentsline {chapter}{Bibliography}{2}{chapter*.3}
+\contentsline {subsubsection}{Documents connecting two cities menu}{2}{subsection.1.0.3}
+\contentsline {chapter}{Bibliography}{3}{chapter*.3}
 \contentsfinish 
