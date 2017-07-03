@@ -368,14 +368,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 OUTPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/output.xdv
-INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/output.toc
-INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/output.toc
-OUTPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/output.toc
-INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/01-introduction.tex
-INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/01-introduction.tex
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/02-content.tex
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/02-content.tex
-INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/output.bbl
-INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/output.bbl
 OUTPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/output.soc
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/output.aux

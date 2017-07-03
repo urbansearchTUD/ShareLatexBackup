@@ -1,32 +1,32 @@
-\chapter{The stuff}
-\todo{naming}
+\chapter{User Manual}
+This is the user manual for the UrbanSearch Web Interface. Here we will explain the different functions of the interface and how to use them. 
 
-\subsection{Accessing the Web Interface}
+\section{Accessing the Web Interface}
 To access the web interface, you either need to be at a TUDelft location, or use a virtual private network (vpn) connected to the TUDelft network. For information on how to use a vpn, please use the TUDelft website ("https://intranet.tudelft.nl/services/fmvgict-pdc/netwerk/draadloos-netwerk/virtual-private-network-vpn/"). When you have done this, you an use the url "http://citynetworks.bk.tudelft.nl/" to access the urbansearch program. When you enter this url you should have a menu to the left of the page, and a map on the right. After a few seconds of loading, the map on the right will display a couple of cities. 
 
 
-\subsection{The Menu}
+\section{The Menu}
 On the left of the screen should be a menu displaying three different sections. The first section displays an option to export the data. The second section to determine what cities should be displayed on the map. The last section is to determine what relations should be taken into account and how these should be weighted.
 
-\subsubsection{Exporting Data}
-The first section on the menu is an export option. Here a button is displayed which can be pressed to export all relations between cities in an excel file (csv) \todo{csv toch? of iets anders?}. There is also an option to set what probably threshold should be used for the export. 
+\subsection{Exporting Data}
+The first section on the menu is an export option. Here a button is displayed which can be pressed to export all relations between cities in an excel file (csv). There is also an option to set what probably threshold should be used for the export. 
 
 
-\subsubsection{Selecting Cities}
-In the cities section of the menu you can select which cities should be displayed on the map. There is a slider to select a minimum and maximum population size for displayed cities. And there is a drop-down menu in which cities can be turned off (and on) manually. 
+\subsection{Selecting Cities}
+In the cities section of the menu you can select which cities should be displayed on the map. There is a slider to select a minimum and maximum population size for displayed cities. And there is a dropdown menu in which cities can be turned off (and on) manually. 
 
 
-\subsubsection{Selecting Relations}
+\subsection{Selecting Relations}
 In the relations section of the menu you can first select in a dropdown menu how the weights of the relations should be calculated. The standard way is to just select the occurrences of documents per relation type. However it is also possible to use a gravity model, which takes the population and the distance between cities into account. \todo{can we do this?} Beneath that are sliders for the different relationship types. Here you can change the minimum occurrences a relation type should have per two cities before the relation is taken into account. There is also an option to turn off the relation types entirely.
 
 
-\subsection{The Map}
+\section{The Map}
 After a few seconds needed to load the intercity-relations a map should be displayed. This map should contain cities. You can use the scroll wheel of the mouse or the plus and minus buttons in the lower right corner of the map for zooming. When hovering over a city with the mouse the population of that city will be displayed. The cities showing relations will have a slightly darker color than cities that have not been clicked on. To show the relations of a city, that city can be clicked on. You can also click on a relation. This will open up an extra section in the menu containing information about that relation.
 
-\subsubsection{Clicking on relations}
+\subsection{Clicking on relations}
 When clicking on a relation a extra section in the menu will be opened. This contains all information about the relation between the two cities. The strength of the relations (amount of documents found for the relation between those cities) will be displayed, as well as the strength of the relations per relation type (such as commuting, shopping, leisure, ..). To check how these relationships were found you can use the option on the lower end of this section to open up another section displaying all documents that connect those two cities.
 
-\subsubsection{Documents connecting two cities menu}
+\subsection{Documents connecting two cities menu}
 In this new section all documents will be displayed. The only thing that is displayed is the type of relation which these documents fit to and the probability these documents fit that relation are displayed. If a document does not fit to the important relation types (and is thus labelled other), it is not displayed here. You can download the documents in a text file by clicking on them.
 
 
