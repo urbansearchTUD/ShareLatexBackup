@@ -8,9 +8,17 @@ To access the web interface, you either need to be at a TUDelft location, or use
 \subsection{The Menu}
 On the left of the screen should be a menu displaying three different sections. The first section displays an option to export the data. The second section to determine what cities should be displayed on the map. The last section is to determine what relations should be taken into account and how these should be weighted.
 
-\subsubsection{Selecting Cities}
-\subsubsection{Selecting Relations}
 \subsubsection{Exporting Data}
+The first section on the menu is an export option. Here a button is displayed which can be pressed to export all relations between cities in an excel file (csv) \todo{csv toch? of iets anders?}. There is also an option to set what probably threshold should be used for the export. 
+
+
+\subsubsection{Selecting Cities}
+In the cities section of the menu you can select which cities should be displayed on the map. There is a slider to select a minimum and maximum population size for displayed cities. And there is a drop-down menu in which cities can be turned off (and on) manually. 
+
+
+\subsubsection{Selecting Relations}
+In the relations section of the menu you can first select in a dropdown menu how the weights of the relations should be calculated. The standard way is to just select the occurrences of documents per relation type. However it is also possible to use a gravity model, which takes the population and the distance between cities into account. \todo{can we do this?} Beneath that are sliders for the different relationship types. Here you can change the minimum occurrences a relation type should have per two cities before the relation is taken into account. There is also an option to turn off the relation types entirely.
+
 
 \subsection{The Map}
 After a few seconds needed to load the intercity-relations a map should be displayed. This map should contain cities. You can use the scroll wheel of the mouse or the plus and minus buttons in the lower right corner of the map for zooming. When hovering over a city with the mouse the population of that city will be displayed. The cities showing relations will have a slightly darker color than cities that have not been clicked on. To show the relations of a city, that city can be clicked on. You can also click on a relation. This will open up an extra section in the menu containing information about that relation.
