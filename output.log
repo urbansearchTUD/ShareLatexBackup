@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  4 JUL 2017 13:56
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  4 JUL 2017 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1431,34 +1431,61 @@ File: images/map.png Graphic file (type QTm)
 ]
 File: images/hover.png Graphic file (type QTm)
 <use  "images/hover.png" >
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   P
+l.42 ...tion/javascript/3.exp/reference#Polyline}}
+                                                  . Relations for a particul...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   P
+l.42 ...tion/javascript/3.exp/reference#Polyline}}
+                                                  . Relations for a particul...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@gtemp.
+<to be read again> 
+                   P
+l.42 ...tion/javascript/3.exp/reference#Polyline}}
+                                                  . Relations for a particul...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
 File: images/click.png Graphic file (type QTm)
 <use  "images/click.png" > [2]
 File: images/sidemenu.png Graphic file (type QTm)
 <use  "images/sidemenu.png" > [3]
 File: images/cities.png Graphic file (type QTm)
-<use  "images/cities.png" > [4]
+<use  "images/cities.png" >
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 73.
+ine 75.
 File: images/relations.png Graphic file (type QTm)
-<use  "images/relations.png" >
+<use  "images/relations.png" > [4]
 File: images/export.png Graphic file (type QTm)
-<use  "images/export.png" > [5]
+<use  "images/export.png" >
 File: images/map.png Graphic file (type QTm)
 <use  "images/map.png" >
-Overfull \hbox (500.41055pt too wide) in paragraph at lines 105--106
+Overfull \hbox (498.40305pt too wide) in paragraph at lines 107--108
  [][] 
  []
 
-[6]
+[5]
 File: images/Score.png Graphic file (type QTm)
-<use  "images/Score.png" > [7]
+<use  "images/Score.png" > [6]
 File: images/documents.png Graphic file (type QTm)
 <use  "images/documents.png" >)
 \Changes@OutFile=\write5
 \openout5 = `output.soc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
-[8]
+[7]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
 
 (/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba70003
@@ -1476,13 +1503,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 37215 strings out of 495658
- 692398 string characters out of 6187951
- 897172 words of memory out of 5000000
- 39777 multiletter control sequences out of 15000+600000
- 6816 words of font info for 56 fonts, out of 8000000 for 9000
+ 37245 strings out of 495658
+ 692919 string characters out of 6187951
+ 898172 words of memory out of 5000000
+ 39796 multiletter control sequences out of 15000+600000
+ 9940 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,11n,94p,10412b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59
-107bb92577ba7000320ea2/output.xdv (9 pages, 52772 bytes).
+107bb92577ba7000320ea2/output.xdv (8 pages, 59072 bytes).

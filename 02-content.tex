@@ -24,7 +24,7 @@ Below we will discuss the different entities available on the map.
     \label{fig:map}
 \end{figure}
 
-\subsection{Cities}
+\subsection{Cities}\label{sec:city}
 Cities are represented by circles which are drawn on the map and placed in the correct position using the latitude/longitude properties belonging to the city. We scale the circle based on the size of the population of the city. An example of a city on the map is show in figure \ref{fig:map-city}.
 
 \begin{figure}[H]
@@ -34,26 +34,28 @@ Cities are represented by circles which are drawn on the map and placed in the c
   \label{fig:map-city}
 \end{figure}
 
-When we hover over a city on the map a pop up will appear with extra information about that city.\\
-If a city is clicked the relations to other visible cities are shown. Clicking on a selected city toggles the visibility of the previously displayed relations.
+When a user hovers over a city on the map, a pop up will appear with extra information about that city.\\
+If a city is clicked the relations to other visible cities are shown. Clicking on a selected city toggles the visibility of the previously displayed relations. To make clear for the user  which cities are selected and which are not, we lower the opacity of selected cities.
 
 \subsection{Relations}
 
+Relations between cities are visualised using Google Maps Polylines\footnote{\url{https://developers.google.com/maps/documentation/javascript/3.exp/reference#Polyline}}. Relations for a particular city are shown when a city node is selected as described in \ref{sec:city}.\\
+Clicking on a relation opens up a new card containing information about this relation. The details about this card are discussed in \ref{sec:rel-info}.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=.4\linewidth]{click}
-  \caption{City showing relations}
+  \caption{Selected city showing relations to other visible cities}
   \label{fig:sub2}
 \end{figure}
 
 \subsection{Sidemenu}
 
-The side-menu displayed in figure \ref{fig:sidemenu} allows the user to control the information that is displayed on the map.  
+The side-menu displayed in figure \ref{fig:sidemenu} allows the user to control the information that is displayed on the map. It is also the . The basic layout of the sidemenu is displayed in figure \ref{fig:sidemenu}. First we will discuss the elements that are always available in the sidemenu. Finally we will discuss dynamic content that can be added and removed from the sidemenu.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.8\linewidth]{sidemenu}
+    \includegraphics[width=.6\linewidth]{sidemenu}
     \caption{The sidemenu displayed on the left side of the interface}
     \label{fig:sidemenu}
 \end{figure}
@@ -89,7 +91,7 @@ The first section on the menu is an export option. Here a button is displayed wh
     \label{fig:infoflow}
 \end{figure}
 
-\subsubsection{Relation Information}
+\subsubsection{Relation Information}\label{sec:rel-info}
 \subsubsection{Relation Documents}
 
 
