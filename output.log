@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  4 JUL 2017 14:22
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  4 JUL 2017 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1215,18 +1215,6 @@ LaTeX Warning: Label `fig:infoflow' multiply defined.
 
 LaTeX Warning: Label `fig:infoflow@cref' multiply defined.
 
-
-LaTeX Warning: Label `fig:infoflow' multiply defined.
-
-
-LaTeX Warning: Label `fig:infoflow@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:infoflow' multiply defined.
-
-
-LaTeX Warning: Label `fig:infoflow@cref' multiply defined.
-
 )
 \openout1 = `output.aux'.
 
@@ -1459,26 +1447,48 @@ Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 File: images/click.png Graphic file (type QTm)
-<use  "images/click.png" > [2]
+<use  "images/click.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
+
+ []
+
+[2]
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 51.
+
+File: images/relation-opacity.png Graphic file (type QTm)
+<use  "images/relation-opacity.png" >
 File: images/sidemenu.png Graphic file (type QTm)
 <use  "images/sidemenu.png" > [3]
-File: images/cities.png Graphic file (type QTm)
-<use  "images/cities.png" >
+File: images/city-control.png Graphic file (type QTm)
+<use  "images/city-control.png" > [4]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 75.
-File: images/relations.png Graphic file (type QTm)
-<use  "images/relations.png" > [4]
+ine 89.
+
+! LaTeX Error: File `rel-control' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...egraphics[width=.4\linewidth]{rel-control}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.eps,.ps,.png,.jpg,.bmp,.pict,.tif,.psd,.mac,.sga,.tga,.gif
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: images/export.png Graphic file (type QTm)
-<use  "images/export.png" >
+<use  "images/export.png" > [5]
 File: images/map.png Graphic file (type QTm)
 <use  "images/map.png" >
-Overfull \hbox (498.40305pt too wide) in paragraph at lines 107--108
+Overfull \hbox (498.40305pt too wide) in paragraph at lines 121--122
  [][] 
  []
 
-[5]
+[6]
 File: images/Score.png Graphic file (type QTm)
-<use  "images/Score.png" > [6]
+<use  "images/Score.png" >
 File: images/documents.png Graphic file (type QTm)
 <use  "images/documents.png" >)
 \Changes@OutFile=\write5
@@ -1498,18 +1508,21 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 110.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 37245 strings out of 495658
- 692919 string characters out of 6187951
- 898172 words of memory out of 5000000
- 39796 multiletter control sequences out of 15000+600000
+ 37262 strings out of 495658
+ 693124 string characters out of 6187951
+ 900172 words of memory out of 5000000
+ 39803 multiletter control sequences out of 15000+600000
  9940 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,11n,94p,10412b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,11n,94p,10412b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59
-107bb92577ba7000320ea2/output.xdv (8 pages, 59072 bytes).
+107bb92577ba7000320ea2/output.xdv (8 pages, 65676 bytes).

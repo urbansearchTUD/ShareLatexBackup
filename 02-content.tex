@@ -40,8 +40,6 @@ If a city is clicked the relations to other visible cities are shown. Clicking o
 \subsection{Relations}
 
 Relations between cities are visualised using Google Maps Polylines\footnote{\url{https://developers.google.com/maps/documentation/javascript/3.exp/reference#Polyline}}. Relations for a particular city are shown when a city node is selected as described in \ref{sec:city}.\\
-Clicking on a relation opens up a new card containing information about this relation. The details about this card are discussed in \ref{sec:rel-info}.
-
 \begin{figure}[H]
   \centering
   \includegraphics[width=.4\linewidth]{click}
@@ -49,8 +47,18 @@ Clicking on a relation opens up a new card containing information about this rel
   \label{fig:sub2}
 \end{figure}
 
-\subsection{Sidemenu}
+Clicking on a relation opens up a new card containing information about this relation. The details about this card are discussed in \ref{sec:rel-info}.\\
+The opacity of a relation indicates the relative strength of the relation compared to the relation with the highest score in the system. An example is given in figure \ref{}.
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.8\linewidth]{relation-opacity}
+  \caption{A higher opacity indicates a weaker relative total strength of the relation. So Groningen has a stronger connection with Amsterdam then Assen.}
+  \label{fig:relation-opacity}
+\end{figure}
+
+
+\subsection{Sidemenu}
 The side-menu displayed in figure \ref{fig:sidemenu} allows the user to control the information that is displayed on the map. It is also the . The basic layout of the sidemenu is displayed in figure \ref{fig:sidemenu}. First we will discuss the elements that are always available in the sidemenu. Finally we will discuss dynamic content that can be added and removed from the sidemenu.
 
 \begin{figure}[H]
@@ -62,23 +70,29 @@ The side-menu displayed in figure \ref{fig:sidemenu} allows the user to control 
 
 
 \subsubsection{City Controls}
-The second section of the menu displays options for selecting which cities should be displayed on the map. A slider can be used to select a minimum and maximum population size for displayed cities. Underneath is a dropdown menu in which cities can be removed and added to the map manually. 
+The city controls displayed in figure \ref{fig:city-control} allow users to control the visibility of cities and city relations.\\
+The population slider can be used to set the visibility of cities. All cities with a population size that is in the selected range are displayed on the map.\\
+The search input allows the user to search a list of visible cities. When a city in the list is clicked, the relations for this city are shown on the map.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=.74]{cities}
-    \caption{Cities options}
-    \label{fig:infoflow}
+    \includegraphics[width=.4\linewidth]{city-control}
+    \caption{The city control card}
+    \label{fig:city-control}
 \end{figure}
 
 \subsubsection{Relation Controls}
+Using the relation controls displayed in figure \ref{fig:rel-control} an user can manipulate how intercity relations are displayed.\\
+First of all the user can select several "transforms" from the drop-down that is available in the relation controls card. These transforms calculate a new value for the relation strengths based on the original values of the relations (which basically means the count of documents per category gets transformed for every relation). After the transform we get 
+
+
 In the relations section of the menu a dropdown menu is displayed which is used to select how the weights of the relations should be calculated. The standard way is to just select the occurrences of documents per relation type. However it is also possible to use a gravity model, which takes the population and the distance between cities into account. \todo{can we do this?} Beneath that are sliders for the different relationship types. Here you can change the minimum occurrences a relation type should have per two cities before the relation is taken into account. There is also an option to turn off the relation types entirely.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=.74]{relations}
+    \includegraphics[width=.4\linewidth]{rel-control}
     \caption{Relations options}
-    \label{fig:infoflow}
+    \label{fig:rel-control}
 \end{figure}
 
 \subsubsection{Export}
