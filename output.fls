@@ -390,7 +390,11 @@ INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/relation-opacity.png
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/sidemenu.png
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/city-control.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/rel-trans-occ.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/rel-trans-pop.png
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/export.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/rel-scores.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/rel-docs.png
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/map.png
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/Score.png
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/documents.png
