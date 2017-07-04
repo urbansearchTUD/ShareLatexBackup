@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  4 JUL 2017 13:27
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  4 JUL 2017 13:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1438,14 +1438,14 @@ File: images/sidemenu.png Graphic file (type QTm)
 File: images/cities.png Graphic file (type QTm)
 <use  "images/cities.png" > [4]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 72.
+ine 73.
 File: images/relations.png Graphic file (type QTm)
 <use  "images/relations.png" >
 File: images/export.png Graphic file (type QTm)
 <use  "images/export.png" > [5]
 File: images/map.png Graphic file (type QTm)
 <use  "images/map.png" >
-Overfull \hbox (500.41055pt too wide) in paragraph at lines 104--105
+Overfull \hbox (500.41055pt too wide) in paragraph at lines 105--106
  [][] 
  []
 
@@ -1485,4 +1485,4 @@ Here is how much of TeX's memory you used:
  63i,11n,94p,10412b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59
-107bb92577ba7000320ea2/output.xdv (9 pages, 50976 bytes).
+107bb92577ba7000320ea2/output.xdv (9 pages, 52772 bytes).
