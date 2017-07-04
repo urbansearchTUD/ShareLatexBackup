@@ -2,33 +2,63 @@
 This is the user manual for the UrbanSearch Web Interface. Here we will discuss the various interfaces that are available in the UrbanSearch system. The manual is meant for new users of the system.
 
 \section{General remarks}
-The UrbanSearch Web Interface can be accessed by visiting \url{"http://citynetworks.bk.tudelft.nl/"}. Visiting this URL will open an interactive map on which intercity relations are visualised.\\
-The front-end of the UrbanSearch system consists of several interfaces listed below. In the coming sections we will dive deeper into the functionalities offerd by the different interfaces.
+The UrbanSearch Web Interface can be accessed by visiting \url{http://citynetworks.bk.tudelft.nl/}. Visiting this URL will open an interactive map on which intercity relations are visualised.\\
+The front-end of the UrbanSearch system consists of several interfaces listed below. In the coming sections we will dive deeper into the functionalities offered by the different interfaces.
 
 \begin{description}[align=left]
-\item [Map] some detail
-\item [Classification] some detail
-\item [Classifier] some detail
+\item [Interactive Map] with cities and relations visualised
+\item [Classification] interface use to extend the training data
+\item [Classifier] interface to train the classifier and get info about the data sets
 \end{description}. 
 
 
-\section{The Menu}
-The menu on the left of the screen displays three different sections. The first section displays an option to export the data. The second section can be used to determine what cities should be displayed on the map. The last section displays the different relation types. The thresholds cities should have for each type can be adjusted here. This section also includes an option to select other weighting models that can be used.
+\section{Interactive Map}
+
+To display the extracted and processed data in our system, we use an interactive map(figure \ref{fig:map}). The map is implemented with use of Google Maps. This means the typical map controls, like zooming for instance, are the same as on any Google Maps map.\\
+Furthermore the map contains several entities which are used to convey information to the user and to interact with/manipulate the available data.\\
+Below we will discuss the different entities available on the map.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.8\linewidth]{map.png}
+    \caption{The interactive map with one relation selected}
+    \label{fig:map}
+\end{figure}
+
+\subsection{Cities}
+Cities are represented by circles which are drawn on the map and placed in the correct position using the latitude/longitude properties belonging to the city. We scale the circle based on the size of the population of the city. An example of a city on the map is show in figure \ref{fig:map-city}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.4\linewidth]{hover}
+  \caption{Hovering over a city will display extra information about the city}
+  \label{fig:map-city}
+\end{figure}
+
+When we hover over a city 
+
+\subsection{Relations}
 
 
-\subsection{Exporting Data}
-The first section on the menu is an export option. Here a button is displayed which can be used to export all relations between cities in an excel file (CSV). Above this button is a field in which a probably threshold can be set for the export. 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.4\linewidth]{click}
+  \caption{City showing relations}
+  \label{fig:sub2}
+\end{figure}
+
+\subsection{Sidemenu}
+
+The side-menu displayed in figure \ref{fig:sidemenu} allows the user to control the information that is displayed on the map.  
 
 \begin{figure}[H]
     \centering
-    \includegraphics{export}
-    \caption{Export}
-    \label{fig:infoflow}
+    \includegraphics[width=.8\linewidth]{sidemenu}
+    \caption{Sidemenu}
+    \label{fig:sidemenu}
 \end{figure}
 
 
-
-\subsection{Selecting Cities}
+\subsubsection{City Controls}
 The second section of the menu displays options for selecting which cities should be displayed on the map. A slider can be used to select a minimum and maximum population size for displayed cities. Underneath is a dropdown menu in which cities can be removed and added to the map manually. 
 
 \begin{figure}[H]
@@ -38,8 +68,7 @@ The second section of the menu displays options for selecting which cities shoul
     \label{fig:infoflow}
 \end{figure}
 
-
-\subsection{Selecting Relations}
+\subsubsection{Relation Controls}
 In the relations section of the menu a dropdown menu is displayed which is used to select how the weights of the relations should be calculated. The standard way is to just select the occurrences of documents per relation type. However it is also possible to use a gravity model, which takes the population and the distance between cities into account. \todo{can we do this?} Beneath that are sliders for the different relationship types. Here you can change the minimum occurrences a relation type should have per two cities before the relation is taken into account. There is also an option to turn off the relation types entirely.
 
 \begin{figure}[H]
@@ -48,6 +77,23 @@ In the relations section of the menu a dropdown menu is displayed which is used 
     \caption{Relations options}
     \label{fig:infoflow}
 \end{figure}
+
+\subsubsection{Export}
+The first section on the menu is an export option. Here a button is displayed which can be used to export all relations between cities in an excel file (CSV). Above this button is a field in which a probably threshold can be set for the export. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{export}
+    \caption{Export}
+    \label{fig:infoflow}
+\end{figure}
+
+\subsubsection{Relation Information}
+\subsubsection{Relation Documents}
+
+
+\section{The Menu}
+The menu on the left of the screen displays three different sections. The first section displays an option to export the data. The second section can be used to determine what cities should be displayed on the map. The last section displays the different relation types. The thresholds cities should have for each type can be adjusted here. This section also includes an option to select other weighting models that can be used.
 
 
 \section{The Map}
@@ -61,22 +107,7 @@ After a few seconds needed to load the relations, a map should be displayed. Thi
 \end{figure}
 
 
-\begin{figure}[H]
-\centering
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.8\linewidth]{hover}
-  \caption{Hovering over a city}
-  \label{fig:sub1}
-\end{subfigure}%
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.8\linewidth]{click}
-  \caption{City showing relations}
-  \label{fig:sub2}
-\end{subfigure}
-\label{fig:test}
-\end{figure}
+
 
 
 \subsection{Relation window}
