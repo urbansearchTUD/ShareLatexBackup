@@ -372,8 +372,6 @@ INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/02-content.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
-INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/map.png
-INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/hover.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
@@ -386,6 +384,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/map.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/hover.png
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/click.png
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/relation-opacity.png
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/sidemenu.png
