@@ -370,5 +370,13 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 OUTPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/output.xdv
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/02-content.tex
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/02-content.tex
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/images/export.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/images/cities.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/images/relations.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/images/map.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/images/hover.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/images/click.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/images/Score.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/images/documents.png
 OUTPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/output.soc
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107c4b2577ba7000320eac/output.aux
