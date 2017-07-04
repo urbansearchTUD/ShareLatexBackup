@@ -134,7 +134,9 @@ In the export card an user can download all the relations in the system in CSV f
 
 \subsubsection{Relation Information}\label{sec:rel-info}
 
-When clicking on a relation an extra window in the menu will be opened. This contains all information about the relation between the two cities. The strength of the relations (amount of documents found for the relation between those cities) will be displayed, as well as the strength of the relations per relation type (such as commuting, shopping, leisure, ..). To check how these relationships were found the option on the lower end of this window  can be used to open up another window displaying all documents that connect those two cities.
+When clicking on a relation an extra window in the menu will be opened. This contains all information about the relation between the two cities. The strength of the relations (amount of documents found for the relation between those cities) will be displayed, as well as the strength of the relations per category (such as commuting, shopping, leisure, etc.).\\
+To provide the user with the option to validate the results, a "Get Documents" button, at the bottom of this card, fetches all the documents that belong to this relation.
+
 
 \begin{figure}[H]
     \centering
@@ -145,7 +147,8 @@ When clicking on a relation an extra window in the menu will be opened. This con
 
 \subsubsection{Relation Documents}\label{sec:rel-docs}
 
-In this new window all documents will be displayed. For each document the type of relation to which the document fits and the probability this documents fits to that relation is displayed. If a document does not fit to the relation types (and is thus labelled other), it is not displayed here. The documents can be downloaded in a text file by clicking on them.
+In this card all documents, that are assigned to the selected relation, will be displayed. The documents are listed as shown figure \ref{fig:classification}. Each listed item shows the category with which it has been labelled using our classifier. It also shows the probability with which this document was assigned to this category.\\
+If a user wants to inspect the contents of a certain file a list item can be clicked, which will initiate the download of the selected document.
 
 \begin{figure}[H]
     \centering
@@ -157,6 +160,10 @@ In this new window all documents will be displayed. For each document the type o
 
 \section{Classification Interface}
 
+The classification interface is meant as an easy to use tool for extending the systems training-set. From our document set, which we have filtered from all the CommonCrawl pages, we fetch a random document. This document is displayed in the interface shown in figure \ref{fig:classification}. The user can select one or more categories to tag this document, after which the user can hit the submit button to save the document to our training set.\\
+If a user deems the document to be of no use for any of the categories, the document can be discarded by clicking the "discard" button.\\
+Finally if the user wants to add his or her own documents this can be done by hitting the "clear" button and copy-pasting the contents of the documents into the document field, selecting one or more matching categories and submitting the document.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{classification}
@@ -165,6 +172,11 @@ In this new window all documents will be displayed. For each document the type o
 \end{figure}
 
 \section{Classifier Interface}
+
+Finally we have the classifier interface. This interface provides us with a way to train a new default classifier which is used by the system for the API and for classification.\\
+A new classifier can be trained by clicking the "Train!" button. If all goes well, the "Train!" button will change to a "Done!" button, indicating the successful creation of a new default classifier for the system.\\ 
+Although we can train a new default classifier, this classifier will not be used by the system until the complete system is restarted.\\
+The bottom part of the classifier page consists of tiles providing the user with information about the size of the training set.
 
 \begin{figure}[H]
     \centering
