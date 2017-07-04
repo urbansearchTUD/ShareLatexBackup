@@ -395,8 +395,7 @@ INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/export.png
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/rel-scores.png
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/rel-docs.png
-INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/map.png
-INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/Score.png
-INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/documents.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/classification.png
+INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/images/classifier.png
 OUTPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/output.soc
 INPUT /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba7000320ea2/output.aux

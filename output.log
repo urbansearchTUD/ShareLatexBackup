@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  4 JUL 2017 15:26
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  4 JUL 2017 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,24 +1197,6 @@ LaTeX Font Info:    No file T1OpenSans(0).fd. on input line 21.
 LaTeX Font Warning: Font shape `T1/OpenSans(0)/m/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 21.
 
-
-LaTeX Warning: Label `fig:infoflow' multiply defined.
-
-
-LaTeX Warning: Label `fig:infoflow@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:infoflow' multiply defined.
-
-
-LaTeX Warning: Label `fig:infoflow@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:infoflow' multiply defined.
-
-
-LaTeX Warning: Label `fig:infoflow@cref' multiply defined.
-
 )
 \openout1 = `output.aux'.
 
@@ -1454,22 +1436,15 @@ File: images/rel-scores.png Graphic file (type QTm)
 <use  "images/rel-scores.png" > [6]
 File: images/rel-docs.png Graphic file (type QTm)
 <use  "images/rel-docs.png" >
-File: images/map.png Graphic file (type QTm)
-<use  "images/map.png" >
-Overfull \hbox (498.40305pt too wide) in paragraph at lines 178--179
- [][] 
- []
-
-[7]
-File: images/Score.png Graphic file (type QTm)
-<use  "images/Score.png" > [8]
-File: images/documents.png Graphic file (type QTm)
-<use  "images/documents.png" >)
+File: images/classification.png Graphic file (type QTm)
+<use  "images/classification.png" >
+File: images/classifier.png Graphic file (type QTm)
+<use  "images/classifier.png" >) [7]
 \Changes@OutFile=\write5
 \openout5 = `output.soc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
-[9]
+[8]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
 
 (/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba70003
@@ -1484,19 +1459,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 37270 strings out of 495658
- 693424 string characters out of 6187951
+ 37273 strings out of 495658
+ 693513 string characters out of 6187951
  898172 words of memory out of 5000000
- 39817 multiletter control sequences out of 15000+600000
+ 39820 multiletter control sequences out of 15000+600000
  9940 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,11n,94p,10412b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59
-107bb92577ba7000320ea2/output.xdv (10 pages, 75524 bytes).
+107bb92577ba7000320ea2/output.xdv (9 pages, 60652 bytes).
