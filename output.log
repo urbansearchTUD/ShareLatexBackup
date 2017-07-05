@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  5 JUL 2017 07:13
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  5 JUL 2017 07:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1428,8 +1428,6 @@ File: images/rel-trans-occ.png Graphic file (type QTm)
 <use  "images/rel-trans-occ.png" >
 File: images/rel-trans-pop.png Graphic file (type QTm)
 <use  "images/rel-trans-pop.png" > [5]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 126.
 File: images/export.png Graphic file (type QTm)
 <use  "images/export.png" >
 File: images/rel-scores.png Graphic file (type QTm)
@@ -1462,13 +1460,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 37273 strings out of 495658
- 693513 string characters out of 6187951
+ 37234 strings out of 495658
+ 692541 string characters out of 6187951
  899171 words of memory out of 5000000
- 39820 multiletter control sequences out of 15000+600000
+ 39781 multiletter control sequences out of 15000+600000
  9940 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,11n,94p,10412b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,11n,94p,10412b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59
-107b572577ba7000320e83/output.xdv (10 pages, 74288 bytes).
+107b572577ba7000320e83/output.xdv (10 pages, 72124 bytes).

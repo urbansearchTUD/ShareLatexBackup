@@ -2,8 +2,8 @@
 This is the user manual for the UrbanSearch Web Interface. Here we will discuss the various interfaces that are available in the UrbanSearch system. The manual is meant for new users of the system.
 
 \section{General remarks}
-The UrbanSearch Web Interface can be accessed by visiting~\url{http://citynetworks.bk.tudelft.nl/}. Visiting this URL will open an interactive map on which intercity relations are visualised.\\
-The front-end of the UrbanSearch system consists of several interfaces listed below. In the coming sections we will dive deeper into the functionalities offered by the different interfaces.
+The UrbanSearch Web Interface can be accessed by visiting \url{http://citynetworks.bk.tudelft.nl/}. Visiting this URL will open an interactive map on which intercity relations are visualised.\\
+The front-end of the UrbanSearch system consists of several interfaces listed below. In the coming sections we will dive deeper into the functionality offered by the different interfaces.
 
 \begin{description}[align=left]
 \item [Interactive Map] with cities and relations visualised\footnote{\url{http://citynetworks.bk.tudelft.nl/}}
@@ -14,8 +14,8 @@ The front-end of the UrbanSearch system consists of several interfaces listed be
 
 \section{Interactive Map}
 
-To display the extracted and processed data in our system, we use an interactive map(figure \ref{fig:map}). The map is implemented with use of Google Maps. This means the typical map controls, like zooming for instance, are the same as on any Google Maps map.\\
-Furthermore the map contains several entities which are used to convey information to the user and to interact with/manipulate the available data.\\
+To display the extracted and processed data in our system, we use an interactive map(figure \ref{fig:map}). The map is implemented with use of Google Maps. This means the typical map controls, such as zooming, are the same as on any Google Maps map.\\
+Furthermore, the map contains several entities which are used to convey information to the user and to interact with or manipulate the available data.\\
 Below we will discuss the different entities available on the map.
 \begin{figure}[H]
     \centering
@@ -25,7 +25,7 @@ Below we will discuss the different entities available on the map.
 \end{figure}
 
 \subsection{Cities}\label{sec:city}
-Cities are represented by circles which are drawn on the map and placed in the correct position using the latitude/longitude properties belonging to the city. We scale the circle based on the size of the population of the city. An example of a city on the map is show in figure \ref{fig:map-city}.
+Cities are represented by circles, which are drawn on the map and placed in the correct position using the latitude and longitude properties belonging to the city. We scale the circle based on the size of the population of the city. An example of a city on the map is show in figure \ref{fig:map-city}.
 
 \begin{figure}[H]
   \centering
@@ -34,12 +34,12 @@ Cities are represented by circles which are drawn on the map and placed in the c
   \label{fig:map-city}
 \end{figure}
 
-When a user hovers over a city on the map, a pop up will appear with extra information about that city.\\
-If a city is clicked the relations to other visible cities are shown. Clicking on a selected city toggles the visibility of the previously displayed relations. To make clear for the user  which cities are selected and which are not, we lower the opacity of selected cities.
+When a user hovers over a city on the map, a pop up appears with extra information about that city.\\
+If a city is clicked, the relations to other visible cities are shown. Clicking on a selected city toggles the visibility of the previously displayed relations. To make clear for the user which cities are selected and which are not, we lower the opacity of selected cities.
 
 \subsection{Relations}
 
-Relations between cities are visualised using Google Maps Polylines\footnote{\url{https://developers.google.com/maps/documentation/javascript/3.exp/reference\#Polyline}}. Relations for a particular city are shown when a city node is selected as described in \ref{sec:city}.\\
+Relations between cities are visualised by lines. Relations for a particular city are shown when a city node is selected as described in \ref{sec:city}.\\
 \begin{figure}[H]
   \centering
   \includegraphics[width=.4\linewidth]{click}
@@ -53,25 +53,25 @@ The opacity of a relation indicates the relative strength of the relation compar
 \begin{figure}[H]
   \centering
   \includegraphics[width=.8\linewidth]{relation-opacity}
-  \caption{A higher opacity indicates a weaker relative total strength of the relation. So Groningen has a stronger connection with Amsterdam then Assen.}
+  \caption{A higher opacity indicates a weaker relative total strength of the relation. So Groningen has a stronger connection with Amsterdam than Assen.}
   \label{fig:relation-opacity}
 \end{figure}
 
 
-\subsection{Sidemenu}
-The side-menu displayed in figure \ref{fig:sidemenu} allows the user to control the information that is displayed on the map. It is also the . The basic layout of the sidemenu is displayed in figure \ref{fig:sidemenu}. First we will discuss the elements that are always available in the sidemenu. Finally we will discuss dynamic content that can be added and removed from the sidemenu.
+\subsection{Side-menu}
+The side-menu displayed in figure \ref{fig:sidemenu} allows the user to control the information that is displayed on the map. First we will discuss the elements that are always available in the side-menu. Finally we will discuss dynamic content that can be added and removed from the side-menu.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=.6\linewidth]{sidemenu}
-    \caption{The sidemenu displayed on the left side of the interface}
+    \caption{The side-menu displayed on the left side of the interface}
     \label{fig:sidemenu}
 \end{figure}
 
 
 \subsubsection{City Controls}
 The city controls displayed in figure \ref{fig:city-control} allow users to control the visibility of cities and city relations.\\
-The population slider can be used to set the visibility of cities. All cities with a population size that is in the selected range are displayed on the map.\\
+The population slider can be used to set the visibility of cities. All cities with a population size within the selected range are displayed on the map.\\
 The search input allows the user to search a list of visible cities. When a city in the list is clicked, the relations for this city are shown on the map.
 
 \begin{figure}[H]
@@ -82,8 +82,8 @@ The search input allows the user to search a list of visible cities. When a city
 \end{figure}
 
 \subsubsection{Relation Controls}
-Using the relation controls displayed in figure \ref{fig:rel-control} an user can manipulate how intercity relations are displayed.\\
-First of all the user can select several "transforms" from the drop-down that is available in the relation controls card. These transforms calculate a new value for the relation strengths based on the original values of the relations (which basically means the count of documents per category gets transformed for every relation). After the transform new totals and opacities are calculated for every relation. This way an user can quickly asses the difference of intercity relations for several relative measures.\\
+Using the relation controls displayed in figure \ref{fig:rel-control}, a user can manipulate how intercity relations are displayed.\\
+First of all, the user can select several "transforms" from the drop-down that is available in the relation controls card. These transforms calculate a new value for the relation strengths based on the original values of the relations and a given property (which basically means the count of documents per category is transformed for every relation). After the transform, new totals and opacity values are calculated for every relation. This way a user can quickly assess the difference between intercity relations for several relative measures.\\
 
 \begin{figure}[H]
     \centering
@@ -101,29 +101,13 @@ First of all the user can select several "transforms" from the drop-down that is
     \end{minipage}
     \label{fig:rel-trans}
 \end{figure}
-% \begin{figure}[H]
-%     \centering
-%     \begin{subfigure}
-%         \centering
-%         \includegraphics[width=.4\linewidth]{rel-trans-occ}
-%         \caption{Opacity scaling based on total occurrences}
-%         \label{fig:rel-trans-occ}
-%     \end{subfigure}
-%     \begin{subfigure}
-%         \centering
-%         \includegraphics[width=.4\linewidth]{rel-trans-pop}
-%         \caption{Opacity scaling based on total occurrences over minimum population size of a relation}
-%         \label{fig:rel-trans-pop}
-%     \end{subfigure}
-%     \label{fig:rel-trans}
-% \end{figure}
 
-Using the sliders for each category a user can set a minimum threshold for a relation category strength. For example if the value for the category "education" is set to 25 all relations that have a score lower than 25 on "education" are hidden.
-Finally relation categories can be selected and deselected. This triggers an update of the total relation strengths, respectively adding to or subtracting from the total relation score the score of the toggled category.
+Using the sliders for each category a user can set a minimum threshold for a relation category strength. For example, if the value for the category "education" is set to 25, all relations that have a score lower than 25 on "education" are hidden.
+Finally, relation categories can be selected and deselected. This triggers an update of the total relation strengths, adding to or subtracting from, respectively, the total relation score the score of the toggled category.
 
 
 \subsubsection{Export}
-In the export card an user can download all the relations in the system in CSV format. If the user provides an threshold \todo{PIET ZEG FF WAT ER PRECIES GEBEURT}.
+In the export card a user can download all the relations in the system in CSV format. If the user provides a threshold, relation scores are calculated on the fly, using only the data that has been classified with a minimum certainty of the given threshold. For example, a document that has a maximum probability of 0.45 (say, for "leisure"), will be counted in the "other" category if the provided threshold is larger than 0.45.
 
 \begin{figure}[H]
     \centering
