@@ -1,16 +1,16 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  4 JUL 2017 23:11
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.6.22)  5 JUL 2017 07:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 
-(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba70003
-20ea2/main.tex
+(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107b572577ba70003
+20e83/main.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 2 languages loaded.
 
-(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba70003
-20ea2/tudelft-report.cls
+(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107b572577ba70003
+20e83/tudelft-report.cls
 Document Class: tudelft-report 2013/06/22 v1.0 TU Delft thesis class
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
@@ -1184,12 +1184,12 @@ Package: threeparttable 2003/06/13  v 3.0
 ) (/usr/share/texlive/texmf-dist/tex/latex/usebib/usebib.sty
 Package: usebib 2012/03/17 v1.0 Reusing bib files
 )
-(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba70003
-20ea2/references.bib)
-(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba70003
-20ea2/commands.tex)
-(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba70003
-20ea2/output.aux
+(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107b572577ba70003
+20e83/references.bib)
+(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107b572577ba70003
+20e83/commands.tex)
+(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107b572577ba70003
+20e83/output.aux
 LaTeX Font Info:    Try loading font information for T1+OpenSans(0) on input li
 ne 21.
 LaTeX Font Info:    No file T1OpenSans(0).fd. on input line 21.
@@ -1271,10 +1271,10 @@ LaTeX Info: Redefining \ref on input line 41.
 LaTeX Info: Redefining \pageref on input line 41.
 LaTeX Info: Redefining \nameref on input line 41.
 
-(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba70003
-20ea2/output.out)
-(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba70003
-20ea2/output.out)
+(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107b572577ba70003
+20e83/output.out)
+(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107b572577ba70003
+20e83/output.out)
 \@outlinefile=\write4
 \openout4 = `output.out'.
 
@@ -1355,8 +1355,8 @@ Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count286
 
-(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba70003
-20ea2/00-frontpage.tex
+(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107b572577ba70003
+20e83/00-frontpage.tex
 
 LaTeX Font Warning: Font shape `EU1/OpenSans(0)/m/sc' undefined
 (Font)              using `EU1/OpenSans(0)/m/n' instead on input line 7.
@@ -1379,8 +1379,8 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 
 ])
-(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba70003
-20ea2/02-content.tex
+(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107b572577ba70003
+20e83/02-content.tex
 Chapter 1.
 
 LaTeX Font Warning: Font shape `EU1/OpenSans-Light(0)/t/n' undefined
@@ -1447,8 +1447,8 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
 [9]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
 
-(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107bb92577ba70003
-20ea2/output.aux
+(/var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59107b572577ba70003
+20e83/output.aux
 Package cleveref Info: loaded `english' language definitions on input line 21.
 )
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 110.
@@ -1464,11 +1464,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
 Here is how much of TeX's memory you used:
  37273 strings out of 495658
  693513 string characters out of 6187951
- 899172 words of memory out of 5000000
+ 899171 words of memory out of 5000000
  39820 multiletter control sequences out of 15000+600000
  9940 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,11n,94p,10412b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /var/lib/sharelatex/data/compiles/5959f411bfdbcc6a00f4b027-59
-107bb92577ba7000320ea2/output.xdv (10 pages, 74288 bytes).
+107b572577ba7000320e83/output.xdv (10 pages, 74288 bytes).
